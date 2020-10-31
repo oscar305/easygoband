@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="123px" height="102px" viewBox="0 0 123 102" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Tokenizacion tarjeta bancaria</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 3e-05 50.4 3e-05 50.4 101.4 0 101.4"></polygon>
+    </defs>
+    <g id="STYLE-GUIDES-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iconos-DESPLEGADOS" transform="translate(-684.000000, -2746.000000)">
+            <g id="Group-36" transform="translate(568.000000, 2599.000000)">
+                <g id="Tokenizacion-tarjeta-bancaria" transform="translate(114.000000, 147.000000)">
+                    <g id="Group-46">
+                        <g id="Group-55" transform="translate(30.188052, 0.000000)">
+                            <path d="M39.79761,1.70739 C39.16941,1.70739 38.66031,2.21649 38.66031,2.84439 L38.66031,3.33099 C38.66031,4.22739 37.93341,4.95429 37.03701,4.95429 L13.36311,4.95429 C12.46641,4.95429 11.73981,4.22739 11.73981,3.33099 L11.73981,2.67159 C11.73981,2.13909 11.30811,1.70739 10.77561,1.70739 L8.84601,1.70739 C4.86711,1.70739 1.64181,4.93269 1.64181,8.91129 L1.64181,92.48859 C1.64181,96.46719 4.86711,99.69249 8.84601,99.69249 L41.55411,99.69249 C45.53271,99.69249 48.75831,96.46719 48.75831,92.48859 L48.75831,8.91129 C48.75831,4.93269 45.53271,1.70739 41.55411,1.70739 L39.79761,1.70739 Z" id="Fill-1-Copy-2" fill="#EEEFF7"></path>
+                            <g id="Group-5-Copy">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <g id="Clip-4"></g>
+                                <path d="M48.6,92.35533 C48.6,96.33393 45.4239,99.60003 41.4453,99.60003 L8.7369,99.60003 C4.7583,99.60003 1.5,96.33393 1.5,92.35533 L1.5,8.77803 C1.5,4.79943 4.7583,1.50003 8.7369,1.50003 L10.6665,1.50003 C11.199,1.50003 11.7,2.00583 11.7,2.53833 L11.7,3.19773 C11.7,4.09413 12.3576,4.80003 13.2543,4.80003 L36.9279,4.80003 C37.8246,4.80003 38.7,4.09413 38.7,3.19773 L38.7,2.71143 C38.7,2.08323 39.0606,1.50003 39.6885,1.50003 L41.4453,1.50003 C45.4239,1.50003 48.6,4.79943 48.6,8.77803 L48.6,92.35533 Z M50.4,8.27463 C50.4,3.70473 46.6953,3e-05 42.1254,3e-05 L8.2746,3e-05 C3.7047,3e-05 0,3.70473 0,8.27463 L0,93.12543 C0,97.69533 3.7047,101.40003 8.2746,101.40003 L42.1254,101.40003 C46.6953,101.40003 50.4,97.69533 50.4,93.12543 L50.4,8.27463 Z" id="Fill-3" fill="#DDDEEE" mask="url(#mask-2)"></path>
+                            </g>
+                        </g>
+                        <g id="Group-32" transform="translate(35.188052, 12.000000)">
+                            <rect id="Rectangle" fill="#E5E7F4" x="0" y="0" width="40" height="27"></rect>
+                            <text id="147€" font-family="Gilroy-ExtraBold, Gilroy" font-size="12.6" font-weight="600" letter-spacing="0.7" fill="#A5A7BF">
+                                <tspan x="8.47556666" y="17">147</tspan>
+                                <tspan x="28.8833667" y="17" font-size="8.4" letter-spacing="0.466666681">€</tspan>
+                            </text>
+                        </g>
+                        <g id="Group-14" transform="translate(2.188052, 48.000000)">
+                            <rect id="Rectangle" fill="#DDDEEE" x="0" y="0" width="60" height="38" rx="2.8"></rect>
+                            <rect id="Rectangle" fill="#241DBA" x="6.4" y="12" width="6.4" height="5.6" rx="0.8"></rect>
+                            <path d="M60,29.6 L60,35.2 C60,36.7463973 58.7463973,38 57.2,38 L2.8,38 C1.2536027,38 -2.47515621e-15,36.7463973 -2.66453526e-15,35.2 L-2.2039983e-15,29.6 L60,29.6 Z" id="Combined-Shape" fill="#A5A7BF"></path>
+                        </g>
+                        <g id="flecha-copy" transform="translate(11.000000, 18.857562) scale(1, -1) rotate(32.000000) translate(-11.000000, -18.857562) translate(2.000000, 12.857562)" stroke="#A5A7BF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                            <path d="M0,0 C2.7,4.34367165 8.49895762,6.19005401 17.3968729,5.53914708" id="Path-4"></path>
+                            <polygon id="Path-5" fill="#232526" points="12.2679562 0.535551281 17.3968729 5.53034163 12.2679562 11.0782942 16.2310312 5.53914708"></polygon>
+                        </g>
+                        <g id="flecha-copy-6" transform="translate(19.000000, 32.857562) scale(-1, 1) rotate(31.000000) translate(-19.000000, -32.857562) translate(10.000000, 26.857562)" stroke="#A5A7BF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                            <path d="M0,0 C2.7,4.34367165 8.49895762,6.19005401 17.3968729,5.53914708" id="Path-4"></path>
+                            <polygon id="Path-5" fill="#232526" points="12.2679562 0.535551281 17.3968729 5.53034163 12.2679562 11.0782942 16.2310312 5.53914708"></polygon>
+                        </g>
+                    </g>
+                    <text id="0217564584" font-family="Helvetica" font-size="10" font-weight="normal" line-spacing="10" letter-spacing="0.2" fill="#A5A7BF">
+                        <tspan x="68" y="61">0217564584</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

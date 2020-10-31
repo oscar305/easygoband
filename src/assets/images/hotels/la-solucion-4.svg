@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="91px" height="91px" viewBox="0 0 91 91" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>icon_control_parque</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Soluciones-Goguest" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Solucion---Goguest-parques" transform="translate(-225.000000, -10760.000000)">
+            <g id="icon_control_parque" transform="translate(217.000000, 10752.000000)">
+                <path d="M77.3524835,17.377174 C70.4579245,12.7195947 62.1465599,10 53.2,10 C29.3412988,10 10,29.3412988 10,53.2 C10,77.0587012 29.3412988,96.4 53.2,96.4 C77.0587012,96.4 96.4,77.0587012 96.4,53.2 C96.4,44.6293469 93.904142,36.6416327 89.5995953,29.9240266" id="Path" stroke="#000230" stroke-width="4" stroke-linecap="round" transform="translate(53.200000, 53.200000) rotate(-75.000000) translate(-53.200000, -53.200000) "></path>
+                <polygon id="Path-5" stroke="#000230" stroke-width="3.75" stroke-linecap="round" stroke-linejoin="round" transform="translate(23.056085, 22.495023) rotate(-45.000000) translate(-23.056085, -22.495023) " points="19.0560845 14.4950233 27.0560845 22.075275 19.0560845 30.4950233 25.2376238 22.0886385"></polygon>
+                <circle id="Oval" fill="#000230" cx="53.6780495" cy="53.2470413" r="20"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

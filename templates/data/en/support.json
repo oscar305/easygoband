@@ -1,0 +1,68 @@
+{
+  "title": "Welcome to your support platform",
+  "subtitle": "You'll find all the needful to maximize your Goguest Standard Plan",
+  "sector": "Hotels & Resorts",
+  "header_img": "/wp-content/uploads/2020/02/landing-header.jpg",
+  "cards_img": "/wp-content/uploads/2020/02/landing-solutions.jpg",
+  "cta_img": "/wp-content/uploads/2020/02/landing-cta.jpg",
+  "documents": [
+    {
+      "title": "Download FAQs",
+      "file": "/wp-content/uploads/2020/03/EGOB-FAQs.pdf"
+    }
+  ],
+  "videos": {
+    "title": "Video tutorials",
+    "items": [
+      {
+        "title": "Management tool",
+        "src": "uxSp2bkR2jw"
+      },
+      {
+        "title": "Permit management",
+        "src": "639KOOBE5yI"
+      },
+      {
+        "title": "Amenities management",
+        "src": "f0bzwJoN89c"
+      },
+      {
+        "title": "Access control",
+        "src": "NXC8HzQNuNU"
+      },
+      {
+        "title": "Top-up POS",
+        "src": "T2NP1ORqDo4"
+      },
+      {
+        "title": "User Data - User transactions",
+        "src": "oIueTLRzaIo"
+      },
+      {
+        "title": "Peripheral Controller Set up",
+        "src": "DFtoqDNF-_U"
+      },
+      {
+        "title": "Peripheral Controller Installer",
+        "src": "UvwXNycB-es"
+      },
+      {
+        "title": "Key Servers Configuration",
+        "src": "6RgYy8IyI0o"
+      },
+      {
+        "title": "Key Server 1 usage",
+        "src": "25mMeIlGQ3s"
+      }
+    ]
+  },
+  "plan": {
+    "title": "Goguest standard",
+    "details": "IT solution specially designed and developed for hospitality",
+    "payment_cycle": "Billed Monthly",
+    "payment_room": "per room",
+    "no_price": "Request"
+  },
+  "your_plan": "Your plan is",
+  "contact_us": "Contact with our dev team"
+}

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="764px" height="564px" viewBox="0 0 764 564" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>business_intelligence_festivales_eventos_deportivos</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="461" height="343"></rect>
+        <filter x="-26.0%" y="-35.0%" width="158.6%" height="178.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="40" dy="40" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="30" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.02 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="-10" dy="-10" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="30" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter3"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter3" result="shadowBlurOuter3"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.08 0" type="matrix" in="shadowBlurOuter3" result="shadowMatrixOuter3"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter3"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-3" x="0" y="0" width="231" height="310"></rect>
+        <filter x="-51.9%" y="-38.7%" width="216.9%" height="187.1%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="40" dy="40" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="30" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.02 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="-10" dy="-10" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="30" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter3"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter3" result="shadowBlurOuter3"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.08 0" type="matrix" in="shadowBlurOuter3" result="shadowMatrixOuter3"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter3"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Soluciones-Gofun" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Solucion---Gofun-festivales-de-musica" transform="translate(-622.000000, -3151.000000)">
+            <g id="business_intelligence_festivales_eventos_deportivos" transform="translate(691.000000, 3220.000000)">
+                <g id="Group-11">
+                    <g id="Rectangle">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <text id="0€" font-family="Montserrat-Regular, Montserrat" font-size="10" font-weight="normal" line-spacing="19" fill="#9996A7">
+                        <tspan x="29" y="294">0€</tspan>
+                    </text>
+                    <text id="500€" font-family="Montserrat-Regular, Montserrat" font-size="10" font-weight="normal" line-spacing="19" fill="#9996A7">
+                        <tspan x="29" y="244">500€</tspan>
+                    </text>
+                    <text id="PAGADO" font-family="Montserrat-Regular, Montserrat" font-size="8" font-weight="normal" line-spacing="19" fill="#9996A7">
+                        <tspan x="95.812" y="323">PAGADO</tspan>
+                    </text>
+                    <text id="PENDIENTE" font-family="Montserrat-Regular, Montserrat" font-size="8" font-weight="normal" line-spacing="19" fill="#9996A7">
+                        <tspan x="151.936" y="323">PENDIENTE</tspan>
+                    </text>
+                    <text id="&lt;30d" font-family="Montserrat-Regular, Montserrat" font-size="8" font-weight="normal" line-spacing="19" fill="#9996A7">
+                        <tspan x="262.38" y="323">&lt;30d</tspan>
+                    </text>
+                    <text id="30-60d" font-family="Montserrat-Regular, Montserrat" font-size="8" font-weight="normal" line-spacing="19" fill="#9996A7">
+                        <tspan x="317.612" y="323">30-60d</tspan>
+                    </text>
+                    <text id="60-90d" font-family="Montserrat-Regular, Montserrat" font-size="8" font-weight="normal" line-spacing="19" fill="#9996A7">
+                        <tspan x="378.948" y="323">60-90d</tspan>
+                    </text>
+                    <text id="1000€" font-family="Montserrat-Regular, Montserrat" font-size="10" font-weight="normal" line-spacing="19" fill="#9996A7">
+                        <tspan x="29" y="194">1000€</tspan>
+                    </text>
+                    <text id="2000€" font-family="Montserrat-Regular, Montserrat" font-size="10" font-weight="normal" line-spacing="19" fill="#9996A7">
+                        <tspan x="29" y="144">2000€</tspan>
+                    </text>
+                    <text id="3000€" font-family="Montserrat-Regular, Montserrat" font-size="10" font-weight="normal" line-spacing="19" fill="#9996A7">
+                        <tspan x="29" y="94">3000€</tspan>
+                    </text>
+                    <line x1="73.5187861" y1="153" x2="431.481214" y2="153" id="Line-3-Copy" stroke="#E5E5EA" stroke-linecap="square" stroke-dasharray="3,6"></line>
+                    <line x1="73.5187861" y1="203" x2="431.481214" y2="203" id="Line-3-Copy-2" stroke="#E5E5EA" stroke-linecap="square" stroke-dasharray="3,6"></line>
+                    <line x1="73.5187861" y1="253" x2="431.481214" y2="253" id="Line-3-Copy-3" stroke="#E5E5EA" stroke-linecap="square" stroke-dasharray="3,6"></line>
+                    <line x1="73.5187861" y1="303" x2="431.481214" y2="303" id="Line-3-Copy-4" stroke="#E5E5EA" stroke-linecap="square"></line>
+                    <path d="M106,128 L122,128 C126.418278,128 130,131.581722 130,136 L130,303 L130,303 L98,303 L98,136 C98,131.581722 101.581722,128 106,128 Z" id="Rectangle" fill="#FB6A49"></path>
+                    <path d="M262,215 L278,215 C282.418278,215 286,218.581722 286,223 L286,303 L286,303 L254,303 L254,223 C254,218.581722 257.581722,215 262,215 Z" id="Rectangle-Copy-11" fill="#FBD149"></path>
+                    <path d="M324,241 L340,241 C344.418278,241 348,244.581722 348,249 L348,303 L348,303 L316,303 L316,249 C316,244.581722 319.581722,241 324,241 Z" id="Rectangle-Copy-12" fill="#241DBA"></path>
+                    <path d="M386,265 L402,265 C406.418278,265 410,268.581722 410,273 L410,303 L410,303 L378,303 L378,273 C378,268.581722 381.581722,265 386,265 Z" id="Rectangle-Copy-13" fill="#FB6A49"></path>
+                    <text id="Gasto-cliente" opacity="0.892787388" font-family="Gilroy-Bold" font-size="18" font-weight="bold" line-spacing="34" letter-spacing="0.36" fill="#000230">
+                        <tspan x="49" y="45">Gasto cliente</tspan>
+                    </text>
+                    <line x1="73.5187861" y1="103" x2="431.481214" y2="103" id="Line-3" stroke="#E5E5EA" stroke-linecap="square" stroke-dasharray="3,6"></line>
+                    <line x1="222.5" y1="102.5" x2="222.268786" y2="302.75" id="Line-3-Copy-5" stroke="#E5E5EA" stroke-linecap="square" stroke-dasharray="3,6"></line>
+                    <path d="M168,98 L184,98 C188.418278,98 192,101.581722 192,106 L192,303 L192,303 L160,303 L160,106 C160,101.581722 163.581722,98 168,98 Z" id="Rectangle-Copy-2" fill="#FC3579"></path>
+                </g>
+                <g id="Group-22" transform="translate(365.000000, 86.000000)">
+                    <g id="Rectangle">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    </g>
+                    <g id="Group-20" transform="translate(32.000000, 99.000000)">
+                        <rect id="Rectangle" fill="#16BE5A" opacity="0.0927269345" x="0" y="0" width="92" height="21" rx="2"></rect>
+                        <g id="Group-6-Copy" transform="translate(10.220684, 10.500000) rotate(-128.000000) translate(-10.220684, -10.500000) translate(6.220684, 7.000000)" stroke="#16BE5A" stroke-width="1.28">
+                            <g id="Group-14" transform="translate(0.000000, -0.000000)">
+                                <polyline id="Path-Copy-2" points="2.72848411e-13 3.2 3.6 6.4 7.2 3.2"></polyline>
+                                <line x1="3.6" y1="4.8" x2="3.6" y2="2.04902761e-13" id="Line" stroke-linecap="square"></line>
+                            </g>
+                        </g>
+                        <text id="Últimos-9-días" opacity="0.892787388" font-family="Gilroy-Bold" font-size="9.6" font-weight="bold" line-spacing="9.6" letter-spacing="0.191999996" fill="#16BE5A">
+                            <tspan x="20.2206835" y="11">Últimos 9 días</tspan>
+                        </text>
+                    </g>
+                    <text id="Resumen-de-ventas" opacity="0.892787388" font-family="Gilroy-Bold" font-size="15" font-weight="bold" line-spacing="15" letter-spacing="0.3" fill="#9996A7">
+                        <tspan x="32" y="86">Resumen de ventas</tspan>
+                    </text>
+                    <g id="Group-19" transform="translate(36.000000, 165.000000)">
+                        <text id="EN" font-family="Montserrat-Regular, Montserrat" font-size="8" font-weight="normal" line-spacing="19" fill="#9996A7">
+                            <tspan x="4.54" y="120">EN</tspan>
+                        </text>
+                        <path d="M5,0 L17,0 C19.7614237,-5.07265313e-16 22,2.23857625 22,5 L22,112 L22,112 L0,112 L0,5 C-3.38176876e-16,2.23857625 2.23857625,5.07265313e-16 5,0 Z" id="Rectangle" fill="#E5E5EA"></path>
+                    </g>
+                    <g id="Group-17" transform="translate(70.750000, 196.000000)">
+                        <text id="FE" font-family="Montserrat-Regular, Montserrat" font-size="8" font-weight="normal" line-spacing="19" fill="#9996A7">
+                            <tspan x="5.468" y="89">FE</tspan>
+                        </text>
+                        <path d="M5,0 L17,0 C19.7614237,-5.07265313e-16 22,2.23857625 22,5 L22,81 L22,81 L0,81 L0,5 C-3.38176876e-16,2.23857625 2.23857625,5.07265313e-16 5,0 Z" id="Rectangle-Copy-14" fill="#E5E5EA"></path>
+                    </g>
+                    <g id="Group-16" transform="translate(105.500000, 186.000000)">
+                        <text id="MA" font-family="Montserrat-Regular, Montserrat" font-size="8" font-weight="normal" line-spacing="19" fill="#9996A7">
+                            <tspan x="3.6" y="99">MA</tspan>
+                        </text>
+                        <path d="M5,0 L17,0 C19.7614237,-5.07265313e-16 22,2.23857625 22,5 L22,91 L22,91 L0,91 L0,5 C-3.38176876e-16,2.23857625 2.23857625,5.07265313e-16 5,0 Z" id="Rectangle-Copy-15" fill="#E5E5EA"></path>
+                    </g>
+                    <g id="Group-13" transform="translate(140.250000, 221.000000)">
+                        <text id="AB" font-family="Montserrat-Regular, Montserrat" font-size="8" font-weight="normal" line-spacing="19" fill="#9996A7">
+                            <tspan x="4.708" y="64">AB</tspan>
+                        </text>
+                        <path d="M5,0 L17,0 C19.7614237,-5.07265313e-16 22,2.23857625 22,5 L22,56 L22,56 L0,56 L0,5 C-3.38176876e-16,2.23857625 2.23857625,5.07265313e-16 5,0 Z" id="Rectangle-Copy-16" fill="#E5E5EA"></path>
+                    </g>
+                    <g id="Group-23" transform="translate(175.000000, 124.000000)" fill="#16BE5A">
+                        <text id="MA" font-family="Montserrat-Regular, Montserrat" font-size="8" font-weight="normal" line-spacing="19">
+                            <tspan x="3.6" y="161">MA</tspan>
+                        </text>
+                        <text id="26K" font-family="Montserrat-Regular, Montserrat" font-size="8" font-weight="normal" line-spacing="19">
+                            <tspan x="3.348" y="8">26K</tspan>
+                        </text>
+                        <path d="M5,24 L17,24 C19.7614237,24 22,26.2385763 22,29 L22,153 L22,153 L0,153 L0,29 C-3.38176876e-16,26.2385763 2.23857625,24 5,24 Z" id="Rectangle-Copy-17"></path>
+                    </g>
+                    <text id="17-días" opacity="0.892787388" font-family="Gilroy-Bold" font-size="35" font-weight="bold" line-spacing="34" letter-spacing="0.7" fill="#000230">
+                        <tspan x="32" y="60">17 días</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

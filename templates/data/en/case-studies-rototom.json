@@ -1,0 +1,40 @@
+{
+  "title": "Rototom Music Festival",
+  "video": {
+    "title": "Rototom",
+    "img": "/wp-content/uploads/2019/11/casos-de-exito-rototom.jpg",
+    "src": "IuM8wV5EbBQ"
+  },
+  "info": [
+    {
+      "icon": "place",
+      "text": "Benicasim, Castellón."
+    },
+    {
+      "icon": "attendees",
+      "text": "200.000+ attendees from 76 different countries."
+    },
+    {
+      "icon": "time",
+      "text": "9 days 24h."
+    },
+    {
+      "icon": "goal",
+      "text": "Complete digital transformation"
+    },
+    {
+      "icon": "content",
+      "text": "120+ concerts and 140+ stalls."
+    }
+  ],
+  "what": {
+    "title": "What is Rototom?",
+    "content": "It's the greatest Reggae music festival in Europe, founded in Pordenone (Italy) in 1991. However, since 2010 it has been held in Benicasim (Spain)."
+  },
+  "goal": {
+    "title": "The main objectives",
+    "content": "The main goal was to create unforgettable experiences for the attendees, create a safer environment with less chance of fraud, reduce cash losses, go digital with access control and payment transactions on the 2019th edition which led to a sales increase and made fraud virtually impossible."
+  },
+  "cards": ["control_de_accesos", "pagos_cashless", "business_intelligence"],
+  "cta": "Ready to have a total control over your event and advanced operational efficiency?"
+}

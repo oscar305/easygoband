@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="505px" height="416px" viewBox="0 0 505 416" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>pagos_cashless_festivales_eventos_deportivos</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="13.5692308 0 112.430769 0 126 46 0 46"></polygon>
+        <rect id="path-3" x="22" y="22" width="392" height="234"></rect>
+        <polygon id="path-5" points="0 5.5062e-05 92.50416 5.5062e-05 92.50416 186.10956 0 186.10956"></polygon>
+    </defs>
+    <g id="Soluciones-Gofun" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Solucion---Gofun-festivales-de-musica" transform="translate(-201.000000, -1197.000000)">
+            <g id="pagos_cashless_festivales_eventos_deportivos" transform="translate(201.000000, 1197.000000)">
+                <g id="Group-35">
+                    <g id="Group-29">
+                        <rect id="Substrate" stroke="#C5CFDE" stroke-width="2" fill="#FFFFFF" x="147" y="355" width="142" height="8" rx="4"></rect>
+                        <path d="M268.24154,307 L167.75846,307 L154.31846,355 L281.68154,355 L268.24154,307 Z" id="Leg-Form" stroke="#C5CFDE" stroke-width="2" fill="#FFFFFF"></path>
+                        <g id="Leg-Mask" transform="translate(155.000000, 308.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Mask" fill="#FFFFFF" xlink:href="#path-1"></use>
+                            <polygon id="Path-2" fill="#E0E4EC" mask="url(#mask-2)" points="13 0 113 0 115 6 9 15"></polygon>
+                        </g>
+                        <rect id="Mac-Form" stroke="#C5CFDE" stroke-width="2" fill="#FFFFFF" x="1" y="1" width="434" height="306" rx="18"></rect>
+                        <rect id="Screen-Form" stroke="#C5CFDE" stroke-width="2" fill="#FFFFFF" x="21" y="21" width="394" height="236"></rect>
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <use id="Mask" fill="#FFFFFF" xlink:href="#path-3"></use>
+                        <rect id="Form" fill="#E0E4EC" mask="url(#mask-4)" x="22" y="22" width="196" height="234"></rect>
+                        <circle id="Apple-Logo" stroke="#C5CFDE" stroke-width="2" fill="#F5F6FA" mask="url(#mask-4)" cx="218" cy="282" r="9"></circle>
+                        <g id="Group-32" mask="url(#mask-4)">
+                            <g transform="translate(269.000000, 106.000000)">
+                                <circle id="Oval-Copy-12" stroke="#C5CFDE" stroke-width="5.7408" cx="45.9264" cy="45.9264" r="45.9264"></circle>
+                                <text id="€-copy" stroke="none" font-family="Gilroy-Regular" font-size="68.8896" font-weight="normal" line-spacing="45.9264">
+                                    <tspan x="20" y="77" fill="#C5CFDE">€</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <rect id="Rectangle" fill="#241DBA" mask="url(#mask-4)" x="106" y="105" width="41.2" height="8"></rect>
+                        <rect id="Rectangle-Copy-25" fill="#241DBA" mask="url(#mask-4)" x="147.2" y="113" width="8" height="8"></rect>
+                        <rect id="Rectangle-Copy-27" fill="#241DBA" mask="url(#mask-4)" x="98" y="113" width="8" height="8"></rect>
+                        <rect id="Rectangle-Copy-26" fill="#241DBA" mask="url(#mask-4)" x="155.2" y="121" width="8" height="8"></rect>
+                        <rect id="Rectangle-Copy-28" fill="#241DBA" mask="url(#mask-4)" x="90" y="121" width="8" height="8"></rect>
+                        <rect id="Rectangle" fill="#241DBA" mask="url(#mask-4)" transform="translate(126.600000, 190.200000) scale(1, -1) translate(-126.600000, -190.200000) " x="106" y="186.2" width="41.2" height="8"></rect>
+                        <rect id="Rectangle-Copy-25" fill="#241DBA" mask="url(#mask-4)" transform="translate(151.200000, 182.200000) scale(1, -1) translate(-151.200000, -182.200000) " x="147.2" y="178.2" width="8" height="8"></rect>
+                        <rect id="Rectangle-Copy-27" fill="#241DBA" mask="url(#mask-4)" transform="translate(102.000000, 182.200000) scale(1, -1) translate(-102.000000, -182.200000) " x="98" y="178.2" width="8" height="8"></rect>
+                        <rect id="Rectangle-Copy-26" fill="#241DBA" mask="url(#mask-4)" transform="translate(159.200000, 174.200000) scale(1, -1) translate(-159.200000, -174.200000) " x="155.2" y="170.2" width="8" height="8"></rect>
+                        <rect id="Rectangle-Copy-28" fill="#241DBA" mask="url(#mask-4)" transform="translate(94.000000, 174.200000) scale(1, -1) translate(-94.000000, -174.200000) " x="90" y="170.2" width="8" height="8"></rect>
+                        <rect id="Rectangle" fill="#241DBA" mask="url(#mask-4)" x="163.2" y="129" width="8" height="41.2"></rect>
+                        <rect id="Rectangle-Copy-29" fill="#241DBA" mask="url(#mask-4)" x="82" y="129" width="8" height="41.2"></rect>
+                        <rect id="Rectangle" fill="#241DBA" mask="url(#mask-4)" x="123.2" y="121.8" width="16" height="8"></rect>
+                        <rect id="Rectangle-Copy-32" fill="#241DBA" mask="url(#mask-4)" x="123.2" y="170.2" width="16" height="8"></rect>
+                        <rect id="Rectangle-Copy-30" fill="#241DBA" mask="url(#mask-4)" x="106.4" y="138.2" width="32.8" height="8"></rect>
+                        <rect id="Rectangle-Copy-33" fill="#241DBA" mask="url(#mask-4)" transform="translate(119.200000, 150.000000) rotate(-270.000000) translate(-119.200000, -150.000000) " x="99" y="146" width="40.4" height="8"></rect>
+                        <rect id="Rectangle-Copy-31" fill="#241DBA" mask="url(#mask-4)" x="106.4" y="154.6" width="32.8" height="8"></rect>
+                    </g>
+                    <g id="Group-109" transform="translate(402.000000, 229.000000)">
+                        <g id="Group-108">
+                            <path d="M73.0445334,3.13374361 C71.8915351,3.13374361 70.957133,4.06814575 70.957133,5.22059341 L70.957133,6.11369905 C70.957133,7.75895161 69.6229807,9.09310387 67.9777282,9.09310387 L24.5266521,9.09310387 C22.8808489,9.09310387 21.5472473,7.75895161 21.5472473,6.11369905 L21.5472473,4.90343629 C21.5472473,3.92608579 20.7549051,3.13374361 19.7775546,3.13374361 L16.2359668,3.13374361 C8.93309369,3.13374361 3.01337807,9.05345923 3.01337807,16.3557817 L3.01337807,169.753558 C3.01337807,177.055881 8.93309369,182.975596 16.2359668,182.975596 L76.2684135,182.975596 C83.5707359,182.975596 89.4910022,177.055881 89.4910022,169.753558 L89.4910022,16.3557817 C89.4910022,9.05345923 83.5707359,3.13374361 76.2684135,3.13374361 L73.0445334,3.13374361 Z" id="Fill-1-Copy-3" fill="#FFFFFF"></path>
+                            <g id="Group-5-Copy-4">
+                                <mask id="mask-6" fill="white">
+                                    <use xlink:href="#path-5"></use>
+                                </mask>
+                                <g id="Clip-4"></g>
+                                <path d="M89.20044,169.508973 C89.20044,176.811295 83.3710261,182.805895 76.0687036,182.805895 L16.0357063,182.805895 C8.73338382,182.805895 2.7531,176.811295 2.7531,169.508973 L2.7531,16.1111963 C2.7531,8.80887382 8.73338382,2.75315506 16.0357063,2.75315506 L19.5772941,2.75315506 C20.5546446,2.75315506 21.47418,3.68150038 21.47418,4.65885088 L21.47418,5.86911364 C21.47418,7.5143662 22.681139,8.80997506 24.3269422,8.80997506 L67.7774677,8.80997506 C69.4232708,8.80997506 71.02998,7.5143662 71.02998,5.86911364 L71.02998,4.97655862 C71.02998,3.82356034 71.6918252,2.75315506 72.8442729,2.75315506 L76.0687036,2.75315506 C83.3710261,2.75315506 89.20044,8.80887382 89.20044,16.1111963 L89.20044,169.508973 Z M92.50416,15.1872559 C92.50416,6.79966144 85.7045536,5.5062e-05 77.3169592,5.5062e-05 L15.1872008,5.5062e-05 C6.79960638,5.5062e-05 0,6.79966144 0,15.1872559 L0,170.922414 C0,179.310009 6.79960638,186.109615 15.1872008,186.109615 L77.3169592,186.109615 C85.7045536,186.109615 92.50416,179.310009 92.50416,170.922414 L92.50416,15.1872559 Z" id="Fill-3" fill="#C5CFDE" mask="url(#mask-6)"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <polyline id="Path" stroke="#241DBA" stroke-width="4.86" points="473 273.764711 481.102542 282 503 258"></polyline>
+                    <g id="Group-32" transform="translate(422.000000, 299.000000)">
+                        <circle id="Oval-Copy-12" stroke="#C5CFDE" stroke-width="3.44448" cx="27.55584" cy="27.55584" r="27.55584"></circle>
+                        <text id="€-copy" font-family="Gilroy-Regular" font-size="41.33376" font-weight="normal" line-spacing="27.55584" fill="#C5CFDE">
+                            <tspan x="12" y="46.4">€</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

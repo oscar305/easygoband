@@ -1,0 +1,194 @@
+{
+  "goguest": {
+    "logo": "logo-goguest.svg",
+    "subtitle": "Goguest mejora las operativas de tu negocio y la experiencia de tus clientes a través de la digitalización de procesos, además podrás conocer toda la actividad de tus huéspedes y fomentar su consumo, aumentando así tus ingresos.",
+    "mini_content": "Goguest cambia la forma de interactuar con los clientes. Crea experiencias únicas, aumenta ingresos y fideliza a tus clientes.",
+    "buttons": [
+      {
+        "icon": "icon-hotels.svg",
+        "title": "Hoteles y Resorts",
+        "path": "/soluciones/hoteles-y-resorts"
+      },
+      {
+        "icon": "icon-parks.svg",
+        "title": "Parques Temáticos",
+        "path": "/soluciones/parques-tematicos"
+      },
+      {
+        "icon": "icon-campings.svg",
+        "title": "Campings",
+        "path": "/soluciones/campings"
+      }
+    ]
+  },
+  "gofun": {
+    "logo": "logo-gofun.svg",
+    "subtitle": "Gofun mejora la gestión de tu evento y aumenta el control en barras y en los accesos, reduce el fraude y fomenta el consumo con el sistema de pagos cashless. Además, toda la actividad de tus asistentes queda registrada, facilitando la toma de decisiones estratégicas.",
+    "mini_content": "Gofun es una solución que permite agilizar procesos, disminuir colas, reducir los costes y mejorar las experiencias de los asistentes.",
+    "buttons": [
+      {
+        "icon": "icon-music-festival.svg",
+        "title": "Festivales de Música",
+        "path": "/soluciones/festivales-de-musica"
+      },
+      {
+        "icon": "icon-food-event.svg",
+        "title": "Eventos Gastronómicos",
+        "path": "/soluciones/eventos-gastronomicos"
+      },
+      {
+        "icon": "icon-sport-event.svg",
+        "title": "Recintos Deportivos",
+        "path": "/soluciones/recintos-deportivos"
+      }
+    ]
+  },
+  "cards": {
+    "title": "Soluciones",
+    "items": {
+      "control_de_accesos": {
+        "title": "Control de accesos",
+        "content": "Elimina el fraude con las pulseras, evita los posibles robos  y consigue mayor seguridad para tu negocio.",
+        "img": "solutions-access-control"
+      },
+      "business_intelligence": {
+        "title": "Business intelligence",
+        "content": "Obtén datos reales sobre las experiencias de tus clientes. Mejora las operativas y la toma de decisiones estratégicas.",
+        "img": "solutions-business-intelligence"
+      },
+      "pagos_cashless": {
+        "title": "Pagos cashless",
+        "content": "Elimina el pago en efectivo, la pulsera o tarjeta se convierte en un medio de pago fácil y seguro.",
+        "img": "solutions-cashless-payments"
+      },
+      "reserva_de_servicios": {
+        "title": "Reserva de servicios",
+        "content": "Aumenta el número de reservas integrando NFC en pantallas táctiles donde el usuario puede gestionar sus reservas.",
+        "img": "solutions-bookings"
+      },
+      "webapp_de_gestion": {
+        "title": "Webapp de gestión",
+        "content": "Nos enlazamos en la app del hotel para que el huésped pueda vincularla con la pulsera y consultar toda la información.",
+        "img": "solutions-webapp"
+      },
+      "reporting": {
+        "title": "Reporting",
+        "content": "Un informe donde aparece registrada toda la actividad de los usuarios y  te permitirá conocer sus hábitos de consumo.",
+        "img": "solutions-reporting"
+      },
+      "kiosk_y_tablet": {
+        "title": "App self kiosk y tablet",
+        "content": "Reduce las colas y elimina el error humano con el panel de reservas y contratación de productos.",
+        "img": "solutions-self-kiosk"
+      },
+      "encuestas_digitalizadas": {
+        "title": "Encuestas digitalizadas",
+        "content": "Las encuestas de siempre, pero ahora digitalizadas y podrás identificar qué encuesta corresponde a cada cliente.",
+        "img": "solutions-questionaries"
+      },
+      "control_de_pulseras": {
+        "title": "Stock de wearables",
+        "content": "Elimina el fraude o la reventa de wearables y asegura el control de stock.",
+        "img": "solutions-brazalets"
+      },
+      "gestion_de_toallas": {
+        "title": "Gestión de toallas",
+        "content": "Elimina los robos y averigua el número de toallas utilizadas y disponibles por cada uno de tus clientes.",
+        "img": "solutions-towels-management"
+      },
+      "app_validacion": {
+        "title": "App validación",
+        "content": "Verifica las entradas o los servicios contratados por tus clientes y elimina el fraude.",
+        "img": "solutions-app-validation"
+      },
+      "cortesias": {
+        "title": "Cortesías",
+        "content": "Fideliza a tus clientes y mejora su experiencia ofreciendo obsequios a tus clientes.",
+        "img": "solutions-presents"
+      },
+      "incentivos_de_consumo": {
+        "title": "Incentivos de consumo",
+        "content": "Establece unas metas de consumo y ofrece cortesías a los clientes que las hayan alcanzado",
+        "img": "solutions-increase-revenue"
+      },
+      "identificacion_de_usuario": {
+        "title": "Identificación de usuario",
+        "content": "Al identificar a los clientes de forma Individual y segura se habilitan funcionalidades para mejorar los procesos.",
+        "img": "user-identification"
+      },
+      "pos_portatil": {
+        "title": "POS portátil",
+        "content": "Cobra a través de dispositivos portátiles en un entorno offline sin necesidad de integrar el dispositivo con el POS.",
+        "img": "pos-portable"
+      },
+      "tokenizacion_tarjeta": {
+        "title": "Tokenización tarjeta bancaria",
+        "content": "Facilita las operaciones  de pago y elimina la fricción durante los procesos de compra.",
+        "img": "token-bank-card"
+      },
+      "recarga_desatendida": {
+        "title": "Tótem de recarga desatendida",
+        "content": "Permite que tus clientes recargen de forma autónoma sus pulseras o tarjetas.",
+        "img": "personal-recharge"
+      },
+      "gestion_entradas": {
+        "title": "Gestión y emisión de entradas",
+        "content": "Sistema de gestión y venta de entradas a través de una plataforma de pago sin recurrir a plataformas externas.",
+        "img": "tickets-management"
+      },
+      "control_afluencias": {
+        "title": "Control de afluencias",
+        "content": "Permite conocer qué personas entran o salen de alguna zona, de manera que se pueda conocer el aforo en cada momento",
+        "img": "influx_control"
+      },
+      "recarga_y_devolucion": {
+        "title": "Recarga y devolución online",
+        "content": "La recarga se puede realizar desde la plataforma de venta, desde una página que no dependa de la tiquetera o desde la propia app.",
+        "img": "recharge_and_return"
+      }
+    }
+  },
+  "case_study": {
+    "title": "Caso de éxito",
+    "cta": "Ver vídeo",
+    "more": "Saber más de este caso de éxito"
+  },
+  "review": {
+    "title": "Nuestros clientes opinan",
+    "cta": "Ver vídeo"
+  },
+  "advantages": {
+    "title": "Con nuestra solución %s obtendrás estas ventajas para tu negocio.",
+    "items": [
+      {
+        "title": "Puede funcionar Online y Offline sin interrupciones.",
+        "img": "advantages-online-and-offline.svg"
+      },
+      {
+        "title": "Integración en los sistemas de gestión fácil y rápida.",
+        "img": "advantages-integration.svg"
+      },
+      {
+        "title": "Mayor seguridad en las transacciones.",
+        "img": "advantages-security.svg"
+      },
+      {
+        "title": "Incrementa los ingresos de tu negocio.",
+        "img": "advantages-increase.svg"
+      },
+      {
+        "title": "Mejora la experiencia de los clientes y fidelízalos.",
+        "img": "advantages-improve-ux.svg"
+      },
+      {
+        "title": "Genera procesos más eficientes y gana tiempo.",
+        "img": "advantages-efficiency.svg"
+      }
+    ]
+  },
+  "cta": {
+    "btn": "Contacta con nosotros",
+    "title": "¿Quieres aumentar ingresos y fidelizar a tus clientes?",
+    "path": "/contacto"
+  }
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="96px" height="102px" viewBox="0 0 96 102" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Icon_sponsor</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Soluciones-Gofun" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Solucion---Gofun-festivales-de-musica" transform="translate(-226.000000, -6616.000000)">
+            <g id="Icon_sponsor" transform="translate(227.000000, 6618.000000)">
+                <path d="M35,70.2928585 C34.1867538,62.820988 31.004986,53.2863537 25.4546965,41.6889556 C17.1292622,24.2928585 23.8458849,-3.83693077e-13 47.5,-3.83693077e-13" id="Path-15" stroke="#000230" stroke-width="4"></path>
+                <path d="M59.9621004,70.2928585 C58.3030606,63.2292918 57.0010463,58.2483478 56.0560573,55.3500263 C55.2619191,52.9143707 54.4315381,50.6775427 53.5649143,48.6395423 C52.6174499,46.4114325 51.5680774,44.0945703 50.4167969,41.6889556 C45.8948857,32.2403666 45.8104656,20.7571943 50.4672434,12.2369696 M58.2107818,3.84350229 C61.9825235,1.42958523 66.7239435,4.54747351e-13 72.4621004,4.54747351e-13" id="Shape" stroke="#000230" stroke-width="4" stroke-linecap="round" transform="translate(59.731050, 35.146429) scale(-1, 1) translate(-59.731050, -35.146429) "></path>
+                <path d="M36.9705863,70.2928585 L58.6320452,70.2928585 C60.2888994,70.2928585 61.6320452,71.6360043 61.6320452,73.2928585 C61.6320452,73.6610381 61.5642719,74.0260725 61.432113,74.3697151 L59.7310502,78.7928585 L59.7310502,78.7928585 L61.432113,83.2160019 C62.0268445,84.7624367 61.2553365,86.4981949 59.7089018,87.0929263 C59.3652592,87.2250852 59.0002247,87.2928585 58.6320452,87.2928585 L36.9705863,87.2928585 C35.313732,87.2928585 33.9705863,85.9497128 33.9705863,84.2928585 C33.9705863,83.8057274 34.0892093,83.3259234 34.3162036,82.8949126 L36.4765741,78.7928585 L36.4765741,78.7928585 L34.3162036,74.6908044 C33.5441394,73.2248294 34.1066653,71.4105401 35.5726403,70.6384759 C36.0036511,70.4114815 36.4834551,70.2928585 36.9705863,70.2928585 Z" id="Rectangle" stroke="#000230" stroke-width="4"></path>
+                <rect id="Rectangle" stroke="#000230" stroke-width="4" x="39" y="87.2928585" width="19" height="5" rx="1"></rect>
+                <rect id="Rectangle-Copy-5" stroke="#000230" stroke-width="4" x="43" y="92.2928585" width="11" height="5" rx="1"></rect>
+                <line x1="82.5" y1="18.7928585" x2="89" y2="14.2928585" id="Line-6" stroke="#000230" stroke-width="4" stroke-linecap="round"></line>
+                <g id="Group-21" transform="translate(12.000000, 49.292859) scale(-1, 1) translate(-12.000000, -49.292859) translate(0.000000, 14.292859)" stroke="#000230" stroke-linecap="round" stroke-width="4">
+                    <line x1="11.9375" y1="4.5" x2="18.4375" y2="0" id="Line-6-Copy-4"></line>
+                    <line x1="14.6875" y1="24.25" x2="22.4375" y2="24" id="Line-6-Copy-5"></line>
+                    <line x1="10.3125" y1="41.625" x2="16.4375" y2="46" id="Line-6-Copy-6"></line>
+                    <line x1="0.5" y1="63.1875" x2="4.4375" y2="69" id="Line-6-Copy-7"></line>
+                </g>
+                <line x1="85.25" y1="38.5428585" x2="93" y2="38.2928585" id="Line-6-Copy" stroke="#000230" stroke-width="4" stroke-linecap="round"></line>
+                <line x1="80.875" y1="55.9178585" x2="87" y2="60.2928585" id="Line-6-Copy-2" stroke="#000230" stroke-width="4" stroke-linecap="round"></line>
+                <line x1="71.0625" y1="77.4803585" x2="75" y2="83.2928585" id="Line-6-Copy-3" stroke="#000230" stroke-width="4" stroke-linecap="round"></line>
+                <g id="Group-61-Copy" transform="translate(48.000000, 26.292859) rotate(-1.000000) translate(-48.000000, -26.292859) translate(32.000000, 10.292859)">
+                    <circle id="Oval" fill="#000230" cx="15.75936" cy="15.75936" r="15.75936"></circle>
+                    <text id="€" font-family="Gilroy-Regular" font-size="23.22432" font-weight="normal" line-spacing="17.252352" fill="#FFFFFF">
+                        <tspan x="6.63552" y="24.63552">€</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

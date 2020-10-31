@@ -1,0 +1,37 @@
+{
+  "title": "Beerman Beverage Festival",
+  "video": {
+    "img": "/wp-content/uploads/2019/11/casos-de-exito-beerman.jpg",
+    "src": "EbEt_ExdjUc"
+  },
+  "info": [
+    {
+      "icon": "place",
+      "text": "Ecuador"
+    },
+    {
+      "icon": "attendees",
+      "text": "1.200 attendees"
+    },
+    {
+      "icon": "goal",
+      "text": "Full digital transformation"
+    }
+  ],
+  "what": {
+    "title": "What is Beerman?",
+    "content": "The Beerman is one of the most renowned beverage festivals in Ecuador. It is organized by José Zurita, Ecuadorian craft beer ambassador."
+  },
+  "goal": {
+    "title": "The main objectives",
+    "content": "They needed to run a full digital transformation so that they were able to target their goals. Firstly, they needed to increase sales as well as reduce fraud as much as possible. It was also important to create better participants experiences with frictionless access control and cashless payment solutions."
+  },
+  "cards": ["pagos_cashless", "control_de_accesos", "business_intelligence"],
+  "cta": "Do you own a food or beverage festival and are thinking about how to increase revenue and create memorable customer experiences?",
+  "review": {
+    "logo": "/wp-content/uploads/2020/01/logo-beerman-color.jpg",
+    "name": "Juan Zurita",
+    "role": "Owner",
+    "content": "The whole experience has been very satisfactory with total control and an exceptional attendees acceptance."
+  }
+}

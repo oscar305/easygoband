@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="118px" height="194px" viewBox="0 0 118 194" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>integracion_sistema_parque</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="34.0964409%" y1="100%" x2="64.9742133%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#00D7D7" offset="0%"></stop>
+            <stop stop-color="#241DBA" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="65.9035591%" y1="68.3293223%" x2="34.0964409%" y2="32.7077472%" id="linearGradient-2">
+            <stop stop-color="#241DBA" offset="0%"></stop>
+            <stop stop-color="#00D7D7" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Soluciones-Goguest" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Solucion---Goguest-parques" transform="translate(-1044.000000, -8185.000000)">
+            <g id="integracion_sistema_parque" transform="translate(1047.000000, 8188.000000)">
+                <g id="Group-264-Copy" stroke="#FFFFFF" stroke-width="4.44125">
+                    <path d="M18.65325,112.585688 L37.3065,123.55595 L18.65325,134.347813 L-1.14058096e-12,123.55595 L18.65325,112.585688 Z" id="Combined-Shape-Copy" stroke-linejoin="round"></path>
+                    <polyline id="Path-30-Copy" stroke-linejoin="round" points="3.82412516e-13 123.46675 3.82412516e-13 144.705494 18.65325 156.109937 37.3065 144.705494 37.3065 123.46675"></polyline>
+                    <line x1="18.65952" y1="156.109938" x2="18.65952" y2="134.347813" id="Path-31-Copy"></line>
+                    <path d="M55.95975,112.585688 L74.613,123.55595 L55.95975,134.347813 L37.3065,123.55595 L55.95975,112.585688 Z" id="Combined-Shape-Copy-2" stroke-linejoin="round"></path>
+                    <polyline id="Path-30-Copy-2" stroke-linejoin="round" points="37.3065 123.46675 37.3065 144.705494 55.95975 156.109937 74.613 144.705494 74.613 123.46675"></polyline>
+                    <line x1="55.96602" y1="156.109938" x2="55.96602" y2="134.347813" id="Path-31-Copy-2"></line>
+                    <path d="M37.3065,145.228875 L55.95975,156.199138 L37.3065,166.991 L18.65325,156.199138 L37.3065,145.228875 Z" id="Combined-Shape-Copy-2" stroke-linejoin="round"></path>
+                    <polyline id="Path-30-Copy-2" stroke-linejoin="round" points="18.65325 156.109938 18.65325 177.348682 37.3065 188.753125 55.95975 177.348682 55.95975 156.109938"></polyline>
+                    <line x1="37.31277" y1="188.753125" x2="37.31277" y2="166.991" id="Path-31-Copy-2"></line>
+                    <path d="M37.3065,79.9425 L55.95975,90.9127626 L37.3065,101.704625 L18.65325,90.9127626 L37.3065,79.9425 Z" id="Combined-Shape-Copy-2" stroke-linejoin="round"></path>
+                    <polyline id="Path-30-Copy-2" stroke-linejoin="round" points="18.65325 90.8235625 18.65325 112.062307 37.3065 123.46675 55.95975 112.062307 55.95975 90.8235625"></polyline>
+                    <line x1="37.31277" y1="123.46675" x2="37.31277" y2="101.704625" id="Path-31-Copy-2"></line>
+                    <path d="M93.26625,112.585688 L111.9195,123.55595 L93.26625,134.347813 L74.613,123.55595 L93.26625,112.585688 Z" id="Combined-Shape-Copy-3" stroke-linejoin="round"></path>
+                    <polyline id="Path-30-Copy-3" stroke-linejoin="round" points="74.613 123.46675 74.613 144.705494 93.26625 156.109937 111.9195 144.705494 111.9195 123.46675"></polyline>
+                    <line x1="93.27252" y1="156.109938" x2="93.27252" y2="134.347813" id="Path-31-Copy-3"></line>
+                    <path d="M74.613,145.228875 L93.26625,156.199138 L74.613,166.991 L55.95975,156.199138 L74.613,145.228875 Z" id="Combined-Shape-Copy-3" stroke-linejoin="round"></path>
+                    <polyline id="Path-30-Copy-3" stroke-linejoin="round" points="55.95975 156.109938 55.95975 177.348682 74.613 188.753125 93.26625 177.348682 93.26625 156.109938"></polyline>
+                    <line x1="74.61927" y1="188.753125" x2="74.61927" y2="166.991" id="Path-31-Copy-3"></line>
+                    <path d="M74.613,79.9425 L93.26625,90.9127626 L74.613,101.704625 L55.95975,90.9127626 L74.613,79.9425 Z" id="Combined-Shape-Copy-3" stroke-linejoin="round"></path>
+                    <g id="Group-249" transform="translate(37.097500, 0.000000)">
+                        <path d="M18.65325,1.71262116e-12 L37.3065,10.9702626 L18.65325,21.762125 L-1.14058096e-12,10.9702626 L18.65325,1.71262116e-12 Z" id="Combined-Shape-Copy-4" stroke-linejoin="round"></path>
+                        <polyline id="Path-30-Copy-4" stroke-linejoin="round" points="1.33283448e-12 10.8810625 1.33283448e-12 32.1198067 18.65325 43.52425 37.3065 32.1198067 37.3065 10.8810625"></polyline>
+                        <line x1="18.65952" y1="43.52425" x2="18.65952" y2="21.762125" id="Path-31-Copy-4"></line>
+                    </g>
+                    <g id="Group-251" transform="translate(51.205000, 54.862500)" stroke-linecap="round">
+                        <polyline id="Path" stroke-linejoin="round" points="0 10.45 4.76181441 15.675 9.405 10.5801679"></polyline>
+                        <line x1="4.78178385" y1="15.492125" x2="4.67101385" y2="0.444125" id="Path-31-Copy-4"></line>
+                    </g>
+                    <polyline id="Path-30-Copy-3" stroke-linejoin="round" points="55.95975 90.8235625 55.95975 112.062307 74.613 123.46675 93.26625 112.062307 93.26625 90.8235625"></polyline>
+                    <line x1="74.61927" y1="123.46675" x2="74.61927" y2="101.704625" id="Path-31-Copy-3"></line>
+                </g>
+                <polygon id="Path-33" fill="url(#linearGradient-1)" points="56.16875 134.347813 74.7175 123.31 74.7175 145.228875 56.16875 156.199138"></polygon>
+                <polygon id="Path-33-Copy" fill="url(#linearGradient-2)" transform="translate(46.894375, 139.754569) scale(1, -1) translate(-46.894375, -139.754569) " points="37.62 134.347813 56.16875 123.31 56.16875 145.228875 37.62 156.199138"></polygon>
+                <polygon id="Path-34" fill="#FFFFFF" points="37.62 123.31 56.16875 112.585688 74.404 123.55595 56.16875 134.280263"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

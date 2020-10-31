@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="379" height="273" viewBox="0 0 379 273">
+  <defs>
+    <filter id="Rectangle_Copy_22" x="0" y="0" width="379" height="273" filterUnits="userSpaceOnUse">
+      <feOffset dx="40" dy="40" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="30" result="blur"/>
+      <feFlood flood-opacity="0.02"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Aforo_festivales_musica" transform="translate(50 50)">
+    <g transform="matrix(1, 0, 0, 1, -50, -50)" filter="url(#Rectangle_Copy_22)">
+      <rect id="Rectangle_Copy_22-2" data-name="Rectangle Copy 22" width="199" height="93" transform="translate(50 50)" fill="#fff"/>
+    </g>
+    <g id="Group_35" data-name="Group 35" transform="translate(28 20)">
+      <text id="Aforo" transform="translate(0 2)" fill="#3f3d56" font-size="10" font-family="Gilroy-Medium, Gilroy ☞" font-weight="500" letter-spacing="0.02em" opacity="0.893"><tspan x="0" y="10">Aforo</tspan></text>
+      <path id="Line_4" data-name="Line 4" d="M.5.5h130" transform="translate(1 44)" fill="none" stroke="#e0e4ec" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+      <path id="Line_4-2" data-name="Line 4" d="M.5.5h108" transform="translate(1 44)" fill="none" stroke="#16be5a" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3"/>
+    </g>
+    <rect id="Rectangle" width="25" height="15" rx="7.5" transform="translate(135 39)" fill="#16be5a"/>
+    <g id="_90_2" data-name="90% 2" transform="translate(138 40)">
+      <text id="_90_" data-name="90%" transform="translate(0 3)" fill="#fff" font-size="7" font-family="Gilroy-Medium, Gilroy ☞" font-weight="500" letter-spacing="0.02em" opacity="0.893"><tspan x="3.794" y="7">90%</tspan></text>
+    </g>
+  </g>
+</svg>

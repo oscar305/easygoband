@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="54px" height="48px" viewBox="0 0 54 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Fill 120 + Fill 121 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="WEB" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HOME" transform="translate(-695.000000, -3907.000000)">
+            <g id="Group-9" transform="translate(314.000000, 3688.000000)">
+                <g id="Group-7" transform="translate(293.000000, 219.000000)">
+                    <g id="Fill-120-+-Fill-121-Copy" transform="translate(88.000000, 0.000000)">
+                        <path d="M54,29.251125 L54,4.501125 C54,2.019375 51.98175,0.001125 49.5,0.001125 L4.5,0.001125 C2.01825,0.001125 0,2.019375 0,4.501125 L0,29.251125 L54,29.251125 Z" id="Fill-120" fill="#DDDEEE"></path>
+                        <path d="M0,31.501125 L0,33.751125 C0,36.232875 2.01825,38.251125 4.5,38.251125 L24.75,38.251125 L24.75,42.751125 L15.75,42.751125 L15.75,47.251125 L38.25,47.251125 L38.25,42.751125 L29.25,42.751125 L29.25,38.251125 L49.5,38.251125 C51.98175,38.251125 54,36.232875 54,33.751125 L54,31.501125 L0,31.501125 Z" id="Fill-121" fill="#241DBA"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

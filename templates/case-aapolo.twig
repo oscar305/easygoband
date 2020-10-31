@@ -1,0 +1,282 @@
+{% extends "layouts/base.twig" %}
+
+{% set page = post.get_field('json_data')|json_decode %}
+
+{% block content %}
+
+    <div class="py-5 bg_grey">
+        <div class="container text_blue">
+            <div class="row  justify-content-center align-items-center">
+                <div class="col-md-12">
+                    <ul class="case_menu d-flex align-items-center justify-content-between">
+                        <li><a href="{{ lang == 'en' ? '/en/success-stories/oasis': '/casos-de-exito/oasis'}} ">{{lang == 'en' ? 'Oasis' : 'Oasis'}}</a></li>
+                        <li  class="active"><a href="{{ lang == 'en' ? '/en/success-stories/aapolo': '/casos-de-exito/aapolo'}} ">{{lang == 'en' ? 'Aapolo' : 'Aapolo'}}</a></li>
+                        <li><a href="{{ lang == 'en' ? '/en/success-stories/beerman': '/casos-de-exito/beerman'}} ">{{lang == 'en' ? 'Beerman' : 'Beerman'}}</a></li>
+                        <li><a href="{{ lang == 'en' ? '/en/success-stories/aquarama': '/casos-de-exito/aquarama'}} ">{{lang == 'en' ? 'Aquarama' : 'Aquarama'}}</a></li>
+                        <li><a href="{{ lang == 'en' ? '/en/success-stories/rototom': '/casos-de-exito/rototom'}} ">{{lang == 'en' ? 'Rototom' : 'Rototom'}}</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="pb-5 bg_grey relative">
+        <div class="rb_blue_box absolute"></div>
+        <div class="container text_blue">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-7">
+                    <div class="videoWrapper videoWrapper169 js-videoWrapper">
+                        <iframe class="videoIframe js-videoIframe" src="" frameborder="0" allowTransparency="true" allowfullscreen data-src="https://www.youtube.com/embed/OSTp6SYQPHw?autoplay=1"></iframe>
+                        <button class="videoPoster js-videoPoster" style="background-image:url({{assetPath('images/festival/video_poster_recintos.svg')}});">Play video</button>
+                    </div>
+                </div>
+                <div class="col-md-5 py-5">
+                    <h4 class="text_blue">¿QUÉ ES AAPOLO?</h4>
+                    <p>También conocido como El Abierto, el Campeonato Argentino Abierto de Polo es el máximo certamen interclubes a nivel mundial y el quinto en antigüedad en el mundo con más de 125 años.</p>
+                    <h4 class="text_blue">OBJETIVO</h4>
+                    <p>El campeonato decidió implantar el sistema de pagos cashless en su recinto deportivo durante 6 fines de semana consecutivos para mejorar la experiencia de los asistentes y fomentar el consumo, llegando a incrementar notablemente sus ingresos en comparación con ediciones anteriores.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="py-15 bg_grey relative" style="padding-bottom: 15rem;">
+        <div class="container">
+            <h4 class="text_blue text-center text-md-left">Servicios contratados</h4>
+            <div class="row my-5 justify-content-center bg-white">
+                <div class="col-md-2 service_item" >
+                    <img src="{{assetPath('images/home_img/icon-checkin.svg')}}">
+                    <p class="pb-0 pt-3">Pago Pulsera NFC</p>
+                </div>
+                <div class="col-md-2 service_item">
+                    <img src="{{assetPath('images/home_img/icon-reserva-servicios.svg')}}">
+                    <p class="pb-0 pt-3">Pago Tarjeta Bancaria</p>
+                </div>
+                <div class="col-md-2 service_item">
+                    <img src="{{assetPath('images/home_img/icon-cuenta-cliente.svg')}}">
+                    <p class="pb-0 pt-3">Pagos y pedidos Mobil</p>
+                </div>
+                <div class="col-md-2 service_item">
+                    <img src="{{assetPath('images/home_img/icon-pedidos-room-service.svg')}}">
+                    <p class="pb-0 pt-3">Pagos y pedidos Mobil</p>
+                </div>
+                <div class="col-md-2 service_item">
+                    <img src="{{assetPath('images/home_img/icon-encuestas-digitalizadas.svg')}}">
+                    <p class="pb-0 pt-3">Pagos y pedidos Mobil</p>
+                </div>
+                <div class="col-md-2 service_item">
+                    <img src="{{assetPath('images/home_img/icon-pagos-tokenizacion.svg')}}">
+                    <p class="pb-0 pt-3">Pagos y pedidos Mobil</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="py-15" style="background-image: linear-gradient(-52deg, rgb(55 60 160) 0px, rgb(33 46 189) 2%, rgb(9 165 207) 100%); min-height: 271px;">
+         <div class="container">
+            <div class="row  justify-content-center align-items-start relative">
+                <div class="col-md-12 absolute" style="bottom: -113px;">
+                    <div id="carousel-example-2" class="carousel slide carousel-fade mb-5" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-2" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-2" data-slide-to="2"></li>
+                            <li data-target="#carousel-example-2" data-slide-to="3"></li>
+                            <li data-target="#carousel-example-2" data-slide-to="4"></li>
+                        </ol>
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                                <div class="carousel-caption text_blue">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-5">
+                                            <img class="mx-auto" src="{{assetPath('images/hotels/logo_pinerro.png')}}">
+                                        </div>
+                                        <div class="col-md-7">
+                                            <h4 style="font-size: 19px !important;"><blockquote>"En una semana se multiplicaron por 3 las reservas."</blockquote></h4>
+                                        </div>
+                                    </div>
+                                    <div class="text-left">
+                                    <p class="font-25 mb-0">TONI MUÑOZ</p>
+                                    <p>Director de Proyectos IT. Grupo Piñero.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="carousel-caption text_blue">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-5">
+                                            <img class="mx-auto" src="{{assetPath('images/hotels/logo-aquarama-color.jpg')}}"> 
+                                        </div>
+                                        <div class="col-md-7">
+                                            <h4 style="font-size: 19px !important;"><blockquote>"Easygoband nos permite relacionarnos de una forma diferente y mejorada con nuestros clientes."</blockquote></h4>
+                                        </div>
+                                    </div>
+                                    <div class="text-left">
+                                    <p class="font-25 mb-0">DOLORES SALGADO</p>
+                                    <p>Directora</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="carousel-caption text_blue">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-5">
+                                            <img class="mx-auto" src="{{assetPath('images/hotels/logo-oasis-color.jpg')}}">
+                                        </div>
+                                        <div class="col-md-7"> 
+                                            <h4 style="font-size: 19px !important;"><blockquote>"Son super eficientes y honestos. Su tecnologia cashless es fantastic y el equipo te acompana durante todo el festival."</blockquote></h4>
+                                        </div>
+                                    </div>
+                                    <div class="text-left">
+                                    <p class="font-25 mb-0">LAIA GORDI</p>
+                                    <p>Comunicacion Feslloc</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="carousel-caption text_blue">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-5">
+                                            <img class="mx-auto" src="{{assetPath('images/hotels/logo-beerman-color.jpg')}}">
+                                        </div>
+                                        <div class="col-md-7">
+                                            <h4 style="font-size: 19px !important;"><blockquote>"La experiencia ha sido muy satisfactoria con un control al maximo y una excelente percepcion de los asistentes"</blockquote></h4>
+                                        </div>
+                                    </div>
+                                    <div class="text-left">
+                                    <p class="font-25 mb-0">JUAN ZURITA</p>
+                                    <p>Owner</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="carousel-caption text_blue">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-5">
+                                            <img class="mx-auto" src="{{assetPath('images/hotels/logo-aapolo-color.jpg')}}">
+                                        </div>
+                                        <div class="col-md-7">
+                                            <h4 style="font-size: 19px !important;"><blockquote>"Easygoband se ha vuelto indispensable para agilizar, aumentar nuestros ingresos en gran medida y tener un control exhaustivo de nuestro evento."</blockquote></h4>
+                                        </div>
+                                    </div>
+                                    <div class="text-left">
+                                    <p class="font-25 mb-0">NICOLAS FILIPPINI</p>
+                                    <p>Gte de planeamiento y Control de Gestion</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="py-15 bg_blue">
+        <div class="container">
+            <div class="row  justify-content-center align-items-start relative">
+                <div class="col-md-12" style=" overflow: hidden;">
+                     <div class="slider">
+                        <div class="logos">
+                            <img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0000_Grupo-Pinero.png')}}">
+                            <img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0001_Alannia.png')}}">
+                            <img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0002_karisma.png')}}">
+                            <img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0003_Mundo-imperial.png')}}">
+                            <img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0004_acampada-jove.png')}}">
+                            <img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0005_belive.png')}}">
+                            <img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0006_the-beerman.png')}}">
+                            <img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0007_aquarama.png')}}">
+                            <img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0008_corona.png')}}">
+                            <img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0009_carpe-birrem.png')}}">
+                            <img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0010_aqualandia.png')}}">
+                            <img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0011_MIT.png')}}">
+                            <img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0012_UJI.png')}}">
+                            <img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0013_rototom.png')}}">
+                            <img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0014_aapolo-argentina.png')}}">
+                            <img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0015_OASIS.png')}}">
+                            <img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0016_Melodi-maker.png')}}">
+                            <img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0017_pesf.png')}}">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <style>
+        .slider {
+            animation: slidein 30s linear infinite;
+            white-space: nowrap;
+        }
+        .slider .logos {
+            width: 100%;
+            display: flex;
+            margin: 0px 0;
+        }
+        .slider .logos .fab {
+            width: calc(100% / 7);
+            animation: fade-in 0.5s 
+            cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+        }
+
+        @keyframes slidein {
+            from {
+                transform: translate3d(0, 0, 0);
+            }
+            to {
+                transform: translate3d(-100%, 0, 0);
+            }
+        }
+
+        @keyframes fade-in {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+
+    <div class="py-15 foot_book">
+        <div class="container text_blue">
+            <div class="row my-5 justify-content-center align-items-center" style="border: 9px solid grey;min-height: 301px;">
+                <div class="col-md-7 relative">
+                    <img class="mx-auto img_goguest" src="{{assetPath('images/p_goguest/Goguest-demo-CTA.svg')}}">
+                </div>
+                <div class="col-md-5 text-center">
+                    <h4 class="text_blue mb-5">¿Te gustaría ver cómo tu negocio puede digitalizarse?</h4>
+                    <a class="btn_blue">{{ lang == 'en' ? 'Book Demo': 'Reservar Demo' }}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<script>
+    jQuery(document).ready(function(){
+
+        //box switch
+        jQuery('.pointer_item').hover(function(){ jQuery(this).parent().find('.pointer_item').removeClass('active_item');
+            jQuery(this).addClass('active_item');
+            var getID = jQuery(this).data('target');
+            jQuery('.content_box').removeClass('active');
+            jQuery("#"+ getID).addClass('active');
+        });
+
+        //video button play
+        jQuery(document).on('click','.js-videoPoster',function(ev) {
+                ev.preventDefault();
+                var $poster = jQuery(this);
+                var $wrapper = $poster.closest('.js-videoWrapper');
+                videoPlay($wrapper);
+        });
+        function videoPlay($wrapper) {
+            var $iframe = $wrapper.find('.js-videoIframe');
+            var src = $iframe.data('src');
+            $wrapper.addClass('videoWrapperActive');
+            $iframe.attr('src',src);
+        }
+
+        //logo slider
+       
+    });
+</script>
+{% endblock %}

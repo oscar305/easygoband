@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="89px" height="97px" viewBox="0 0 89 97" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Icon_menos_gastos</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Soluciones-Gofun" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Solucion---Gofun-festivales-de-musica" transform="translate(-696.000000, -6625.000000)">
+            <g id="Icon_menos_gastos" transform="translate(681.000000, 6591.000000)">
+                <path d="M53,96.3880187 L53,128.296296 C53,128.684941 52.5522847,129 52,129 L18,129 C17.4477153,129 17,128.684941 17,128.296296 L17,72.7037037 C17,72.3150589 17.4477153,72 18,72 L52,72 C52.5522847,72 53,72.3150589 53,72.7037037 L53,82.6137401" id="Path-Copy" stroke="#000230" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" transform="translate(35.000000, 100.500000) scale(-1, 1) translate(-35.000000, -100.500000) "></path>
+                <rect id="Rectangle-Copy-6" stroke="#000230" stroke-width="4" fill="#000230" stroke-linejoin="round" x="66" y="104" width="36" height="25" rx="1"></rect>
+                <text id="€" transform="translate(83.626176, 118.214029) rotate(-1.000000) translate(-83.626176, -118.214029) " font-family="Gilroy-Regular" font-size="23.22432" font-weight="normal" line-spacing="17.252352" fill="#FFFFFF">
+                    <tspan x="75" y="125">€</tspan>
+                </text>
+                <g id="Group-24-Copy" transform="translate(60.000000, 59.500000) rotate(55.000000) translate(-60.000000, -59.500000) translate(18.000000, 16.000000)" stroke="#000230" stroke-linecap="round">
+                    <line x1="15.800733" y1="80.0985096" x2="59.4943413" y2="6.62366608" id="Path" stroke-width="4" transform="translate(37.647537, 43.361088) rotate(31.000000) translate(-37.647537, -43.361088) "></line>
+                    <polygon id="Path-5" stroke-width="3.75" stroke-linejoin="round" transform="translate(76.892371, 22.596391) rotate(-26.000000) translate(-76.892371, -22.596391) " points="72.892371 14.5963913 80.892371 22.1766431 72.892371 30.5963913 79.0739103 22.1900065"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

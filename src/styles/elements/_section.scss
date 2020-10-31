@@ -1,0 +1,8 @@
+section:not(.simple) {
+  padding: 7rem 0;
+}
+main section:not(.simple):first-child {
+  @media (min-width: theme('screens.md')) {
+    padding-top: 14rem;
+  }
+}

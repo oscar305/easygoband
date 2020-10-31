@@ -1,0 +1,68 @@
+{
+  "title": "¡Bienvenido a tu plataforma de soporte!",
+  "subtitle": "Aquí encontrarás información de ayuda para sacar el máximo partido a tu plan Goguest Standard.",
+  "sector": "Hoteles y Resorts",
+  "header_img": "/wp-content/uploads/2020/02/landing-header.jpg",
+  "cards_img": "/wp-content/uploads/2020/02/landing-solutions.jpg",
+  "cta_img": "/wp-content/uploads/2020/02/landing-cta.jpg",
+  "documents": [
+    {
+      "title": "Descárgate las FAQs",
+      "file": "/wp-content/uploads/2020/03/EGOB-FAQs.pdf"
+    }
+  ],
+  "videos": {
+    "title": "Video tutoriales",
+    "items": [
+      {
+        "title": "Panel de Gestión",
+        "src": "uxSp2bkR2jw"
+      },
+      {
+        "title": "Gestión de Permisos",
+        "src": "639KOOBE5yI"
+      },
+      {
+        "title": "Gestión de Cortesías",
+        "src": "f0bzwJoN89c"
+      },
+      {
+        "title": "Control de Accesos",
+        "src": "NXC8HzQNuNU"
+      },
+      {
+        "title": "POS Recarga",
+        "src": "T2NP1ORqDo4"
+      },
+      {
+        "title": "Datos de Usuario-Transacciones del cliente",
+        "src": "oIueTLRzaIo"
+      },
+      {
+        "title": "Configuración del Controlador de periféricos",
+        "src": "DFtoqDNF-_U"
+      },
+      {
+        "title": "Instalador del Controlador de Periféricos",
+        "src": "UvwXNycB-es"
+      },
+      {
+        "title": "Configuración de los servidores de llaves",
+        "src": "6RgYy8IyI0o"
+      },
+      {
+        "title": "Uso del Servidor de Llaves 1",
+        "src": "25mMeIlGQ3s"
+      }
+    ]
+  },
+  "plan": {
+    "title": "Goguest standard",
+    "details": "Solución Goguest pensada y diseñada para el sector turístico.",
+    "payment_cycle": "pago mensual",
+    "payment_room": "por habitación",
+    "no_price": "Consultar"
+  },
+  "your_plan": "Tu plan es",
+  "contact_us": "Contacta con nuestro equipo técnico"
+}

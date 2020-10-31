@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="90px" height="84px" viewBox="0 0 90 84" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 32</title>
+    <desc>Created with Sketch.</desc>
+    <g id="STYLE-GUIDES-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iconos-DESPLEGADOS" transform="translate(-245.000000, -2313.000000)">
+            <g id="Group-32" transform="translate(245.000000, 2314.000000)">
+                <g id="Group-30" transform="translate(25.200000, 0.000000)">
+                    <g id="Group-28" transform="translate(19.600000, 0.000000)" stroke="#241DBA" stroke-width="2.1">
+                        <path d="M12.6,4.86624847 C10.9331148,2.933828 8.1607135,1.4 4.50221454,1.4 C-5.38385401,1.4 3.03615339,12.6 10.4201132,12.6 C11.196466,12.6 11.8534328,12.4761895 12.3960456,12.2546034" id="Path" transform="translate(6.300000, 7.000000) scale(-1, 1) rotate(90.000000) translate(-6.300000, -7.000000) "></path>
+                        <path d="M24.002565,4.86624847 C22.3356798,2.933828 19.5632785,1.4 15.9047796,1.4 C6.01871101,1.4 14.4387184,12.6 21.8226782,12.6 C22.599031,12.6 23.2559978,12.4761895 23.7986107,12.2546034" id="Path-Copy-9" transform="translate(17.702565, 7.000000) rotate(90.000000) translate(-17.702565, -7.000000) "></path>
+                    </g>
+                    <g id="Group-27" transform="translate(7.000000, 12.036950)">
+                        <rect id="Rectangle" fill="#E5E7F4" x="0" y="0" width="49" height="49" rx="11.2"></rect>
+                        <path d="M49,24.5 L2.46504206e-15,24.5" id="Line-6-Copy" stroke="#FFFFFF" stroke-width="2.8"></path>
+                        <path d="M24.5,0 L24.5,49" id="Line-6" stroke="#FFFFFF" stroke-width="2.8"></path>
+                    </g>
+                    <rect id="Rectangle" fill="#DDDEEE" x="0" y="12.0369502" width="64.4" height="12.6" rx="4.2"></rect>
+                </g>
+                <g id="Group-24" transform="translate(0.000000, 54.600000)" fill="#DDDEEE">
+                    <path d="M59.1111111,9.33333333 L32.3991111,9.33333333 L33.3106667,8.42177778 C34.5271111,7.20844444 34.5271111,5.23911111 33.3106667,4.02266667 L30.1995556,0.911555556 C29.3191111,0.0311111111 28,-0.236444444 26.8426667,0.220888889 L15.5555556,4.73511111 L15.5555556,24.8888889 L49.7777778,24.8888889 C50.6022222,24.8888889 51.3955556,24.5591111 51.9773333,23.9773333 L61.3106667,14.644 C62.2004444,13.7542222 62.468,12.4164444 61.9857778,11.256 C61.5035556,10.0924444 60.368,9.33333333 59.1111111,9.33333333" id="Fill-457"></path>
+                    <path d="M9.33333333,0 L3.11111111,0 C1.39377778,0 0,1.39377778 0,3.11111111 L0,24.8888889 C0,26.6062222 1.39377778,28 3.11111111,28 L9.33333333,28 C11.0506667,28 12.4444444,26.6062222 12.4444444,24.8888889 L12.4444444,3.11111111 C12.4444444,1.39377778 11.0506667,0 9.33333333,0" id="Fill-458"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

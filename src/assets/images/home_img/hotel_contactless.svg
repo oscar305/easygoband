@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="373px" height="208px" viewBox="0 0 373 208" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>hotel_contactless</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="205" height="40"></rect>
+        <filter x="-58.5%" y="-300.0%" width="231.7%" height="775.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="40" dy="40" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="30" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.02 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="-10" dy="-10" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="30" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter3"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter3" result="shadowBlurOuter3"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.08 0" type="matrix" in="shadowBlurOuter3" result="shadowMatrixOuter3"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter3"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Inicio" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="inicio" transform="translate(-360.000000, -4428.000000)">
+            <g id="hotel_contactless" transform="translate(429.000000, 4497.000000)">
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <text id="Ventas-hoy" opacity="0.892787388" font-family="Gilroy-Medium" font-size="10" font-weight="500" line-spacing="15" letter-spacing="0.2" fill="#3F3D56">
+                    <tspan x="12" y="20">Ventas hoy</tspan>
+                </text>
+                <text id="Ventas-ayer" opacity="0.892787388" font-family="Gilroy-Medium" font-size="10" font-weight="500" line-spacing="15" letter-spacing="0.2" fill="#3F3D56">
+                    <tspan x="111" y="20">Ventas ayer</tspan>
+                </text>
+                <text id="1,344" opacity="0.892787388" font-family="Gilroy-Medium" font-size="10" font-weight="500" line-spacing="15" letter-spacing="0.2" fill="#241DBA">
+                    <tspan x="73" y="20">1,344</tspan>
+                </text>
+                <text id="998" opacity="0.892787388" font-family="Gilroy-Medium" font-size="10" font-weight="500" line-spacing="15" letter-spacing="0.2" fill="#241DBA">
+                    <tspan x="172" y="20">998</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

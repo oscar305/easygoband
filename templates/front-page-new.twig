@@ -1,0 +1,633 @@
+{% extends "layouts/base.twig" %}
+
+{% set page = post.get_field('json_data')|json_decode %}
+
+{% block content %}
+
+<section class="pb-21 simple bg_blue">
+	<div class="container-fluid px-0">
+		<div class="row  mx-0 justify-content-center">
+			
+			<div class="col-md-5 pt-21 pb-5 text-center text-md-left mx-500 mx-auto">
+				<h1 class="text-white">Digitaliza tu negocio, reduce tus costes y aumenta tus ingresos</h1>
+				<p class="text-white">Creamos un ecosistema tecnológico a través de nuestra plataforma que crea negocios más rentables y mejores experiencias para los clientes.  </p>
+				<br><br>
+				<a class="btn_blue" href="#">Leer Caso de estudio</a>
+			</div>
+			<div class="col-md-7 px-0 text-center">
+				<div class="videoWrapper videoWrapper169 js-videoWrapper home_dropshadow">
+					<iframe class="videoIframe js-videoIframe" src="" frameborder="0" allowTransparency="true" allowfullscreen data-src="https://www.youtube.com/embed/vw2AF0S28D4?autoplay=1"></iframe>
+					<button class="videoPoster js-videoPoster" style="background-image:url({{assetPath('images/home_img/home_video.png')}});background-color: #000230;background-position: bottom left;">Play video</button>
+				</div>
+				<br>
+				<p class="text-white" style="font-size: 15px;">INTEGRACIONES</p>
+				<div class="home_top_logos d-flex justify-content-center align-items-center">
+					<img src="{{assetPath('images/home_img/logo_salto.svg')}}">
+					<img src="{{assetPath('images/home_img/logo_mybusiness_POS.svg')}}">
+					<img src="{{assetPath('images/home_img/logo_TCASS.svg')}}">
+					<img src="{{assetPath('images/home_img/logo_sihot.svg')}}">
+					<img src="{{assetPath('images/home_img/logo_Opera.svg')}}">
+					<a class="text-white" href="#">Ver todas <i class="far fa-long-arrow-alt-right"></i></a>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</section>
+
+<section class="py-15 simple" style="background-image: linear-gradient(-52deg, rgb(55 60 160) 0px, rgb(33 46 189) 2%, rgb(9 165 207) 100%);">
+	<div class="container">
+		<div class="row py-5 bg-white justify-content-center align-items-center" style="margin-top: -151px;">
+			<div class="col-md-4 text-center">
+				<p class="text_blue pb-0">Plataforma</p>
+				<a href="#"><i class="text_blue fal fa-long-arrow-down"></i></a>
+			</div>
+			<div class="col-md-4 text-center">
+				<p class="text_blue pb-0">Soluciones</p>
+				<a href="#"><i class="text_blue fal fa-long-arrow-down"></i></a>
+			</div>
+			<div class="col-md-4 text-center">
+				<p class="text_blue pb-0">Casos de éxito</p>
+				<a href="#"><i class="text_blue fal fa-long-arrow-down"></i></a>
+			</div>
+		</div>
+		<div class="row pt-5 align-items-center justify-content-center">
+			<div class="col-md-6">
+				<img class="mx-auto w-100" style="max-width: 511px;" src="{{assetPath('images/home_img/Plataforma_goguest.svg')}}">
+			</div>
+			<div class="col-md-6 px-5 py-5 text-center text-md-left">
+				<h1 class="text-white">La plataforma </h1>
+				<p class="font-25 text-white">La plataforma más versátil que se adapta a tu lógica de negocio.</p>
+				<p class="text-white">Una plataforma para el sector turismo que habilita el uso de funcionalidades con las que incrementarás ingresos, conseguirás operativas más eficientes, hoteles más rentables y clientes más satisfechos.</p>
+				<br>
+				<a class="btn_dark_blue" href="#">Plataforma Goguest</a>
+			</div>
+			
+		</div>
+	</div>
+</section>
+
+<section class="py-15">
+	<div class="container">
+		<div class="row flex-md-row-reverse align-items-center justify-content-center">
+			<div class="col-md-6 bg-light-grey p-3">
+				<img class="mx-auto w-100" style="max-width: 451px;" src="{{assetPath('images/home_img/soluciones_contactless_inicio.svg')}}">
+			</div>
+			<div class="col-md-6 px-5 py-5 text-center text-md-left">
+				<h1 class="text_blue">Soluciones Contactless</h1>
+				<p class="font-25">Tus clientes podrán realizar todo tipo de gestiones, incluyendo pagos cashless, a través de soportes NFC o su propio móvil</p>
+				<div class="check_lists  text-left">
+						<p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Simplifica la experiencia de tus clientes</p>
+						<p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Negocios más seguros e higiénicos</p>
+						<p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Agiliza colas y aumenta ventas/gasto</p>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</section>
+
+<section class="py-5">
+	<div class="container">
+		<div class="row  align-items-center justify-content-center">
+			<div class="col-md-6 bg-light-grey p-3">
+				<img class="mx-auto w-100" style="max-width: 451px;" src="{{assetPath('images/home_img/Solucion_pagos_inicio.svg')}}">
+			</div>
+			<div class="col-md-6 px-5 py-5 text-center text-md-left">
+				<h1 class="text_blue">Solución de pagos</h1>
+				<p class="font-25">Con nuestras plataformas tus clientes podrán realizar pagos en terminales bancarios mediante wearables, tarjetas bancarias o dispositivos móviles</p>
+				<div class="check_lists  text-left">
+						<p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Pagos directos con tarjeta tokenizada</p>
+						<p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Sin recargas previas ni reembolsos</p>
+						<p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Pagos desde el móvil</p>
+						<p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Combina pagos cashless con pagos bancarios certificados</p>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</section>
+
+<section class="py-5">
+	<div class="container">
+		<div class="row flex-md-row-reverse align-items-center justify-content-center">
+			<div class="col-md-6 bg-light-grey p-3">
+				<img class="mx-auto w-100" style="max-width: 451px;" src="{{assetPath('images/home_img/Business_intelligence.svg')}}">
+			</div>
+			<div class="col-md-6 px-5 py-5 text-center text-md-left">
+				<h1 class="text_blue">Business Intelligence</h1>
+				<p class="font-25">La actividad de los clientes queda registrada, podrás reducir costes y aumentar beneficios.</p>
+				<div class="check_lists  text-left">
+						<p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Identificación individual de cada usuario</p>
+						<p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Generación de reportes y métricas</p>
+						<p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Hábitos de consumo y perfil de usuario</p>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</section>
+
+<section class="py-15">
+	<div class="container">
+		<div class="row align-items-center justify-content-center">
+			<div class="col-md-12 text-center">
+					<a class="btn_blue" href="#">Reservar Demo</a>
+			</div>   
+		</div>
+	</div>
+</section>
+
+<section class="sector bg-light-grey">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="d-flex align-items-end">
+					<div class="w-100">
+						<img src="{{assetPath('images/home_img/hoteles_pagos_cashless.jpg')}}">
+					</div>
+					<div class="relative w-100">
+						<img src="{{assetPath('images/home_img/Eventos_pagos_contactless.jpg')}}">
+						<img class="absolute h_box_1" src="{{assetPath('images/home_img/hotel_contactless.svg')}}">
+					</div>
+				</div>
+				<br>
+				<div class="d-flex align-items-start">
+					<div class="relative">
+						<img src="{{assetPath('images/home_img/Parques_acuaticos_pagos_cashless.jpg')}}">
+						<img class="absolute h_box_2" src="{{assetPath('images/home_img/Huesped_big_data.jpg')}}">
+					</div>
+					<div class="relative">
+						<img src="{{assetPath('images/home_img/Festivales_control_accesos.jpg')}}">
+						<img class="absolute h_box_3" src="{{assetPath('images/home_img/Aforo_festivales_musica.png')}}">
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<h2 class="text_blue">Todas las funcionalidades y opciones que puedas imaginar</h2>
+				<p class="font-25 py-3">Nuestras soluciones están diseñadas para el sector hospitality, ocio y eventos.</p>
+				<div class="panel-group home_faq" id="accordion" role="tablist" aria-multiselectable="true">
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab">
+							<h4 class="panel-title"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapseOne"><img src="{{assetPath("images/header_icon/icon_hotel.svg")}}"> Hoteles y Resorts</a></h4>
+						</div>
+						<div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1">
+							<div class="panel-body">
+							<p>Goguest es una plataforma integradora para hoteles que facilita la interacción con el huésped mediante un sistema único que además permite la comunicación directa e inmediata con todo el hotel (PMS, POS, dispositivos y demás software).</p>
+							</div>
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab">
+							<h4 class="panel-title"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapseOne"><img src="{{assetPath("images/header_icon/icon_parques.svg")}}"> Parques temáticos</a></h4>
+						</div>
+						<div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+							<div class="panel-body">
+							<p>Goguest es una plataforma integradora que interactúa con tus sistemas de gestión actuales, TPV, tiqueteras, etc. Con el fin de potenciar su rendimiento, sacar el máximo partido al sistema, incrementar ingresos y ofrecer la mejor experiencia al visitante</p>
+							</div>
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab">
+							<h4 class="panel-title"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapseOne"><img src="{{assetPath("images/header_icon/icon_festivales.svg")}}"> Festivales de música</a></h4>
+						</div>
+						<div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+							<div class="panel-body">
+							<p>Gofun es una plataforma de Easygoband que ofrece soluciones que mejoran las operativas, disminuyen el fraude y aumentan los ingresos de los eventos mediante el uso de la tecnología NFC entre otros medios y recursos tecnológicos.</p>
+							</div>
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab">
+							<h4 class="panel-title"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapseOne"><img src="{{assetPath("images/header_icon/Icon_eventos_gastronomicos.svg")}}"> Eventos gastronómicos</a></h4>
+						</div>
+						<div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+							<div class="panel-body">
+							<p>Gestiona tu evento gastronómico o festival de food truck con Gofun. Una plataforma con la que podrás eliminar pagos en efectivo, reducir colas en accesos y en puntos de venta, además de controlar el aforo y aumentar la seguridad del evento y de los clientes.</p>
+							</div>
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab">
+							<h4 class="panel-title"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="false" aria-controls="collapseOne"><img src="{{assetPath("images/header_icon/Icon_recintos_deportivos.svg")}}"> Recintos deportivos</a></h4>
+						</div>
+						<div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+							<div class="panel-body">
+							<p>Gofun es una plataforma con la que podrás gestionar de forma eficiente tus eventos deportivos y con la que podrás procesar transacciones cashless rápidas, otras soluciones contactless y conocer los hábitos de consumo de los clientes.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="text-center bg-white py-15 mb-custom-21">
+	<h1 class="mx-650 text_blue mx-auto">Nos inspiramos en nuestros clientes para ofrecer las mejores herramientas</h1>
+	<br><br>
+</section>
+
+
+<div class="py-15 bg_blue">
+	<div class="container">
+		<div class="row  justify-content-center align-items-center relative home_logo_review">
+			<div class="col-md-12 absolute case_slider">
+				<div id="myCarousel" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner row w-100 mx-auto">
+						<div class="carousel-item col-md-4 active">
+							<div class="card">
+							<img class="card-img-top img-fluid" src="{{assetPath('images/case/hoteles_cashless_contactless.jpg')}}" alt="Card image cap">
+							<div class="card-body relative">
+								<h4 class="text_blue">Hoteles Oasis</h4>
+								<p class="card-text">Transformación digital 360 con el fin de mejorar las operativas y los procesos, aumentar la seguridad y mejorar la experiencia de usuario.</p>
+								<p class="n_espanel absolute" style="background-image: linear-gradient(45deg, #00D7D7, #241DBA);"><small>HOTELES Y RESORTS</small></p>
+							</div>
+							</div>
+						</div>
+						<div class="carousel-item col-md-4">
+							<div class="card">
+							<img class="card-img-top img-fluid" src="{{assetPath('images/festival/video_poster_eventos.svg')}}" alt="Card image cap">
+							<div class="card-body relative">
+								<h4 class="text_blue">The Beerman</h4>
+								<p class="card-text">Transformación digital del festival de cerveza para poder gestionar el control de accesos y mejorar la experiencia de los asistentes con el sistema de pago cashless.</p>
+								<p class="n_espanel absolute" style="background-image: linear-gradient(45deg, #C700AB, #241DBA);"><small>EVENTOS GASTRONÓMICOS</small></p>
+							</div>
+							</div>
+						</div>
+						<div class="carousel-item col-md-4">
+							<div class="card">
+							<img class="card-img-top img-fluid" src="{{assetPath('images/parques/parques_video.svg')}}" alt="Card image cap">
+							<div class="card-body relative">
+								<h4 class="text_blue">Aquarama</h4>
+								<p class="card-text">Transformación digital del parque acuático completo con el fin de tener mayor control del recinto, reducir el fraude y fomentar el consumo.</p>
+								<p class="n_espanel absolute"  style="background-image: linear-gradient(45deg, #00D7D7, #241DBA);"><small>PARQUES TEMÁTICOS</small></p>
+							</div>
+							</div>
+						</div>
+						<div class="carousel-item col-md-4">
+							<div class="card">
+							<img class="card-img-top img-fluid" src="{{assetPath('images/festival/video_poster_recintos.svg')}}" alt="Card image cap">
+							<div class="card-body relative">
+								<h4 class="text_blue">Aapolo</h4>
+								<p class="card-text">El campeonato decidió implantar el sistema de pagos cashless en su recinto deportivo para fomentar el consumo, aumentar ingresos y mejorar la experiencia de los clientes.</p>
+								<p class="n_espanel absolute"  style="background-image: linear-gradient(45deg, #C700AB, #241DBA);"><small>EVENTOS DEPORTIVOS</small></p>
+							</div>
+							</div>
+						</div>
+						<div class="carousel-item col-md-4">
+							<div class="card">
+							<img class="card-img-top img-fluid" src="{{assetPath('images/festival/video_poster.svg')}}" alt="Card image cap">
+							<div class="card-body relative">
+								<h4 class="text_blue">Rototom </h4>
+								<p class="card-text">Se realizó la transformación digital del festival de música para implantar el control de accesos y los pagos contactless con el fin de incrementar ventas y eliminar el fraude.</p>
+								<p class="n_espanel absolute"  style="background-image: linear-gradient(45deg, #C700AB, #241DBA);"><small>FESTIVAL DE MÚSICA</small></p>
+							</div>
+							</div>
+						</div>
+					</div>
+					<a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+					</a>
+				</div>
+			</div>
+			<div class="col-md-12" style=" overflow: hidden;">
+					<div class="slider">
+					<div class="logos">
+						<img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0000_Grupo-Pinero.png')}}">
+						<img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0001_Alannia.png')}}">
+						<img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0002_karisma.png')}}">
+						<img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0003_Mundo-imperial.png')}}">
+						<img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0004_acampada-jove.png')}}">
+						<img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0005_belive.png')}}">
+						<img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0006_the-beerman.png')}}">
+						<img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0007_aquarama.png')}}">
+						<img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0008_corona.png')}}">
+						<img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0009_carpe-birrem.png')}}">
+						<img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0010_aqualandia.png')}}">
+						<img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0011_MIT.png')}}">
+						<img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0012_UJI.png')}}">
+						<img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0013_rototom.png')}}">
+						<img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0014_aapolo-argentina.png')}}">
+						<img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0015_OASIS.png')}}">
+						<img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0016_Melodi-maker.png')}}">
+						<img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0017_pesf.png')}}">
+					</div>
+				</div>
+			</div>
+			<div class="col-md-12 absolute" style="bottom: -256px;">
+				<div id="carousel-example-2" class="carousel slide carousel-fade mb-5 logo_review_slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel-example-2" data-slide-to="1"></li>
+						<li data-target="#carousel-example-2" data-slide-to="2"></li>
+						<li data-target="#carousel-example-2" data-slide-to="3"></li>
+						<li data-target="#carousel-example-2" data-slide-to="4"></li>
+					</ol>
+					<div class="carousel-inner" role="listbox">
+						<div class="carousel-item active">
+							<div class="carousel-caption text_blue">
+								<div class="row align-items-center">
+									<div class="col-md-5">
+										<img class="mx-auto" src="{{assetPath('images/hotels/logo_pinerro.png')}}">
+									</div>
+									<div class="col-md-7">
+										<h4 style="font-size: 19px !important;"><blockquote>"En una semana se multiplicaron por 3 las reservas."</blockquote></h4>
+									</div>
+								</div>
+								<div class="text-left">
+								<p class="font-25 mb-0">TONI MUÑOZ</p>
+								<p>Director de Proyectos IT. Grupo Piñero.</p>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="carousel-caption text_blue">
+								<div class="row align-items-center">
+									<div class="col-md-5">
+										<img class="mx-auto" src="{{assetPath('images/hotels/logo-aquarama-color.jpg')}}"> 
+									</div>
+									<div class="col-md-7">
+										<h4 style="font-size: 19px !important;"><blockquote>"Easygoband nos permite relacionarnos de una forma diferente y mejorada con nuestros clientes."</blockquote></h4>
+									</div>
+								</div>
+								<div class="text-left">
+								<p class="font-25 mb-0">DOLORES SALGADO</p>
+								<p>Directora</p>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="carousel-caption text_blue">
+								<div class="row align-items-center">
+									<div class="col-md-5">
+										<img class="mx-auto" src="{{assetPath('images/hotels/logo-oasis-color.jpg')}}">
+									</div>
+									<div class="col-md-7"> 
+										<h4 style="font-size: 19px !important;"><blockquote>"Son super eficientes y honestos. Su tecnologia cashless es fantastic y el equipo te acompana durante todo el festival."</blockquote></h4>
+									</div>
+								</div>
+								<div class="text-left">
+								<p class="font-25 mb-0">LAIA GORDI</p>
+								<p>Comunicacion Feslloc</p>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="carousel-caption text_blue">
+								<div class="row align-items-center">
+									<div class="col-md-5">
+										<img class="mx-auto" src="{{assetPath('images/hotels/logo-beerman-color.jpg')}}">
+									</div>
+									<div class="col-md-7">
+										<h4 style="font-size: 19px !important;"><blockquote>"La experiencia ha sido muy satisfactoria con un control al maximo y una excelente percepcion de los asistentes"</blockquote></h4>
+									</div>
+								</div>
+								<div class="text-left">
+								<p class="font-25 mb-0">JUAN ZURITA</p>
+								<p>Owner</p>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="carousel-caption text_blue">
+								<div class="row align-items-center">
+									<div class="col-md-5">
+										<img class="mx-auto" src="{{assetPath('images/hotels/logo-aapolo-color.jpg')}}">
+									</div>
+									<div class="col-md-7">
+										<h4 style="font-size: 19px !important;"><blockquote>"Easygoband se ha vuelto indispensable para agilizar, aumentar nuestros ingresos en gran medida y tener un control exhaustivo de nuestro evento."</blockquote></h4>
+									</div>
+								</div>
+								<div class="text-left">
+								<p class="font-25 mb-0">NICOLAS FILIPPINI</p>
+								<p>Gte de planeamiento y Control de Gestion</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<section class="container bg-white pb-16 foot_book">
+	<div class="blog-grid">
+		<h1 class="text_blue text-center py-5">Noticiasque no te puedes perder</h1>
+		<div class="blog-grid_odd-row">
+		{% for post in posts %}
+			{% set category = single_category ? single_category: post.categories[0] %}
+			<article class="blog-entry w-full relative">
+				<a class="relative h-full inline-block" href="{{post.link}}">
+					{% if post.thumbnail.src %}
+						<img class="w-full h-full object-cover" src="{{post.thumbnail.src('large')}}" alt="">
+					{% endif %}
+					<div class="content absolute bottom-0 right-0 bg-white-opacity px-8 py-6">
+						<span class="absolute top-0 right-0 bg-black text-md text-white mr-8 -mt-4 px-2 py-1">{{ category }}</span>
+						<p class="text-xs font-bold text-gray-700">
+							{{ post.date('d/m/Y') }}</p>
+						<h2 class="text-xl md:text-2xl xl:text-3xl mb-2 leading-tight">
+							{{post.title}}
+						</h2>
+					</div>
+				</a>
+			</article>
+		{% endfor %}
+		</div>
+	</div>
+</section>
+
+
+    
+
+    <div class="py-15">
+        <div class="container text_blue">
+            <div class="row my-5 justify-content-center align-items-center" style="border: 9px solid grey;min-height: 301px;">
+                <div class="col-md-7 relative">
+                    <img class="mx-auto img_goguest" src="{{assetPath('images/p_goguest/Goguest-demo-CTA.svg')}}">
+                </div>
+                <div class="col-md-5 text-center">
+                    <h4 class="text_blue mb-5">Comienza a aumentar ingresos y reducir gastos</h4>
+                    <a class="btn_blue">{{ lang == 'en' ? 'Ask For Budget': 'Pedir presupuesto' }}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+ <style>
+		.carousel-item{
+			margin-right:0%;
+		}
+        .slider {
+            animation: slidein 30s linear infinite;
+            white-space: nowrap;
+        }
+        .slider .logos {
+            width: 100%;
+            display: flex;
+            margin: 0px 0;
+        }
+        .slider .logos .fab {
+            width: calc(100% / 7);
+            animation: fade-in 0.5s 
+            cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+        }
+
+        @keyframes slidein {
+            from {
+                transform: translate3d(0, 0, 0);
+            }
+            to {
+                transform: translate3d(-100%, 0, 0);
+            }
+        }
+
+        @keyframes fade-in {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+		@media (min-width: 768px) {
+			/* show 4 items */
+			.carousel-inner .active,
+			.carousel-inner .active + .carousel-item,
+			.carousel-inner .active + .carousel-item + .carousel-item {
+				display: block;
+			}
+
+			.carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+			.carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,
+			.carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item{
+				transition: none;
+			}
+
+			.carousel-inner .carousel-item-next,
+			.carousel-inner .carousel-item-prev {
+				position: relative;
+				transform: translate3d(0, 0, 0);
+			}
+
+			.carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item{
+				position: absolute;
+				top: 0;
+				right: -33.3%;
+				z-index: -1;
+				display: block;
+				visibility: visible;
+			}
+
+			/* left or forward direction */
+			.active.carousel-item-left + .carousel-item-next.carousel-item-left,
+			.carousel-item-next.carousel-item-left + .carousel-item,
+			.carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
+			.carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
+				position: relative;
+				transform: translate3d(-100%, 0, 0);
+				visibility: visible;
+			}
+
+			/* farthest right hidden item must be absolue position for animations */
+			.carousel-inner .carousel-item-prev.carousel-item-right {
+				position: absolute;
+				top: 0;
+				left: 0;
+				z-index: -1;
+				display: block;
+				visibility: visible;
+			}
+
+			/* right or prev direction */
+			.active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+			.carousel-item-prev.carousel-item-right + .carousel-item,
+			.carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
+			.carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item{
+				position: relative;
+				transform: translate3d(100%, 0, 0);
+				visibility: visible;
+				display: block;
+				visibility: visible;
+			}
+			.carousel-control-prev {
+				background-image: linear-gradient(to left, #03c9d500, #1c23b5);
+				width: 6%;
+				left:15px;
+			}
+			.carousel-control-next {
+				right: 15px;
+				background-image: linear-gradient(to right, #03c9d500, #1c23b5);
+				width: 6%;
+			}
+			.case_slider .card {
+				height: 100%;
+			}
+		}
+
+    </style>
+
+<script>
+    jQuery(document).ready(function($){
+
+        //box switch
+        $('.pointer_item').hover(function(){ $(this).parent().find('.pointer_item').removeClass('active_item');
+            $(this).addClass('active_item');
+            var getID = $(this).data('target');
+            $('.content_box').removeClass('active');
+            $("#"+ getID).addClass('active');
+        });
+
+        //video button play
+        $(document).on('click','.js-videoPoster',function(ev) {
+                ev.preventDefault();
+                var $poster = $(this);
+                var $wrapper = $poster.closest('.js-videoWrapper');
+                videoPlay($wrapper);
+        });
+        function videoPlay($wrapper) {
+            var $iframe = $wrapper.find('.js-videoIframe');
+            var src = $iframe.data('src');
+            $wrapper.addClass('videoWrapperActive');
+            $iframe.attr('src',src);
+        }
+
+        //case slider
+		$("#myCarousel").on("slide.bs.carousel", function(e) {
+			var $e = $(e.relatedTarget);
+			var idx = $e.index();
+			var itemsPerSlide = 3;
+			var totalItems = $(".carousel-item").length;
+
+			if (idx >= totalItems - (itemsPerSlide - 1)) {
+			var it = itemsPerSlide - (totalItems - idx);
+			for (var i = 0; i < it; i++) {
+				// append slides to end
+				if (e.direction == "left") {
+				$(".carousel-item")
+					.eq(i)
+					.appendTo(".carousel-inner");
+				} else {
+				$(".carousel-item")
+					.eq(0)
+					.appendTo($(this).find(".carousel-inner"));
+				}
+			}
+			}
+		});
+
+
+		//
+		
+       
+    });
+</script>
+
+{% endblock %}

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="1013px" viewBox="0 0 1440 1013" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>fondo casos exito copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="62.3616435%" y1="14.3339466%" x2="51.9561908%" y2="57.2582944%" id="linearGradient-1">
+            <stop stop-color="#00D7D7" offset="0%"></stop>
+            <stop stop-color="#241DBA" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0.0953846154" y="0.190660225" width="308.950769" height="590.951369"></rect>
+        <rect id="path-4" x="0" y="0.857446809" width="620.714264" height="805.047281"></rect>
+        <rect id="path-6" x="0.86" y="0" width="128.14" height="176.524194"></rect>
+        <rect id="path-8" x="0" y="0" width="389.141809" height="537.619115"></rect>
+    </defs>
+    <g id="Soluciones-Goguest" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Solucion---Goguest-parques" transform="translate(0.000000, -6825.000000)">
+            <g id="fondo-casos-exito-copy" transform="translate(0.000000, 6825.000000)">
+                <rect id="Rectangle" fill="url(#linearGradient-1)" fill-rule="nonzero" x="0" y="0" width="1441" height="1013"></rect>
+                <g id="Group" opacity="0.19" transform="translate(1132.000000, 345.000000)">
+                    <g id="Clipped">
+                        <g id="Path-Clipped">
+                            <mask id="mask-3" fill="white">
+                                <use xlink:href="#path-2"></use>
+                            </mask>
+                            <g id="path-1"></g>
+                            <path d="M350.824615,40.2293076 C298.744615,26.5017713 270.796923,68.1610306 271.56,122.499195 C272.036923,156.055395 291.209231,216.399356 235.6,267.686957 C164.156923,333.464734 5.05538462,300.385185 19.4584615,471.693398 C30.3323077,601.533011 237.221538,595.813205 277.855385,565.688889 C355.593846,508.109501 311.430769,416.687923 361.126154,362.063768 C410.821538,307.439614 458.036923,164.635105 431.996923,114.968116 C405.956923,65.2057971 395.273846,51.9549114 350.824615,40.2293076 Z" id="Path" fill="#000230" fill-rule="nonzero" mask="url(#mask-3)"></path>
+                        </g>
+                    </g>
+                </g>
+                <g id="Group" opacity="0.19" transform="translate(0.000000, 207.000000)">
+                    <g id="Clipped">
+                        <g id="Path-Clipped">
+                            <mask id="mask-5" fill="white">
+                                <use xlink:href="#path-4"></use>
+                            </mask>
+                            <g id="path-3"></g>
+                            <path d="M-31.05,697.390071 C12.2866564,717.873522 53.9088957,742.73948 92.5785276,771.416312 C121.628374,792.947754 149.24954,816.765721 174.870552,842.298582 C191.252761,858.685343 207.063497,876.024823 221.826534,893.74539 C246.780828,923.8513 282.688344,939.380615 318.881595,939.380615 C347.169479,939.380615 375.743098,929.853428 399.173466,910.417967 C452.70138,866.021277 460.130521,786.564539 415.746166,733.021749 C396.030368,709.203783 374.790644,685.957447 352.788957,663.949645 C318.405368,629.651773 281.354908,597.735697 242.39954,568.868322 C190.490798,530.473759 134.676994,497.033333 76.3868098,469.499764 C13.4296012,439.774941 -61.623773,466.736879 -91.3403374,529.711584 C-120.866411,592.591017 -94.0072086,667.665248 -31.05,697.390071 Z" id="Path" fill="#000230" fill-rule="nonzero" mask="url(#mask-5)"></path>
+                        </g>
+                    </g>
+                </g>
+                <g id="Group" opacity="0.3" transform="translate(1312.000000, 0.000000)">
+                    <g id="Clipped">
+                        <g id="Oval-Clipped">
+                            <mask id="mask-7" fill="white">
+                                <use xlink:href="#path-6"></use>
+                            </mask>
+                            <g id="path-5"></g>
+                            <ellipse id="Oval" stroke="#DADAF7" stroke-width="35.7411" opacity="0.33" mask="url(#mask-7)" cx="107.404444" cy="18.8419355" rx="64.3088889" ry="64.0435484"></ellipse>
+                        </g>
+                    </g>
+                </g>
+                <g id="Group" opacity="0.14">
+                    <g id="Clipped">
+                        <g id="Oval-Clipped">
+                            <mask id="mask-9" fill="white">
+                                <use xlink:href="#path-8"></use>
+                            </mask>
+                            <g id="path-7"></g>
+                            <ellipse id="Oval" stroke="#DADAF7" stroke-width="108.8116" opacity="0.33" mask="url(#mask-9)" cx="65.5085575" cy="57.5136283" rx="195.381418" ry="195.108319"></ellipse>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

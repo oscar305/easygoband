@@ -1,0 +1,37 @@
+<label> PMS
+  [select pms include_blank "SIHOT" "OPERA" "MEWS" "QUONEXT" "TMS (SAP)" "TCA INSIST" "OTRO"] </label>
+
+<label> Versión de PMS
+  [text* pms-ver] </label>
+
+<label> Sistema de cerraduras
+  [select lock include_blank "DORMAKABA" "SALTO" "VINGCARD" "TESA" "OMNITEC" "ONITY" "OTRO"] </label>
+
+<label> Versión de software de sistema de cerraduras
+[text lock-ver placeholder "ej. Ambiance 2.4"] </label>
+
+<label> Modelo de cerradura
+[text lock-mod] </label>
+
+
+<label>compañía POS
+[text pos-company]</label>
+
+<label>Versión de software POS
+[text pos-ver]</label>
+
+<label>¿Tienen comanderos móviles?
+[radio pos-command default:1 "NO" "SI"]</label>
+
+[group group-pos]
+<label> Sistema operativo
+  [select pos-os include_blank "Android" "Windows" "iOS"] </label>
+
+<label> Versión sistema operativo
+[text pos-os-ver placeholder "ej. iOS 13"]</label>
+
+<label> Dispositivo
+[text pos-os-device placeholder "ej. Samsung Galaxy Tab Active2"]</label>
+[/group]
+
+[submit "Enviar"]

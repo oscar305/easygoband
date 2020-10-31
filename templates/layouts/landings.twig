@@ -1,0 +1,115 @@
+{% extends "layouts/base.twig" %}
+
+{# Current page data #}
+{% set page = post.get_field('json_data')|json_decode %}
+
+{% block content %}
+	<div class="js-modal hidden absolute w-full h-full bg-black z-50">
+		<div class="relative max-w-5xl bg-white rounded-xl mx-auto mt-20 pb-24 z-10 shadow-xl">
+			<div class="flex justify-end p-4">
+				<a href="#" class="js-form-close inline-block z-50" data-target="menu">
+					<img class="w-8" src="{{assetPath('images/close-black.svg')}}">
+				</a>
+			</div>
+			{{ function('do_shortcode', "[contact-form-7 title='Landing Gosafe']") }}
+		</div>
+	</div>
+</div>
+<section class="simple pt-64 relative">
+	<img class="absolute w-full h-full object-cover top-0 z-10" src="{{page.header_img}}">
+	<div class="relative container flex flex-col flex-col-reverse md:flex-row h-full mx-auto z-30">
+		<div class="w-full md:w-1/3 hidden lg:flex xl:justify-center xl:items-center xl:mb-20">
+			<div class="relative" style="width: 286px;">
+				<div class="absolute top-0">
+					<img class="" src="{{assetPath("images/#{page.img_side}")}}">
+				</div>
+			</div>
+		</div>
+		<div class="w-full items-center lg:w-2/3 px-8 md:px-0 text-white md:pr-32">
+			<h1 class="text-5xl">
+				{{page.title}}
+			</h1>
+			<p class="text-2xl pt-6 pb-16">{{page.subtitle}}</p>
+		</div>
+	</div>
+</section>
+
+<section class="simple">
+	<div class="relative container flex mx-auto z-30">
+		<div class="w-1/3 justify-end pr-16 hidden xl:flex">
+			<div style="width: 286px;"></div>
+		</div>
+		<div class="w-2/3 md:block mt-10">
+			{% if page.details is iterable %}
+				{% for detail in page.details %}
+					<div class="flex">
+						<img class="mr-4" src="{{assetPath("images/tick-icon.svg")}}">
+						<p class="text-3xl text-white">
+							{{detail}}
+						</p>
+					</div>
+				{% endfor %}
+			{% else %}
+				<p class="max-w-4xl font-header text-2xl text-white">
+					{{page.details}}
+				</p>
+			{% endif %}
+			<div class="mt-24">
+				<a href="#" class="js-modal-trigger btn btn-primary mt-24 mr-4">{{page.cta.title}}</a>
+			</div>
+		</div>
+	</div>
+	{% if page.icons %}
+		<div class="container mx-auto">
+			<div class="flex flex-wrap justify-center mt-12">
+				{% for icon in page.icons %}
+					<div class="max-w-xs flex flex-col text-center mx-8 mb-8">
+						<p class="font-header text-xl mb-8 px-8 text-white">{{icon.title}}</p>
+						<img class="h-56 mb-8 text-center" src="{{assetPath("images/#{icon.img}.svg")}}"/>
+						<p class="mb-4 text-white">{{icon.content}}</p>
+					</div>
+				{% endfor %}
+			</div>
+		</div>
+	{% endif %}
+</section>
+
+<section class="bg-white">
+	<div class="container mx-auto pt-16">
+		<h2 class="text-4xl leading-tight xl:px-64 mt-4 text-center">{{page.cards.title}}
+		</h2>
+		<div class="flex flex-wrap justify-center mt-24 mx-auto">
+			{% for card in page.cards.items %}
+				<div class="w-48 h-56 bg-white rounded-xl shadow-2xl p-4 border mr-8 mb-8">
+					<img class="w-24 h-24 mx-auto" src="{{assetPath("images/#{card.img}.svg")}}"/>
+					<h3 class="text-base font-normal font-body font-bold leading-tight text-center text-gray-600 mt-4 normal-case">
+						{{card.title}}</h3>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+</section>
+
+{% if page.accent_section %}
+	<section class="bg-{{page.accent_color}}">
+		<div class="container mx-auto">
+			<div class="flex justify-center">
+				<h2 class="max-w-3xl text-center">
+					{{page.accent_section.title}}
+				</h2>
+			</div>
+			<div class="flex flex-wrap justify-center mt-12">
+				<img class="max-w-xl mr-4 mb-16" src="{{page.accent_section.img}}"/>
+				<div class="max-w-xl ml-4">
+					{% for line in page.accent_section.content %}
+						<p class="font-header text-2xl mb-4">{{line}}</p>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+	</section>
+{% endif %}
+
+<div class="-mt-6 mb-48 text-center">
+	<a href="#" class="js-modal-trigger btn btn-primary mt-24 mr-4">{{page.cta.title}}</a>
+</div>{% endblock %}

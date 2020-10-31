@@ -1,0 +1,130 @@
+$width: 327px;
+
+.card-gradient {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+
+  $border: 1.5px;
+  background: #fff;
+  background-clip: padding-box;
+  border: solid $border transparent;
+  border-radius: 1em;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: -$border;
+    border-radius: inherit;
+    background-image: linear-gradient(
+      -52deg,
+      #fb6a49 0%,
+      #fc3579 29%,
+      #241dba 100%
+    );
+  }
+}
+
+.cards-container {
+  position: relative;
+  justify-content: center;
+  @media (max-width: theme('screens.xl')) {
+    max-width: $width * 2;
+  }
+  @media (min-width: theme('screens.xl')) {
+    width: $width * 2;
+  }
+  overflow: hidden;
+  @media (min-width: theme('screens.md')) {
+    margin: 0 auto;
+  }
+  @media (min-width: theme('screens.lg')) {
+    width: $width * 3;
+  }
+}
+
+.js-cards {
+  &-move {
+    display: flex;
+    $distance: -50%;
+    &.move {
+      @for $i from 1 through 6 {
+        &-#{$i} {
+          transform: translateX($distance * $i);
+        }
+      }
+    }
+    @media (min-width: theme('screens.lg')) {
+      $distance: -33.33333%;
+      &.move {
+        @for $i from 1 through 6 {
+          &-#{$i} {
+            transform: translateX($distance * $i);
+          }
+        }
+      }
+    }
+    &.transition {
+      transition: transform 1.2s ease-in-out;
+    }
+  }
+  &-item {
+    width: $width;
+    min-width: $width;
+  }
+}
+.cards-shadow {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 270px;
+}
+
+.card-sol-container {
+  transform: translateX(100px);
+  .container > div:hover:last-child::after {
+    content: '';
+    display: block;
+    min-height: 200px;
+  }
+}
+.card-sol {
+  width: 166px;
+  min-height: 160px;
+  transform: translate(-50%, -25%);
+  @apply h-full bg-white rounded-xl shadow-2xl p-4 border;
+  transition: width 0.2s ease;
+  overflow: hidden;
+  cursor: default;
+  &:hover {
+    position: absolute;
+    width: 275px;
+    min-height: 300px;
+    z-index: 999;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-color: theme('colors.purple.default');
+    .card-sol-text {
+      display: block;
+    }
+  }
+  &-text {
+    display: none;
+    min-width: 225px;
+    padding: 0 2rem;
+    @apply text-center text-xl text-gray-600 mt-4;
+  }
+}
+.cards-case-container {
+  transform: translateX(70px);
+}

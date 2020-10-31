@@ -1,0 +1,143 @@
+{
+  "title": "Success stories",
+  "video": "Watch vídeo",
+  "services": "Services provided",
+  "companies": [
+    {
+      "name": "Oasis",
+      "img": "/wp-content/uploads/2019/11/casos-de-exito-oasis.jpg",
+      "video": "#{assetPath('videos/oasis.mp4')}"
+    },
+    {
+      "name": "Aapolo",
+      "img": "/wp-content/uploads/2019/11/casos-de-exito-aapolo.jpg",
+      "video": ""
+    },
+    {
+      "name": "Beerman",
+      "img": "/wp-content/uploads/2019/11/casos-de-exito-beerman.jpg",
+      "video": ""
+    },
+    {
+      "name": "Aquarama",
+      "img": "/wp-content/uploads/2019/11/casos-de-exito-aquarama.jpg",
+      "video": ""
+    },
+    {
+      "name": "Rototom",
+      "img": "/wp-content/uploads/2019/11/casos-de-exito-rototom.jpg",
+      "video": ""
+    }
+  ],
+  "cta": "Get in touch with us",
+  "cards": {
+    "title": "Solutions",
+    "items": {
+      "control_de_accesos": {
+        "title": "Access Control",
+        "content": "Get rid of fraud with smart wearable technology, avoid theft and increase security for your business.",
+        "img": "solutions-access-control"
+      },
+      "business_intelligence": {
+        "title": "Business Intelligence",
+        "content": "Collect accurate data about your customers' experience. Improve operations and strategic decision making.",
+        "img": "solutions-business-intelligence"
+      },
+      "pagos_cashless": {
+        "title": "Cashless Payments",
+        "content": "Get rid of cash, the wristband or card becomes an easy to pay with and secure digital wallet.",
+        "img": "solutions-cashless-payments"
+      },
+      "reserva_de_servicios": {
+        "title": "Booking System",
+        "content": "Increase bookings integrating NFC touch screen devices and let customers manage their bookings.",
+        "img": "solutions-bookings"
+      },
+      "webapp_de_gestion": {
+        "title": "Management Webapp",
+        "content": "We bind with hotels apps so that the guests can link their wristband or other wearable to access all the info.",
+        "img": "solutions-webapp"
+      },
+      "llaves_de_staff": {
+        "title": "Staff Key Control",
+        "content": "With this functionality you can control personnel keys.",
+        "img": "solutions-keys-management"
+      },
+      "reporting": {
+        "title": "Traceability",
+        "content": "Get to know your customers' expenditure habits and get a report with all their activity.",
+        "img": "solutions-reporting"
+      },
+      "kiosk_y_tablet": {
+        "title": "Self Kiosk & Tablet App",
+        "content": "Cut down queues and avoid human errors with the booking and product/services acquisition software.",
+        "img": "solutions-self-kiosk"
+      },
+      "encuestas_digitalizadas": {
+        "title": "Digital Review Tool",
+        "content": "Let your customers write reviews quickly and easily and get better insights about your business.",
+        "img": "solutions-questionaries"
+      },
+      "control_de_pulseras": {
+        "title": "Wearable Tracking System",
+        "content": "Get rid of fraud or wearable reselling and improve the effectiveness of your stock control.",
+        "img": "solutions-brazalets"
+      },
+      "gestion_de_toallas": {
+        "title": "Borrow System",
+        "content": "Do away with equipment stealing and get more accurate data on your customers' borrowing such as timings, quantity, etc.",
+        "img": "solutions-towels-management"
+      },
+      "app_validacion": {
+        "title": "Validating APP",
+        "content": "Eradicate fraud with a system to validate tickets and services purchased by your customers.",
+        "img": "solutions-app-validation"
+      },
+      "cortesias": {
+        "title": "Amenities",
+        "content": "Get more loyal customers and enhance their experience by providing amenities when required.",
+        "img": "solutions-presents"
+      },
+      "incentivos_de_consumo": {
+        "title": "Gamification",
+        "content": "Engage your customers by setting a spending goal system that rewards them as they progress.",
+        "img": "solutions-increase-revenue"
+      },
+      "identificacion_de_usuario": {
+        "title": "User ID",
+        "content": "Identify each customer individually so you can enable even more options for improving processes and performance.",
+        "img": "user-identification"
+      },
+      "pos_portatil": {
+        "title": "Take Away POS",
+        "content": "Charge your customers through portable devices in an offline environment without having to integrate the device with the POS.",
+        "img": "pos-portable"
+      },
+      "tokenizacion_tarjeta": {
+        "title": "Payment Tokenization",
+        "content": "Create a frictionless shopping experience environment and ease payments with the most comprehensive tokenization technology.",
+        "img": "token-bank-card"
+      },
+      "recarga_desatendida": {
+        "title": "Totem Touch Payment",
+        "content": "Your customers will be able to top-up their wristbands or other wearables themselves through the totems.",
+        "img": "personal-recharge"
+      },
+      "gestion_entradas": {
+        "title": "Ticketing System",
+        "content": "Issue and manage ticketing services through your own platform without having to outsource.",
+        "img": "tickets-management"
+      },
+      "control_afluencias": {
+        "title": "Crowd Flow Control",
+        "content": "Track crowd capacity in real time, get to know who and when someone enters or exits throughout the site and each zone.",
+        "img": "influx_control"
+      },
+      "recarga_y_devolucion": {
+        "title": "Top-up & Refund Online",
+        "content": "Total top-up flexibility, it can be done from the main sales platform, from the app or an external webpage not linked to the ticketing system.",
+        "img": "recharge_and_return"
+      }
+    }
+  }
+}

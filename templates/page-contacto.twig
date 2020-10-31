@@ -1,0 +1,61 @@
+{% extends "layouts/base.twig" %}
+
+{% set page = post.get_field('json_data')|json_decode %}
+
+{% block head %}
+	<link href='https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.css' rel='stylesheet'/>
+{% endblock %}
+
+{% block content %}
+	<section class="relative gradient-primary simple py-48 lg:py-64">
+		<div class="relative max-w-4xl text-white mx-auto z-10 ">
+			<h1 class="text-center text-white">{{page.title}}</h1>
+		</div>
+		{# <img class="absolute w-full bottom-0" src="{{assetPath('images/contact-header.jpg')}}"> #}
+	</section>
+	<section class="simple">
+		<div class="relative lg:absolute flex flex-col bg-white mx-4 lg:ml-24 px-8 py-16 z-10 -mt-32">
+			<ul class="flex flex-wrap">
+				{% for item in page.contacts %}
+					<li class="mr-8">
+						<a href="#{{item.country}}" class="js-map-trigger {{loop.index0 == 0 ? 'active' : ''}}" data-idx="{{loop.index0}}">{{item.country}}</a>
+					</li>
+				{% endfor %}
+			</ul>
+			{% for item in page.contacts %}
+				<div class="js-map-contact mt-8 lg:mt-16 {{loop.index != 1 ? 'hidden' : ''}}" data-idx="{{loop.index0}}">
+					<p class="font-header text-xl lg:text-5xl leading-tight">{{item.contact}}</p>
+					<p class="max-w-md font-header text-xl lg:text-3xl leading-tight mb-4">{{item.role}}</p>
+					<a href="" class="font-header text-2xl text-gray-500 leading-tight no-underline hover:underline"></a>
+					{# <p class="mt-8 font-header text-xl lg:text-3xl text-gray-500 leading-tight">{{item.address}}</p> #}
+				</div>
+			{% endfor %}
+			<a href="#" class="js-gmap btn btn-primary ml-auto mt-8 lg:mt-16" target="_blank">
+				{{page.map_cta}}</a>
+		</div>
+	</section>
+	<section class="js-map map hidden lg:block">
+		<div id="map-el"></div>
+	</section>
+	<section class="bg-white mt-16 lg:mt-0">
+		<img class="w-full max-w-6xl mx-auto" src="{{assetPath('images/home_img/Map_easygoband.svg')}}"/>
+	</section>
+	<section class="bg-white simple">
+		<h2 id="form" class="text-center">{{page.contact_title}}</h1>
+		<div class="max-w-4xl mx-auto mt-16 px-8 md:px-0">
+			<ul class="md:flex justify-center md:justify-between flex-wrap md:px-6">
+				{% for item in page.forms %}
+					<li class="">
+						<a href="#formChange" class="js-form-trigger text-xl font-header uppercase no-underline hover:text-purple-light {{loop.index == 1 ? 'text-purple-light' : ''}}">{{item.title}}</a>
+					</li>
+				{% endfor %}
+			</ul>
+			{% for form in page.forms %}
+				<div class="js-form-container mx-auto pt-16 pb-32 {{loop.index != 1 ? 'hidden' : ''}}">
+					{{ function('do_shortcode', "[contact-form-7 id='#{form.id}' title='#{form.title}']") }}
+				</div>
+			</div>
+		{% endfor %}
+	</div>
+</section>
+{% endblock %}

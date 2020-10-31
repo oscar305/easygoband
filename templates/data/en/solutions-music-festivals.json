@@ -1,0 +1,41 @@
+{
+  "product": "gofun",
+  "title": "IT Solutions for Leisure and Entertainment Industries",
+  "sector": "Music Festivals",
+  "header_img": "/wp-content/uploads/2020/04/festivales.jpg",
+  "header_card_img": "/wp-content/uploads/2020/04/festivales-mini.jpg",
+  "case_study": {
+    "path": "/casos-de-exito/rototom",
+    "img": "/wp-content/uploads/2019/11/casos-de-exito-rototom.jpg",
+    "logo": "/wp-content/uploads/2020/03/clients-rototom.png",
+    "video": {
+      "src": "IuM8wV5EbBQ",
+      "cta": "Watch video"
+    }
+  },
+  "cards": [
+    "control_de_accesos",
+    "business_intelligence",
+    "pagos_cashless",
+    "reserva_de_servicios",
+    "webapp_de_gestion",
+    "control_afluencias",
+    "reporting",
+    "kiosk_y_tablet",
+    "encuestas_digitalizadas",
+    "recarga_y_devolucion",
+    "app_validacion",
+    "cortesias",
+    "incentivos_de_consumo",
+    "pos_portatil",
+    "tokenizacion_tarjeta",
+    "control_de_pulseras",
+    "gestion_entradas"
+  ],
+  "review": {
+    "logo": "/wp-content/uploads/2020/02/Feslloc.jpg",
+    "name": "Laia Gordi",
+    "role": "Feslloc Communications Department",
+    "content": "The whole team is very efficient and totally honest. Their cashless technology is outstanding and the tech team support you through active monitoring during the entire festival."
+  }
+}

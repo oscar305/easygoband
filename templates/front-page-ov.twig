@@ -1,0 +1,94 @@
+{% extends "layouts/base.twig" %}
+
+{% set page = post.get_field('json_data')|json_decode %}
+
+{% block content %}
+	<section class="header-home relative text-center">
+		<div class="flex justify-center lg:mx-32 xl:mx-64">
+			<div class="video-home">
+				<div class="video-gradient"></div>
+				<video src="{{page.header.video.src}}" preload="preload" poster="{{page.header.video.poster}}" muted="muted" playsinline="" loop="loop" autoplay="autoplay"><source src="{{page.header.video.src}}">
+				</video>
+			</div>
+			<h1 class="js-title absolute max-w-5xl font-header text-white">
+				{% set title = page.header.title %}
+				{{title.fixed[0]}}<br>
+				<span class="js-title-first">{{title.dynamic[0][0]}}</span>
+				<span class="js-title-first hidden">{{title.dynamic[0][1]}}</span>
+				<span class="js-title-first hidden">{{title.dynamic[0][2]}}</span><br>
+				{{title.fixed[1]}}
+				<span class="js-title-second">{{title.dynamic[1][0]}}</span>
+				<span class="js-title-second hidden">{{title.dynamic[1][1]}}</span>
+				<span class="js-title-second hidden">{{title.dynamic[1][2]}}</span><br>
+				{{title.fixed[2][0]}}<br>{{title.fixed[2][1]}}.</h1>
+		</div>
+	</section>
+
+	<div class="h-10 gradient-primary"></div>
+
+	<section class="relative overflow-hidden pb-0 hack-pseudo-index">
+		<div class="container mx-auto lg:px-48">
+			<h3 class="text-purple text-center">{{page.cards.subtitle}}</h3>
+			<h2 class="mt-4 text-center px-8">{{page.cards.title}}
+			</h2>
+		</div>
+		{% include "components/cards.twig" with {cards: page.cards.items} %}
+		<div class="text-center pb-32">
+			{{page.cards[0].title}}
+			{% for btn in page.cards.cta %}
+				<a href="{{btn.link}}" class="btn btn-secondary mx-12 mb-10 inline-block">{{btn.title}}</a>
+			{% endfor %}
+		</div>
+		<img class="js-wave" src="{{assetPath('images/waves.svg')}}">
+	</section>
+
+	<section class="simple py-4 md:py-16 text-center">
+		<h2 class="text-white">
+			{{page.clients.title}}
+		</h2>
+		<div class="container mx-auto">
+			<ul class="js-clients inline-flex flex-wrap md:flex-no-wrap justify-center md:mt-8">
+				<script>
+					var App = App || {};
+App.clients = {{ page.clients.items|json_encode }};
+				</script>
+				<li class="js-clients-item px-2">
+					<img class="p-2 object-contain w-32 md:w-auto">
+				</li>
+			</ul>
+		</div>
+	</section>
+
+	<section class="sector bg-white text-center">
+		<h2 data-text-change="{{page.sectors.title.on_click}}">
+			{{page.sectors.title.default}}
+		</h2>
+		<div class="sector-grid mx-auto mt-32">
+			<div class="sector-grid_odd-row">
+				{% for sector in page.sectors.items.first_row %}
+					{% include "components/sectors.twig" with {row: 1} %}
+				{% endfor %}
+			</div>
+			<div class="sector-grid_even-row">
+				{% for sector in page.sectors.items.second_row %}
+					{% include "components/sectors.twig" with {row: 2} %}
+				{% endfor %}
+			</div>
+		</div>
+	</section>
+
+	<section class="simple text-center bg-white pt-16">
+		<h2 class="max-w-4xl text-black mx-auto">
+			{{page.advantages.title}}
+		</h2>
+		<div class="h-full pt-24 mt-16">
+			{% include "components/advantages.twig" with {advantages: page.advantages.items} %}
+		</div>
+	</section>
+
+	<section class="relative simple flex justify-center items-center bg-white overflow-hidden py-32 gradient-primary">
+		<div class="mx-4">
+			{% include "components/cta.twig" with {cta: page.cta} %}
+		</div>
+	</section>
+{% endblock %}

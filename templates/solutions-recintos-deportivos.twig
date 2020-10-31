@@ -1,0 +1,431 @@
+{% extends "layouts/base.twig" %}
+
+{% set page = post.get_field('json_data')|json_decode %}
+
+{% block content %}
+    <div class="bg_solusion py-22" style="background-image:url({{assetPath('images/festival/bg_head_recintos.svg')}});background-size: cover;">
+        <div class="container">
+            <div class="row my-5 align-items-center">
+                <div class="col-md-12 px-5 py-5 text-center text-white mx-auto" style="max-width: 801px;">
+                    <h1 class="">Recintos Deportivos</h1>
+                    <p class="mb-5 font-25">Gofun es una plataforma con la que podrás gestionar de forma eficiente tus eventos deportivos y con la que podrás procesar transacciones cashless rápidas, otras soluciones contactless y conocer los hábitos de consumo de los clientes.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="py-5" style="box-shadow: 6px 7px 15px -7px #b3b3b3;">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md-3  text-center">
+                    <img class="" src="{{assetPath('images/festival/logo_go_fun.svg')}}">
+                </div>
+                <div class="col-md-9">
+                    <div class="row align-items-center">
+                        <div class="col-md-3 py-3 text-center">
+                            <img class="mx-auto mb-3" style="max-width: 461px;" src="{{assetPath("images/header_icon/icon_festivales.svg")}}">
+                            <a  class="text_blue" href="{{ lang == 'en' ? '/en/solutions/music-festivals': '/soluciones/festivales-de-musica' }}">{{ lang == 'en'? 'Music festivals':'Festivales de música'}}</a>
+                        </div>
+                        <div class="col-md-3 py-3 text-center">
+                            <img class="mx-auto mb-3" style="max-width: 461px;" src="{{assetPath("images/header_icon/Icon_eventos_gastronomicos.svg")}}">
+                            <a  class="text_blue" href="{{ lang == 'en' ? '/en/soluciones/food-and-beverage-festival': '/soluciones/eventos-gastronomicos' }}">{{ lang == 'en'? 'Food & Beverage festival':'Eventos Gastronómicos'}}</a>
+                        </div>
+                        <div class="col-md-3 py-3 text-center">
+                            <img class="mx-auto mb-3" style="max-width: 461px;" src="{{assetPath("images/header_icon/Icon_recintos_deportivos.svg")}}">
+                            <a  class="text_blue" href="{{ lang == 'en' ? '/en/soluciones/sporting-events': '/soluciones/recintos-deportivos' }}">{{ lang == 'en'? 'Sporting Events':'Recintos Deportivos'}}</a>
+                        </div>
+                        <div class="col-md-3 py-3 text-center">
+                            <a class="btn_blue" href="#">{{ lang == 'en' ? 'Ask For Budget': 'Pedir presupuesto' }}</a>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+
+    <div class="py-15">
+        <div class="container">
+            <div class="row  align-items-center justify-content-center">
+                <div class="col-md-6 bg-light-grey p-3">
+                    <img class="mx-auto w-100" style="max-width: 451px;" src="{{assetPath('images/festival/pagos_cashless_festivales_eventos_deportivos.svg')}}">
+                </div>
+                <div class="col-md-6 px-5 py-5 text-center text-md-left">
+                    <h1 class="text_blue">Pagos Cashless</h1>
+                    <p class="font-25">El entorno cashless permite mejorar la seguridad del recinto, reduce el coste cash handling y las posibles pérdidas o robos.</p>
+                    <div class="check_lists  text-left">
+                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Mejora la experiencia de usuario</p>
+                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Aumenta el consumo entre 15-30%</p>
+                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Reduce las colas y tiempos de espera</p>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+
+    <div class="py-5">
+        <div class="container">
+            <div class="row flex-md-row-reverse align-items-center justify-content-center">
+                <div class="col-md-6 bg-light-grey p-3">
+                    <img class="mx-auto w-100" style="max-width: 451px;" src="{{assetPath('images/festival/control_accesos_afluencias_festivales_eventos_deportivos.svg')}}">
+                </div>
+                <div class="col-md-6 px-5 py-5 text-center text-md-left">
+                    <h1 class="text_blue">Control de accesos</h1>
+                    <p class="font-25">Sistema de lectura rápida e intuitiva para el control de aforo y afluencias. Aumenta la seguridad de evento.</p>
+                    <div class="check_lists  text-left">
+                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Control de aforo general y por zonas</p>
+                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Estadísticas de acceso en tiempo real</p>
+                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Gestion del personal en tiempo real</p>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+
+    <div class="py-5">
+        <div class="container">
+            <div class="row  align-items-center justify-content-center">
+                <div class="col-md-6 bg-light-grey p-3">
+                    <img class="mx-auto w-100" style="max-width: 451px;" src="{{assetPath('images/festival/validacion_entradas_festivales_eventos_deportivos.svg')}}">
+                </div>
+                <div class="col-md-6 px-5 py-5 text-center text-md-left">
+                    <h1 class="text_blue">Validación de entradas</h1>
+                    <p class="font-25">La entrada quedará validada con un simple acercamiento del lector NFC al código de la misma.</p>
+                    <div class="check_lists  text-left">
+                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Estadísticas e informes y pulseras nominativas</p>
+                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Posibilidad de integración con ticketeras</p>
+                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Precargas de dinero desde la ticketera</p>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+
+    <div class="py-5">
+        <div class="container">
+            <div class="row flex-md-row-reverse align-items-center justify-content-center">
+                <div class="col-md-6 bg-light-grey p-3">
+                    <img class="mx-auto w-100" style="max-width: 451px;" src="{{assetPath('images/festival/business_intelligence_festivales_eventos_deportivos.svg')}}">
+                </div>
+                <div class="col-md-6 px-5 py-5 text-center text-md-left">
+                    <h1 class="text_blue">Business Intelligence</h1>
+                    <p class="font-25">La actividad de los asistentes y trabajadores queda registrada, podrás reducir costes y aumentar beneficios.</p>
+                    <div class="check_lists  text-left">
+                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Reportes y estadísticas en tiempo real</p>
+                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Control y gestión del staff</p>
+                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Venta cruzada y segmentación de ventas</p>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+
+    <div class="py-15">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md-12 text-center">
+                     <a class="btn_dark_blue" href="#">Pedir presupuesto</a>
+                </div>   
+            </div>
+        </div>
+    </div>
+
+    <div class="py-15" style="background-image: linear-gradient(#241DBA, #C700AB);">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md-12  py-3 text-center text-white mx-650 mx-auto">
+                    <small >CUSTOMER JOURNEY</small><br>
+                    <h1 class="py-3">Experiencia del cliente desde la compra de la entrada hasta el día final del evento</h1>
+                </div>
+                <img class="mx-auto w-100 my-5" src="{{assetPath('images/festival/customer_journey_pagos_cashless_contacless_NFC.svg')}}">
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid px-0">
+        <div class="row mx-0 align-items-center bg-light-grey">
+            <div class="col-md-6 px-0">
+                <img src="{{assetPath('images/festival/left3_tab.svg')}}">
+            </div>
+            <div class="col-md-6 py-5 text-center text-md-left mx-650 w-100">
+                <h1>Podrás contratar nuestros servicios y productos según tus necesidades</h1><br> 
+                <ul class="nav nav-tabs" id="myTab">
+                    <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#tabOne">LICENCIA</a></li>
+                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tabTwo">LLAVE EN MANO</a></li>
+                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tabThree">GOFUN BOX</a></li>
+                </ul>
+                <div class="tab-content pt-3" id="myTabContent">
+                    <div class="tab-pane fade active show" id="tabOne"><p  class="font-25">Configuramos el sistema adaptándolo a tus necesidades y formamos a tu equipo durante los primeros días para que puedas gestionarlo de forma autónoma.</p></div>
+                    <div class="tab-pane fade" id="tabTwo"><p  class="font-25">Nos encargamos de todas las necesidades para llevar a cabo el evento y ofrecemos soporte técnico durante el mismo.</p></div>
+                    <div class="tab-pane fade" id="tabThree"><p  class="font-25">Si tu evento es de pequeño formato, con la formación online y con nuestras tutoriales,  pondrás fácilmente en marcha el sistema. Solo disponible para Pagos NFC.</p></div>
+                </div>    
+            </div>
+        </div>
+    </div>
+
+
+    
+
+    <div class="py-15 ">
+        <div class="container">
+            <div  class="text-center mx-650 mx-auto">
+                <h1 class="text_blue py-5">La solución para eventos y festivales</h1>
+            </div>
+            <div class="row my-5 justify-content-center text_blue">
+                <div class="col-md-4 text-center">
+                    <img class="mx-auto mb-3" style="max-height: 81px;" src="{{assetPath('images/festival/icon_ingresos_extra.svg')}}">
+                    <h4>Ingresos extra</h4>
+                    <p>Los asistentes que no soliciten su saldo sobrante supondrá un ingreso extra para tu evento.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img class="mx-auto mb-3" style="max-height: 81px;" src="{{assetPath('images/festival/icon_aumenta_ticket_medio.svg')}}">
+                    <h4>Aumenta ticket medio</h4>
+                    <p>Disminuye la percepción del gasto por lo que aumenta el ticket medio.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img class="mx-auto mb-3" style="max-height: 81px;" src="{{assetPath('images/festival/icon_mayor_consumo.svg')}}">
+                    <h4>Mayor consumo</h4>
+                    <p>Las colas se reducen de forma importante, lo que supone mayor tiempo de consumo.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img class="mx-auto mb-3" style="max-height: 81px;" src="{{assetPath('images/festival/Icon_sponsor.svg')}}">
+                    <h4>Sponsors</h4>
+                    <p>Optimiza recursos y aporta valor añadido a tus sponsors.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img class="mx-auto mb-3" style="max-height: 81px;" src="{{assetPath('images/festival/Icon_menos_gastos.svg')}}">
+                    <h4>Menos gastos</h4>
+                    <p>Evita recurrir a servicios externos eliminando costes innecesarios.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img class="mx-auto mb-3" style="max-height: 81px;" src="{{assetPath('images/festival/icon_control.svg')}}">
+                    <h4>Control total</h4>
+                    <p>Recaudación directa para el promotor con control total de las ventas.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="">
+        <div class="container-fluid px-0 text_blue">
+            <div class="row  mx-0 bg_grey justify-content-center align-items-center">
+                <div class="col-md-6 px-0">
+                    <div class="videoWrapper videoWrapper169 js-videoWrapper">
+                        <iframe class="videoIframe js-videoIframe" src="" frameborder="0" allowTransparency="true" allowfullscreen data-src="https://www.youtube.com/embed/OSTp6SYQPHw?autoplay=1"></iframe>
+                        <button class="videoPoster js-videoPoster" style="background-image:url({{assetPath('images/festival/video_poster_recintos.svg')}});">Play video</button>
+                    </div>
+                </div>
+                <div class="col-md-6 px-0 py-5 text-center text-md-left mx-650 mx-auto">
+                    <h1 class="text_blue">Aapolo</h1>
+                    <p class="mb-5 font-25">Con el objetivo de mejorar la experiencia de los asistentes y fomentar el consumo, implementaron pagos cashless en todo su recinto deportivo. </p>
+                    <a class="btn_blue" href="#">{{ lang == 'en' ? 'View Case Study': 'Ver caso de éxito' }}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="py-15 bg_blue">
+        <div class="container">
+            <div class="row  justify-content-center align-items-start relative logo_review">
+                <div class="col-md-12" style=" overflow: hidden;">
+                     <div class="slider">
+                        <div class="logos">
+                            <img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0000_Grupo-Pinero.png')}}">
+                            <img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0001_Alannia.png')}}">
+                            <img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0002_karisma.png')}}">
+                            <img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0003_Mundo-imperial.png')}}">
+                            <img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0004_acampada-jove.png')}}">
+                            <img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0005_belive.png')}}">
+                            <img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0006_the-beerman.png')}}">
+                            <img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0007_aquarama.png')}}">
+                            <img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0008_corona.png')}}">
+                            <img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0009_carpe-birrem.png')}}">
+                            <img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0010_aqualandia.png')}}">
+                            <img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0011_MIT.png')}}">
+                            <img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0012_UJI.png')}}">
+                            <img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0013_rototom.png')}}">
+                            <img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0014_aapolo-argentina.png')}}">
+                            <img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0015_OASIS.png')}}">
+                            <img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0016_Melodi-maker.png')}}">
+                            <img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0017_pesf.png')}}">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 absolute" style="bottom: -256px;">
+                    <div id="carousel-example-2" class="carousel slide carousel-fade mb-5" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-2" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-2" data-slide-to="2"></li>
+                            <li data-target="#carousel-example-2" data-slide-to="3"></li>
+                            <li data-target="#carousel-example-2" data-slide-to="4"></li>
+                        </ol>
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                                <div class="carousel-caption text_blue">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-5">
+                                            <img class="mx-auto" src="{{assetPath('images/hotels/logo_pinerro.png')}}">
+                                        </div>
+                                        <div class="col-md-7">
+                                            <h4 style="font-size: 19px !important;"><blockquote>"En una semana se multiplicaron por 3 las reservas."</blockquote></h4>
+                                        </div>
+                                    </div>
+                                    <div class="text-left">
+                                    <p class="font-25 mb-0">TONI MUÑOZ</p>
+                                    <p>Director de Proyectos IT. Grupo Piñero.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="carousel-caption text_blue">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-5">
+                                            <img class="mx-auto" src="{{assetPath('images/hotels/logo-aquarama-color.jpg')}}"> 
+                                        </div>
+                                        <div class="col-md-7">
+                                            <h4 style="font-size: 19px !important;"><blockquote>"Easygoband nos permite relacionarnos de una forma diferente y mejorada con nuestros clientes."</blockquote></h4>
+                                        </div>
+                                    </div>
+                                    <div class="text-left">
+                                    <p class="font-25 mb-0">DOLORES SALGADO</p>
+                                    <p>Directora</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="carousel-caption text_blue">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-5">
+                                            <img class="mx-auto" src="{{assetPath('images/hotels/logo-oasis-color.jpg')}}">
+                                        </div>
+                                        <div class="col-md-7"> 
+                                            <h4 style="font-size: 19px !important;"><blockquote>"Son super eficientes y honestos. Su tecnologia cashless es fantastic y el equipo te acompana durante todo el festival."</blockquote></h4>
+                                        </div>
+                                    </div>
+                                    <div class="text-left">
+                                    <p class="font-25 mb-0">LAIA GORDI</p>
+                                    <p>Comunicacion Feslloc</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="carousel-caption text_blue">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-5">
+                                            <img class="mx-auto" src="{{assetPath('images/hotels/logo-beerman-color.jpg')}}">
+                                        </div>
+                                        <div class="col-md-7">
+                                            <h4 style="font-size: 19px !important;"><blockquote>"La experiencia ha sido muy satisfactoria con un control al maximo y una excelente percepcion de los asistentes"</blockquote></h4>
+                                        </div>
+                                    </div>
+                                    <div class="text-left">
+                                    <p class="font-25 mb-0">JUAN ZURITA</p>
+                                    <p>Owner</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="carousel-caption text_blue">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-5">
+                                            <img class="mx-auto" src="{{assetPath('images/hotels/logo-aapolo-color.jpg')}}">
+                                        </div>
+                                        <div class="col-md-7">
+                                            <h4 style="font-size: 19px !important;"><blockquote>"Easygoband se ha vuelto indispensable para agilizar, aumentar nuestros ingresos en gran medida y tener un control exhaustivo de nuestro evento."</blockquote></h4>
+                                        </div>
+                                    </div>
+                                    <div class="text-left">
+                                    <p class="font-25 mb-0">NICOLAS FILIPPINI</p>
+                                    <p>Gte de planeamiento y Control de Gestion</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .slider {
+            animation: slidein 30s linear infinite;
+            white-space: nowrap;
+        }
+        .slider .logos {
+            width: 100%;
+            display: flex;
+            margin: 0px 0;
+        }
+        .slider .logos .fab {
+            width: calc(100% / 7);
+            animation: fade-in 0.5s 
+            cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+        }
+
+        @keyframes slidein {
+            from {
+                transform: translate3d(0, 0, 0);
+            }
+            to {
+                transform: translate3d(-100%, 0, 0);
+            }
+        }
+
+        @keyframes fade-in {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+
+    <div class="py-15 foot_book">
+        <div class="container text_blue">
+            <div class="row my-5 justify-content-center align-items-center" style="border: 9px solid grey;min-height: 301px;">
+                <div class="col-md-7 relative">
+                    <img class="mx-auto img_goguest" src="{{assetPath('images/festival/go_fun_cta.svg')}}">
+                </div>
+                <div class="col-md-5 text-center">
+                    <h4 class="text_blue mb-5">Comienza a aumentar ingresos y reducir gastos</h4>
+                    <a class="btn_blue">{{ lang == 'en' ? 'Ask For Budget': 'Pedir presupuesto' }}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<script>
+    jQuery(document).ready(function(){
+
+        //box switch
+        jQuery('.pointer_item').hover(function(){ jQuery(this).parent().find('.pointer_item').removeClass('active_item');
+            jQuery(this).addClass('active_item');
+            var getID = jQuery(this).data('target');
+            jQuery('.content_box').removeClass('active');
+            jQuery("#"+ getID).addClass('active');
+        });
+
+        //video button play
+        jQuery(document).on('click','.js-videoPoster',function(ev) {
+                ev.preventDefault();
+                var $poster = jQuery(this);
+                var $wrapper = $poster.closest('.js-videoWrapper');
+                videoPlay($wrapper);
+        });
+        function videoPlay($wrapper) {
+            var $iframe = $wrapper.find('.js-videoIframe');
+            var src = $iframe.data('src');
+            $wrapper.addClass('videoWrapperActive');
+            $iframe.attr('src',src);
+        }
+
+        //logo slider
+       
+    });
+</script>
+{% endblock %}

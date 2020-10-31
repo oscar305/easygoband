@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="94px" viewBox="0 0 52 94" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>impementar_sistemas_parque</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Soluciones-Goguest" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Solucion---Goguest-parques" transform="translate(-1137.000000, -10760.000000)" stroke="#000230" stroke-width="4">
+            <g id="impementar_sistemas_parque" transform="translate(1139.000000, 10762.000000)">
+                <path d="M23.625,2.22399876e-12 L47.25,13.7618992 L23.625,27.3 L-1.16529009e-12,13.7618992 L23.625,2.22399876e-12 Z" id="Combined-Shape-Copy-4" stroke-linejoin="round"></path>
+                <path d="M0,14.1885771 L0,41.3434329 L23.625,55.65 L47.25,41.3434329 L47.25,31.5521748 M47.25,20.3402629 L47.25,13.8402629" id="Shape" stroke-linecap="round" stroke-linejoin="round"></path>
+                <g id="Group-251" transform="translate(17.850000, 69.300000)" stroke-linecap="round">
+                    <polyline id="Path" stroke-linejoin="round" points="0 13.23 6.02859374 19.845 11.907 13.3947963"></polyline>
+                    <line x1="6.05387563" y1="19.613475" x2="5.91363763" y2="0.562275" id="Path-31-Copy-4"></line>
+                </g>
+                <g id="Group-251-Copy" transform="translate(33.600000, 54.600000)" stroke-linecap="round">
+                    <polyline id="Path" stroke-linejoin="round" points="0 13.23 6.02859374 19.845 11.907 13.3947963"></polyline>
+                    <line x1="6.05387563" y1="19.613475" x2="5.91363763" y2="0.562275" id="Path-31-Copy-4"></line>
+                </g>
+                <g id="Group-251-Copy-2" transform="translate(2.100000, 54.600000)" stroke-linecap="round">
+                    <polyline id="Path" stroke-linejoin="round" points="0 13.23 6.02859374 19.845 11.907 13.3947963"></polyline>
+                    <line x1="6.05387563" y1="19.613475" x2="5.91363763" y2="0.562275" id="Path-31-Copy-4"></line>
+                </g>
+                <line x1="24" y1="54.6" x2="24" y2="27.3" id="Path-31-Copy-4"></line>
+            </g>
+        </g>
+    </g>
+</svg>

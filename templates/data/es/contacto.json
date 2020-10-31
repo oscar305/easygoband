@@ -1,0 +1,61 @@
+{
+  "title": "Estamos muy cerca",
+  "contacts": [
+    {
+      "country": "España",
+      "address": "CEEI Castellón",
+      "contact": "Rafael Corral",
+      "role": "Director Comercial"
+    },
+    {
+      "country": "México",
+      "address": "Ciudad de México, CDMX",
+      "contact": "Ramiro Gordillo",
+      "role": "General Manager LATAM"
+    },
+    {
+      "country": "Argentina",
+      "address": "Buenos Aires",
+      "contact": "Daniel Olivera",
+      "role": "Partner Argentina"
+    },
+    {
+      "country": "Ecuador",
+      "address": "Quito",
+      "contact": "Nagib Adum",
+      "role": "Partner Ecuador"
+    },
+    {
+      "country": "Tailandia",
+      "address": "Tailandia, Malasia e Indonesia",
+      "contact": "Har Van Der Veen",
+      "role": "VP de Ventas en Sudeste Asiático"
+    },
+    {
+      "country": "Rep. Dominicana",
+      "address": "Santo Domingo",
+      "contact": "José Miguel Infante",
+      "role": "Partner República Dominicana"
+    },
+    {
+      "country": "Colombia",
+      "address": "Cra. 14 #89-48, Bogotá",
+      "contact": "Augusto Vellojin Spataro",
+      "role": "CSO"
+    }
+  ],
+  "forms": [
+    {
+      "title": "Información general",
+      "id": 316
+    },
+    {
+      "title": "Contratar un producto",
+      "id": 308
+    },
+    {
+      "title": "Ser un partner",
+      "id": 769
+    }
+  ]
+}

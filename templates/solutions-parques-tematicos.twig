@@ -1,0 +1,558 @@
+{% extends "layouts/base.twig" %}
+
+{% set page = post.get_field('json_data')|json_decode %}
+
+{% block content %}
+    <div class="bg_solusion py-22" style="background-image:url({{assetPath('images/parques/bg_header_parques.svg')}});background-size: cover;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-12 px-5 py-5 text-center text-white mx-auto" style="max-width: 801px;">
+                    <h1 class="">Parques temáticos</h1>
+                    <p class="mb-5 font-25 text-white">Goguest es una plataforma integradora que interactúa con tus sistemas de gestión actuales, TPV, tiqueteras, etc. Con el fin de potenciar su rendimiento, sacar el máximo partido al sistema, incrementar ingresos y ofrecer la mejor experiencia al visitante</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="py-5" style="box-shadow: 6px 7px 15px -7px #b3b3b3;">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md-4  text-center">
+                    <img class="" src="{{assetPath('images/hotels/logo_goguest.png')}}">
+                </div>
+                <div class="col-md-8">
+                    <div class="row align-items-center">
+                        <div class="col-md-4 py-3 text-center">
+                            <img class="mx-auto mb-3" style="max-width: 461px;" src="{{assetPath('images/header_icon/icon_hotel.svg')}}">
+                            <a class="text_blue" href="{{ lang == 'en'? '/en/solutions/hotels-and-resorts':'/soluciones/hoteles-y-resorts'}}">{{ lang == 'en'? 'Hotels and resorts':'Hoteles y Resorts'}}</a>
+                        </div>
+                        <div class="col-md-4 py-3 text-center">
+                            <img class="mx-auto mb-3" style="max-width: 461px;" src="{{assetPath('images/header_icon/icon_parques.svg')}}">
+                            <a class="text_blue" href="{{ lang == 'en'? '/en/solutions/theme-and-water-parks':'/soluciones/parques-tematicos'}}">{{ lang == 'en'? 'Theme & Water Parks':'Parques Temáticos'}}</a>
+                        </div>
+                        <div class="col-md-4 py-3 text-center">
+                            <a class="btn_blue" href="#">{{ lang == 'en' ? 'Ask For Budget': 'Pedir presupuesto' }}</a>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+
+    <div class="py-15" style="background-image: linear-gradient(#241DBA, #00D7D7);">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md-12  py-3 text-center text-white mx-650 mx-auto">
+                    <small >CUSTOMER JOURNEY</small><br>
+                    <h1 class="py-3">Experiencia del visitante desde la compra de la entrada hasta el final de la visita</h1>
+                </div>
+                <img class="mx-auto w-100 my-5" src="{{assetPath('images/parques/accesos_pagos_contactless_parques.svg')}}">
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid px-0">
+        <div class="row mx-0 align-items-center bg-light-grey">
+            <div class="col-md-6 px-0">
+                <img src="{{assetPath('images/parques/left_tab.svg')}}">
+            </div>
+            <div class="col-md-6 py-5 text-center text-md-left mx-650 w-100">
+                <h1>Tokeniza y monetiza</h1>
+                <p class="font-25">El visitante podrá vincular su tarjeta bancaria y hacer pagos directos y seguros en el parque.</p>
+                <ul class="nav nav-tabs" id="myTab">
+                    <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#tabOne">TOKENIZACIÓN FÍSICA</a></li>
+                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tabTwo">TOKENIZACIÓN DIGITAL</a></li>
+                </ul>
+                <div class="tab-content pt-3" id="myTabContent">
+                    <div class="tab-pane fade active show" id="tabOne"><p  class="font-25">En taquillas y través de unos dispositivos certificados se captan los datos de la tarjeta del cliente y quedan vinculados a su pulsera.</p></div>
+                    <div class="tab-pane fade" id="tabTwo"><p  class="font-25">Antes o durante su visita, el cliente podrá a través de la app introducir los datos de su tarjeta para vincularla con su pulsera.</p></div>
+                </div>    
+            </div>
+        </div>
+    </div>
+
+    <div class="py-15">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md-12 px-5 py-5 text-center mx-650 mx-auto">
+                    <h1 class="py-3">Todo conectado y bajo control, el visitante, los servicios y el recinto</h1>
+                    <p class="font-25">Con un único dashboard podrás controlar la app del visitante, los accesos y las afluencias.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="py-5">
+        <div class="container">
+            <div class="row  align-items-center justify-content-center">
+                <div class="col-md-6 bg-light-grey p-3">
+                    <img class="mx-auto w-100" style="max-width: 451px;" src="{{assetPath('images/parques/Accesos_afluencias_parques.svg')}}">
+                </div>
+                <div class="col-md-6 px-5 py-5 text-center text-md-left">
+                    <h1 class="text_blue">Accesos y afluencias</h1>
+                    <p class="font-25">Controlarás el acceso de cada visitante a las diferentes áreas dentro del parque y tendrás un control de las afluencias en tiempo real.</p>
+                    <div class="check_lists  text-left">
+                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Habilita accesos según categoría de visitante</p>
+                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Control de afluencias</p>
+                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Apertura de puertas, tornos y lockers</p>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+
+    <div class="py-5">
+        <div class="container">
+            <div class="row flex-md-row-reverse align-items-center justify-content-center">
+                <div class="col-md-6 bg-light-grey p-3">
+                    <img class="mx-auto w-100" style="max-width: 451px;" src="{{assetPath('images/parques/soluciones_cashless_contactless.svg')}}">
+                </div>
+                <div class="col-md-6 px-5 py-5 text-center text-md-left">
+                    <h1 class="text_blue">Soluciones Cashless</h1>
+                    <p class="font-25">Nuestras soluciones cashless para parques aumentan el consumo y mejoran la seguridad</p>
+                    <div class="check_lists  text-left">
+                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Pagos por tokenización de tarjeta bancaria</p>
+                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Pagos por puntos o cortesias</p>
+                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Compra y canje de packs</p>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+
+    <div class="py-5">
+        <div class="container">
+            <div class="row  align-items-center justify-content-center">
+                <div class="col-md-6 bg-light-grey p-3">
+                    <img class="mx-auto w-100" style="max-width: 451px;" src="{{assetPath('images/parques/Tiquetera_parques.svg')}}">
+                </div>
+                <div class="col-md-6 px-5 py-5 text-center text-md-left">
+                    <h1 class="text_blue">Tiquetera</h1>
+                    <p class="font-25">Consigue un control total con un sistema que además se integra con otras plataformas de ticketing</p>
+                    <div class="check_lists  text-left">
+                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> POS venta entradas en taquillas y kioscos</p>
+                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Validación y activación de pulsera</p>
+                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Plataforma venta online marca blanca</p>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+
+    <div class="py-5">
+        <div class="container">
+            <div class="row flex-md-row-reverse align-items-center justify-content-center">
+                <div class="col-md-6 bg-light-grey p-3">
+                    <img class="mx-auto w-100" style="max-width: 451px;" src="{{assetPath('images/parques/business_inteligence_big_data_parques.svg')}}">
+                </div>
+                <div class="col-md-6 px-5 py-5 text-center text-md-left">
+                    <h1 class="text_blue">Business Intelligence</h1>
+                    <p class="font-25">La actividad de los visitantes y trabajadores queda registrada, podrás reducir costes y aumentar beneficios</p>
+                    <div class="check_lists  text-left">
+                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Identificación individual de cada usuario</p>
+                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Generación de reportes y métricas</p>
+                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Hábitos de consumo y perfil de usuario</p>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+
+    
+
+    <div class="py-15">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md-12 text-center">
+                     <a class="btn_dark_blue" href="#">{{ lang == 'en' ? 'Ask For Budget': 'Pedir presupuesto' }}</a>
+                </div>   
+            </div>
+        </div>
+    </div>
+
+    <div class="goguest_app mt-5" style="background-image: linear-gradient(to left, #241DBA, #00D7D7);">
+        <div class="row mx-0 align-items-center">
+            <div class="col-md-6 text-center" style="min-height: 401px;">
+                <div style="overflow: hidden;width: 100%;height: 300px;position: relative;">
+                    <div class="bg_ef"></div>
+                </div>
+                <img src="{{assetPath('images/home_img/goguest-phone-2.svg')}}" class="goguest_app_img">
+            </div>
+            <div class="col-md-6 text-white px-5 py-5 mx-650">
+                <h1>APP del visitante</h1>
+                <p class="font-25">El visitante podrá a través de la app gestionar su visita desde el móvil, antes o durante la visita. Esto le permitirá organizar mejor su dia y no perder el tiempo con colas.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="py-15" style="background-image:url({{assetPath('images/parques/Background_app_parques_cashless_contactless_.svg')}});background-size: cover;">
+         <div class="container text-white">
+            <div  class="text-center mx-650 mx-auto my-5">
+                <h1>La APP más versátil y completa</h1>
+                <p class="font-25">La app del visitante se puede vincular e integrar con otras apps ya existentes que tenga el parque.</p>
+            </div>
+            <div class="row my-5 justify-content-center">
+                <div class="col-md-6 check_lists">
+                    <hr>
+                    <p><img src="{{assetPath('images/home_img/tick_white.png')}}"> Tokenización de tarjeta bancaria </p>
+                    <p><img src="{{assetPath('images/home_img/tick_white.png')}}"> Préstamo material (silla ruedas, carrito…)</p>
+                    <p><img src="{{assetPath('images/home_img/tick_white.png')}}"> Servicio Grab & Go</p>
+                    <p><img src="{{assetPath('images/home_img/tick_white.png')}}"> Reserva de mesa en restaurante</p>
+                    <hr>
+                </div>
+                <div class="col-md-6 check_lists">
+                    <hr>
+                    <p><img src="{{assetPath('images/home_img/tick_white.png')}}"> Consulta de compras y reservas realizadas durante la visita</p>
+                    <p><img src="{{assetPath('images/home_img/tick_white.png')}}"> Actualizar datos y preferencias</p>
+                    <p><img src="{{assetPath('images/home_img/tick_white.png')}}"> Rellenar cuestionarios</p>
+                    <p><img src="{{assetPath('images/home_img/tick_white.png')}}"> Fast-pass</p>
+                    <hr>
+                </div>
+            </div>
+         </div>
+    </div>
+
+    <div class="py-15 bg_blue">
+        <div class="container text-white">
+            <div  class="text-center mx-650 mx-auto">
+                <h1>Plataforma Goguest</h1>
+                <p class="font-25">La plataforma más versátil y escalable que se adapta a tus necesidades y a tu lógica de negocio.</p>
+            </div>
+            <div class="row my-5 justify-content-center">
+                <div class="col-md-4 text-center text-white">
+                    <img class="mx-auto mb-3" style="max-height: 181px;" src="{{assetPath('images/hotels/icon_platforma_goguest_1.svg')}}">
+                    <p class="font-25">Sistema centralizado de comunicación entre todos los servicios y softwares de tu negocio.</p>
+                </div>
+                <div class="col-md-4 text-center text-white">
+                    <img class="mx-auto mb-3" style="max-height: 181px;" src="{{assetPath('images/hotels/icon_platforma_goguest_2.svg')}}">
+                    <p  class="font-25">Con nuestro panel vinculado a tu PMS podrás controlar y gestionar todo tu hotel.</p>
+                </div>
+                <div class="col-md-4 text-center text-white">
+                    <img class="mx-auto mb-3" style="max-height: 181px;" src="{{assetPath('images/hotels/icon_platforma_goguest_3.svg')}}">
+                    <p  class="font-25">Desarrollamos e integramos dentro del sistema cualquier tipo de solución que necesites.</p>
+                </div>
+            </div>
+            <div class="py-5 text-center">
+                <a class="btn_blue">{{ lang == 'en' ? 'Goguest platform': 'Plataforma Goguest' }}</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="py-15 bg_grey">
+        <div class="container text_blue">
+            <h4 class="text-center mx-auto" style="max-width: 801px;">Eficiencia inmejorable mediante la integración y colaboración con los sistemas de gestión</h4>
+            <div class="row my-5 justify-content-center align-items-center">
+                <div class="col-md-3 bg-white text-center" style="border: 7px solid #f2f2f4;">
+                    <img class="mx-auto my-5" style="max-height: 44px;" src="{{assetPath('images/p_goguest/logos_integraciones/Tesa_integracion_easygoband.jpg')}}">
+                </div>
+                <div class="col-md-3 bg-white text-center" style="border: 7px solid #f2f2f4;">
+                    <img class="mx-auto my-5" style="max-height: 44px;" src="{{assetPath('images/p_goguest/logos_integraciones/Salro_integracion_easygoband.jpg')}}">
+                </div>
+                <div class="col-md-3 bg-white text-center" style="border: 7px solid #f2f2f4;">
+                    <img class="mx-auto my-5" style="max-height: 44px;" src="{{assetPath('images/p_goguest/logos_integraciones/QuoPOS_integracion_easygoband.jpg')}}">
+                </div>
+                <div class="col-md-3 bg-white text-center" style="border: 7px solid #f2f2f4;">
+                    <img class="mx-auto my-5" style="max-height: 44px;" src="{{assetPath('images/p_goguest/logos_integraciones/MybusinessPOS_integracion_easygoband.jpg')}}">
+                </div>
+                <div class="col-md-3 bg-white text-center" style="border: 7px solid #f2f2f4;">
+                    <img class="mx-auto my-5" style="max-height: 44px;" src="{{assetPath('images/p_goguest/logos_integraciones/Micros_integracion_easygoband.jpg')}}">
+                </div>
+                <div class="col-md-3 bg-white text-center" style="border: 7px solid #f2f2f4;">
+                    <img class="mx-auto my-5" style="max-height: 44px;" src="{{assetPath('images/p_goguest/logos_integraciones/Assa Abbloy_integracion_easygoband.jpg')}}">
+                </div>
+                <div class="col-md-3 bg-white text-center" style="border: 7px solid #f2f2f4;">
+                    <img class="mx-auto my-5" style="max-height: 44px;" src="{{assetPath('images/p_goguest/logos_integraciones/vingcard_elsafe_integracion_easygoband.jpg')}}">
+                </div>
+                <div class="col-md-3 bg-white text-center" style="border: 7px solid #f2f2f4;">
+                    <img class="mx-auto my-5" style="max-height: 44px;" src="{{assetPath('images/p_goguest/logos_integraciones/Getnet_integracion_easygoband.jpg')}}">
+                </div>
+                <div class="col-md-3 bg-white text-center" style="border: 7px solid #f2f2f4;">
+                    <img class="mx-auto my-5" style="max-height: 44px;" src="{{assetPath('images/p_goguest/logos_integraciones/Visualgest_integracion_easygoband.jpg')}}">
+                </div>
+                <div class="col-md-3 bg-white text-center" style="border: 7px solid #f2f2f4;">
+                    <img class="mx-auto my-5" style="max-height: 44px;" src="{{assetPath('images/p_goguest/logos_integraciones/BDP_integracion_easygoband.jpg')}}">
+                </div>
+                <div class="col-md-3 bg-white text-center" style="border: 7px solid #f2f2f4;">
+                    <img class="mx-auto my-5" style="max-height: 44px;" src="{{assetPath('images/p_goguest/logos_integraciones/Onity_integracion_easygoband.jpg')}}">
+                </div>
+                <div class="col-md-3 bg-white text-center" style="border: 7px solid #f2f2f4;">
+                    <img class="mx-auto my-5" style="max-height: 44px;" src="{{assetPath('images/p_goguest/logos_integraciones/Omnitechit_integracion_easygoband.jpg')}}">
+                </div>
+                <div class="col-md-3 bg-white text-center" style="border: 7px solid #f2f2f4;">
+                    <img class="mx-auto my-5" style="max-height: 44px;" src="{{assetPath('images/p_goguest/logos_integraciones/Paynopain_integracion_easygoband.jpg')}}">
+                </div>
+                <div class="col-md-3 bg-white text-center" style="border: 7px solid #f2f2f4;">
+                    <img class="mx-auto my-5" style="max-height: 44px;" src="{{assetPath('images/p_goguest/logos_integraciones/Softrestarurant_integracion_easygoband.jpg')}}">
+                </div>
+                <div class="col-md-3 bg-white text-center" style="border: 7px solid #f2f2f4;">
+                    <img class="mx-auto my-5" style="max-height: 44px;" src="{{assetPath('images/p_goguest/logos_integraciones/MIT_integracion_easygoband.jpg')}}">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="py-15 ">
+        <div class="container">
+            <div  class="text-center mx-650 mx-auto">
+                <h1 class="text_blue py-5">La solución para hoteles que supera todas las expectativas</h1>
+            </div>
+            <div class="row my-5 justify-content-center text_blue">
+                <div class="col-md-4 text-center">
+                    <img class="mx-auto mb-3" style="max-height: 81px;" src="{{assetPath('images/hotels/la-solucion-1.svg')}}">
+                    <h4>Mejora las operativas</h4>
+                    <p>Los procesos de tu negocio serán más eficientes, mejorarás las operativas y ganarás tiempo.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img class="mx-auto mb-3" style="max-height: 81px;" src="{{assetPath('images/hotels/la-solucion-2.svg')}}">
+                    <h4>Mayor rentabilidad</h4>
+                    <p>Aumentarás ingresos, reducirás los gastos y promoverás el consumo.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img class="mx-auto mb-3" style="max-height: 81px;" src="{{assetPath('images/hotels/la-solucion-3.svg')}}">
+                    <h4>Más seguridad</h4>
+                    <p>Tendrás un control total y mayor seguridad para tus clientes y negocio.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img class="mx-auto mb-3" style="max-height: 81px;" src="{{assetPath('images/hotels/la-solucion-4.svg')}}">
+                    <h4>Todo bajo control</h4>
+                    <p>Conocerás los movimientos de tus clientes y podrás tomar decisiones estratégicas basadas en datos reales.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img class="mx-auto mb-3" style="max-height: 81px;" src="{{assetPath('images/hotels/la-solucion-5.svg')}}">
+                    <h4>Sencillez y agilidad</h4>
+                    <p>Disfrutarás de un sistema sencillo de usar y no necesitarás software adicional para operar tu hotel.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img class="mx-auto mb-3" style="max-height: 81px;" src="{{assetPath('images/hotels/la-solucion-6.svg')}}">
+                    <h4>Flexibilidad</h4>
+                    <p>Podrás implementar nuevos softwares o crear nuevos desarrollos cuando lo necesites.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="">
+        <div class="container-fluid px-0 text_blue">
+            <div class="row  mx-0 bg_grey justify-content-center align-items-center">
+                <div class="col-md-6 px-0">
+                    <div class="videoWrapper videoWrapper169 js-videoWrapper">
+                        <iframe class="videoIframe js-videoIframe" src="" frameborder="0" allowTransparency="true" allowfullscreen data-src="https://www.youtube.com/embed/ce3zbcx5yFw?autoplay=1"></iframe>
+                        <button class="videoPoster js-videoPoster" style="background-image:url({{assetPath('images/parques/parques_video.svg')}});">Play video</button>
+                    </div>
+                </div>
+                <div class="col-md-6 px-0 py-5 text-center text-md-left mx-650 mx-auto">
+                    <h1 class="text_blue">Aquarama</h1>
+                    <p class="font-25 mb-5">Transformacióm digital del recinto completo con el fin de tener mayor control del recinto, reducir el fraude y fomentar el consumo.</p>
+                    <a class="btn_blue" href="#">{{ lang == 'en' ? 'View Case Study': 'Ver caso de éxito' }}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="py-15 bg_blue">
+        <div class="container">
+            <div class="row  justify-content-center align-items-start relative logo_review">
+                <div class="col-md-12" style=" overflow: hidden;">
+                     <div class="slider">
+                        <div class="logos">
+                            <img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0000_Grupo-Pinero.png')}}">
+                            <img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0001_Alannia.png')}}">
+                            <img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0002_karisma.png')}}">
+                            <img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0003_Mundo-imperial.png')}}">
+                            <img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0004_acampada-jove.png')}}">
+                            <img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0005_belive.png')}}">
+                            <img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0006_the-beerman.png')}}">
+                            <img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0007_aquarama.png')}}">
+                            <img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0008_corona.png')}}">
+                            <img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0009_carpe-birrem.png')}}">
+                            <img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0010_aqualandia.png')}}">
+                            <img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0011_MIT.png')}}">
+                            <img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0012_UJI.png')}}">
+                            <img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0013_rototom.png')}}">
+                            <img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0014_aapolo-argentina.png')}}">
+                            <img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0015_OASIS.png')}}">
+                            <img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0016_Melodi-maker.png')}}">
+                            <img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0017_pesf.png')}}">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 absolute" style="bottom: -256px;">
+                    <div id="carousel-example-2" class="carousel slide carousel-fade mb-5" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-2" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-2" data-slide-to="2"></li>
+                            <li data-target="#carousel-example-2" data-slide-to="3"></li>
+                            <li data-target="#carousel-example-2" data-slide-to="4"></li>
+                        </ol>
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                                <div class="carousel-caption text_blue">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-5">
+                                            <img class="mx-auto" src="{{assetPath('images/hotels/logo_pinerro.png')}}">
+                                        </div>
+                                        <div class="col-md-7">
+                                            <h4 style="font-size: 19px !important;"><blockquote>"En una semana se multiplicaron por 3 las reservas."</blockquote></h4>
+                                        </div>
+                                    </div>
+                                    <div class="text-left">
+                                    <p class="font-25 mb-0">TONI MUÑOZ</p>
+                                    <p>Director de Proyectos IT. Grupo Piñero.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="carousel-caption text_blue">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-5">
+                                            <img class="mx-auto" src="{{assetPath('images/hotels/logo-aquarama-color.jpg')}}"> 
+                                        </div>
+                                        <div class="col-md-7">
+                                            <h4 style="font-size: 19px !important;"><blockquote>"Easygoband nos permite relacionarnos de una forma diferente y mejorada con nuestros clientes."</blockquote></h4>
+                                        </div>
+                                    </div>
+                                    <div class="text-left">
+                                    <p class="font-25 mb-0">DOLORES SALGADO</p>
+                                    <p>Directora</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="carousel-caption text_blue">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-5">
+                                            <img class="mx-auto" src="{{assetPath('images/hotels/logo-oasis-color.jpg')}}">
+                                        </div>
+                                        <div class="col-md-7"> 
+                                            <h4 style="font-size: 19px !important;"><blockquote>"Son super eficientes y honestos. Su tecnologia cashless es fantastic y el equipo te acompana durante todo el festival."</blockquote></h4>
+                                        </div>
+                                    </div>
+                                    <div class="text-left">
+                                    <p class="font-25 mb-0">LAIA GORDI</p>
+                                    <p>Comunicacion Feslloc</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="carousel-caption text_blue">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-5">
+                                            <img class="mx-auto" src="{{assetPath('images/hotels/logo-beerman-color.jpg')}}">
+                                        </div>
+                                        <div class="col-md-7">
+                                            <h4 style="font-size: 19px !important;"><blockquote>"La experiencia ha sido muy satisfactoria con un control al maximo y una excelente percepcion de los asistentes"</blockquote></h4>
+                                        </div>
+                                    </div>
+                                    <div class="text-left">
+                                    <p class="font-25 mb-0">JUAN ZURITA</p>
+                                    <p>Owner</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="carousel-caption text_blue">
+                                    <div class="row align-items-center">
+                                        <div class="col-md-5">
+                                            <img class="mx-auto" src="{{assetPath('images/hotels/logo-aapolo-color.jpg')}}">
+                                        </div>
+                                        <div class="col-md-7">
+                                            <h4 style="font-size: 19px !important;"><blockquote>"Easygoband se ha vuelto indispensable para agilizar, aumentar nuestros ingresos en gran medida y tener un control exhaustivo de nuestro evento."</blockquote></h4>
+                                        </div>
+                                    </div>
+                                    <div class="text-left">
+                                    <p class="font-25 mb-0">NICOLAS FILIPPINI</p>
+                                    <p>Gte de planeamiento y Control de Gestion</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .slider {
+            animation: slidein 30s linear infinite;
+            white-space: nowrap;
+        }
+        .slider .logos {
+            width: 100%;
+            display: flex;
+            margin: 0px 0;
+        }
+        .slider .logos .fab {
+            width: calc(100% / 7);
+            animation: fade-in 0.5s 
+            cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+        }
+
+        @keyframes slidein {
+            from {
+                transform: translate3d(0, 0, 0);
+            }
+            to {
+                transform: translate3d(-100%, 0, 0);
+            }
+        }
+
+        @keyframes fade-in {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+
+    <div class="py-15 foot_book">
+        <div class="container text_blue">
+            <div class="row my-5 justify-content-center align-items-center" style="border: 9px solid grey;min-height: 301px;">
+                <div class="col-md-7 relative">
+                    <img class="mx-auto img_goguest" src="{{assetPath('images/p_goguest/Goguest-demo-CTA.svg')}}">
+                </div>
+                <div class="col-md-5 text-center">
+                    <h4 class="text_blue mb-5">Comienza a aumentar ingresos y reducir gastos</h4>
+                    <a class="btn_blue">{{ lang == 'en' ? 'Ask For Budget': 'Pedir presupuesto' }}</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<script>
+    jQuery(document).ready(function(){
+
+        //box switch
+        jQuery('.pointer_item').hover(function(){ jQuery(this).parent().find('.pointer_item').removeClass('active_item');
+            jQuery(this).addClass('active_item');
+            var getID = jQuery(this).data('target');
+            jQuery('.content_box').removeClass('active');
+            jQuery("#"+ getID).addClass('active');
+        });
+
+        //video button play
+        jQuery(document).on('click','.js-videoPoster',function(ev) {
+                ev.preventDefault();
+                var $poster = jQuery(this);
+                var $wrapper = $poster.closest('.js-videoWrapper');
+                videoPlay($wrapper);
+        });
+        function videoPlay($wrapper) {
+            var $iframe = $wrapper.find('.js-videoIframe');
+            var src = $iframe.data('src');
+            $wrapper.addClass('videoWrapperActive');
+            $iframe.attr('src',src);
+        }
+
+        //logo slider
+       
+    });
+</script>
+{% endblock %}

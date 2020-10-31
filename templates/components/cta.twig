@@ -1,0 +1,13 @@
+<div class="cta-container relative flex flex-wrap justify-center md:justify-between md:flex-no-wrap items-center bg-black rounded-xl mx-auto p-8 md:p-24 z-10">
+	<div class="text-center md:text-left mx-auto md:mx-0">
+		<p class="font-header text-4xl leading-snug text-white mr-16">
+			{{cta.title}}</p>
+		{% if cta.subtitle %}
+			<p class="font-header text-3xl leading-snug text-white mt-2">
+				{{cta.subtitle}}</p>
+		{% endif %}
+	</div>
+	<div class="text-right my-16 md:my-0">
+		<a href="/{{lang == 'en' ? 'en/contact' : 'contacto'}}" class="btn small btn-primary">{{cta.btn}}</a>
+	</div>
+</div>

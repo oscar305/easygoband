@@ -1,0 +1,188 @@
+{
+  "product": "goguest",
+  "title": "Soluciones para el sector del turismo",
+  "sector": "Hoteles y Resorts",
+  "header_img": "/wp-content/uploads/2020/04/hoteles-y-resorts.jpg",
+  "header_card_img": "/wp-content/uploads/2020/04/hoteles-y-resorts-mini.jpg",
+  "ticks": {
+    "img": "/wp-content/uploads/2020/06/goguest-ticks.jpg",
+    "title": "Ventajas para tu hotel",
+    "items": [
+      "Los pagos cashless sin contacto crean transacciones seguras, rápidas e higiénicas.",
+      "Los procesos de tu negocio serán más eficientes, mejorarás las operativas y ganarás tiempo.",
+      "Aumentarás ingresos, reducirás los gastos y promoverás el consumo.",
+      "Tendrás un control total y mayor seguridad para tus clientes y negocio.",
+      "Podrás tomar decisiones estratégicas basadas en datos reales."
+    ]
+  },
+  "cards": [
+    "control_de_accesos",
+    "business_intelligence",
+    "pagos_cashless",
+    "reserva_de_servicios",
+    "webapp_de_gestion",
+    "control_afluencias",
+    "reporting",
+    "kiosk_y_tablet",
+    "encuestas_digitalizadas",
+    "recarga_y_devolucion",
+    "gestion_de_toallas",
+    "app_validacion",
+    "cortesias",
+    "incentivos_de_consumo",
+    "pos_portatil",
+    "tokenizacion_tarjeta",
+    "control_de_pulseras"
+  ],
+  "gosafe": {
+    "card": {
+      "img": "guestplussafe.svg",
+      "title": "Gosafe es un plan adicional a Goguest y totalmente compatible",
+      "subtitle": "Gosafe es una solución con la que los huéspedes podrán realizar las gestiones a través de un APP en su móvil. Este sistema ayuda a los hoteles a mantener la higiene, aumentar su eficiencia y crear entornos más seguros."
+    },
+    "body": {
+      "img": "checkin-guy.svg",
+      "title": "Gosafe es un plan pensado para proteger la salud y crear entornos seguros y controlados en el sector turístico.",
+      "subtitle": "Esta solución contacless permite realizar pagos tokenizados, que tus huéspedes puedan realizar el pre-checking, pedidos room service y reserva de servicios desde el móvil entre otras gestiones."
+    }
+  },
+  "extra_cards": {
+    "title": "Funcionalidades Gosafe para los huéspedes",
+    "subtitle": "Los huéspedes podrán acceder a todas las gestiones disponibles mediante una aplicación y desde su propio móvil",
+    "items": [
+      {
+        "title": "Pre check-in  y check-out mediante app",
+        "img": "app-checking"
+      },
+      {
+        "title": "Pagos mediante tokenización",
+        "img": "token-bank-card"
+      },
+      {
+        "title": "Apertura de puertas con el móvil",
+        "img": "mobile-open-door"
+      },
+      {
+        "title": "Pedidos room service mediante app",
+        "img": "mobile-room-service"
+      },
+      {
+        "title": "Encuestas digitales",
+        "img": "digital-survey"
+      },
+      {
+        "title": "Control de accesos mediante código QR",
+        "img": "access-control-qr"
+      }
+    ]
+  },
+  "extra_ticks": {
+    "img": "gosafe-services.svg",
+    "items": [
+      "No necesita asociación a una pulsera",
+      "No precisa de integración con los PMS",
+      "Podrás conocer el aforo en tiempo real",
+      "Tendrás identificados  a tus huéspedes"
+    ],
+    "img_b": "/wp-content/uploads/2020/06/gosafe-services-full.jpg"
+  },
+  "plan_gosafe": {
+    "title": "Plan Gosafe",
+    "subtitle": "Solución contactless",
+    "logo": "gosafe-logo.svg",
+    "options": [
+      "Pagos tokenizados",
+      "Control de accesos QR",
+      "Control de aforo QR",
+      "Pedidos room service",
+      "Reserva de servicios",
+      "Pre check in/checkout",
+      "Identificación usuario",
+      "Cuestionarios digitalizados",
+      "Webapp de gestión ",
+      "Webapp de usuario"
+    ],
+    "cta": "Presupuesto",
+    "path": "/"
+  },
+  "plans": {
+    "title": "Planes Goguest",
+    "payment_cycle": "pago mensual",
+    "payment_room": "por habitación",
+    "no_price": "Consultar",
+    "types": [
+      {
+        "title": "Standard",
+        "subtitle": "Controla los procesos",
+        "limit": 5,
+        "cta": "Añadir al carrito",
+        "path": "/caja/?add-to-cart=189&sector=hotels"
+      },
+      {
+        "title": "Smart",
+        "subtitle": "Ahorra costes",
+        "limit": 10,
+        "cta": "Contáctanos",
+        "path": "/contacto"
+      },
+      {
+        "title": "Expert",
+        "subtitle": "Incrementa ingresos",
+        "limit": 16,
+        "cta": "Contáctanos",
+        "path": "/contacto"
+      }
+    ],
+    "options": [
+      "Panel de gestión",
+      "Control de accesos",
+      "Cortesías",
+      "Reporting",
+      "Gestión de permisos",
+      "POS portátil",
+      "Stock de wearables",
+      "Gestión de toallas",
+      "Encuestas",
+      "App validación categoría huésped",
+      "Apps self-kiosk y tablet",
+      "Plan de incentivos de consumo",
+      "Business intelligence plus",
+      "Reserva de servicios",
+      "Webapp de gestión",
+      "Pago directo (tokenización)"
+    ]
+  },
+  "case_study": {
+    "path": "/casos-de-exito/oasis",
+    "img": "/wp-content/uploads/2019/11/casos-de-exito-oasis.jpg",
+    "logo": "/wp-content/uploads/2020/03/clients-oasis.png",
+    "video": { "src": "vw2AF0S28D4", "cta": "Ver video" }
+  },
+  "integrations": {
+    "title": "Integraciones",
+    "alt": "integración con %s",
+    "items": [
+      "Sihot",
+      "TCASS",
+      "Opera",
+      "Quonext",
+      "Mews",
+      "Bdp",
+      "Dormakaba",
+      "MyBusiness-POS",
+      "Omnitechit",
+      "Onity",
+      "Salto",
+      "Soft-Restaurant",
+      "Tesa",
+      "Assa-Abloy",
+      "VisualGest"
+    ]
+  },
+  "review": {
+    "logo": "/wp-content/uploads/2020/04/logo-bahia-principe-color.jpg",
+    "name": "Toni Muñoz",
+    "role": "CIO",
+    "content": "Con el módulo de reserva de servicios, en un mes se multiplicaron por 3 las reservas."
+  }
+}

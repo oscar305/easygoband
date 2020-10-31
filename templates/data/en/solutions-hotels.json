@@ -1,0 +1,109 @@
+{
+  "product": "goguest",
+  "title": "IT solutions for hospitality industry",
+  "sector": "Hotels & Resorts",
+  "header_img": "/wp-content/uploads/2020/04/hoteles-y-resorts.jpg",
+  "header_card_img": "/wp-content/uploads/2020/04/hoteles-y-resorts-mini.jpg",
+  "cards": [
+    "control_de_accesos",
+    "business_intelligence",
+    "pagos_cashless",
+    "reserva_de_servicios",
+    "webapp_de_gestion",
+    "control_afluencias",
+    "reporting",
+    "kiosk_y_tablet",
+    "encuestas_digitalizadas",
+    "recarga_y_devolucion",
+    "gestion_de_toallas",
+    "app_validacion",
+    "cortesias",
+    "incentivos_de_consumo",
+    "pos_portatil",
+    "tokenizacion_tarjeta",
+    "control_de_pulseras"
+  ],
+  "plans": {
+    "title": "Goguest Plans",
+    "payment_cycle": "Billed Monthly",
+    "payment_room": "per room",
+    "no_price": "Request",
+    "types": [
+      {
+        "title": "Standard",
+        "subtitle": "Process control",
+        "limit": 5,
+        "cta": "Add to cart",
+        "path": "/en/checkout/?add-to-cart=189&sector=hotels"
+      },
+      {
+        "title": "Smart",
+        "subtitle": "Cut costs",
+        "limit": 10,
+        "cta": "Get in touch",
+        "path": "en/contact"
+      },
+      {
+        "title": "Expert",
+        "subtitle": "Incrementa ingresos",
+        "limit": 16,
+        "cta": "Contáctanos",
+        "path": "en/contact"
+      }
+    ],
+    "options": [
+      "Management Tool",
+      "Access Control",
+      "Amenities",
+      "Traceability",
+      "Access Management",
+      "Take Away POS",
+      "Wearable Tracking System",
+      "Borrow System",
+      "Digital reviewing Tool",
+      "Validating App - Guest Cat.",
+      "Self Kiosk & Tablet App",
+      "Gamification",
+      "Business intelligence plus",
+      "Booking System",
+      "Management Webapp",
+      "Payment Tokenization"
+    ]
+  },
+  "case_study": {
+    "path": "/casos-de-exito/oasis",
+    "img": "/wp-content/uploads/2019/11/casos-de-exito-oasis.jpg",
+    "logo": "/wp-content/uploads/2020/03/clients-oasis.png",
+    "video": {
+      "src": "vw2AF0S28D4",
+      "cta": "Ver video"
+    }
+  },
+  "integrations": {
+    "title": "Integrations",
+    "alt": "%s integrations",
+    "items": [
+      "Sihot",
+      "TCASS",
+      "Opera",
+      "Quonext",
+      "Mews",
+      "Bdp",
+      "Dormakaba",
+      "MyBusiness-POS",
+      "Omnitechit",
+      "Onity",
+      "Salto",
+      "Soft-Restaurant",
+      "Tesa",
+      "Assa-Abloy",
+      "VisualGest"
+    ]
+  },
+  "review": {
+    "logo": "/wp-content/uploads/2020/04/logo-bahia-principe-color.jpg",
+    "name": "Toni Muñoz",
+    "role": "CIO",
+    "content": "As a result of implementing the service booking system, the demand increased widely by 30%."
+  }
+}

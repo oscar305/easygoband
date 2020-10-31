@@ -1,0 +1,184 @@
+#customer_details,
+.wpcf7-form {
+  font-family: 'Lato-Bold';
+  input[type='text'],
+  input[type='email'],
+  input[type='tel'],
+  textarea {
+    max-width: 100%;
+    padding: 0 20px;
+    background: #ffffff;
+    box-shadow: 0 -8px 10px 1px rgba(0, 0, 0, 0.02),
+      0 3px 14px 3px rgba(0, 0, 0, 0.02), 0 4px 5px 0 rgba(0, 0, 0, 0.05);
+  }
+  input[type='text'],
+  input[type='email'],
+  input[type='tel'] {
+    height: 77px;
+    margin-top: 7px;
+    transition: all 0.2s;
+  }
+  textarea {
+    margin-top: 7px;
+    padding: 20px 20px;
+    min-height: 100px;
+    transition: all 0.2s;
+  }
+  input[type='text'],
+  input[type='email'],
+  input[type='tel'],
+  textarea {
+    &:focus {
+      border-left: solid 2px #17a2f8;
+    }
+  }
+  label {
+    font-size: 16px;
+    font-family: 'Lato-Bold';
+    margin-top: 10px;
+  }
+  h3 {
+    margin: 20px 0;
+  }
+  select {
+    font-family: 'Lato-Bold';
+    height: 50px;
+  }
+  .select2-selection {
+    height: 50px;
+    > span {
+      height: 50px;
+      line-height: 50px;
+    }
+  }
+  > p {
+    margin-top: 25px;
+    input,
+    select {
+      margin-top: 5px;
+    }
+  }
+}
+
+.woocommerce-page button,
+.woocommerce-page input[type='submit'],
+.woocommerce-page a.button,
+.wpcf7-form input[type='submit'] {
+  font-size: 14px !important;
+  padding: 1rem 2rem !important;
+  letter-spacing: 1px !important;
+  position: relative !important;
+  font-family: 'Gilroy-ExtraBold' !important;
+  color: #fff !important;
+  text-transform: uppercase !important;
+  text-decoration: none !important;
+  box-shadow: theme('colors.purple.lighter') -0.5rem 0.5rem 0 0 !important;
+  transition: all 0.2s !important;
+  white-space: nowrap !important;
+  background-color: theme('colors.purple.default') !important;
+}
+
+@media (min-width: 770px) {
+  tbody .cart_item:first-child .product-quantity {
+    padding-left: 25px !important;
+  }
+}
+
+.woocommerce-order-received .woocommerce-cart-form {
+  display: none !important;
+}
+
+#order_review_heading {
+  margin-top: 50px;
+}
+
+.wpcf7-form {
+  label {
+    display: block;
+  }
+  input[type='file'] {
+    margin-top: 15px;
+  }
+}
+
+span.wpcf7-not-valid-tip[role='alert'] {
+  color: #f56565;
+}
+
+.form-double-col .wpcf7-response-output {
+  position: absolute;
+  text-align: center;
+  bottom: -70px;
+}
+
+.form-team .wpcf7-response-output {
+  position: absolute;
+  text-align: center;
+  bottom: -60px;
+}
+
+.form-double-col {
+  > div:first-child {
+    width: 247px;
+  }
+}
+
+input[type='file'] {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.wpcf7-form-control-wrap.cv,
+.wpcf7-form-control-wrap.imagen {
+  position: relative;
+  height: 77px;
+  margin-top: 7px;
+  width: 100%;
+  padding: 0 20px;
+  background: #ffffff;
+  box-shadow: 0 -8px 10px 1px rgba(0, 0, 0, 0.02),
+    0 3px 14px 3px rgba(0, 0, 0, 0.02), 0 4px 5px 0 rgba(0, 0, 0, 0.05);
+  font-size: 1.25em;
+  font-weight: 700;
+  color: white;
+  display: flex;
+  align-items: center;
+  &::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    margin-right: 16px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-image: url('/wp-content/themes/easygoband/dist/assets/images/upload.svg');
+    background-size: cover;
+  }
+  &::before {
+    position: absolute;
+    left: 0;
+    margin-left: 16px;
+    display: block;
+    font-size: 16px;
+    color: theme('colors.gray.500');
+  }
+}
+.wpcf7-form-control-wrap.cv.es {
+  &::before {
+    content: 'Adjuntar CV';
+  }
+}
+.wpcf7-form-control-wrap.cv.en {
+  &::before {
+    content: 'Upload CV';
+  }
+}
+.wpcf7-form-control-wrap.imagen {
+  &::before {
+    content: 'Adjuntar imagen';
+  }
+}

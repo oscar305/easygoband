@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="143px" height="101px" viewBox="0 0 143 101" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>icon_sistema_sencillo_agil_parques</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Soluciones-Goguest" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Solucion---Goguest-parques" transform="translate(-663.000000, -10750.000000)">
+            <g id="icon_sistema_sencillo_agil_parques" transform="translate(665.000000, 10752.000000)">
+                <circle id="Oval" stroke="#000230" stroke-width="4" cx="15" cy="75" r="15"></circle>
+                <circle id="Oval-Copy-10" stroke="#000230" stroke-width="4" cx="124" cy="75" r="15"></circle>
+                <path d="M83.161464,5.58545363 C79.6431588,2.13074488 74.8204105,0 69.5,0 C58.7304474,0 50,8.73044738 50,19.5 C50,30.2695526 58.7304474,39 69.5,39 C80.2695526,39 89,30.2695526 89,19.5" id="Path" stroke="#000230" stroke-width="4" stroke-linecap="round"></path>
+                <polyline id="Path-35" stroke="#000230" stroke-width="2.94" stroke-linecap="round" stroke-linejoin="round" points="12 70 8 74.2251934 12 78"></polyline>
+                <polyline id="Path-35-Copy-4" stroke="#000230" stroke-width="2.94" stroke-linecap="round" stroke-linejoin="round" points="121 70 117 74.2251934 121 78"></polyline>
+                <polyline id="Path-35-Copy-2" stroke="#000230" stroke-width="2.94" stroke-linecap="round" stroke-linejoin="round" points="67 15 63 19.2251934 67 23"></polyline>
+                <polyline id="Path-35-Copy" stroke="#000230" stroke-width="2.94" stroke-linecap="round" stroke-linejoin="round" transform="translate(20.000000, 74.000000) scale(-1, 1) translate(-20.000000, -74.000000) " points="22 70 18 74.2251934 22 78"></polyline>
+                <polyline id="Path-35-Copy-5" stroke="#000230" stroke-width="2.94" stroke-linecap="round" stroke-linejoin="round" transform="translate(129.000000, 74.000000) scale(-1, 1) translate(-129.000000, -74.000000) " points="131 70 127 74.2251934 131 78"></polyline>
+                <polyline id="Path-35-Copy-3" stroke="#000230" stroke-width="2.94" stroke-linecap="round" stroke-linejoin="round" transform="translate(75.000000, 19.000000) scale(-1, 1) translate(-75.000000, -19.000000) " points="77 15 73 19.2251934 77 23"></polyline>
+                <line x1="68.9" y1="38.2133333" x2="68.8" y2="70" id="Path-38" stroke="#000230" stroke-width="4"></line>
+                <line x1="109.007371" y1="74" x2="30.4942435" y2="74.2225864" id="Path-40" stroke="#000230" stroke-width="4" stroke-linecap="round"></line>
+                <g id="Fill-120-+-Fill-121-Copy" transform="translate(47.000000, 60.000000)" fill="#000230">
+                    <path d="M43.659,23.6495346 L43.659,3.63915956 C43.659,1.63266469 42.0272449,0.0009095625 40.02075,0.0009095625 L3.63825,0.0009095625 C1.63175512,0.0009095625 0,1.63266469 0,3.63915956 L0,23.6495346 L43.659,23.6495346 Z" id="Fill-120"></path>
+                    <path d="M0,25.4686596 L0,27.2877846 C0,29.2942794 1.63175512,30.9260346 3.63825,30.9260346 L20.010375,30.9260346 L20.010375,34.5642846 L12.733875,34.5642846 L12.733875,38.2025346 L30.925125,38.2025346 L30.925125,34.5642846 L23.648625,34.5642846 L23.648625,30.9260346 L40.02075,30.9260346 C42.0272449,30.9260346 43.659,29.2942794 43.659,27.2877846 L43.659,25.4686596 L0,25.4686596 Z" id="Fill-121"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

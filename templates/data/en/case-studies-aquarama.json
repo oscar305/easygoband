@@ -1,0 +1,42 @@
+{
+  "title": "Aquarama Water Park",
+  "video": {
+    "img": "/wp-content/uploads/2019/11/casos-de-exito-aquarama.jpg",
+    "src": "ce3zbcx5yFw"
+  },
+  "info": [
+    {
+      "icon": "place",
+      "text": "Spain"
+    },
+    {
+      "icon": "attendees",
+      "text": "2.000 people per day"
+    },
+    {
+      "icon": "goal",
+      "text": "Full digital transformation"
+    }
+  ],
+  "what": {
+    "title": "What is Aquarama?",
+    "content": "Aquarama is a water park based in Benicasim (Castellón). This water park has been able to provide recreational appeal in the leisure business for 33 years. It owns 17 different attractions, including the 30 meter tall water slide which actually is the tallest in the world, but also is the one with the narrower degree slope in Europe."
+  },
+  "goal": {
+    "title": "The main objectives",
+    "content": "This water park requested to have better control over the entire park, reduce fraud as much as possible and boost guest spending and engagement. Since 2017 Aquarama has initiated the implementation of the complete digital transformation of their business with cashless payments and ticket validation system which has been very successful to date."
+  },
+  "cards": [
+    "gestion_entradas",
+    "app_validacion",
+    "pagos_cashless",
+    "business_intelligence"
+  ],
+  "cta": "Ready to start the digital transformation of your water park? Go digital and get full control over your park!",
+  "review": {
+    "logo": "/wp-content/uploads/2020/01/logo-aquarama-color.jpg",
+    "name": "Dolores Salgado",
+    "role": "Director",
+    "content": "Easygoband enables us to get different and enhanced communications with our guests at the water park."
+  }
+}

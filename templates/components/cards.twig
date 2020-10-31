@@ -1,0 +1,20 @@
+<div class="px-8 pt-16 pb-24">
+	<div class="flex flex-wrap cards-container -mx-8 z-10">
+		{% for card in cards %}
+			<div class="js-cards-item relative p-8">
+				<div class="h-full relative z-10 rounded-xl border-2 border-transparent pt-12 pb-4 px-2">
+					<div class="card-gradient"></div>
+					<div class="relative z-10">
+						<h3 class="text-center px-4">
+							{{card.title}}</h3>
+						<img class="mx-auto mt-6" src="{{assetPath("images/#{card.img}.svg")}}"/>
+						<p class="text-xl text-center text-gray-600 py-8 px-6">{{card.content}}</p>
+					</div>
+				</div>
+				<div class="cards-shadow z-0">
+					<img class="object-contain" src="{{assetPath('images/card-shadow.svg')}}"/>
+				</div>
+			</div>
+		{% endfor %}
+	</div>
+</div>

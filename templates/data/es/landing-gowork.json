@@ -1,0 +1,31 @@
+{
+  "title": "Refuerza y protege la salud de tus empleados y la seguridad de tu negocio",
+  "header_img": "/wp-content/uploads/2020/02/landing-header.jpg",
+  "logo": "gowork-logo.svg",
+  "plan": {
+    "details": "Gowork previene, rastrea y responde a riesgos y brotes que puedan aparecer en ámbito laboral."
+  },
+  "accent_color": "red",
+  "details": "Frente a la reciente pandemia de SARS-COV-2 se ha vuelto imprescindible adoptar nuevas y reforzadas medidas preventivas. Toda empresa debe poder garantizar la seguridad y la salud de las personas que trabajan a su servicio.",
+  "cta": {
+    "title": "Solicita más información",
+    "link": "/"
+  },
+  "icons": [
+    {
+      "title": "Registro de entrada y control de salud",
+      "img": "gowork-access-health",
+      "content": "Sistema de registro de entrada, medición de temperatura y control de síntomas para los trabajadores."
+    },
+    {
+      "title": "Control de accesos y de equipos de protección",
+      "img": "gowork-access-protection",
+      "content": "Verificación y control de requisitos para acceder a determinadas áreas y comprobar que los EPIs están puestos y bien colocados."
+    },
+    {
+      "title": "Control de parámetros del entorno laboral",
+      "img": "gowork-params",
+      "content": "Controla los límites de riesgo exigidos mediante parámetros del entorno como la calidad del aire, umbral de sonido, temperaturas, etc. "
+    }
+  ]
+}

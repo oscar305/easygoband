@@ -1,0 +1,29 @@
+<header class="header {{theme != 'light' ? 'white_header' : 'light_header'}}">
+	<div class="header_top bg_blue py-3">
+		<div class="container">
+			<ul class="mb-0 d-flex align-items-center justify-content-end">
+				<li class="mb-0"><a class="py-1 px-3 text-white" href="{{ lang == 'en' ? '/en/nosotros': '/nosotros' }}">{{lang == 'en' ? 'Nosotros' : 'Nosotros'}}</a></li>
+				<li class="mb-0"><a class="py-1 px-3 text-white" href="{{ lang == 'en' ? '/en/news': '/noticias' }}">{{lang == 'en' ? 'News' : 'Noticias'}}</a></li>
+				<li class="mb-0"><a class="py-1 px-3 text-white" href="{{ lang == 'en' ? '/en/faq': '/faqs' }}">{{lang == 'en' ? 'FAQ' : 'FAQs'}}</a></li>
+				<li class="mb-0"><a class="py-1 px-3 text-white" href="{{ lang == 'en' ? '/en/contact': '/contacto' }}">{{lang == 'en' ? 'Contact' : 'Contacto'}}</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="header_main bg-white py-4 relative">
+		<div class="container">
+			<div class="row d-flex align-items-center justify-content-between">
+				<nav class="navbar navbar-light navbar-expand-lg d-flex align-items-center">
+					<a class="logo" href="{{base_path}}">
+						{% set logoType = theme == 'light' ? '-white' : '-dark' %}
+						{% set logoType = theme == 'white' ? '-white' : logoType %}
+						<img src="{{assetPath("images/home_img/logo#{logoType}.svg")}}" alt="Easygoband"/>
+					</a>
+					<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					{% include 'components/main_menu.twig' %}
+				</nav>
+			</div>
+		</div>
+	</div>
+</header>

@@ -1,0 +1,42 @@
+{
+  "title": "Parque acuático Aquarama",
+  "video": {
+    "img": "/wp-content/uploads/2019/11/casos-de-exito-aquarama.jpg",
+    "src": "ce3zbcx5yFw"
+  },
+  "info": [
+    {
+      "icon": "place",
+      "text": "España"
+    },
+    {
+      "icon": "attendees",
+      "text": "2.000 personas al día"
+    },
+    {
+      "icon": "goal",
+      "text": "Transformacióm digital del recinto completo"
+    }
+  ],
+  "what": {
+    "title": "¿Qué es Aquarama?",
+    "content": "A sus 33 años de antigüedad, cuenta con 17 atracciones, entre ellas el décimo de tobogán de agua más alto del mundo con 30 metros de altura y es, a su vez, el más inclinado de Europa."
+  },
+  "goal": {
+    "title": "Objetivo",
+    "content": "Tener un mayor control, reducir el fraude y fomentar el consumo, desde 2017 han implementado el sistema de pagos cashless y la validación de entradas, manteniendo estas soluciones a día de hoy tras los buenos resultados obtenidos."
+  },
+  "cards": [
+    "gestion_entradas",
+    "app_validacion",
+    "pagos_cashless",
+    "business_intelligence"
+  ],
+  "cta": "¿Quieres comenzar la transformación digital de tu parque temático?",
+  "review": {
+    "logo": "/wp-content/uploads/2020/01/logo-aquarama-color.jpg",
+    "name": "Dolores Salgado",
+    "role": "Directora",
+    "content": "Easygoband nos permite relacionarnos de una forma diferente y mejorada con nuestros clientes"
+  }
+}

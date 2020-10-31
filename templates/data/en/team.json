@@ -1,0 +1,144 @@
+{
+  "title": "We are changing the way people enjoy",
+  "img": "/wp-content/uploads/2020/03/foto-grupo-equipo-easygoband.jpg",
+  "careers": "Are you a passionate tech talent? We look forward to hearing from you!",
+  "team": [
+    {
+      "name": "Christian Bongardt",
+      "role": "CTO",
+      "linkedin": "https://www.linkedin.com/in/christianbongardt/",
+      "content": "He is a tech enthusiast with real passion for innovation and growth. He makes sure all our tech projects run smoothly and brings all the pieces together. From concept to creation Christian plays a vital role in every product we launch.",
+      "image": "https://www.easygoband.com/wp-content/uploads/2019/11/equipo_15.jpg"
+    },
+    {
+      "name": "Lara Corral",
+      "role": "Administrative Manager",
+      "content": "She loves mothering her daughter, Flamenco dancing and when possible goes on a friends trip.<br><br>Lara oversees office operations, is in charge of invoicing, transaction of aids and subventions as well as coordinates business trips.",
+      "linkedin": "https://www.linkedin.com/in/lara-corral-47a0ba24/",
+      "image": "{{assetPath('images/team/equipo_7.jpg')}}"
+    },
+    {
+      "name": "Nagib Adum",
+      "role": "Ecuador Partner",
+      "content": "Entrepreneur and arts advocate with 10+ years Ecuadorian market experience. Nagim is a professional Business Administrator with extensive experience and always willing to take on new challenges.",
+      "linkedin": "",
+      "image": "/wp-content/uploads/2019/12/equipo_21.jpg"
+    },
+    {
+      "name": "Rafa Corral",
+      "role": "CSO",
+      "content": "He enjoys sports and spends time with family and friends<br><br>Rafa is in charge of the entire sales cycle, building and strengthening partnerships as well as client management.",
+      "linkedin": "https://www.linkedin.com/in/rafael-corral-gomez-0930901b/",
+      "image": "/wp-content/uploads/2019/11/equipo_2.jpg"
+    },
+    {
+      "name": "Cristina Edo",
+      "role": "Event Sales Manager",
+      "content": "She lives and breathes music as well as enjoys capturing trip memories.<br><br> Cristina is the events business development manager, provides operational support and manages teams at festivals and events.",
+      "linkedin": "https://www.linkedin.com/in/cristina-edo/",
+      "image": "/wp-content/uploads/2019/11/equipo_11.jpg",
+      "class": "img-to-top"
+    },
+    {
+      "name": "Hector Fernández",
+      "role": "Backend Developer",
+      "content": "He loves audiovisuals, is eager to learn from other cultures and likes making plans for rich and authentic experiences.<br><br>Hector is primarly a backend developer.",
+      "linkedin": "",
+      "image": "/wp-content/uploads/2020/01/equipo_24.jpg"
+    },
+    {
+      "name": "Alejandro Gálvez",
+      "role": "Android Developer",
+      "content": "He is a coffee fan, likes painting pocket figures and listening to podcasts.<br><br>Alejando is responsible for app development as well as training while providing support to big events.",
+      "linkedin": "https://www.linkedin.com/in/alejandro-g%C3%A1lvez-marco-499562139/",
+      "image": "/wp-content/uploads/2019/11/equipo_13.jpg"
+    },
+    {
+      "name": "Benjamín Garcés",
+      "role": "CEO",
+      "content": "He loves basketball and spending time with family and friends<br><br>Benjamin is the CEO and is in charge of managing and making strategic decisions in addition to pinpoint annual objectives and briefs the team with the results.",
+      "linkedin": "https://www.linkedin.com/in/bgarces/",
+      "image": "/wp-content/uploads/2019/11/equipo_12.jpg"
+    },
+    {
+      "name": "Ramiro Gordillo",
+      "role": "Country Manager & LATAM Delegate",
+      "content": "He is a musicophile and piano instructor who enjoys spending time with his family.Ramiro manages and grows South American client portfolio as well as collaborations with potential partners.",
+      "linkedin": "https://www.linkedin.com/in/ramiro-gordillo-82357910/",
+      "image": "/wp-content/uploads/2019/11/equipo_19.jpg"
+    },
+    {
+      "name": "Marina Granell",
+      "role": "Frontend Developer & UI/UX Designer",
+      "content": "She is one of our lovely veggies, always surrounded by cactus and enjoys cosplaying in her spare time.<br> <br> Among her main duties stands out interface design, user experience, as well as frontend development.",
+      "linkedin": "https://www.linkedin.com/in/magradi/",
+      "image": "/wp-content/uploads/2019/11/equipo_5.jpg"
+    },
+    {
+      "name": "Silvia Juarez",
+      "role": "Design Manager",
+      "content": "She is a hybrid designer (product and digital)<br><br>Silvia has passion for travelling the world and anime, as well as working on DIY projects whenever she gets some spare time.",
+      "linkedin": "https://www.linkedin.com/in/juarezsilvia/",
+      "image": "/wp-content/uploads/2019/12/equipo_22.jpg"
+    },
+    {
+      "name": "María Martínez",
+      "role": "Backend Developer",
+      "content": "She is one of our lovely veggies and always carries with her a bag full of nuts, a big fan of crossfit and adores Rosco, her little doggy.<br><br> Maria's main duties are Backend and Android Development.",
+      "linkedin": "https://www.linkedin.com/in/maria-martinez-rodriguez-ab7a26a7/",
+      "image": "/wp-content/uploads/2019/11/equipo_6.jpg"
+    },
+    {
+      "name": "Alan Moradi",
+      "role": "Balearic Islands Commercial Delegate",
+      "content": "He's got a keen interest in photography, travelling and sci-fi films. br><br>Alan's major tasks are new sales channels management, business development management, and keep up to date with the full product portfolio.",
+      "linkedin": "https://www.linkedin.com/in/alanmoradi/",
+      "image": "/wp-content/uploads/2019/11/equipo_14.jpg"
+    },
+    {
+      "name": "Elena Moreno",
+      "role": "Marketing & Community Manager",
+      "content": "She fully embraces new technologies and has particular interest in how they are shaping social paradigm, beach and photography are other her hobbies<br><br>Elena's tasks are to optimize resources in order to get best results and market development.",
+      "linkedin": "https://www.linkedin.com/in/elena-moreno-73ab5720/",
+      "image": "/wp-content/uploads/2019/11/equipo_18.jpg"
+    },
+    {
+      "name": "Iván Muñoz",
+      "role": "Event Sales Manager",
+      "content": "He is a fan of extreme sports, loves cooking and is forever in love with music<.br><br>Iván has various duties, a few of them are event project management, client liaison and provides advice to them when needed.",
+      "linkedin": "https://www.linkedin.com/in/ivan-mu%C3%B1oz-lopez-a975b5107/",
+      "image": "/wp-content/uploads/2019/11/equipo_8.jpg",
+      "class": "img-to-top"
+    },
+    {
+      "name": "Daniel Olivera",
+      "role": "Argentina partner",
+      "content": "He's got passion for windsurf, tennis and high-altitude trekking.<br><br>Daniel is our main partner in charge of event management as well as set-up our solutions for leisure and hospitality industries.",
+      "linkedin": "https://www.linkedin.com/in/daniel-olivera-a67a545/",
+      "image": "/wp-content/uploads/2019/11/equipo_10.jpg",
+      "class": "img-to-top"
+    },
+    {
+      "name": "Miguel Salas",
+      "role": "Lead Developer",
+      "content": "He is an Apple enthusiast and premiere movies lover. When outside you'll probably find him looking at surrounding dogs.<br><br>Miguel's main responsibilities are project management, development team management as well as back end development.",
+      "linkedin": "https://www.linkedin.com/in/msalegre/",
+      "image": "/wp-content/uploads/2019/11/equipo_4.jpg",
+      "class": "img-to-top"
+    },
+    {
+      "name": "Sergio Tena",
+      "role": "COO",
+      "content": "He loves travelling and playing some sports.<br><br>Sergio is the head of operations department and is in charge of helping other departments achieve their objectives, as well as provide the company with needful insights for decision making.",
+      "linkedin": "https://www.linkedin.com/in/sergiotena78/",
+      "image": "/wp-content/uploads/2019/11/equipo_1.jpg"
+    },
+    {
+      "name": "Alberto Vallez",
+      "role": "Junior Developer",
+      "content": "He loves trail running and sport fishing.<br><br>He is the one behind the development of self-service totems for music festivals and hotels, helping customers pay or top-up their virtual wallets.",
+      "linkedin": "https://www.linkedin.com/in/magradi/",
+      "image": "/wp-content/uploads/2019/12/equipo_23.jpg"
+    }
+  ]
+}

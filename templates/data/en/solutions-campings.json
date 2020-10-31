@@ -1,0 +1,94 @@
+{
+  "product": "goguest",
+  "title": "IT solutions for hospitality industry",
+  "sector": "Campsites",
+  "header_img": "/wp-content/uploads/2020/04/Campings.jpg",
+  "header_card_img": "/wp-content/uploads/2020/04/Campings-mini.jpg",
+  "cards": [
+    "control_de_accesos",
+    "business_intelligence",
+    "pagos_cashless",
+    "reserva_de_servicios",
+    "webapp_de_gestion",
+    "control_afluencias",
+    "reporting",
+    "kiosk_y_tablet",
+    "encuestas_digitalizadas",
+    "recarga_y_devolucion",
+    "gestion_de_toallas",
+    "app_validacion",
+    "cortesias",
+    "incentivos_de_consumo",
+    "pos_portatil",
+    "tokenizacion_tarjeta",
+    "control_de_pulseras"
+  ],
+  "plans": {
+    "title": "Planes Goguest",
+    "payment_cycle": "Billed Monthly",
+    "payment_room": "Per parcel",
+    "no_price": "Request",
+    "types": [
+      {
+        "title": "Standard",
+        "subtitle": "Process control",
+        "limit": 5,
+        "cta": "Add to cart",
+        "path": "/caja/?add-to-cart=189&sector=campings"
+      },
+      {
+        "title": "Smart",
+        "subtitle": "Cut costs",
+        "limit": 8,
+        "cta": "Get in touch",
+        "path": "en/contact"
+      }
+    ],
+    "options": [
+      "Management Tool",
+      "Access Control",
+      "Amenities",
+      "Traceability",
+      "Take Away POS",
+      "Digital reviewing Tool",
+      "Booking System",
+      "Payment Tokenization"
+    ]
+  },
+  "integrations": {
+    "title": "Integrations",
+    "alt": "%s integrations",
+    "items": [
+      "Sihot",
+      "TCASS",
+      "Opera",
+      "Quonext",
+      "Mews",
+      "Bdp",
+      "Dormakaba",
+      "MyBusiness-POS",
+      "Omnitechit",
+      "Onity",
+      "Salto",
+      "Soft-Restaurant",
+      "Tesa",
+      "Assa-Abloy",
+      "VisualGest"
+    ]
+  },
+  "case_study": {
+    "path": "/casos-de-exito/oasis",
+    "img": "/wp-content/uploads/2019/11/casos-de-exito-oasis.jpg",
+    "logo": "/wp-content/uploads/2020/03/clients-oasis.png",
+    "video": {
+      "src": "vw2AF0S28D4",
+      "cta": "Watch video"
+    }
+  },
+  "review": {
+    "logo": "/wp-content/uploads/2020/02/alannia-resorts.jpg",
+    "name": "Diego Gil",
+    "role": "Corporate IT",
+    "content": "Hassle free integration with full and steady support to be coupled with a great job from the technical team. They provided a turnkey solution with 100% success rate."
+  }
+}

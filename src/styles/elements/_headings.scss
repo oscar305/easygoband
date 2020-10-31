@@ -1,0 +1,54 @@
+/* ==========================================================================
+   #HEADINGS
+   ========================================================================== */
+
+/**
+ * Simple default styles for headings 1 through 6. Anything more opinionated
+ * than simple font-size changes should likely be applied via classes (see:
+ * http://csswizardry.com/2016/02/managing-typography-on-large-apps/).
+ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Gilroy-ExtraBold';
+}
+
+h1,
+.h1 {
+  // font-size: 2.25rem;
+  font-size: calc(1.5rem + 2vw);
+  line-height: 1.3;
+}
+
+h2,
+.h2 {
+  // font-size: calc(1rem + 2vw);
+  // line-height: 1.3;
+  font-size: 38px;
+  letter-spacing: 0.14px;
+  line-height: 51px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.125rem;
+}
+
+h6 {
+  font-size: 1rem;
+}

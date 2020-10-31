@@ -1,0 +1,76 @@
+$color: white;
+
+.burger {
+  width: 40px;
+  height: 30px;
+  position: absolute;
+  margin: 1rem;
+  margin-top: 0;
+  top: 0;
+  right: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  overflow: hidden;
+
+  &_trigger {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70px;
+    height: 50px;
+    appearance: none;
+    z-index: 999;
+    outline: none;
+    cursor: pointer;
+
+    body.menu-open & {
+      & ~ span {
+        &.top {
+          transform: rotate(45deg);
+          transform-origin: top left;
+          left: 5px;
+          width: 95%;
+        }
+        &.middle {
+          margin-left: -100%;
+        }
+        &.bottom {
+          transform: rotate(-45deg);
+          transform-origin: bottom left;
+          left: 5px;
+          bottom: 1px;
+          width: 95%;
+        }
+      }
+    }
+  }
+
+  span {
+    background: $color;
+    height: 3px;
+    width: 100%;
+    display: inline-block;
+    position: absolute;
+    transition: 0.25s ease-in-out;
+
+    &.top {
+      top: 0%;
+    }
+    &.middle {
+      top: 40%;
+      transform: translateY(-50%);
+      width: 70%;
+    }
+    &.bottom {
+      bottom: 20%;
+    }
+  }
+
+  &:hover {
+    span {
+      &.middle {
+        width: 100%;
+      }
+    }
+  }
+}

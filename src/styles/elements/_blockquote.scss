@@ -1,0 +1,38 @@
+/* ==========================================================================
+   #BLOCKQUOTES
+   ========================================================================== */
+
+blockquote {
+  position: relative;
+  p:first-child {
+    font-size: 25px;
+    @media (min-width: theme('screens.lg')) {
+      margin-left: 50px;
+    }
+    &:before,
+    &:after {
+      content: ',,';
+      font-family: 'Lato';
+      position: absolute;
+      font-weight: 700;
+      font-size: 120px;
+      color: #a5a7bf;
+      letter-spacing: -5px;
+      @media (max-width: theme('screens.lg')) {
+        display: none;
+      }
+    }
+    &:before {
+      top: 10px;
+      left: 0;
+      line-height: 100px;
+      margin-left: -10px;
+      transform: rotate(180deg);
+    }
+    &:after {
+      bottom: 60px;
+      line-height: 0;
+      padding-left: 10px;
+    }
+  }
+}

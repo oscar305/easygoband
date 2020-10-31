@@ -1,0 +1,44 @@
+{
+  "title": "Oasis Hoteles",
+  "video": {
+    "title": "Oasis",
+    "img": "/wp-content/uploads/2019/11/casos-de-exito-oasis.jpg",
+    "src": "vw2AF0S28D4"
+  },
+  "info": [
+    {
+      "icon": "place",
+      "text": "México"
+    },
+    {
+      "icon": "attendees",
+      "text": "348 habitaciones"
+    },
+    {
+      "icon": "goal",
+      "text": "Transformacióm digital del recinto completo"
+    }
+  ],
+  "what": {
+    "title": "¿Qué es Oasis?",
+    "content": "Oasis Hotels & Resorts es una cadena hotelera de lujo que cuenta con cuatro complejos divididos en 9 hoteles en el Caribe Mexicano, ubicados en Cancún."
+  },
+  "goal": {
+    "title": "Objetivo",
+    "content": "Para mejorar las operativas, los procesos, aumentar la seguridad y mejorar la experiencia de usuario, en 2017 se sumaron a la tecnología RFID/NFC de la mano de easygoband, consiguiendo mayor control en los procesos y los objetivos que tenían marcados."
+  },
+  "cards": [
+    "control_de_accesos",
+    "pagos_cashless",
+    "reserva_de_servicios",
+    "identificacion_de_usuario",
+    "tokenizacion_tarjeta"
+  ],
+  "cta": "¿Tienes un hotel y quieres implementar nuestra tecnología en tu sistema?",
+  "review": {
+    "logo": "/wp-content/uploads/2020/01/logo-oasis-color.jpg",
+    "name": "Noelia Llaneza",
+    "role": "Directora de Auditoría",
+    "content": " Gran producto, se valora la agilidad y rapidez, además de aportar comodidad y seguridad a los huéspedes."
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Un APP con el que el huésped podrá realizar las gestiones desde su propio móvil",
+  "subtitle": "Solución contactless pensada para agilizar procesos, proteger la salud y crear entornos seguros y controlados en el sector turístico.",
+  "header_img": "/wp-content/uploads/2020/02/landing-header.jpg",
+  "img_side": "landing-gosafe-side.svg",
+  "accent_color": "green",
+  "details": [
+    "No necesita asociación a una pulsera",
+    "No precisa de integración con los PMS",
+    "Podrás conocer el aforo en tiempo real",
+    "Tendrás indentificados a tus huéspedes"
+  ],
+  "cta": {
+    "title": "Solicita más información",
+    "link": "/"
+  },
+  "cards": {
+    "title": "Los huéspedes podrán acceder a todas las gestiones disponibles mediante una aplicación y desde su propio móvil",
+    "items": [
+      {
+        "title": "Pre-checking  y checkout mediante app",
+        "img": "app-checking"
+      },
+      {
+        "title": "Pagos mediante tokenización",
+        "img": "token-bank-card"
+      },
+      {
+        "title": "Apertura de puertas con el móvil",
+        "img": "mobile-open-door"
+      },
+      {
+        "title": "Pedidos room service mediante app",
+        "img": "mobile-room-service"
+      },
+      {
+        "title": "Encuestas digitales",
+        "img": "digital-survey"
+      },
+      {
+        "title": "Control de accesos mediante código QR",
+        "img": "access-control-qr"
+      }
+    ]
+  },
+  "accent_section": {
+    "title": "Ventajas de nuestra solución Gosafe para hoteles",
+    "img": "/wp-content/uploads/2020/05/gosafe-accent-section.jpg",
+    "content": [
+      "Los huéspedes percibirán que tu hotel es un entorno seguro.",
+      "Controlarás la forma de interacción con tus huéspedes.",
+      "Facilitarás gestiones que tienen que realizar los clientes.",
+      "Agilizarás procesos como el checking/checkout, room service…"
+    ]
+  }
+}

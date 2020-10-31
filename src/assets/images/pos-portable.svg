@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="58px" height="119px" viewBox="0 0 58 119" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>POS portatil de productos</title>
+    <desc>Created with Sketch.</desc>
+    <g id="STYLE-GUIDES-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iconos-DESPLEGADOS" transform="translate(-268.000000, -2737.000000)">
+            <g id="Group-41" transform="translate(140.000000, 2599.000000)">
+                <g id="POS-portatil-de-productos" transform="translate(128.000000, 138.000000)">
+                    <g id="Group-35">
+                        <path d="M3,22.5 L54.75,22.5 C56.4068542,22.5 57.75,23.8431458 57.75,25.5 L57.75,116 C57.75,117.656854 56.4068542,119 54.75,119 L3,119 C1.34314575,119 2.02906125e-16,117.656854 0,116 L0,25.5 C-2.02906125e-16,23.8431458 1.34314575,22.5 3,22.5 Z" id="Rectangle" fill="#DDDEEE"></path>
+                        <rect id="Rectangle-Copy-2" fill="#EEEFF7" x="5.25" y="64.5" width="47.25" height="49"></rect>
+                        <g id="Group-21" transform="translate(8.250000, 68.250000)" fill="#DDDEEE">
+                            <rect id="Rectangle" x="0" y="0" width="11.25" height="11.25" rx="2.25"></rect>
+                            <rect id="Rectangle-Copy-11" x="0" y="28.5" width="11.25" height="11.25" rx="2.25"></rect>
+                            <rect id="Rectangle-Copy-7" x="0" y="14.25" width="11.25" height="11.25" rx="2.25"></rect>
+                            <rect id="Rectangle-Copy-3" x="15" y="0" width="11.25" height="11.25" rx="2.25"></rect>
+                            <rect id="Rectangle-Copy-17" x="15" y="28.5" width="11.25" height="11.25" rx="2.25"></rect>
+                            <rect id="Rectangle-Copy-8" x="15" y="14.25" width="11.25" height="11.25" rx="2.25"></rect>
+                            <rect id="Rectangle-Copy-4" x="30" y="0" width="11.25" height="11.25" rx="2.25"></rect>
+                            <rect id="Rectangle-Copy-19" x="30" y="28.5" width="11.25" height="11.25" rx="2.25"></rect>
+                            <rect id="Rectangle-Copy-10" x="30" y="14.25" width="11.25" height="11.25" rx="2.25"></rect>
+                        </g>
+                        <path d="M6,33.75 L51.75,33.75" id="Line-9" stroke="#A5A7BF" stroke-width="3" stroke-linecap="square"></path>
+                        <rect id="Rectangle" fill="#EEEFF7" x="7.5" y="0" width="43.5" height="33"></rect>
+                        <path d="M13.5,7.5 L45,7.5" id="Line-10" stroke="#DDDEEE" stroke-width="0.75" stroke-linecap="square"></path>
+                        <path d="M13.5,12 L45,12" id="Line-10-Copy" stroke="#DDDEEE" stroke-width="0.75" stroke-linecap="square"></path>
+                        <path d="M13.5,16.5 L45,16.5" id="Line-10-Copy-2" stroke="#DDDEEE" stroke-width="0.75" stroke-linecap="square"></path>
+                        <path d="M13.5,21 L45,21" id="Line-10-Copy-3" stroke="#DDDEEE" stroke-width="0.75" stroke-linecap="square"></path>
+                    </g>
+                    <path d="M26.8151755,54.6640066 C26.4615334,54.9151243 26.400718,55.3768616 26.67936,55.6955253 C26.958165,56.0141891 27.4707749,56.0691719 27.824254,55.8179064 C27.8969715,55.7663231 29.6209973,54.5686735 31.0918159,55.8029783 C31.2488271,55.9348188 31.4482298,56 31.6473063,56 C31.8656221,56 32.0832856,55.9213687 32.2438838,55.7660275 C32.5508954,55.4692386 32.5324714,55.0043974 32.2029598,54.7280054 C30.2174117,53.061524 27.8103952,53.9575071 26.8151755,54.6640066 M36.7226986,50.6223272 C32.8627983,47.5673822 29.1230613,47.729818 26.6650121,48.4038007 C24.0364191,49.1249327 22.3282086,50.5547811 22.2567953,50.6153805 C21.9287511,50.8932505 21.9129358,51.3580917 22.2212518,51.6536982 C22.5295677,51.9491568 23.0456015,51.9634937 23.3736458,51.6856237 C23.3883197,51.6730604 24.8718558,50.4313654 27.1397958,49.8091138 C30.1384985,48.9868845 33.0002443,49.6314544 35.6467722,51.725974 C35.8016638,51.8485028 35.9934034,51.9086587 36.1844908,51.9086587 C36.4107957,51.9086587 36.6361223,51.8241153 36.7972096,51.6588713 C37.0944386,51.354101 37.0610146,50.8899989 36.7226986,50.6223272 M34.4117149,52.6271303 C34.742857,52.9018965 34.7642158,53.366442 34.4594868,53.6650045 C34.2987256,53.822415 34.0794316,53.9020809 33.8593224,53.9020809 C33.6620393,53.9020809 33.464104,53.8379343 33.3074189,53.7080153 C29.6871931,50.705836 25.7989232,53.5566648 25.6350641,53.6793415 C25.2899002,53.9384405 24.775986,53.897499 24.4875614,53.5869644 C24.1991368,53.2765777 24.2429956,52.8149882 24.5868551,52.5542633 C26.3457723,51.2201913 30.6628475,49.5186805 34.4117149,52.6271303" id="wifi" fill="#241DBA" transform="translate(29.500000, 52.000000) rotate(-90.000000) translate(-29.500000, -52.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

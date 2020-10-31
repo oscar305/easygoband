@@ -1,0 +1,37 @@
+{
+  "title": "Championship Aapolo Argentina",
+  "video": {
+    "img": "/wp-content/uploads/2019/11/casos-de-exito-aapolo.jpg",
+    "src": "OSTp6SYQPHw"
+  },
+  "info": [
+    {
+      "icon": "place",
+      "text": "Buenos Aires, Argentina"
+    },
+    {
+      "icon": "attendees",
+      "text": "30.000 spectators"
+    },
+    {
+      "icon": "goal",
+      "text": "Entire sporting event digital transformation"
+    }
+  ],
+  "what": {
+    "title": "What is Aapolo?",
+    "content": "This sporting event is also known as \"El Abierto\" this championship is the most important international inter-club competition and the fifth oldest in the world with more than 125 years."
+  },
+  "goal": {
+    "title": "The main objectives",
+    "content": "The AAP competition moved towards digital transformation implementing cashless payments for 6 weekends in a row in order to create the best guest experiences and increase customer spending at the site. It notably reflected in the numbers with a higher revenue compared to past editions."
+  },
+  "cards": ["pagos_cashless", "recarga_y_devolucion", "business_intelligence"],
+  "cta": "Ready to go digital? Implement cashless payments and provide better guest experiences in you sporting event! ",
+  "review": {
+    "logo": "/wp-content/uploads/2020/01/logo-aapolo-color.jpg",
+    "name": "Nicolas Filippini",
+    "role": "Planning and Management Control Executive",
+    "content": "Easygoband has become our essential one stop solution for agile processing, increasing our revenue and maintaining total control over our event."
+  }
+}

@@ -1,0 +1,211 @@
+{% set sectors = {
+    es: ['Hoteles y Resorts', 'Parques Temáticos', 'Festivales de Música', 'Campings', 'Recintos Deportivos', 'Eventos Gastronómicos'],
+    en: ['Hotels & Resorts', 'Theme & Water Parks', 'Music Festivals', 'Campsites', 'Sporting Events', 'Food & Beverage Festival']
+  }
+%}
+{% set countries = {
+    es: ['España', 'México', 'Argentina', 'Ecuador', 'Tailandia', 'Rep. Dominicana', 'Colombia'],
+    en: ['Spain', 'México', 'Argentina', 'Ecuador', 'Thailand', 'Dominican Republic', 'Colombia']
+  }
+%}
+{% set contact = {
+    es: {
+      title: 'Contacta con nosotros',
+      subtitle: 'Rellena <a class="js-close-nav" href="/contacto/#form">nuestro formulario</a> o ponte en contacto mediante email para hablar sobre tu proyecto.'
+    },
+    en: {
+      title: 'Contact with us',
+      subtitle: 'Fill up <a class="js-close-nav" href="/en/contact/#form">our form</a> or drop us an email to speak about your project'
+    }
+  }
+%}
+{% set buttons = {
+  es:
+    [
+      {
+        "icon": "icon-hotels.svg",
+        "title": "Hoteles y Resorts",
+        "path": "/soluciones/hoteles-y-resorts"
+      },
+      {
+        "icon": "icon-parks.svg",
+        "title": "Parques Temáticos",
+        "path": "/soluciones/parques-tematicos"
+      },
+      {
+        "icon": "icon-campings.svg",
+        "title": "Campings",
+        "path": "/soluciones/campings"
+      },
+      {
+        "icon": "icon-music-festival.svg",
+        "title": "Festivales de Música",
+        "path": "/soluciones/festivales-de-musica"
+      },
+      {
+        "icon": "icon-food-event.svg",
+        "title": "Eventos Gastronómicos",
+        "path": "/soluciones/eventos-gastronomicos"
+      },
+      {
+        "icon": "icon-sport-event.svg",
+        "title": "Recintos Deportivos",
+        "path": "/soluciones/recintos-deportivos"
+      }
+    ],
+  en:
+    [
+      {
+        "icon": "icon-hotels.svg",
+        "title": "Hotels & Resorts",
+        "path": "/solutions/hotels-and-resorts"
+      },
+      {
+        "icon": "icon-parks.svg",
+        "title": "Theme & Water Parks",
+        "path": "/solutions/theme-and-water-parks"
+      },
+      {
+        "icon": "icon-campings.svg",
+        "title": "Campsites",
+        "path": "/solutions/campsites"
+      },
+      {
+        "icon": "icon-music-festival.svg",
+        "title": "Music Festivals",
+        "path": "/solutions/music-festivals"
+      },
+      {
+        "icon": "icon-food-event.svg",
+        "title": "Food & Beverage festival",
+        "path": "/soluciones/food-and-beverage-festival"
+      },
+      {
+        "icon": "icon-sport-event.svg",
+        "title": "Sporting Events",
+        "path": "/soluciones/sporting-events"
+      }
+    ],
+  }
+%}
+
+{% if main_nav and not no_nav %}
+	<div class="flex ml-auto -mt-2 mr-8 md:mr-24">
+		<nav class="main-nav js-main-nav w-full flex xl:h-16">
+			<ul class="list-reset hidden md:flex md:flex-grow md:ml-auto">
+				{% for item in main_nav.items %}
+					{% set isSolution = item.title|lower == 'soluciones' or item.title|lower == 'solutions' %}
+					<li class="xl:flex relative mr-8 items-center {{isSolution ? 'trigger-mega-menu' : 'z-10'}}">
+						{% if isSolution %}
+							<p class="font-header text-lg uppercase no-underline {{theme != 'light' ? 'text-white' : ''}}">
+								{{item.title}}
+							</p>
+							<div class="hidden absolute top-0 right-0 flex">
+								<div class="mega-menu rounded bg-white flex">
+									{% for btn in buttons[lang] %}
+										{% if loop.index == 1 or loop.index == 4 %}
+											<ul>
+											{% endif %}
+											<li class="mega-menu-item mb-0">
+												<a href="{{btn.path}}" class="flex items-center justify-start h-full no-underline hover:underline">
+													<div class="flex items-center">
+														<img class="h-8 mx-auto" src="{{assetPath("images/#{btn.icon}")}}">
+														<p class="text-center text-xl text-black mb-0">
+															{{btn.title}}</p>
+													</div>
+												</a>
+											</li>
+											{% if loop.index == 3 or loop.index == 6 %}
+											</ul>
+										{% endif %}
+									{% endfor %}
+								</div>
+							</div>
+						{% else %}
+							<a href="{{item.link}}" class="font-header text-lg uppercase no-underline {{theme != 'light' ? 'text-white' : ''}}">
+								{{item.title}}
+							</a>
+						{% endif %}
+					</li>
+				{% endfor %}
+			</ul>
+			<a href="#burger" class="js-menu inline-block z-50 ml-auto mt-3" data-target="menu">
+				<img class="w-12" src="{{assetPath("images/burger#{theme == 'light' ? '-black' : ''}.svg")}}">
+			</a>
+			<div class="hidden md:flex mt-4 ml-8">
+				<a href="{{lang != 'es' ? '/' : '#'}}" class="mr-2 text-lg uppercase no-underline {{theme != 'light' ? 'text-white' : ''}} {{lang == 'es' ? 'opacity-50' : ''}}">ES</a>
+				<a href="{{lang != 'en' ? '/en' : '#'}}" class="text-lg uppercase no-underline {{theme != 'light' ? 'text-white' : ''}} {{lang == 'en' ? 'opacity-50' : ''}}">EN</a>
+			</div>
+		</nav>
+		<div class="burger-menu p-8 md:p-0">
+			<div class="flex md:px-24 mr-2 md:pt-10">
+				<a href="{{base_path}}" class="relative z-50">
+					<img class="h-24 -mt-6" src="{{assetPath('images/icono.svg')}}">
+				</a>
+				<a href="#burger" class="js-menu-close inline-block z-50 ml-auto mr-4 md:mr-24 pr-2" data-target="menu">
+					<img class="w-8" src="{{assetPath('images/close.svg')}}">
+				</a>
+			</div>
+			<nav class="flex flex-wrap pt-24 max-w-5xl mx-auto">
+				<div class="mx-auto md:mr-24">
+					<ul class="w-full list-reset text-center md:text-left">
+						{% for item in sec_nav.items %}
+							<li class="xl:flex relative mr-8 items-center">
+								<a href="{{item.link}}" class="font-header text-5xl text-white no-underline hover:underline {{item.title|lower == 'soluciones' ? 'js-sol-burger hidden' : ''}}">
+									{{item.title}}
+								</a>
+							</li>
+						{% endfor %}
+						<li>
+							<div class="hidden js-sol-burger md:flex mt-6">
+								<a href="{{lang != 'es' ? '/' : '#'}}" class="text-3xl mr-4 text-lg uppercase no-underline {{theme != 'light' ? 'text-white' : ''}} {{lang == 'es' ? 'opacity-50' : ''}}">ES</a>
+								<a href="{{lang != 'en' ? '/en' : '#'}}" class="text-3xl text-lg uppercase no-underline {{theme != 'light' ? 'text-white' : ''}} {{lang == 'en' ? 'opacity-50' : ''}}">EN</a>
+							</div>
+						</li>
+					</ul>
+					<div class="hidden md:block mt-16">
+						<h3 class="font-header text-xl text-white">{{lang == 'en' ? 'Follow us' : 'Síguenos'}}</h3>
+						<div class="flex mt-4">
+							<a class="mr-6" href="https://www.facebook.com/easygoband" target="_blank">
+								<img src="{{assetPath('images/sn-facebook-white.svg')}}"/>
+							</a>
+							<a class="mr-6" href="https://www.instagram.com/easygoband/" target="_blank">
+								<img src="{{assetPath('images/sn-instagram-white.svg')}}"/>
+							</a>
+							<a href="https://www.linkedin.com/company/11270892/" target="_blank">
+								<img src="{{assetPath('images/sn-linkedin-white.svg')}}"/>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="flex-1 mt-4 mr-8 hidden md:block">
+					<h3 class="font-header text-xl text-white">
+						{{lang == 'en' ? 'Solutions' : 'Soluciones'}}</h3>
+					<ul class="list-reset list-column-two">
+						{% for item in sectors[lang] %}
+							<li class="xl:flex relative mr-8 items-center mt-2">
+								<a href="/soluciones/{{item|lower|replace({' ': '-', 'á': 'a', 'ó': 'o', 'ú': 'u', '&': 'and'})}}" class="text-xl text-white no-underline hover:underline">
+									{{item}}
+								</a>
+							</li>
+						{% endfor %}
+					</ul>
+					<div>
+						<div class="flex flex-wrap text-white mt-16">
+							<h3 class="font-header text-xl">{{contact[lang].title}}</h3>
+							<p class="text-xl">{{contact[lang].subtitle}}</p>
+						</div>
+						<ul class="flex flex-wrap justify-center mx-auto text-center">
+							{% for country in countries[lang] %}
+								<li class="w-1/2 text-white pt-12 {{loop.index % 2 == 0 ? 'ml-auto' : '' }}">
+									<p class="text-sm uppercase font-header">{{country}}</p>
+									<a class="js-contact no-underline hover:underline mt-2"></a>
+								</li>
+							{% endfor %}
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</div>
+{% endif %}

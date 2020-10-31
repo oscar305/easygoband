@@ -1,0 +1,118 @@
+{% set sectors = {
+    es: ['Hoteles y Resorts', 'Parques Temáticos', 'Festivales de Música', 'Campings', 'Recintos Deportivos', 'Eventos Gastronómicos'],
+    en: ['Hotels & Resorts', 'Theme & Water Parks', 'Music Festivals', 'Campsites', 'Sporting Events', 'Food & Beverage Festival']
+  }
+%}
+{% set countries = {
+    es: ['España', 'México', 'Argentina', 'Ecuador', 'Tailandia', 'Rep. Dominicana', 'Colombia'],
+    en: ['Spain', 'México', 'Argentina', 'Ecuador', 'Thailand', 'Dominican Republic', 'Colombia']
+  }
+%}
+{% set contact = {
+    es: {
+      title: 'Contacta con nosotros',
+      subtitle: 'Rellena <a class="js-close-nav" href="/contacto/#form">nuestro formulario</a> o ponte en contacto mediante email para hablar sobre tu proyecto.'
+    },
+    en: {
+      title: 'Contact with us',
+      subtitle: 'Fill up <a class="js-close-nav" href="/en/contact/#form">our form</a> or drop us an email to speak about your project'
+    }
+  }
+%}
+{% set buttons = {
+  es:
+    [
+      {
+        "icon": "icon-hotels.svg",
+        "title": "Hoteles y Resorts",
+        "path": "/soluciones/hoteles-y-resorts"
+      },
+      {
+        "icon": "icon-parks.svg",
+        "title": "Parques Temáticos",
+        "path": "/soluciones/parques-tematicos"
+      },
+      {
+        "icon": "icon-campings.svg",
+        "title": "Campings",
+        "path": "/soluciones/campings"
+      },
+      {
+        "icon": "icon-music-festival.svg",
+        "title": "Festivales de Música",
+        "path": "/soluciones/festivales-de-musica"
+      },
+      {
+        "icon": "icon-food-event.svg",
+        "title": "Eventos Gastronómicos",
+        "path": "/soluciones/eventos-gastronomicos"
+      },
+      {
+        "icon": "icon-sport-event.svg",
+        "title": "Recintos Deportivos",
+        "path": "/soluciones/recintos-deportivos"
+      }
+    ],
+  en:
+    [
+      {
+        "icon": "icon-hotels.svg",
+        "title": "Hotels & Resorts",
+        "path": "/solutions/hotels-and-resorts"
+      },
+      {
+        "icon": "icon-parks.svg",
+        "title": "Theme & Water Parks",
+        "path": "/solutions/theme-and-water-parks"
+      },
+      {
+        "icon": "icon-campings.svg",
+        "title": "Campsites",
+        "path": "/solutions/campsites"
+      },
+      {
+        "icon": "icon-music-festival.svg",
+        "title": "Music Festivals",
+        "path": "/solutions/music-festivals"
+      },
+      {
+        "icon": "icon-food-event.svg",
+        "title": "Food & Beverage festival",
+        "path": "/soluciones/food-and-beverage-festival"
+      },
+      {
+        "icon": "icon-sport-event.svg",
+        "title": "Sporting Events",
+        "path": "/soluciones/sporting-events"
+      }
+    ],
+  }
+%}
+
+<div class="collapse navbar-collapse" id="navbarCollapse">
+    <ul class="navbar-nav ml-auto">
+        <li class="mb-0 active navbar-item"><a class="nav-link" href="{{ lang == 'en' ? '/en/goguest-platform': '/plataforma-goguest' }}">{{ lang == 'en' ? 'Goguest platform': 'Plataforma Goguest' }}</a></li>
+        <li class="mb-0 dropdown">
+            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-expanded="false">{{ lang == 'en' ? 'Solutions': 'Soluciones' }}<span class="caret"></span></a>
+            <ul class="dropdown-menu pr-5 py-3" role="menu">
+                <li class="navbar-item"><img src="{{assetPath("images/header_icon/icon_hotel.svg")}}"><a class="nav-link" href="{{ lang == 'en' ? '/en/solutions/hotels-and-resorts': '/soluciones/hoteles-y-resorts' }}">{{ lang == 'en' ? 'Hotels and resorts': 'Hoteles y resorts'}}</a></li>
+                <li class="navbar-item"><img src="{{assetPath("images/header_icon/icon_parques.svg")}}"><a class="nav-link" href="{{ lang == 'en' ? '/en/solutions/theme-and-water-parks': '/soluciones/parques-tematicos' }}">{{ lang == 'en' ? 'Theme & Water Parks': 'Parques temáticos'}}</a></li>
+                <li class="navbar-item"><img src="{{assetPath("images/header_icon/icon_festivales.svg")}}"><a class="nav-link" href="{{ lang == 'en' ? '/en/solutions/music-festivals': '/soluciones/festivales-de-musica' }}">{{ lang == 'en' ? 'Music festivals': 'Festivales de música'}}</a></li>
+                <li class="navbar-item"><img src="{{assetPath("images/header_icon/Icon_eventos_gastronomicos.svg")}}"><a class="nav-link" href="{{ lang == 'en' ? '/en/soluciones/food-and-beverage-festival': '/soluciones/eventos-gastronomicos' }}">{{ lang == 'en' ? 'Food & Beverage festival': 'Eventos gastronómicos'}}</a></li>
+                <li class="navbar-item"><img src="{{assetPath("images/header_icon/Icon_recintos_deportivos.svg")}}"><a class="nav-link" href="{{ lang == 'en' ? '/en/soluciones/sporting-events': '/soluciones/recintos-deportivos' }}">{{ lang == 'en' ? 'Sporting Events': 'Recintos deportivos'}}</a></li>
+            </ul>
+        </li>
+        <li class="mb-0 navbar-item"><a class="nav-link" href="{{ lang == 'en' ? '/en/success-stories/oasis': '/casos-de-exito/oasis'}} ">{{ lang == 'en' ? 'Success Stories': 'Casos de éxito'}}</a></li>
+    </ul>
+    <div class="btn_booknow ml-6">
+        <a href="#">{{ lang == 'en' ? 'Book Demo': 'Reservar Demo'}}</a>
+    </div>
+    <div class="btn_lang ml-8">
+        {% if lang == 'es' %}
+            <a href="{{base_url}}/en" class="mr-2 text-lg uppercase no-underline">EN</a>
+        {% else %}
+            <a href="{{base_url}}" class="text-lg uppercase no-underline">ES</a>
+        {% endif %}
+    </div>
+</div>
+

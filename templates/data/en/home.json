@@ -1,0 +1,165 @@
+{
+  "header": {
+    "title": {
+      "fixed": ["We", "connect", ["We make it", "easy"]],
+      "dynamic": [
+        ["wearables", "data", "high tech"],
+        ["people", "users", "business"]
+      ]
+    },
+    "video": {
+      "src": "/wp-content/themes/easygoband/dist/assets/videos/home.mp4",
+      "poster": ""
+    }
+  },
+  "cards": {
+    "subtitle": "RFID/NFC TECHNOLOGY",
+    "title": "Versatile and ingenious IT solutions for hospitality and entertainment industries. We create a high tech eco-system through RFID/NFC and smart wearable technology that delivers best guest experiences for guests and makes business more profitable.",
+    "items": [
+      {
+        "title": "Access Control",
+        "content": "Reduce fraud with smart wearable technology, avoid theft, control crowd flow and increase security for your business.",
+        "img": "solutions-access-control"
+      },
+      {
+        "title": "Business intelligence",
+        "content": "Collect accurate data about your customers' experience. Improve operations and strategic decision making.",
+        "img": "solutions-business-intelligence"
+      },
+      {
+        "title": "Cashless Payments",
+        "content": "Get rid of cash and avoid cash-handling errors, the wristband or card becomes an easy to pay with and secure digital wallet.",
+        "img": "solutions-cashless-payments"
+      },
+      {
+        "title": "Ticketing System",
+        "content": "Issue and manage ticketing services through your own platform without having to outsource.",
+        "img": "tickets-management"
+      },
+      {
+        "title": "Gamification",
+        "content": "Engage your customers by setting a spending goal system that rewards them as they progress.",
+        "img": "solutions-increase-revenue"
+      },
+      {
+        "title": "User ID",
+        "content": "Identify each guest individually so you can enable even more functionalities for improving processes and performance.",
+        "img": "user-identification"
+      }
+    ],
+    "cta": [
+      {
+        "title": "High-tech solutions for hospitality",
+        "link": "/soluciones/hoteles-y-resorts"
+      },
+      {
+        "title": "High-tech solutions for leisure & entertainment",
+        "link": "/soluciones/festivales-de-musica/"
+      }
+    ]
+  },
+  "clients": {
+    "title": "Great clients that already trust us",
+    "items": [
+      "/wp-content/uploads/2020/01/logos-clientes_0020_the-beerman.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0023_karisma.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0001_OASIS.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0002_pesf.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0011_carpe-birrem.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0015_grupo-pineiro.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0022_aqualandia.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0007_SOFT-RESTAURANT.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0017_marjal-resorts.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0008_Krystal.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0013_MIT.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0005_TCASS.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0019_aapolo-argentina.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0006_IMPERIAL.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0018_rototom.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0016_UJI.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0021_aquarama.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0009_acampada-jove.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0004_BAHIA-PRINCIPE.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0014_MELODI-MAKER.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0026_belive.png"
+    ]
+  },
+  "sectors": {
+    "title": {
+      "default": "Areas of expertise",
+      "on_click": "Choose yours"
+    },
+    "items": {
+      "first_row": [
+        {
+          "title": "Hotels & Resorts",
+          "link": "/solutions/hotels-and-resorts",
+          "img": "/wp-content/uploads/2019/11/hoteles-y-resorts.jpg"
+        },
+        {
+          "title": "Music Festivals",
+          "link": "/solutions/music-festivals",
+          "img": "/wp-content/uploads/2019/11/festivales-de-musica.jpg"
+        },
+        {
+          "title": "Campsites",
+          "link": "/solutions/campsites",
+          "img": "/wp-content/uploads/2019/11/campings.jpg"
+        },
+        {
+          "title": "Theme & Water Parks",
+          "link": "/solutions/theme-and-water-parks",
+          "img": "/wp-content/uploads/2019/11/parques-tematicos.jpg"
+        }
+      ],
+      "second_row": [
+        {
+          "title": "Sporting Events",
+          "link": "/soluciones/sporting-events",
+          "img": "/wp-content/uploads/2019/11/recintos-deportivos.jpg"
+        },
+        {
+          "title": "Food & Beverage festival",
+          "link": "/soluciones/food-and-beverage-festival",
+          "img": "/wp-content/uploads/2019/11/eventos-gastronomicos.jpg"
+        }
+      ]
+    },
+    "cta": "More info"
+  },
+  "advantages": {
+    "title": "Our system's main advantages",
+    "items": [
+      {
+        "title": "It works Online/Offline without interruptions",
+        "img": "advantages-online-and-offline.svg"
+      },
+      {
+        "title": "Quick, easy and hassle free integration",
+        "img": "advantages-integration.svg"
+      },
+      {
+        "title": "Advanced secured transactions",
+        "img": "advantages-security.svg"
+      },
+      {
+        "title": "More profitable business and higher revenue",
+        "img": "advantages-increase.svg"
+      },
+      {
+        "title": "Best guest experiences and more customer loyalty",
+        "img": "advantages-improve-ux.svg"
+      },
+      {
+        "title": "Better operational efficiency and extra free time",
+        "img": "advantages-efficiency.svg"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to make your business more profitable and have happier guest?",
+    "subtitle": "Let's begin!",
+    "btn": "Get in touch with us",
+    "path": "en/contact"
+  }
+}

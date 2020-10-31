@@ -1,0 +1,172 @@
+{
+  "title": "Nuestra misión es hacer fácil lo difícil, nuestra promesa es crear experiencias inmejorables para tus clientes y nuestra esencia es tecnología y mucha imaginación.",
+  "img": "/wp-content/uploads/2020/01/grupo-equipo.jpg",
+  "careers": "¿Tienes talento y pasión por la tecnología?<br>¡Queremos conocerte!",
+  "team": [
+    {
+      "name": "Christian Bongardt",
+      "role": "CTO",
+      "content": "Disfruta de la tecnología como un niño y le encanta el cambio y la innovación.<br><br>Su principal función es cercionarse que los proyectos de easygoband no se obstaculicen por motivos técnicos y hacer que todas las piezas encajen. Además tiene un papel fundamental en la ideación y realización de los productos de la empresa",
+      "linkedin": "https://www.linkedin.com/in/christianbongardt/",
+      "image": "https://www.easygoband.com/wp-content/uploads/2019/11/equipo_15.jpg",
+      "social_linkedin": "#"
+    },
+    {
+      "name": "Lara Corral",
+      "role": "Jefa de Administración",
+      "content": "Le encanta pasar tiempo con su hija, bailar flamenco y siempre que puede organiza un viaje con sus amigos.<br><br>Como responsable del departamento de administración, se encarga de la gestión de la facturación, tramitación de ayudas y de los viajes de los comerciales.",
+      "linkedin": "https://www.linkedin.com/in/lara-corral-47a0ba24/",
+      "image": "/wp-content/uploads/2019/11/equipo_7.jpg",
+      "social_linkedin": "#"
+    },
+    {
+      "name": "Nagib Adum",
+      "role": "Partner Ecuador",
+      "content": "Empresario y promotor artístico con más de una década de trayectoria en el mercado ecuatoriano, con formación en administración de empresas, cuenta con una vasta experiencia y es un emprendedor a quien le apasiona enfrentar nuevos retos",
+      "linkedin": "",
+      "image": "/wp-content/uploads/2019/12/equipo_21.jpg",
+      "social_linkedin": "#"
+    },
+    {
+      "name": "Rafa Corral",
+      "role": "CSO",
+      "content": "Le encantan los deportes, la familia y pasar tiempo con sus amigos.<br><br>Entre sus funciones destacan la gestión de la estructura de ventas, relación  con los partners y gestión de clientes.",
+      "linkedin": "https://www.linkedin.com/in/rafael-corral-gomez-0930901b/",
+      "image": "/wp-content/uploads/2019/11/equipo_2.jpg",
+      "social_linkedin": "#"
+    },
+    {
+      "name": "Cristina Edo",
+      "role": "Event Sales Manager",
+      "content": "Lleva la música en el ADN y colecciona momentos cuando viaja.<br><br>Se encarga de coordinar el desarrollo comercial del departamento de eventos, dar soporte operativo y gestionar equipos en festivales y eventos.",
+      "linkedin": "https://www.linkedin.com/in/cristina-edo/",
+      "image": "/wp-content/uploads/2019/11/equipo_11.jpg",
+      "class": "img-to-top",
+      "social_linkedin": "#"
+    },
+    {
+      "name": "Hector Fernández",
+      "role": "Backend Developer",
+      "content": "Le gusta el mundo audiovisual, aprender de otras culturas y hacer planes originales con los que llenar su vida de nuevas experiencias.<br><br>Su función es, en su mayoría, el desarrollo Backend.",
+      "linkedin": "",
+      "image": "/wp-content/uploads/2020/01/equipo_24.jpg",
+      "social_linkedin": "#"
+    },
+    {
+      "name": "Alejandro Gálvez",
+      "role": "Android Developer",
+      "content": "Le encanta el café, pintar miniaturas y escuchar podcasts.<br><br>Entre sus funciones destaca el desarrollo de las aplicaciones y formación android, también ofrece soporte en grandes eventos. ",
+      "linkedin": "https://www.linkedin.com/in/alejandro-g%C3%A1lvez-marco-499562139/",
+      "image": "/wp-content/uploads/2019/11/equipo_13.jpg",
+      "social_linkedin": "#"
+    },
+    {
+      "name": "Benjamín Garcés",
+      "role": "CEO",
+      "content": "Le gusta el baloncesto y pasar su tiempo libre con la familia y los amigos.<br><br>Como CEO lidera la toma de decisiones estratégicas y organizativas de la empresa, además marca los objetivos anuales de la empresa e informa de los resultados obtenidos.",
+      "linkedin": "https://www.linkedin.com/in/bgarces/",
+      "image": "/wp-content/uploads/2019/11/equipo_12.jpg",
+      "social_linkedin": "#"
+    },
+    {
+      "name": "Ramiro Gordillo",
+      "role": "Country Manager Delegado de LATAM",
+      "content": "Amante de la música y profesor de piano, le encanta pasar su tiempo libre con la familia.<br><br>Como General Manager de LATAM se encarga de gestionar e incrementar la cartera de clientes de Sudamérica así como las colaboraciones con posibles partners. ",
+      "linkedin": "https://www.linkedin.com/in/ramiro-gordillo-82357910/",
+      "image": "/wp-content/uploads/2019/11/equipo_19.jpg",
+      "social_linkedin": "#"
+    },
+    {
+      "name": "Marina Granell",
+      "role": "Frontend Developer & UI/UX Designer",
+      "content": "Una de nuestras veggies, vive rodeada de cactus y en su tiempo libre es una amante del cosplay.<br><br>Entre sus principales funciones destaca el diseño de interfaz y experiencia de usuario, también se encarga del desarrollo frontend.",
+      "linkedin": "https://www.linkedin.com/in/magradi/",
+      "image": "/wp-content/uploads/2019/11/equipo_5.jpg",
+      "social_linkedin": "#"
+    },
+    {
+      "name": "Silvia Juarez",
+      "role": "Design Manager",
+      "content": "Silvia es una diseñadora híbrida: de producto y digital, y se encarga de darle sentido al diseño y de que todas las piezas que influyen en la marca Easygoband encajen.<br><br>Entre sus intereses están viajar y descubrir nuevas culturas. Además, los dibujos manga son su pasión y en su tiempo libre practica el DIY.",
+      "linkedin": "https://www.linkedin.com/in/juarezsilvia/",
+      "image": "/wp-content/uploads/2019/12/equipo_22.jpg",
+      "social_linkedin": "#"
+    },
+    {
+      "name": "María Martínez",
+      "role": "Backend Developer",
+      "content": "Una de nuestras veggies y aficionada al crossfit, adora a su pequeño perruno Rosco y siempre la verás con una bolsa de frutos secos.<br><br>Su actividad se centra, principalmente, en el desarrollo de Backend y Android.",
+      "linkedin": "https://www.linkedin.com/in/maria-martinez-rodriguez-ab7a26a7/",
+      "image": "/wp-content/uploads/2019/11/equipo_6.jpg",
+      "social_linkedin": "#"
+    },
+    {
+      "name": "Alan Moradi",
+      "role": "Delegado Comercial Islas Baleares",
+      "content": "Le encanta la fotografía, viajar y las películas de ciencia ficción.<br><br>Entre sus funcionalidades destaca gestionar nuevos canales de venta, tener conocimiento del producto y sus funcionalidades, mantener y ampliar la cartera de clientes.",
+      "linkedin": "https://www.linkedin.com/in/alanmoradi/",
+      "image": "/wp-content/uploads/2019/11/equipo_14.jpg",
+      "social_linkedin": "#"
+    },
+    {
+      "name": "Elena Moreno",
+      "role": "Marketing y Community Manager",
+      "content": "Le gustan las nuevas tecnologías y cómo cambian el paradigma social, la playa, viajar y la fotografía.<br><br>Sus funciones son la búsqueda de nuevos clientes a los que poder asesorar y  encontrar la mejor forma de optimizar sus recursos para obtener los mejores resultados.",
+      "linkedin": "https://www.linkedin.com/in/elena-moreno-73ab5720/",
+      "image": "/wp-content/uploads/2019/11/equipo_18.jpg",
+      "social_linkedin": "#"
+    },
+    {
+      "name": "Iván Muñoz",
+      "role": "Event Sales Manager",
+      "content": "Apasionado del deporte de riesgo , la cocina y  un enamorado de la música.<br><br>Sus funciones van desde la organización de los eventos como project manager  hasta contactar con los clientes y darles asesoramiento según sus necesidades.",
+      "linkedin": "https://www.linkedin.com/in/ivan-mu%C3%B1oz-lopez-a975b5107/",
+      "image": "/wp-content/uploads/2019/11/equipo_8.jpg",
+      "class": "img-to-top",
+      "social_linkedin": "#"
+    },
+    {
+      "name": "Daniel Olivera",
+      "role": "Partner Argentina",
+      "content": "Le gusta el windsurf, el tenis y hacer trekking en alta montaña<br><br>Como partner de Argentina su principal función es gestionar los eventos e implantar nuestras soluciones en las empresas del sector del ocio y turismo en la zona de Argentina. ",
+      "linkedin": "https://www.linkedin.com/in/daniel-olivera-a67a545/",
+      "image": "/wp-content/uploads/2019/11/equipo_10.jpg",
+      "class": "img-to-top",
+      "social_linkedin": "#"
+    },
+    {
+      "name": "Miguel Salas",
+      "role": "Lead Developer",
+      "content": "Fanático de Apple y amante del cine de estreno. Si lo ves por la calle, seguramente esté mirando los perros a su alrededor.<br><br>Entre sus funciones están la gestión de los proyectos y el equipo de desarrollo así como el desarrollo backend.",
+      "linkedin": "https://www.linkedin.com/in/msalegre/",
+      "image": "/wp-content/uploads/2019/11/equipo_4.jpg",
+      "class": "img-to-top",
+      "social_linkedin": "#"
+    },
+    {
+      "name": "Sergio Tena",
+      "role": "COO",
+      "content": "Le gusta viajar y hacer algo de deporte.<br><br>Como responsable del departamento de operaciones, se encarga de ayudar al resto de departamentos que cumplan su cometido y dotar a la compañía de la información necesaria para la toma de decisiones.",
+      "linkedin": "https://www.linkedin.com/in/sergiotena78/",
+      "image": "/wp-content/uploads/2019/11/equipo_1.jpg",
+      "social_linkedin": "#"
+    },
+    {
+      "name": "José Ulizarna",
+      "role": "Full Stack Developer",
+      "content": "Ha vivido en países tan antagónicos como Inglaterra o la India, actuado como DJ en cabinas de salas con mucha historia y desarrollado webs en Flash desde que pertenecía a Macromedia.<br><br>Como desarrollador Full Stack realizará un poco de aquí y un poco de allá, principalmente en JS.",
+      "linkedin": "https://www.linkedin.com/in/joseuli/",
+      "image": "/wp-content/uploads/2019/11/equipo_17.jpg",
+      "class": "img-to-top",
+      "social_linkedin": "#"
+    },
+    {
+      "name": "Alberto Vallez",
+      "role": "Junior Developer",
+      "content": "Le encanta el trail running y la pesca deportiva.<br><br>Entre sus funciones destaca el desarrollo de los tótems autónomos para festivales y hoteles a través de los cuales, los usuarios pueden realizar pagos y efectuar recargas en su monedero virtual.",
+      "linkedin": "https://www.linkedin.com/in/magradi/",
+      "image": "/wp-content/uploads/2019/12/equipo_23.jpg",
+      "social_linkedin": "#"
+    }
+  ]
+}

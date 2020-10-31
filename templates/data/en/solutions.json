@@ -1,0 +1,195 @@
+{
+  "goguest": {
+    "logo": "logo-goguest.svg",
+    "subtitle": "Goguest is an ingenious and versatile platform that provides the hospitality industry multiple IT solutions for operating their businesses with RFID/NFC among other technology resources in order to deliver unique experiences for end users through the use of smart wearable technology.",
+    "mini_content": "Goguest improves customer interaction, creates extraordinary experiences, increases revenue and transforms guests into loyal customers.",
+
+    "buttons": [
+      {
+        "icon": "icon-hotels.svg",
+        "title": "Hotels & Resorts",
+        "path": "/solutions/hotels-and-resorts"
+      },
+      {
+        "icon": "icon-parks.svg",
+        "title": "Theme & Water Parks",
+        "path": "/solutions/theme-and-water-parks"
+      },
+      {
+        "icon": "icon-campings.svg",
+        "title": "Campsites",
+        "path": "/solutions/campsites"
+      }
+    ]
+  },
+  "gofun": {
+    "logo": "logo-gofun.svg",
+    "subtitle": "Gofun is an IT solution for the entertainment industries that enables organizers to implement a cashless payment system, track crowd capacity in real-time and access control, easy ticketing service and other functionalities through the use of smart wearable technology and RFID/NFC.",
+    "mini_content": "With Gofun you can increase spend-per-head, eliminate ticket fraud/pass-sharing, reduce operating costs, less queuing time and faster lanes and agile processes.",
+    "buttons": [
+      {
+        "icon": "icon-music-festival.svg",
+        "title": "Music Festivals",
+        "path": "/solutions/music-festivals"
+      },
+      {
+        "icon": "icon-food-event.svg",
+        "title": "Food & Beverage festival",
+        "path": "/soluciones/food-and-beverage-festival"
+      },
+      {
+        "icon": "icon-sport-event.svg",
+        "title": "Sporting Events",
+        "path": "/soluciones/sporting-events"
+      }
+    ]
+  },
+  "cards": {
+    "title": "Solutions",
+    "items": {
+      "control_de_accesos": {
+        "title": "Access Control",
+        "content": "Get rid of fraud with smart wearable technology, avoid theft and increase security in your event.",
+        "img": "solutions-access-control"
+      },
+      "business_intelligence": {
+        "title": "Business intelligence",
+        "content": "Collect accurate data about your customers' experience. Improve operations and strategic decision making.",
+        "img": "solutions-business-intelligence"
+      },
+      "pagos_cashless": {
+        "title": "Cashless Payments",
+        "content": "Get rid of cash, the wristband or card becomes an easy to pay with and secure digital wallet.",
+        "img": "solutions-cashless-payments"
+      },
+      "reserva_de_servicios": {
+        "title": "Service Booking",
+        "content": "Increase bookings integrating NFC touch screen devices and let customers manage their bookings.",
+        "img": "solutions-bookings"
+      },
+      "webapp_de_gestion": {
+        "title": "Management Webapp",
+        "content": "We bind with the event app so that the attendees can link their wristband or other wearable to access all the info.",
+        "img": "solutions-webapp"
+      },
+      "reporting": {
+        "title": "Stats",
+        "content": "Get to know your customers' expenditure habits and get a report with all their activity.",
+        "img": "solutions-reporting"
+      },
+      "kiosk_y_tablet": {
+        "title": "Self Kiosk & Tablet App",
+        "content": "Cut down queues and avoid human errors with the booking and product/services acquisition software.",
+        "img": "solutions-self-kiosk"
+      },
+      "encuestas_digitalizadas": {
+        "title": "Digital reviewing Tool",
+        "content": "Let your attendees write reviews quickly and easily and get better insights about your event.",
+        "img": "solutions-questionaries"
+      },
+      "control_de_pulseras": {
+        "title": "Wearable Tracking System",
+        "content": "Get rid of fraud or wearable reselling and improve the effectiveness of your stock control.",
+        "img": "solutions-brazalets"
+      },
+      "gestion_de_toallas": {
+        "title": "Borrow System",
+        "content": "Do away with equipment stealing and get more accurate data on your customers' borrowing such as timings, quantity, etc.",
+        "img": "solutions-towels-management"
+      },
+      "app_validacion": {
+        "title": "Ticket Validation",
+        "content": "Eradicate fraud with a system to validate tickets purchased by your customers.",
+        "img": "solutions-app-validation"
+      },
+      "cortesias": {
+        "title": "Product Tokens",
+        "content": "Get more loyal customers and enhance their experience by providing product tokens when required.",
+        "img": "solutions-presents"
+      },
+      "incentivos_de_consumo": {
+        "title": "Vouchers & Promotions",
+        "content": "Engage your customers with limited-time promotions, eventual discounts or returning attendees vouchers.",
+        "img": "solutions-increase-revenue"
+      },
+      "identificacion_de_usuario": {
+        "title": "User ID",
+        "content": "Identify each customer individually so you can enable even more options for improving processes and performance.",
+        "img": "user-identification"
+      },
+      "pos_portatil": {
+        "title": "POS System",
+        "content": "Show products available and charge your customers through portable devices in an offline environment without having to integrate the device with the POS.",
+        "img": "pos-portable"
+      },
+      "tokenizacion_tarjeta": {
+        "title": "Payment Tokenization",
+        "content": "Create a frictionless shopping experience environment and ease payments with the most comprehensive tokenization technology.",
+        "img": "token-bank-card"
+      },
+      "recarga_desatendida": {
+        "title": "Totem Touch Payment",
+        "content": "Your customers will be able to top-up their wristbands or other wearables themselves through the totems.",
+        "img": "personal-recharge"
+      },
+      "gestion_entradas": {
+        "title": "Ticketing System",
+        "content": "Issue and manage ticketing services through your own platform without having to outsource.",
+        "img": "tickets-management"
+      },
+      "control_afluencias": {
+        "title": "Crowd Flow Control",
+        "content": "Track crowd capacity in real time, get to know who and when someone enters or exits throughout the site and each zone.",
+        "img": "influx_control"
+      },
+      "recarga_y_devolucion": {
+        "title": "Top-up & Refund Online",
+        "content": "Total top-up flexibility, it can be done from the main sales platform, from the app or an external webpage not linked to the ticketing system.",
+        "img": "recharge_and_return"
+      }
+    }
+  },
+  "case_study": {
+    "title": "Success Story",
+    "cta": "Watch video",
+    "more": "Find out more about this success story"
+  },
+  "review": {
+    "title": "What our clients have to say",
+    "cta": "Watch video"
+  },
+  "advantages": {
+    "title": "%s main advantages and benefits",
+    "items": [
+      {
+        "title": "It works Online/Offline without interruptions",
+        "img": "advantages-online-and-offline.svg"
+      },
+      {
+        "title": "Quick, easy and hassle free integration",
+        "img": "advantages-integration.svg"
+      },
+      {
+        "title": "Advanced secured transactions",
+        "img": "advantages-security.svg"
+      },
+      {
+        "title": "More profitable business and higher revenue",
+        "img": "advantages-increase.svg"
+      },
+      {
+        "title": "Best guest experiences and more customer loyalty",
+        "img": "advantages-improve-ux.svg"
+      },
+      {
+        "title": "Better operational efficiency and extra free time",
+        "img": "advantages-efficiency.svg"
+      }
+    ]
+  },
+  "cta": {
+    "btn": "Get in touch with us",
+    "title": "Ready for having a more profitable business and creating memorable experiences for your guest?",
+    "path": "/contacto"
+  }
+}

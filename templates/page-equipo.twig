@@ -1,0 +1,311 @@
+{% extends "layouts/base.twig" %}
+
+{% set page = post.get_field('json_data')|json_decode %}
+
+{% block content %}
+	<div class="el_hub_goguest py-15">
+        <div class="bg_grey_right_70"></div>
+        <div class="container-fluid px-0">
+            <div class="row mx-0 align-items-center">
+                <div class="col-md-6 px-0">
+                    <img class="mx-auto w-100" src="{{assetPath('images/home_img/team_head.png')}}">
+                </div>
+                <div class="col-md-6 px-5 py-5 text-center text-md-left mx-650">
+                    <h1 class="text_blue">We are changing the way people enjoy </h1>
+                    <p class="font-25">Nuestra mision es hacer facil lo dificil, nuestra promesa es crear experiencias inmejorables para tus clientes y nuestra esencia es tecnologia y mucha imaginacion.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+	
+	<section class="bg-white simple py-15">
+		<h1 class="text-center text_blue py-5">Somos entusiastas digitales</h1>
+		<div class="relative container mx-auto">
+			<div class="team">
+				<div class="js-team-item team-item  relative">
+					<img class="" src="{{assetPath('images/team/equipo_15.jpg')}}"/>
+					<div class="team_info absolute p-3 text-white">
+					<div class="d-flex align-items-center justify-content-between w-100">
+						<p class="font-25 text-white pb-0">Christian Bongardt</p>
+						<a class="social_linkedin" href="#"><i class="fab fa-linkedin-in"></i></a>
+					</div>
+					<p class="">CTO</p>
+					
+					</div>
+				</div>
+				<div class="js-team-item team-item  relative">
+					<img class="" src="{{assetPath('images/team/equipo_7.jpg')}}"/>
+					<div class="team_info absolute p-3 text-white">
+					<div class="d-flex align-items-center justify-content-between w-100">
+						<p class="font-25 text-white pb-0">Lara Corral</p>
+						<a class="social_linkedin" href="#"><i class="fab fa-linkedin-in"></i></a>
+					</div>
+					<p class="">Jefa de Administración</p>
+					
+					</div>
+				</div>
+				<div class="js-team-item team-item  relative">
+					<img class="" src="{{assetPath('images/team/equipo_21.jpg')}}"/>
+					<div class="team_info absolute p-3 text-white">
+					<div class="d-flex align-items-center justify-content-between w-100">
+						<p class="font-25 text-white pb-0">Nagib Adum</p>
+						<a class="social_linkedin" href="#"><i class="fab fa-linkedin-in"></i></a>
+					</div>
+					<p class="">Partner Ecuador</p>
+					
+					</div>
+				</div>
+				<div class="js-team-item team-item  relative">
+					<img class="" src="{{assetPath('images/team/equipo_2.jpg')}}"/>
+					<div class="team_info absolute p-3 text-white">
+					<div class="d-flex align-items-center justify-content-between w-100">
+						<p class="font-25 text-white pb-0">Rafa Corral/p>
+						<a class="social_linkedin" href="#"><i class="fab fa-linkedin-in"></i></a>
+					</div>
+					<p class="">CSO</p>
+					
+					</div>
+				</div>
+				<div class="js-team-item team-item  relative">
+					<img class="" src="{{assetPath('images/team/equipo_11.jpg')}}"/>
+					<div class="team_info absolute p-3 text-white">
+					<div class="d-flex align-items-center justify-content-between w-100">
+						<p class="font-25 text-white pb-0">Cristina Edo</p>
+						<a class="social_linkedin" href="#"><i class="fab fa-linkedin-in"></i></a>
+					</div>
+					<p class="">Event Sales Manager</p>
+					
+					</div>
+				</div>
+				<div class="js-team-item team-item  relative">
+					<img class="" src="{{assetPath('images/team/equipo_24.jpg')}}"/>
+					<div class="team_info absolute p-3 text-white">
+					<div class="d-flex align-items-center justify-content-between w-100">
+						<p class="font-25 text-white pb-0">Hector Fernández</p>
+						<a class="social_linkedin" href="#"><i class="fab fa-linkedin-in"></i></a>
+					</div>
+					<p class="">Backend Developer</p>
+					
+					</div>
+				</div>
+				<div class="js-team-item team-item  relative">
+					<img class="" src="{{assetPath('images/team/equipo_13.jpg')}}"/>
+					<div class="team_info absolute p-3 text-white">
+					<div class="d-flex align-items-center justify-content-between w-100">
+						<p class="font-25 text-white pb-0">Alejandro Gálvez</p>
+						<a class="social_linkedin" href="#"><i class="fab fa-linkedin-in"></i></a>
+					</div>
+					<p class="">Android Developer</p>
+					
+					</div>
+				</div>
+				<div class="js-team-item team-item  relative">
+					<img class="" src="{{assetPath('images/team/equipo_12.jpg')}}"/>
+					<div class="team_info absolute p-3 text-white">
+					<div class="d-flex align-items-center justify-content-between w-100">
+						<p class="font-25 text-white pb-0">Benjamín Garcés</p>
+						<a class="social_linkedin" href="#"><i class="fab fa-linkedin-in"></i></a>
+					</div>
+					<p class="">CEO</p>
+					
+					</div>
+				</div>
+				<div class="js-team-item team-item  relative">
+					<img class="" src="{{assetPath('images/team/equipo_5.jpg')}}"/>
+					<div class="team_info absolute p-3 text-white">
+					<div class="d-flex align-items-center justify-content-between w-100">
+						<p class="font-25 text-white pb-0">Ramiro Gordillo</p>
+						<a class="social_linkedin" href="#"><i class="fab fa-linkedin-in"></i></a>
+					</div>
+					<p class="">Country Manager Delegado de LATAM</p>
+					
+					</div>
+				</div>
+				<div class="js-team-item team-item  relative">
+					<img class="" src="{{assetPath('images/team/equipo_22.jpg')}}"/>
+					<div class="team_info absolute p-3 text-white">
+					<div class="d-flex align-items-center justify-content-between w-100">
+						<p class="font-25 text-white pb-0">Marina Granell</p>
+						<a class="social_linkedin" href="#"><i class="fab fa-linkedin-in"></i></a>
+					</div>
+					<p class="">Frontend Developer & UI/UX Designer</p>
+					
+					</div>
+				</div>
+				<div class="js-team-item team-item  relative">
+					<img class="" src="{{assetPath('images/team/equipo_6.jpg')}}"/>
+					<div class="team_info absolute p-3 text-white">
+					<div class="d-flex align-items-center justify-content-between w-100">
+						<p class="font-25 text-white pb-0">Silvia Juarez</p>
+						<a class="social_linkedin" href="#"><i class="fab fa-linkedin-in"></i></a>
+					</div>
+					<p class="">Design Manager</p>
+					
+					</div>
+				</div>
+				<div class="js-team-item team-item  relative">
+					<img class="" src="{{assetPath('images/team/equipo_14.jpg')}}"/>
+					<div class="team_info absolute p-3 text-white">
+					<div class="d-flex align-items-center justify-content-between w-100">
+						<p class="font-25 text-white pb-0">María Martínez</p>
+						<a class="social_linkedin" href="#"><i class="fab fa-linkedin-in"></i></a>
+					</div>
+					<p class="">Backend Developer</p>
+					
+					</div>
+				</div>
+				<div class="js-team-item team-item  relative">
+					<img class="" src="{{assetPath('images/team/equipo_18.jpg')}}"/>
+					<div class="team_info absolute p-3 text-white">
+					<div class="d-flex align-items-center justify-content-between w-100">
+						<p class="font-25 text-white pb-0">Alan Moradi</p>
+						<a class="social_linkedin" href="#"><i class="fab fa-linkedin-in"></i></a>
+					</div>
+					<p class="">Delegado Comercial Islas Baleares</p>
+					
+					</div>
+				</div>
+				<div class="js-team-item team-item  relative">
+					<img class="" src="{{assetPath('images/team/equipo_8.jpg')}}"/>
+					<div class="team_info absolute p-3 text-white">
+					<div class="d-flex align-items-center justify-content-between w-100">
+						<p class="font-25 text-white pb-0">Elena Moreno</p>
+						<a class="social_linkedin" href="#"><i class="fab fa-linkedin-in"></i></a>
+					</div>
+					<p class="">Marketing y Community Manager</p>
+					
+					</div>
+				</div>
+				<div class="js-team-item team-item  relative">
+					<img class="" src="{{assetPath('images/team/equipo_10.jpg')}}"/>
+					<div class="team_info absolute p-3 text-white">
+					<div class="d-flex align-items-center justify-content-between w-100">
+						<p class="font-25 text-white pb-0">Iván Muñoz</p>
+						<a class="social_linkedin" href="#"><i class="fab fa-linkedin-in"></i></a>
+					</div>
+					<p class="">Event Sales Manager</p>
+					
+					</div>
+				</div>
+				<div class="js-team-item team-item  relative">
+					<img class="" src="{{assetPath('images/team/equipo_4.jpg')}}"/>
+					<div class="team_info absolute p-3 text-white">
+					<div class="d-flex align-items-center justify-content-between w-100">
+						<p class="font-25 text-white pb-0">Daniel Olivera</p>
+						<a class="social_linkedin" href="#"><i class="fab fa-linkedin-in"></i></a>
+					</div>
+					<p class="">Partner Argentina</p>
+					
+					</div>
+				</div>
+				<div class="js-team-item team-item  relative">
+					<img class="" src="{{assetPath('images/team/equipo_1.jpg')}}"/>
+					<div class="team_info absolute p-3 text-white">
+					<div class="d-flex align-items-center justify-content-between w-100">
+						<p class="font-25 text-white pb-0">Miguel Salas</p>
+						<a class="social_linkedin" href="#"><i class="fab fa-linkedin-in"></i></a>
+					</div>
+					<p class="">Lead Developer</p>
+					
+					</div>
+				</div>
+				<div class="js-team-item team-item  relative">
+					<img class="" src="{{assetPath('images/team/equipo_23.jpg')}}"/>
+					<div class="team_info absolute p-3 text-white">
+					<div class="d-flex align-items-center justify-content-between w-100">
+						<p class="font-25 text-white pb-0">Sergio Tena</p>
+						<a class="social_linkedin" href="#"><i class="fab fa-linkedin-in"></i></a>
+					</div>
+					<p class="">COO</p>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="py-5">
+		<div class="container">
+			<h1 class="text-center text_blue">Nuestros Partners</h1>
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md-3 py-5 text-center">
+                    <div class="profile relative">
+						<img class="mx-auto"src="{{assetPath('images/home_img/profile.jpg')}}">
+						<a href="#" class="absolute"><i class="fab fa-linkedin-in"></i></a>
+					</div>
+                    <h4 class="pt-5">Har Van Der Veen</h4>
+					<p style="font-size:13px; color:#1f17bb;"><b>TAILANDIA</b></p>
+                </div>
+				<div class="col-md-3 py-5 text-center">
+                    <div class="profile relative">
+						<img class="mx-auto"src="{{assetPath('images/home_img/profile.jpg')}}">
+						<a href="#" class="absolute"><i class="fab fa-linkedin-in"></i></a>
+					</div>
+                    <h4 class="pt-5">Jose Miguel Infante</h4>
+					<p style="font-size:13px; color:#1f17bb;"><b>REP.DOMINICANA</b></p>
+                </div>
+				<div class="col-md-3 py-5 text-center">
+                    <div class="profile relative">
+						<img class="mx-auto"src="{{assetPath('images/home_img/profile.jpg')}}">
+						<a href="#" class="absolute"><i class="fab fa-linkedin-in"></i></a>
+					</div>
+                    <h4 class="pt-5">Aldo Peguero</h4>
+					<p style="font-size:13px; color:#1f17bb;"><b>MEXICO</b></p>
+                </div>
+				<div class="col-md-3 py-5 text-center">
+                    <div class="profile relative">
+						<img class="mx-auto"src="{{assetPath('images/home_img/profile.jpg')}}">
+						<a href="#" class="absolute"><i class="fab fa-linkedin-in"></i></a>
+					</div>
+                    <h4 class="pt-5">Har Van der Veen</h4>
+					<p style="font-size:13px; color:#1f17bb;"><b>TAILANDIA</b></p>
+                </div>
+				<div class="col-md-3 py-5 text-center">
+                    <div class="profile relative">
+						<img class="mx-auto"src="{{assetPath('images/home_img/profile.jpg')}}">
+						<a href="#" class="absolute"><i class="fab fa-linkedin-in"></i></a>
+					</div>
+                    <h4 class="pt-5">Har Van Der Veen</h4>
+					<p style="font-size:13px; color:#1f17bb;"><b>TAILANDIA</b></p>
+                </div>
+				<div class="col-md-3 py-5 text-center">
+                    <div class="profile relative">
+						<img class="mx-auto"src="{{assetPath('images/home_img/profile.jpg')}}">
+						<a href="#" class="absolute"><i class="fab fa-linkedin-in"></i></a>
+					</div>
+                    <h4 class="pt-5">Jose Miguel Infante</h4>
+					<p style="font-size:13px; color:#1f17bb;"><b>REP.DOMINICANA</b></p>
+                </div>
+				<div class="col-md-3 py-5 text-center">
+                    <div class="profile relative">
+						<img class="mx-auto"src="{{assetPath('images/home_img/profile.jpg')}}">
+						<a href="#" class="absolute"><i class="fab fa-linkedin-in"></i></a>
+					</div>
+                    <h4 class="pt-5">Aldo Peguero</h4>
+					<p style="font-size:13px; color:#1f17bb;"><b>MEXICO</b></p>
+                </div>
+            </div>
+        </div>
+	</section>
+	<section class="py-5">
+		<div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-5">
+                    <img class="mx-auto" src="{{assetPath('images/home_img/teamoffice.png')}}">
+                </div>
+                <div class="col-md-7 px-3 py-5 text-center text-md-left">
+                    <h1 class="text_blue">Hacemos facil lo dificil</h1>
+                    <p class="font-25">Creamos soluciones innovadoras y versatile con nuestra plataforma, utilizando la tecnologia RFID/NCF para ofrecer a los negocios productos y servicios personalizados que mejoran las operativas y ofrecer a los usuarios finales una experiencia unica mediante el uso de dispositivos como wearables, tarjetas, etc.</p>
+					<p class="font-25">Nos adaptamos a la logica de negocio de nuestros clientes y ayudamos a los negocios a hacer mas eficientes sus procesos, ganar mas dinero, tener un control total sobre su negocio y que puedan tomar decisiones estrategicas basadas en datos reales.</p>
+                </div>
+            </div>
+        </div>
+	</section>
+
+	<section class="py-15">
+		<h2 class="text-center text_blue">{{page.careers}}</h1>
+		<div class="max-w-4xl mx-auto pt-16">
+			{{ function('do_shortcode', "[contact-form-7 title='#{post.slug|capitalize}']") }}
+		</div>
+	</section>
+{% endblock %}

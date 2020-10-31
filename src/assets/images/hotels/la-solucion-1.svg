@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="91px" height="91px" viewBox="0 0 91 91" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>icon_mejora_oerativas</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Soluciones-Goguest" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Solucion---Goguest-parques" transform="translate(-225.000000, -10431.000000)">
+            <g id="icon_mejora_oerativas" transform="translate(227.000000, 10433.000000)">
+                <g id="Group-4-Copy" stroke="#000230" stroke-linecap="round" stroke-width="4">
+                    <path d="M67.3524835,7.37717401 C60.4579245,2.71959473 52.1465599,0 43.2,0 C19.3412988,0 0,19.3412988 0,43.2 C0,67.0587012 19.3412988,86.4 43.2,86.4 C67.0587012,86.4 86.4,67.0587012 86.4,43.2 C86.4,34.6293469 83.904142,26.6416327 79.5995953,19.9240266" id="Path"></path>
+                </g>
+                <circle id="Oval" fill="#000230" cx="43.5" cy="42.5" r="5.5"></circle>
+                <line x1="43.5" y1="17.5" x2="43.5" y2="43.5" id="Line-7" stroke="#000230" stroke-width="4" stroke-linecap="round"></line>
+                <line x1="61.5" y1="43.5" x2="44.5" y2="43.5" id="Line-7-Copy" stroke="#000230" stroke-width="4" stroke-linecap="round"></line>
+            </g>
+        </g>
+    </g>
+</svg>

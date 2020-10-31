@@ -1,0 +1,158 @@
+{% set countries = {
+    es: ['España', 'México', 'Argentina', 'Ecuador', 'Tailandia', 'Rep. Dominicana', 'Colombia'],
+    en: ['Spain', 'Mexico', 'Argentina', 'Ecuador', 'Thailand', 'Dominican Republic', 'Colombia']
+  }
+%}
+{% set rights = {
+    es: 'Todos los derechos reservados',
+    en: 'All rights reserved',
+  }
+%}
+{% set policies = {
+    es: {
+      privacy: {
+        'text': 'Política de privacidad',
+        'link': '/politica-de-privacidad'
+      },
+      cookies: {
+        'text': 'Política de cookies',
+        'link': '/politica-de-cookies'
+      },
+      sales: {
+        'text': 'Política de ventas',
+        'link': '/politica-de-ventas'
+      }
+    },
+    en: {
+      privacy: {
+        'text': 'Privacy policy',
+        'link': '/privacy-policy'
+      },
+      cookies: {
+        'text': 'Cookies policy',
+        'link': '/cookies-policy'
+      },
+      sales: {
+        'text': 'Sales policy',
+        'link': '/sales-policy'
+      }
+    }
+  }
+%}
+{% set policies = policies[lang] %}
+
+<footer class="text_blue">
+	{# <div class="relative overflow-hidden pt-8 pb-16">
+		
+		<ul class="w-3/4 flex flex-wrap justify-center relative z-10 flex-wrap mx-auto text-center">
+			{% for country in countries[lang] %}
+				<li class="text-white w-full md:w-1/3 pt-12">
+					<p class="uppercase font-header">{{country}}</p>
+					<a class="js-contact no-underline hover:underline mt-2"></a>
+				</li>
+			{% endfor %}
+		</ul>
+	</div> #}
+	<div class="bg-grey py-12 footer_menu">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<div><img src="{{assetPath('images/footer_logo/blue_logo.png')}}"></div>
+					<div>
+						<h5 class="font-header text-xl mt-4">Easygoband world SL</h5>
+						<p class="mt-0" style="font-family:Lato-Regular; font-size: 16px;">Ronda Circunvalación, 188,<br>12003 Castellón de la Plana.<br>
+							{{lang == 'en' ? 'Spain' : 'España'}}</p>
+					</div>
+					<div class="d-flex">
+						<a class="mr-6" href="https://www.facebook.com/easygoband" target="_blank">
+							<img src="{{assetPath('images/header_icon/facebook.svg')}}"/>
+						</a>
+						<a class="mr-6" href="https://www.instagram.com/easygoband/" target="_blank">
+							<img src="{{assetPath('images/header_icon/instagram.svg')}}"/>
+						</a>
+						<a href="https://www.linkedin.com/company/11270892/" target="_blank">
+							<img src="{{assetPath('images/header_icon/linkedin.svg')}}"/>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-9">
+					<div class="row pt-5">
+						<div class="col-md-3">
+							<h5>{{lang == 'en' ? 'Company' : 'Empresa'}}</h5>
+							<ul>
+								<li><a href="{{ lang == 'en' ? '/en/team': '/equipo' }}">{{lang == 'en' ? 'Team' : 'Equipo'}}</a></li>
+								<li><a href="{{ lang == 'en' ? '/en/case-study': '/caso-de-estudio' }}">{{lang == 'en' ? 'Case study' : 'Caso de estudio'}}</a></li>
+								<li><a href="{{ lang == 'en' ? '/en/plans': '/planes' }}">{{lang == 'en' ? 'Plans' : 'Planes'}}</a></li>
+								<li><a href="{{ lang == 'en' ? '/en/news': '/noticias' }}">{{lang == 'en' ? 'News' : 'Noticias'}}</a></li>
+								<li><a href="{{ lang == 'en' ? '/en/faq': '/faq' }}">{{lang == 'en' ? 'FAQ' : 'FAQ'}}</a></li>
+								<li><a href="{{ lang == 'en' ? '/en/contact': '/contacto' }}">{{lang == 'en' ? 'Contact' : 'Contacto'}}</a></li>
+							</ul>
+						</div>
+						<div class="col-md-3">
+							<h5>{{lang == 'en' ? 'Solutions' : 'Soluciones'}}</h5>
+							<ul>
+								<li><a href="{{ lang == 'en' ? '/en/solutions/hotels-and-resorts': '/soluciones/hoteles-y-resorts' }}">{{lang == 'en' ? 'Hotels and resorts' : 'Hoteles y resorts'}}</a></li>
+								<li><a href="{{ lang == 'en' ? '/en/solutions/campsites': '/soluciones/campings' }}">{{lang == 'en' ? 'Campsites' : 'Campings'}}</a></li>
+								<li><a href="{{ lang == 'en' ? '/en/solutions/theme-and-water-parks': '/soluciones/parques-tematicos' }}">{{lang == 'en' ? 'Theme & Water Parks' : 'Parques temáticos'}}</a></li>
+								<li><a href="{{ lang == 'en' ? '/en/solutions/music-festivals': '/soluciones/festivales-de-musica' }}">{{lang == 'en' ? 'Music festivals' : 'Festivales de música'}}</a></li>
+								<li><a href="{{ lang == 'en' ? '/en/soluciones/food-and-beverage-festival': '/soluciones/eventos-gastronomicos' }}">{{lang == 'en' ? 'Food & Beverage festival' : 'Eventos gastronómicos'}}</a></li>
+								<li><a href="{{ lang == 'en' ? '/en/soluciones/sporting-events': '/soluciones/recintos-deportivos' }}">{{lang == 'en' ? 'Sporting Events' : 'Recintos deportivos'}}</a></li>
+							</ul>
+						</div>
+						<div class="col-md-3">
+							<h5>{{lang == 'en' ? 'Success Stories' : 'Casos de éxito'}}</h5>
+							<ul>
+								<li><a href="{{ lang == 'en' ? '/en/success-stories/oasis': '/casos-de-exito/oasis'}} ">{{lang == 'en' ? 'Oasis hotels' : 'Hoteles oasis'}}</a></li>
+								<li><a href="{{ lang == 'en' ? '/en/success-stories/beerman': '/casos-de-exito/beerman'}} ">{{lang == 'en' ? 'Beerman' : 'Beerman'}}</a></li>
+								<li><a href="{{ lang == 'en' ? '/en/success-stories/aquarama': '/casos-de-exito/aquarama'}} ">{{lang == 'en' ? 'Aquarama' : 'Aquarama'}}</a></li>
+								<li><a href="{{ lang == 'en' ? '/en/success-stories/aapolo': '/casos-de-exito/aapolo'}} ">{{lang == 'en' ? 'Aapolo' : 'Aapolo'}}</a></li>
+								<li><a href="{{ lang == 'en' ? '/en/success-stories/rototom': '/casos-de-exito/rototom'}} ">{{lang == 'en' ? 'Rototom' : 'Rototom'}}</a></li>
+							</ul>
+						</div>
+						<div class="col-md-3">
+							<h5>{{lang == 'en' ? 'Platform' : 'Plataforma'}}</h5>
+							<ul>
+								<li><a href="{{ lang == 'en' ? '/en/integrations': '/integraciones' }}">{{lang == 'en' ? 'Integrations' : 'Integraciónes'}}</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="bg-white py-8 footer_logos">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 justify-content-between">
+					<h6 class="mb-5">{{lang == 'en' ? 'Co-financed projects' : 'Proyectos co-financiados'}}</h6>
+					<div class="d-flex justify-content-between align-items-center">
+						<a href="#"><img src="{{assetPath('images/footer_logo/Enisa.jpg')}}"/></a>
+						<a href="#"><img src="{{assetPath('images/footer_logo/Icenext.jpg')}}"/></a>
+						<a href="#"><img src="{{assetPath('images/footer_logo/Ivace.jpg')}}"/></a>
+						<a href="/cdti"><img src="{{assetPath('images/footer_logo/Cdti.jpg')}}"/></a>
+					</div>
+				</div>
+				<div class="col-md-5 offset-md-1">
+					<h6 class="mb-5">{{lang == 'en' ? 'Innovation stamps' : 'Sellos de innovación'}}</h6>
+					<div class="d-flex d-flex  justify-content-around align-items-center">
+						<a href="#"><img src="{{assetPath('images/footer_logo/Orbita.jpg')}}"/></a>
+						<a href="#"><img src="{{assetPath('images/footer_logo/pyme.jpg')}}"/></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div  class="copywrite bg_blue">
+		<p class="text-white text-center py-8 mb-0">Copyright ©
+			{{'now'|date('Y')}}
+			Easygoband World SL |
+			{{rights[lang]}}
+			{% for policy in policies %}
+				|
+				<a class="no-underline hover:underline" href="{{policy.link}}">{{policy.text}}</a>
+			{% endfor %}
+		</p>
+	</div>
+</footer>

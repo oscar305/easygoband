@@ -1,0 +1,29 @@
+/*
+  Project: Easygoband
+  Author: José Ulizarna
+ */
+
+@tailwind base;
+
+@font-face {
+  font-family: 'Gilroy-ExtraBold';
+  src: url(../assets/fonts/gilroy-extrabold-webfont.woff) format('woff'),
+    url(../assets/fonts/gilroy-extrabold-webfont.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Lato-Regular';
+  src: url(../assets/fonts/Lato-Regular.woff) format('woff'),
+    url(../assets/fonts/Lato-Regular.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Lato-Bold';
+  src: url(../assets/fonts/Lato-Bold.woff) format('woff'),
+    url(../assets/fonts/Lato-Bold.woff2) format('woff2');
+}
+
+@tailwind components;
+@tailwind utilities;
+
+@import 'elements/*';
+@import 'components/*';
+@import 'vendor/*';

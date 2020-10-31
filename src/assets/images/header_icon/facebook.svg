@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="31.111" height="31.111" viewBox="0 0 31.111 31.111">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="31.111" height="31.111" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Facebook_White" data-name="Facebook/White" transform="translate(0 0)" clip-path="url(#clip-path)">
+    <g id="Facebook_White-2" data-name="Facebook/White">
+      <rect id="Facebook_White_background" data-name="Facebook/White background" width="31.111" height="31.111" fill="rgba(0,0,0,0)"/>
+      <g id="Facebook_White-3" data-name="Facebook/White">
+        <path id="Facebook" d="M16.617,31.111H1.717A1.717,1.717,0,0,1,0,29.394V1.717A1.717,1.717,0,0,1,1.717,0H29.394a1.717,1.717,0,0,1,1.717,1.717V29.394a1.717,1.717,0,0,1-1.717,1.717H21.466V19.063H25.51l.606-4.7H21.466v-3c0-1.359.377-2.286,2.327-2.286h2.486v-4.2A33.237,33.237,0,0,0,22.656,4.7c-3.585,0-6.039,2.188-6.039,6.206v3.463H12.563v4.7h4.054V31.111Z" fill="#000230"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="101px" height="90px" viewBox="0 0 101 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>icon_aumenta_ticket_medio</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Soluciones-Gofun" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Solucion---Gofun-festivales-de-musica" transform="translate(-675.000000, -6303.000000)">
+            <g id="icon_aumenta_ticket_medio" transform="translate(675.000000, 6305.000000)">
+                <path d="M0,0 L7.33536293,0 C11.3312092,-7.3402506e-16 14.787561,2.78322368 15.6397899,6.68713118 L29.0927806,68.3128688 C29.9450094,72.2167763 33.4013612,75 37.3972075,75 L83,75 L83,75" id="Path-13" stroke="#000230" stroke-width="4"></path>
+                <circle id="Oval" stroke="#000230" stroke-width="4" cx="40.5" cy="80.5" r="5.5"></circle>
+                <circle id="Oval-Copy-3" stroke="#000230" stroke-width="4" cx="83.5" cy="80.5" r="5.5"></circle>
+                <path d="M19.2055653,16 L96.5735102,16 C97.6780797,16 98.5735102,16.8954305 98.5735102,18 C98.5735102,18.1281692 98.5611897,18.2560416 98.5367188,18.381853 L96.5589289,28.5502027 M93.8223783,42.6195448 L91.8625294,52.6956545 C90.8115343,58.099103 86.0787908,62 80.5740795,62 L27.3066216,62 L28.929719,62" id="Shape" stroke="#000230" stroke-width="4" stroke-linecap="round"></path>
+                <path d="M49.0360584,55.198537 C61.9916191,52.5347304 69.3129329,43.4685514 71,28" id="Path" stroke="#000230" stroke-width="4" stroke-linecap="round"></path>
+                <polygon id="Path-5" stroke="#000230" stroke-width="3.75" stroke-linecap="round" stroke-linejoin="round" transform="translate(71.000000, 29.000000) rotate(-75.000000) translate(-71.000000, -29.000000) " points="67 21 75 28.5802518 67 37 73.1815393 28.5936152"></polygon>
+                <text id="€" transform="translate(45.980800, 39.575040) rotate(-1.000000) translate(-45.980800, -39.575040) " font-family="Gilroy-Medium" font-size="32.256" font-weight="500" line-spacing="23.9616" fill="#000230">
+                    <tspan x="34" y="49">€</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

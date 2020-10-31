@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="90px" height="98px" viewBox="0 0 90 98" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>icon_ingresos_extra</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Soluciones-Gofun" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Solucion---Gofun-festivales-de-musica" transform="translate(-232.000000, -6289.000000)">
+            <g id="icon_ingresos_extra" transform="translate(234.000000, 6282.000000)">
+                <g id="Group-61-Copy" transform="translate(42.567433, 27.092085) rotate(-26.000000) translate(-42.567433, -27.092085) translate(22.567433, 7.092085)">
+                    <circle id="Oval" fill="#000230" cx="19.6992" cy="19.6992" r="19.6992"></circle>
+                    <text id="€" font-family="Gilroy-Regular" font-size="29.0304" font-weight="normal" line-spacing="21.56544" fill="#FFFFFF">
+                        <tspan x="8.2944" y="30.2944">€</tspan>
+                    </text>
+                </g>
+                <g id="Group-58-Copy" transform="translate(0.000000, 38.000000)">
+                    <path d="M0,14.9259834 L0,8.2944 C0,3.71352937 3.71352937,0 8.2944,0 L76.7232,0 C81.3040706,0 85.0176,3.71352937 85.0176,8.2944 L85.0176,55.9872 C85.0176,60.5680706 81.3040706,64.2816 76.7232,64.2816 L8.2944,64.2816 C3.71352937,64.2816 0,60.5680706 0,55.9872 L0,26.1898919 L0,26.1898919" id="Path" stroke="#000230" stroke-width="4" stroke-linecap="round"></path>
+                    <g id="Group-56" transform="translate(68.428800, 24.883200)">
+                        <path d="M8.2944,0 L16.5888,0 L16.5888,0 L16.5888,16.5888 L8.2944,16.5888 C3.71352937,16.5888 5.60994855e-16,12.8752706 0,8.2944 C-5.60994855e-16,3.71352937 3.71352937,8.41492283e-16 8.2944,0 Z" id="Rectangle" fill="#000230"></path>
+                        <circle id="Oval" fill="#FFFFFF" cx="8.2944" cy="8.2944" r="2.0736"></circle>
+                    </g>
+                </g>
+                <rect id="Rectangle" fill="#FFFFFF" x="19" y="40" width="46.8" height="9"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,40 @@
+{
+  "product": "ego",
+  "title": "Soluciones para el sector deportivo",
+  "sector": "Recintos Deportivos",
+  "header_img": "/wp-content/uploads/2019/11/ego-recintos-deportivos-cabecera.jpg",
+  "header_card_img": "/wp-content/uploads/2019/11/ego-recintos-deportivos-mini.jpg",
+  "cards": [
+    "control_de_accesos",
+    "business_intelligence",
+    "pagos_cashless",
+    "reserva_de_servicios",
+    "webapp_de_gestion",
+    "control_afluencias",
+    "reporting",
+    "kiosk_y_tablet",
+    "encuestas_digitalizadas",
+    "recarga_y_devolucion",
+    "app_validacion",
+    "cortesias",
+    "incentivos_de_consumo",
+    "pos_portatil",
+    "tokenizacion_tarjeta",
+    "control_de_pulseras",
+    "gestion_entradas"
+  ],
+  "case_study": {
+    "path": "/casos-de-exito/aapolo",
+    "img": "/wp-content/uploads/2019/11/casos-de-exito-aapolo.jpg",
+    "video": {
+      "src": "OSTp6SYQPHw",
+      "cta": "Ver video"
+    }
+  },
+  "review": {
+    "logo": "/wp-content/uploads/2020/01/logo-aapolo-color.jpg",
+    "name": "Nicolas Filippini",
+    "role": "Gte de Planeamiento y Control de Gestión",
+    "content": "Easygoband se ha vuelto indispensable para agilizar, aumentar nuestros ingresos en gran medida y tener un control exhaustivo de nuestro evento."
+  }
+}

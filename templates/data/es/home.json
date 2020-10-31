@@ -1,0 +1,183 @@
+{
+  "header": {
+    "title": ["High tech para", "negocios brillantes"],
+    "subtitle": "Crea entornos seguros con tecnología contactless, protege la salud de tus clientes y empleados, consigue operativas más eficientes, empresas  más rentables y clientes más satisfechos.",
+    "links": [
+      {
+        "text": "Tecnología contactless para hoteles",
+        "link": "/landing-gosafe/"
+      },
+      {
+        "text": "Tecnología para el sector turístico",
+        "link": "/soluciones/hoteles-y-resorts/"
+      },
+      {
+        "text": "Tecnología para el sector ocio",
+        "link": "/soluciones/festivales-de-musica/"
+      }
+    ],
+    "video": {
+      "id": "umWygswTN0M",
+      "poster": "/wp-content/uploads/2020/06/home-header-video.jpg",
+      "cta": "Ver vídeo"
+    }
+  },
+  "cards": {
+    "subtitle": "RFID/NFC TECNOLOGÍA CONTACTLESS",
+    "title": "Creamos ecosistemas tecnológicos mediante RFID/NFC, wearables y otros dispositivos, que crean mejores experiencias para los clientes y negocios más rentables",
+    "items": [
+      {
+        "product": "goguest",
+        "title": "Tecnología sector turismo",
+        "subtitle": "Mejora las operativas  y la experiencia de tus clientes a través de la digitalización de procesos.",
+        "ticks": [
+          "Pagos cashless con gestión de límites para clientes",
+          "Control de accesos y de afluencias",
+          "Identificación de usuario y trazabilidad",
+          "Reserva de servicios y préstamo de material",
+          "Gamificación para clientes y encuestas digitalizadas"
+        ],
+        "cta": {
+          "text": "Ver todas",
+          "link": "/soluciones/hoteles-y-resorts/"
+        }
+      },
+      {
+        "product": "gofun",
+        "title": "Tecnología sector ocio",
+        "subtitle": "Reduce colas y tiempos de espera, aumenta ingresos, controla tu evento y elimina el fraude.",
+        "ticks": [
+          "Pagos cashless",
+          "Control de accesos y de afluencias en tiempo real",
+          "Validación de entradas y sistema de ticketing",
+          "Business intelligence y estadísticas",
+          "Control de aforo en tiempo real"
+        ],
+        "cta": {
+          "text": "Ver todas",
+          "link": "/soluciones/festivales-de-musica/"
+        }
+      },
+      {
+        "product": "gosafe",
+        "title": "Tecnología contactless para hoteles",
+        "subtitle": "Protege la salud de tus huéspedes y permite que realizen acciones a través de un app con su móvil.",
+        "ticks": [
+          "APP en el móvil del huesped para realizar gestiones",
+          "Pre check-in/check-out",
+          "Control de accesos con código QR",
+          "Control de aforo en tiempo real con código QR",
+          "Pedidos room service"
+        ],
+        "cta": {
+          "text": "Ver todas",
+          "link": "/landing-gosafe/"
+        }
+      }
+    ]
+  },
+  "clients": {
+    "title": "Confían en nosotros",
+    "items": [
+      "/wp-content/uploads/2020/01/logos-clientes_0020_the-beerman.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0023_karisma.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0001_OASIS.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0002_pesf.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0011_carpe-birrem.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0015_grupo-pineiro.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0022_aqualandia.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0007_SOFT-RESTAURANT.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0017_marjal-resorts.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0008_Krystal.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0013_MIT.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0005_TCASS.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0019_aapolo-argentina.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0006_IMPERIAL.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0018_rototom.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0016_UJI.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0021_aquarama.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0009_acampada-jove.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0004_BAHIA-PRINCIPE.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0014_MELODI-MAKER.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0026_belive.png"
+    ]
+  },
+  "sectors": {
+    "title": {
+      "default": "Sectores con los que trabajamos",
+      "on_click": "Elige tu sector"
+    },
+    "items": {
+      "first_row": [
+        {
+          "title": "Hoteles y Resorts",
+          "link": "/soluciones/hoteles-y-resorts",
+          "img": "/wp-content/uploads/2019/11/hoteles-y-resorts.jpg"
+        },
+        {
+          "title": "Festivales de Música",
+          "link": "/soluciones/festivales-de-musica",
+          "img": "/wp-content/uploads/2019/11/festivales-de-musica.jpg"
+        },
+        {
+          "title": "Campings",
+          "link": "/soluciones/campings",
+          "img": "/wp-content/uploads/2019/11/campings.jpg"
+        },
+        {
+          "title": "Parques Temáticos",
+          "link": "/soluciones/parques-tematicos",
+          "img": "/wp-content/uploads/2019/11/parques-tematicos.jpg"
+        }
+      ],
+      "second_row": [
+        {
+          "title": "Recintos Deportivos",
+          "link": "/soluciones/recintos-deportivos",
+          "img": "/wp-content/uploads/2019/11/recintos-deportivos.jpg"
+        },
+        {
+          "title": "Eventos Gastronómicos",
+          "link": "/soluciones/eventos-gastronomicos",
+          "img": "/wp-content/uploads/2019/11/eventos-gastronomicos.jpg"
+        }
+      ]
+    },
+    "cta": "Saber más"
+  },
+  "advantages": {
+    "title": "Nuestro sistema es único y ofrece grandes ventajas para tu negocio.",
+    "items": [
+      {
+        "title": "Puede funcionar Online y Offline sin interrupciones.",
+        "img": "advantages-online-and-offline.svg"
+      },
+      {
+        "title": "Integración en los sistemas de gestión fácil y rápida.",
+        "img": "advantages-integration.svg"
+      },
+      {
+        "title": "Mayor seguridad en las transacciones.",
+        "img": "advantages-security.svg"
+      },
+      {
+        "title": "Incrementa los ingresos de tu negocio.",
+        "img": "advantages-increase.svg"
+      },
+      {
+        "title": "Mejora la experiencia de los clientes y fidelízalos.",
+        "img": "advantages-improve-ux.svg"
+      },
+      {
+        "title": "Genera procesos más eficientes y gana tiempo.",
+        "img": "advantages-efficiency.svg"
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Preparados para hacer fácil lo difícil?",
+    "subtitle": "¡Vamos a comenzar!",
+    "btn": "Contacta con nosotros",
+    "path": "/contacto"
+  }
+}

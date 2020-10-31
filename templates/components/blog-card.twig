@@ -1,0 +1,49 @@
+{% set category = single_category ? single_category: post.categories[0] %}
+
+{% block content %}
+
+	{% if index == 1 %}
+		<article class="main-entry blog-entry w-full">
+			<a href="{{post.link}}" class="relative w-full h-full inline-block">
+				{% if post.thumbnail.src %}
+					<img class="w-full h-full post-header" src="{{post.thumbnail.src}}" alt="">
+				{% endif %}
+				<div class="content absolute bottom-0 right-0 bg-white-opacity px-8 py-6">
+					<span class="absolute top-0 right-0 bg-black text-md text-white mr-8 -mt-4 px-2 py-1">{{ category }}</span>
+					<p class="text-xs text-gray-700">
+						{{ post.date('d/m/Y') }}</p>
+					<h2 class="text-xl md:text-3xl leading-tight mb-2">
+						{{post.title}}
+					</h2>
+				</div>
+			</a>
+		</article>
+		<div class="blog-grid">
+		{% else %}
+			{% if (index - 2) % 4 == 0 %}
+				<div class="blog-grid_{{rowType}}-row">
+				{% endif %}
+				<article class="blog-entry w-full relative">
+					<a class="relative h-full inline-block" href="{{post.link}}">
+						{% if post.thumbnail.src %}
+							<img class="w-full h-full object-cover" src="{{post.thumbnail.src('large')}}" alt="">
+						{% endif %}
+						<div class="content absolute bottom-0 right-0 bg-white-opacity px-8 py-6">
+							<span class="absolute top-0 right-0 bg-black text-md text-white mr-8 -mt-4 px-2 py-1">{{ category }}</span>
+							<p class="text-xs font-bold text-gray-700">
+								{{ post.date('d/m/Y') }}</p>
+							<h2 class="text-xl md:text-2xl xl:text-3xl mb-2 leading-tight">
+								{{post.title}}
+							</h2>
+						</div>
+					</a>
+				</article>
+				{% if (index - 1) % 4 == 0 %}
+				</div>
+			{% endif %}
+		{% endif %}
+		{% if last %}
+		</div>
+	{% endif %}
+
+{% endblock %}

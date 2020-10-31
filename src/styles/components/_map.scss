@@ -1,0 +1,19 @@
+.map {
+  position: relative;
+  height: 800px;
+}
+#map-el {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+.js-map-trigger {
+  @apply text-lg font-header uppercase no-underline;
+  transition: all 0.1s;
+  &.active,
+  &:hover {
+    color: theme('colors.purple.default');
+    border-bottom: 0.2rem solid theme('colors.purple.default');
+  }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="86px" height="85px" viewBox="0 0 86 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>icon_mas_seguridad_parques</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Soluciones-Goguest" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Solucion---Goguest-parques" transform="translate(-1133.000000, -10434.000000)">
+            <g id="icon_mas_seguridad_parques" transform="translate(1135.000000, 10436.000000)">
+                <path d="M35.599527,9 L71.9623708,9 C72.9596059,15.0059937 73.2380309,20.8547983 72.7976457,26.5464137 M71.2457186,36.5492316 C70.0713613,41.534418 68.3073973,46.3906694 65.9538264,51.1179858 C59.5365704,64.0075062 49.7169039,73.9681776 36.4948271,81 M36.0366497,9 L1.03762917,9 C-1.4567532,24.0227816 0.54609493,38.0621102 7.04617356,51.1179858 C13.4626688,64.005978 23.2807676,73.9658156 36.50047,80.9974987" id="Combined-Shape" stroke="#000230" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M44.5799703,0 L80.9618282,0 C81.9595848,6.16125263 82.2381553,12.1612526 81.7975399,18 M45.0173216,1.11022302e-16 L10,1.11022302e-16" id="Shape" stroke="#000230" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                <text id="S" font-family="Gilroy-Bold" font-size="30" font-weight="bold" letter-spacing="0.240000004" fill="#000230">
+                    <tspan x="27.635" y="48">S</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

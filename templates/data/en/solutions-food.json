@@ -1,0 +1,41 @@
+{
+  "product": "gofun",
+  "title": "IT Solutions for Leisure and Entertainment Industries",
+  "sector": "Food & Beverage Festivals",
+  "header_img": "/wp-content/uploads/2020/04/eventos.jpg",
+  "header_card_img": "/wp-content/uploads/2020/04/eventos-mini.jpg",
+  "case_study": {
+    "path": "/casos-de-exito/beerman",
+    "img": "/wp-content/uploads/2019/11/casos-de-exito-beerman.jpg",
+    "logo": "/wp-content/uploads/2020/03/clients-beerman.png",
+    "video": {
+      "src": "EbEt_ExdjUc",
+      "cta": "Watch video"
+    }
+  },
+  "cards": [
+    "control_de_accesos",
+    "business_intelligence",
+    "pagos_cashless",
+    "reserva_de_servicios",
+    "webapp_de_gestion",
+    "control_afluencias",
+    "reporting",
+    "kiosk_y_tablet",
+    "encuestas_digitalizadas",
+    "recarga_y_devolucion",
+    "app_validacion",
+    "cortesias",
+    "incentivos_de_consumo",
+    "pos_portatil",
+    "tokenizacion_tarjeta",
+    "control_de_pulseras",
+    "gestion_entradas"
+  ],
+  "review": {
+    "logo": "/wp-content/uploads/2020/01/logo-beerman-color.jpg",
+    "name": "Juan Zurita",
+    "role": "Owner",
+    "content": "The whole experience has been very satisfactory with total control and an exceptional attendees impression."
+  }
+}

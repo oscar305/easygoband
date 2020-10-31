@@ -1,0 +1,10 @@
+.burger-menu {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s, visibility 0.2s;
+  @apply fixed w-screen h-screen bg-purple overflow-hidden top-0 left-0 z-50;
+  body.menu-open & {
+    opacity: 1;
+    visibility: visible;
+  }
+}

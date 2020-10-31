@@ -1,0 +1,14 @@
+{% extends "layouts/base.twig" %}
+
+{% set rowType = 'odd' %}
+
+{% block content %}
+	<section class="simple bg-white pb-16">
+		{% for post in posts %}
+			{% include 'components/blog-card.twig' with {'index': loop.index, 'last': loop.last, 'rowType': rowType} %}
+			{% if (loop.index - 2) % 4 == 0 %}
+				{% set rowType = rowType == 'odd' ? 'even' : 'odd' %}
+			{% endif %}
+		{% endfor %}
+	</section>
+{% endblock %}

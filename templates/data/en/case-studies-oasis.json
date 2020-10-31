@@ -1,0 +1,44 @@
+{
+  "title": "Oasis Hotels",
+  "video": {
+    "title": "Oasis",
+    "img": "/wp-content/uploads/2019/11/casos-de-exito-oasis.jpg",
+    "src": "vw2AF0S28D4"
+  },
+  "info": [
+    {
+      "icon": "place",
+      "text": "México"
+    },
+    {
+      "icon": "attendees",
+      "text": "348 rooms"
+    },
+    {
+      "icon": "goal",
+      "text": "Full digital transformation"
+    }
+  ],
+  "what": {
+    "title": "What is Oasis?",
+    "content": "Oasis Hotels & Resorts is a luxury hotel chain that owns 4 properties spread into 9 hotels in the attractive Cancun, Mexico - Caribbean Coast."
+  },
+  "goal": {
+    "title": "The main objectives",
+    "content": "In order to strengthen and improve business operations, increase and optimize security and create memorable guest experiences, the chain undertook their digital transformation in 2017 and fully embraced RFID/NFC technology. Hence, they gained better business processing control and achieved to successfully complete all their goals."
+  },
+  "cards": [
+    "control_de_accesos",
+    "pagos_cashless",
+    "reserva_de_servicios",
+    "identificacion_de_usuario",
+    "tokenizacion_tarjeta"
+  ],
+  "cta": "Do you own a hotel or resort and want to embrace digital transformation?",
+  "review": {
+    "logo": "/wp-content/uploads/2020/01/logo-oasis-color.jpg",
+    "name": "Noelia Llaneza",
+    "role": "Audit Director",
+    "content": "Awesome product. The agile methodology is really valuable, and it greatly adds comfort to our guests."
+  }
+}

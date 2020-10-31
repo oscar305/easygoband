@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html class="no-js bg-black" lang="{{lang}}" prefix="og: http://ogp.me/ns#">
+	<head>
+		<meta charset="{{site.charset}}"/>
+		<link rel="stylesheet" property="stylesheet" href="{{ revisionedPath('styles/main.css') }}" type="text/css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script>
+			document.documentElement.classList.remove('no-js');
+		</script>
+		{% if hasVendor() %}
+			<script src="{{ revisionedPath('scripts/vendor.js') }}" defer></script>
+		{% endif %}
+		{% if hasWebpackManifest() %}
+			<script>
+				(function () {
+				var p = '{{ getScriptsPath() }}';
+				var wm = window.webpackManifest = {{ getWebpackManifest() }};
+				Object.keys(wm).forEach(function (n) {
+				wm[n] = p + wm[n]
+				});
+				})();
+			</script>
+		{% endif %}
+		<script src="{{ revisionedPath('scripts/app.bundle.js') }}" defer></script>
+		<link rel="pingback" href="{{site.pingback_url}}"/>
+		{{function('wp_head')}}
+		{% block head %}{% endblock %}
+    	<!-- Global site tag (gtag.js) - Google Analytics -->
+    	{# <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116564598-1"></script> #}
+
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'UA-116564598-1');
+		</script>
+		
+		 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css">
+		 <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+		 <style>
+		 	@font-face {
+				font-family: 'GilroyBold';
+				src: url({{assetPath('fonts/Gilroy-Bold.ttf')}});
+			}
+			@font-face {
+				font-family: 'Montserrat-Light';
+				src: url({{assetPath('fonts/Montserrat-Light.ttf')}});
+			}
+			@font-face {
+				font-family: 'Gilroy-SemiBold';
+				src: url({{assetPath('fonts/Gilroy-SemiBold.ttf')}});
+			}
+			@font-face {
+				font-family: 'Lato-Regular';
+				src: url({{assetPath('fonts/Lato-Regular.woff')}});
+			}
+			
+		 </style>
+	</head>
+
+	<body class="{{body_class}}">
+		{% block header %}
+			{% include 'components/header.twig' %}
+		{% endblock %}
+
+		<main>
+			{% block content %}
+				Sorry, no content
+			{% endblock %}
+		</main>
+
+		{% block footer %}
+			{% include 'components/footer.twig' %}
+		{% endblock %}
+		{{ function('wp_footer') }}
+	</body>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.bundle.min.js"></script>
+</html>

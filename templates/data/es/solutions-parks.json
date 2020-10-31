@@ -1,0 +1,61 @@
+{
+  "product": "Goguest",
+  "title": "Soluciones para parques temáticos",
+  "sector": "Parques Temáticos",
+  "header_img": "/wp-content/uploads/2019/11/host-parques-tematicos-cabecera.jpg",
+  "header_card_img": "/wp-content/uploads/2019/11/parques-tematicos-mini.jpg",
+  "cards": [
+    "control_de_accesos",
+    "business_intelligence",
+    "pagos_cashless",
+    "reserva_de_servicios",
+    "webapp_de_gestion",
+    "control_afluencias",
+    "reporting",
+    "kiosk_y_tablet",
+    "encuestas_digitalizadas",
+    "recarga_y_devolucion",
+    "app_validacion",
+    "cortesias",
+    "incentivos_de_consumo",
+    "pos_portatil",
+    "tokenizacion_tarjeta",
+    "control_de_pulseras",
+    "gestion_entradas"
+  ],
+  "integrations": {
+    "title": "Integraciones",
+    "alt": "integración con %s",
+    "items": [
+      "Sihot",
+      "TCASS",
+      "Opera",
+      "Quonext",
+      "Mews",
+      "Bdp",
+      "Dormakaba",
+      "MyBusiness-POS",
+      "Omnitechit",
+      "Onity",
+      "Salto",
+      "Soft-Restaurant",
+      "Tesa",
+      "Assa-Abloy",
+      "VisualGest"
+    ]
+  },
+  "case_study": {
+    "path": "/casos-de-exito/aquarama",
+    "img": "/wp-content/uploads/2019/11/casos-de-exito-aquarama.jpg",
+    "video": {
+      "src": "ce3zbcx5yFw",
+      "cta": "Ver video"
+    }
+  },
+  "review": {
+    "logo": "clients-aquarama-color.svg",
+    "name": "Dolores Salgado",
+    "role": "Directora Aquarama",
+    "content": "Están cambiando la forma de interactuar con el cliente final"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "title": "Campeonato Aapolo Argentina",
+  "video": {
+    "img": "/wp-content/uploads/2019/11/casos-de-exito-aapolo.jpg",
+    "src": "OSTp6SYQPHw"
+  },
+  "info": [
+    {
+      "icon": "place",
+      "text": "Buenos Aires, Argentina"
+    },
+    {
+      "icon": "attendees",
+      "text": "30.000 espectadores"
+    },
+    {
+      "icon": "goal",
+      "text": "Transformacióm digital del recinto deportivo"
+    }
+  ],
+  "what": {
+    "title": "¿Qué es Aapolo?",
+    "content": "También conocido como El Abierto, el Campeonato Argentino Abierto de Polo es el máximo certamen interclubes a nivel mundial y el quinto en antigüedad en el mundo con más de 125 años."
+  },
+  "goal": {
+    "title": "Objetivo",
+    "content": "El campeonato decidió implantar el sistema de pagos cashless en su recinto deportivo durante 6 fines de semana consecutivos para mejorar la experiencia de los asistentes y fomentar el consumo, llegando a incrementar notablemente sus ingresos en comparación con ediciones anteriores."
+  },
+  "cards": [
+    "pagos_cashless",
+    "recarga_y_devolucion",
+    "business_intelligence"
+  ],
+  "cta": "¿Tienes un recinto deportivo y te gustaría mejorar la experiencia de tus clientes?",
+  "review": {
+    "logo": "/wp-content/uploads/2020/01/logo-aapolo-color.jpg",
+    "name": "Nicolas Filippini",
+    "role": "Gte de Planeamiento y Control de Gestión",
+    "content": "Easygoband se ha vuelto indispensable para agilizar, aumentar nuestros ingresos en gran medida y tener un control exhaustivo de nuestro evento."
+  }
+}

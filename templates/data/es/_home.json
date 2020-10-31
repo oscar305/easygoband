@@ -1,0 +1,165 @@
+{
+  "header": {
+    "title": {
+      "fixed": ["Conectamos", "con", ["Hacemos fácil", "lo difícil"]],
+      "dynamic": [
+        ["tecnología", "clientes", "digitalización"],
+        ["personas", "datos", "servicios"]
+      ]
+    },
+    "video": {
+      "src": "/wp-content/themes/easygoband/dist/assets/videos/oasis.mp4",
+      "poster": ""
+    }
+  },
+  "cards": {
+    "subtitle": "SOLUCIONES RFID/NFC",
+    "title": "Ofrecemos soluciones RFID/NFC que digitalizan los procesos de tu negocio, mejoran las operativas y ofrecen una experiencia única a tus clientes.",
+    "items": [
+      {
+        "title": "Control de accesos",
+        "content": "Elimina el fraude con las pulseras, evita los posibles robos  y consigue mayor seguridad para tu negocio.",
+        "img": "solutions-access-control"
+      },
+      {
+        "title": "Business intelligence",
+        "content": "Obtén datos reales sobre las experiencias de tus clientes. Mejora las operativas y la toma de decisiones estratégicas.",
+        "img": "solutions-business-intelligence"
+      },
+      {
+        "title": "Pagos cashless",
+        "content": "Elimina el pago en efectivo, la pulsera o tarjeta se convierte en un medio de pago fácil y seguro.",
+        "img": "solutions-cashless-payments"
+      },
+      {
+        "title": "Gestión y emisión de entradas",
+        "content": "Sistema de gestión y venta de entradas a través de una plataforma de pago sin recurrir a plataformas externas.",
+        "img": "tickets-management"
+      },
+      {
+        "title": "Incentivos de consumo",
+        "content": "Establece unas metas de consumo y ofrece cortesías a los clientes que las hayan alcanzado",
+        "img": "solutions-increase-revenue"
+      },
+      {
+        "title": "Identificación de usuario",
+        "content": "Al identificar a los clientes de forma Individual y segura se habilitan funcionalidades para mejorar los procesos.",
+        "img": "user-identification"
+      }
+    ],
+    "cta": [
+      {
+        "title": "Soluciones sector turismo",
+        "link": "/soluciones/hoteles-y-resorts"
+      },
+      {
+        "title": "Soluciones sector ocio",
+        "link": "/soluciones/festivales-de-musica/"
+      }
+    ]
+  },
+  "clients": {
+    "title": "Confían en nosotros",
+    "items": [
+      "/wp-content/uploads/2020/01/logos-clientes_0020_the-beerman.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0023_karisma.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0001_OASIS.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0002_pesf.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0011_carpe-birrem.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0015_grupo-pineiro.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0022_aqualandia.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0007_SOFT-RESTAURANT.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0017_marjal-resorts.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0008_Krystal.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0013_MIT.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0005_TCASS.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0019_aapolo-argentina.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0006_IMPERIAL.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0018_rototom.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0016_UJI.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0021_aquarama.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0009_acampada-jove.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0004_BAHIA-PRINCIPE.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0014_MELODI-MAKER.png",
+      "/wp-content/uploads/2020/01/logos-clientes_0026_belive.png"
+    ]
+  },
+  "sectors": {
+    "title": {
+      "default": "Sectores con los que trabajamos",
+      "on_click": "Elige tu sector"
+    },
+    "items": {
+      "first_row": [
+        {
+          "title": "Hoteles y Resorts",
+          "link": "/soluciones/hoteles-y-resorts",
+          "img": "/wp-content/uploads/2019/11/hoteles-y-resorts.jpg"
+        },
+        {
+          "title": "Festivales de Música",
+          "link": "/soluciones/festivales-de-musica",
+          "img": "/wp-content/uploads/2019/11/festivales-de-musica.jpg"
+        },
+        {
+          "title": "Campings",
+          "link": "/soluciones/campings",
+          "img": "/wp-content/uploads/2019/11/campings.jpg"
+        },
+        {
+          "title": "Parques Temáticos",
+          "link": "/soluciones/parques-tematicos",
+          "img": "/wp-content/uploads/2019/11/parques-tematicos.jpg"
+        }
+      ],
+      "second_row": [
+        {
+          "title": "Recintos Deportivos",
+          "link": "/soluciones/recintos-deportivos",
+          "img": "/wp-content/uploads/2019/11/recintos-deportivos.jpg"
+        },
+        {
+          "title": "Eventos Gastronómicos",
+          "link": "/soluciones/eventos-gastronomicos",
+          "img": "/wp-content/uploads/2019/11/eventos-gastronomicos.jpg"
+        }
+      ]
+    },
+    "cta": "Saber más"
+  },
+  "advantages": {
+    "title": "Nuestro sistema es único y ofrece grandes ventajas para tu negocio.",
+    "items": [
+      {
+        "title": "Puede funcionar Online y Offline sin interrupciones.",
+        "img": "advantages-online-and-offline.svg"
+      },
+      {
+        "title": "Integración en los sistemas de gestión fácil y rápida.",
+        "img": "advantages-integration.svg"
+      },
+      {
+        "title": "Mayor seguridad en las transacciones.",
+        "img": "advantages-security.svg"
+      },
+      {
+        "title": "Incrementa los ingresos de tu negocio.",
+        "img": "advantages-increase.svg"
+      },
+      {
+        "title": "Mejora la experiencia de los clientes y fidelízalos.",
+        "img": "advantages-improve-ux.svg"
+      },
+      {
+        "title": "Genera procesos más eficientes y gana tiempo.",
+        "img": "advantages-efficiency.svg"
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Preparados para hacer fácil lo difícil?",
+    "subtitle": "¡Vamos a comenzar!",
+    "btn": "Contacta con nosotros",
+    "path": "/contacto"
+  }
+}

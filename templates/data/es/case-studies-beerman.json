@@ -1,0 +1,37 @@
+{
+  "title": "Beerman eventos cerveceros",
+  "video": {
+    "img": "/wp-content/uploads/2019/11/casos-de-exito-beerman.jpg",
+    "src": "EbEt_ExdjUc"
+  },
+  "info": [
+    {
+      "icon": "place",
+      "text": "Ecuador"
+    },
+    {
+      "icon": "attendees",
+      "text": "1.200 asistentes"
+    },
+    {
+      "icon": "goal",
+      "text": "Transformacióm digital del reciento completo"
+    }
+  ],
+  "what": {
+    "title": "¿Qué es Beerman?",
+    "content": "El Beerman es uno de los eventos cerveceros más importantes de Ecuador, organizado por José Zurita, el embajador de la cerveza artesanal ecuatoriana."
+  },
+  "goal": {
+    "title": "Objetivo",
+    "content": "En 2018, llevaron a cabo su transformación digital de la mano de Easygoband para gestionar el control de accesos y mejorar la experiencia de los asistentes con el sistema de pago cashless. Con estas soluciones incrementaron las ventas y redujeron el fraude."
+  },
+  "cards": ["pagos_cashless", "control_de_accesos", "business_intelligence"],
+  "cta": "¿Tienes un espacio gastronómico y te gustaría mejorar la experiencia de tus clientes?",
+  "review": {
+    "logo": "/wp-content/uploads/2020/01/logo-beerman-color.jpg",
+    "name": "Juan Zurita",
+    "role": "Owner",
+    "content": "La experiencia ha sido muy satisfactoria con un control al máximo y una excelente percepción de los asistentes"
+  }
+}

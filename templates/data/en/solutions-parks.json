@@ -1,0 +1,62 @@
+{
+  "product": "goguest",
+  "title": "IT Solutions for Theme and Water Parks",
+  "sector": "Theme & Water Parks",
+  "header_img": "/wp-content/uploads/2020/04/parques.jpg",
+  "header_card_img": "/wp-content/uploads/2020/04/parques-mini.jpg",
+  "cards": [
+    "control_de_accesos",
+    "business_intelligence",
+    "pagos_cashless",
+    "reserva_de_servicios",
+    "webapp_de_gestion",
+    "control_afluencias",
+    "reporting",
+    "kiosk_y_tablet",
+    "encuestas_digitalizadas",
+    "recarga_y_devolucion",
+    "app_validacion",
+    "cortesias",
+    "incentivos_de_consumo",
+    "pos_portatil",
+    "tokenizacion_tarjeta",
+    "control_de_pulseras",
+    "gestion_entradas"
+  ],
+  "integrations": {
+    "title": "Integrations",
+    "alt": "%s Integrations",
+    "items": [
+      "Sihot",
+      "TCASS",
+      "Opera",
+      "Quonext",
+      "Mews",
+      "Bdp",
+      "Dormakaba",
+      "MyBusiness-POS",
+      "Omnitechit",
+      "Onity",
+      "Salto",
+      "Soft-Restaurant",
+      "Tesa",
+      "Assa-Abloy",
+      "VisualGest"
+    ]
+  },
+  "case_study": {
+    "path": "/casos-de-exito/aquarama",
+    "img": "/wp-content/uploads/2019/11/casos-de-exito-aquarama.jpg",
+    "logo": "/wp-content/uploads/2020/03/clients-aquarama.png",
+    "video": {
+      "src": "ce3zbcx5yFw",
+      "cta": "Ver video"
+    }
+  },
+  "review": {
+    "logo": "/wp-content/uploads/2020/01/logo-aquarama-color.jpg",
+    "name": "Dolores Salgado",
+    "role": "Director",
+    "content": "Easygoband enables us to get different and enhanced communications with our guests at the water park."
+  }
+}

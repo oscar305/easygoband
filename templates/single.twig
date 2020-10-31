@@ -1,0 +1,79 @@
+{% extends "layouts/base.twig" %}
+
+{% set currentUrl = 'https://easygoband.com' ~ post.path %}
+{% set onClick = "window.open(this.href,'','toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=530,height=500'); return false;" %}
+{% set category = single_category ? single_category: post.categories[0] %}
+
+{% block content %}
+	<article id="post-{{post.ID}}" class="w-full relative">
+		{% if post.thumbnail.src %}
+			<img class="post-header w-full" src="{{post.thumbnail.src('large')}}" alt="">
+		{% endif %}
+		<div class="bg-purple text-center pb-8">
+			<div class="max-w-4xl mx-auto">
+				<img class="h-16 -mt-6 mx-auto mb-6" src="{{assetPath('images/icono.svg')}}">
+				<span class="bg-white font-bold text-xs text-purple px-2 py-1">{{ category }}</span>
+				<h1 class="text-white mt-6">
+					{{post.title}}
+				</h1>
+				<p class="text-xs text-gray-500 mt-6">
+					{{ post.date('d/m/Y') }}</p>
+			</div>
+		</div>
+		<div class="bg-white">
+			<div class="max-w-4xl mx-auto">
+				<div class="py-16">
+					<div class="absolute lg:-ml-24 justify-center">
+						<div class="share-block ml-4 lg:ml-0 lg:flex flex-col lg:mt-32">
+							<a class="inline-block lg:mb-6 mr-4 lg:mr-0 opacity-25 hover:opacity-100" href="https://www.facebook.com/sharer/sharer.php?u={{currentUrl|url_encode}}" onclick="{{onClick}}">
+								<img src="{{assetPath('images/sn-facebook.svg')}}"/>
+							</a>
+							<a class="inline-block lg:mb-6 mr-4 lg:ml-0 opacity-25 hover:opacity-100" onclick="{{onClick}}" href="https://twitter.com/intent/tweet?text={{((titleSecondLevel|capitalize ? titleSecondLevel|capitalize ~ ' - ' : '') ~ post.title|capitalize ~ ' via @easyGOband ' ~ currentUrl)|url_encode}}">
+								<img src="{{assetPath('images/sn-twitter.svg')}}"/>
+							</a>
+							<a class="inline-block opacity-25 hover:opacity-100" onclick="{{onClick}}" href="https://www.linkedin.com/shareArticle?mini=true&url={{currentUrl|url_encode}}&title={{post.title|url_encode}}">
+								<img src="{{assetPath('images/sn-linkedin.svg')}}"/>
+							</a>
+						</div>
+					</div>
+					<div class="blog-content px-4 mt-24 lg:mt-0">
+						{{post.content}}
+						<div class="mt-16">
+							{% for category in post.categories %}
+								<span class="bg-black text-xs text-white px-2 py-1 mr-2">{{ category }}</span>
+							{% endfor %}
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</article>
+
+	<section class="relative bg-gray-100 pt-8">
+		<div class="container mx-auto">
+			<h2 class="text-center">
+				Noticias relacionadas
+			</h2>
+			<div class="post-related flex flex-col md:flex-row items-center md:items-stretch mx-2 md:-mx-2 mt-16">
+				{% for post in related_posts %}
+					<article class="blog-entry w-full relative px-2">
+						<a class="relative h-full inline-block" href="{{post.link}}">
+							{% if post.thumbnail.src %}
+								<img class="relative w-full h-full object-cover z-10" src="{{post.thumbnail.src('large')}}" alt="">
+							{% endif %}
+							<div class="content absolute w-full bottom-0 right-0 bg-white-opacity px-8 pt-2 pb-4 z-20">
+								<span class="absolute top-0 right-0 bg-black text-xs text-white mr-8 -mt-4 px-2 py-1">{{ category }}</span>
+								<p class="text-xs text-purple">
+									{{ post.date('d/m/Y') }}</p>
+								<h2 class="text-xl leading-normal text-black">
+									{{post.title}}
+								</h2>
+							</div>
+						</a>
+					</article>
+				{% endfor %}
+			</div>
+		</div>
+		<div class="bg-double-color"></div>
+	</section>
+{% endblock %}

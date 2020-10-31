@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="95px" viewBox="0 0 88 95" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>icon_mayor_consumo</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Soluciones-Gofun" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Solucion---Gofun-festivales-de-musica" transform="translate(-1122.000000, -6298.000000)">
+            <g id="icon_mayor_consumo" transform="translate(1124.000000, 6283.000000)">
+                <path d="M84,75.3880187 L84,107.296296 C84,107.684941 83.5522847,108 83,108 L49,108 C48.4477153,108 48,107.684941 48,107.296296 L48,51.7037037 C48,51.3150589 48.4477153,51 49,51 L83,51 C83.5522847,51 84,51.3150589 84,51.7037037 L84,61.6137401" id="Path" stroke="#000230" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                <rect id="Rectangle-Copy" stroke="#000230" stroke-width="4" stroke-linejoin="round" x="0" y="83" width="36" height="25" rx="1"></rect>
+                <g id="Group-24" transform="translate(2.000000, 0.000000)" stroke="#000230" stroke-linecap="round">
+                    <line x1="15.800733" y1="80.0985096" x2="59.4943413" y2="6.62366608" id="Path" stroke-width="4" transform="translate(37.647537, 43.361088) rotate(31.000000) translate(-37.647537, -43.361088) "></line>
+                    <polygon id="Path-5" stroke-width="3.75" stroke-linejoin="round" transform="translate(76.892371, 22.596391) rotate(-26.000000) translate(-76.892371, -22.596391) " points="72.892371 14.5963913 80.892371 22.1766431 72.892371 30.5963913 79.0739103 22.1900065"></polygon>
+                </g>
+                <path d="M48,51 L69,51 L69,64 C69,69.5228475 64.5228475,74 59,74 L48,74 L48,74 L48,51 Z" id="Rectangle" fill="#000230"></path>
+            </g>
+        </g>
+    </g>
+</svg>

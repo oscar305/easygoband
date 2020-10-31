@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="90px" height="96px" viewBox="0 0 90 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="WEB" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Planes-HOST-opcion-2" transform="translate(-589.000000, -293.000000)">
+            <g id="Group-8" transform="translate(157.000000, 212.000000)">
+                <g id="Group-7" transform="translate(379.000000, 0.000000)">
+                    <g id="Group-2" transform="translate(50.000000, 81.000000)">
+                        <rect id="Rectangle" fill="#DDDEEE" x="11.52" y="0" width="50.4" height="70.56" rx="7.2"></rect>
+                        <g id="Group-53" transform="translate(24.480000, 11.520000)" stroke="#A5A7BF" stroke-linecap="round" stroke-width="2.16">
+                            <line x1="0.804705882" y1="1.44" x2="26.5552941" y2="1.44" id="Line-2"></line>
+                            <line x1="0.804705882" y1="5.76" x2="26.5552941" y2="5.76" id="Line-2-Copy"></line>
+                            <line x1="0.804705882" y1="10.08" x2="26.5552941" y2="10.08" id="Line-2-Copy-2"></line>
+                            <line x1="0.804705882" y1="14.4" x2="26.5552941" y2="14.4" id="Line-2-Copy-3"></line>
+                        </g>
+                        <path d="M38.5905731,50.4493034 L75.916904,45.2754837 C79.067938,44.8387175 81.9764248,47.0390662 82.413191,50.1901002 C82.4495134,50.4521465 82.4677393,50.7163838 82.4677393,50.9809355 L82.4677393,60.5643071 L82.4677393,60.5643071 L38.5905731,60.5643071 L38.5905731,50.4493034 Z" id="Path-10" fill="#A5A7BF"></path>
+                        <g id="Group-61" transform="translate(67.387893, 40.914805) rotate(-26.000000) translate(-67.387893, -40.914805) translate(53.387893, 26.914805)">
+                            <circle id="Oval" fill="#241DBA" cx="13.68" cy="13.68" r="13.68"></circle>
+                            <text id="€" font-family=".SFNSDisplay, .SF NS Display" font-size="20.16" font-weight="normal" line-spacing="14.976" fill="#FFFFFF">
+                                <tspan x="5.76" y="24.76">€</tspan>
+                            </text>
+                        </g>
+                        <g id="Group-62-Copy" transform="translate(0.000000, 20.160000)">
+                            <circle id="Oval" fill="#6D3B98" transform="translate(11.664000, 11.664000) rotate(-40.000000) translate(-11.664000, -11.664000) " cx="11.664" cy="11.664" r="8.208"></circle>
+                            <text id="€" transform="translate(12.165206, 12.664557) rotate(-40.000000) translate(-12.165206, -12.664557) " font-family=".AppleSystemUIFont" font-size="12.096" font-weight="normal" line-spacing="8.9856" fill="#FFFFFF">
+                                <tspan x="7.67240558" y="18.8239172">€</tspan>
+                            </text>
+                        </g>
+                        <g id="Group-58" transform="translate(33.120000, 50.449303)">
+                            <rect id="Rectangle" fill="#EEEFF7" x="0" y="0" width="59.04" height="44.64" rx="5.76"></rect>
+                            <g id="Group-56" transform="translate(47.520000, 17.280000)">
+                                <path d="M5.76,0 L11.52,0 L11.52,0 L11.52,11.52 L5.76,11.52 C2.57883984,11.52 3.89579761e-16,8.94116016 0,5.76 C-3.89579761e-16,2.57883984 2.57883984,5.84369641e-16 5.76,0 Z" id="Rectangle" fill="#A5A7BF"></path>
+                                <circle id="Oval" fill="#FFFFFF" cx="5.76" cy="5.76" r="1.44"></circle>
+                            </g>
+                        </g>
+                        <g id="flecha-copy-5" transform="translate(20.160000, 43.200000)" stroke="#A5A7BF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.16">
+                            <path d="M0,0 C3.888,6.25488718 12.238499,8.91367778 25.0514969,7.9763718" id="Path-4"></path>
+                            <polygon id="Path-5" fill="#232526" points="17.665857 0.771193845 25.0514969 7.96369195 17.665857 15.9527436 23.3726849 7.9763718"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
