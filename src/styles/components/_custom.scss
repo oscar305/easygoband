@@ -54,7 +54,7 @@ a.nav-link {
 }
 .light_header .btn_lang a {
     color: #fff;
-    font-size: 13px;
+    background-color: #241dba;
 }
 .py-15{
     padding-top: 6rem;
@@ -204,6 +204,8 @@ a.nav-link {
     border: 1px solid;
     padding: 2px 7px;
     font-size: 14px !important;
+    width: 33px;
+    height: 27px;
 }
 a.btn_blue {
     background-color: #241dba;
@@ -718,6 +720,46 @@ h4.panel-title {
 .home_faq h4.panel-title:hover a {
     background-color: #fff;
 }
+.mobile{
+    display: none;
+}
+
+.switch_lang .translate {
+    color: #777;
+    border: 1px solid;
+    padding: 2px 7.5px;
+    font-size: 14px!important;
+    cursor: pointer;
+    font-family: 'Gilroy-SemiBold';
+    width: 33px;
+    height: 27px;
+}
+.switch_lang a {
+    display: none;
+}
+.switch_lang:hover a {
+    display: block;
+}
+.light_header .translate {
+    color: #fff;
+    background: #000230;
+}
+.modal-open,
+.modal-open .modal {
+    padding-right: 0 !important;
+}
+.modal-content{
+    padding: 23px;
+}
+.modal-dialog {
+    max-width: 801px !important;
+}
+.modal-header .close{
+    opacity: 1;
+}
+.modal i.fa-times {
+    font-size: 31px;
+}
 
 
 
@@ -813,6 +855,12 @@ h4.panel-title {
     }
     li.dropdown {
         padding: 0 13px;
+    }
+    .mobile{
+        display: block;
+    }
+    .desktop{
+        display: none;
     }
 
 }

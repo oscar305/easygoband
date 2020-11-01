@@ -109,9 +109,15 @@
     </div>
     <div class="btn_lang ml-8">
         {% if lang == 'es' %}
-            <a href="{{base_url}}/en" class="mr-2 text-lg uppercase no-underline">EN</a>
+            <div class="switch_lang relative">
+              <div href="{{base_url}}/en" class="mr-2 text-lg uppercase no-underline translate">ES</div>
+              <a href="{{base_url}}/en" class="mr-2 text-lg uppercase no-underline absolute">EN</a>
+            </div>
         {% else %}
-            <a href="{{base_url}}" class="text-lg uppercase no-underline">ES</a>
+            <div class="switch_lang relative">
+              <div href="{{base_url}}/en" class="mr-2 text-lg uppercase no-underline translate">EN</div>
+              <a href="{{base_url}}" class="mr-2 text-lg uppercase no-underline absolute">ES</a>
+            </div>
         {% endif %}
     </div>
 </div>
