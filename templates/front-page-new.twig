@@ -463,16 +463,29 @@
 <div class="modal fade" id="casestudy" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
-        <div class="modal-header">
+        <div class="modal-header" style="border: none;">
           <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="fal fa-times"></i></button>
         </div>
         <div class="modal-body">
-          Your current session will expire in 5 minutes. Please Save your changes to continue your session, otherwise you will lose all unsaved data and your session will time out.
+			<div class="container px-0">
+				<div class="row">
+					<div class="col-md-7 pl-0 showin_init">
+						<img class="w-100" src="{{assetPath('images/home_img/caso_estudio_hoteles_contactless.jpg')}}">
+						<br>
+						<p style="font-size: 16px;">Un <b  class="text_blue">caso de estudio completo</b> que te ayudará a entender como beneficiarte de nuestra solución Goguest. Incluye solución a los problemas planteados por el hotel, la <b class="text_blue">inversión necesaria</b>. así como los <b class="text_blue">rendimientos y beneficios económicos.</b></p>
+						<p style="color:#0000ff; font-size: 16px;"><i>Rellena el formulario y te enviaremos el caso de estudio a tu correo.</i></p>
+					</div>
+					<div class="col-md-5 pr-0 showin_init">
+						{{ function('do_shortcode', '[contact-form-7 id="7321" title="modal form"]') }}
+					</div>
+					<div class="col-md-12 pr-0 showin_sent mx-auto mx-650 hidden">
+						<img class="w-100 mx-auto" src="{{assetPath('images/home_img/caso_estudio_hoteles_contactless.jpg')}}" style="max-width: 451px;">
+						<br>
+						<h4 class="text_blue text-center">Gracias por solicitar el caso de estudio. Uno de nuetsros comerciales se pondrá en contacto a través del correo para enviarte el caso de estudio lo más pronto posible.</h4>
+					</div>
+				</div>
+			</div>
         </div>
-        {# <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
-        </div> #}
       </div>
     </div>
   </div>
@@ -594,6 +607,17 @@
 
 <script>
     jQuery(document).ready(function($){
+
+		//modal form 
+		$('input.co_submit').click(function(){
+			var form = $(this).parent().parent();
+			setTimeout(function(){
+				if(form.hasClass('sent')){
+					form.parent().parent().parent().find('.showin_init').addClass('hidden');
+					form.parent().parent().parent().find('.showin_sent').removeClass('hidden');
+				}    
+			},3000);
+		});
 
         //box switch
         $('.pointer_item').hover(function(){ $(this).parent().find('.pointer_item').removeClass('active_item');
