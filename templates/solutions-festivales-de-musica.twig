@@ -7,8 +7,8 @@
         <div class="container">
             <div class="row my-5 align-items-center">
                 <div class="col-md-12 px-5 py-5 text-center text-white mx-auto" style="max-width: 801px;">
-                    <h1 class="">Festivales de música</h1>
-                    <p class="mb-5 font-25">Gofun es una plataforma de Easygoband que ofrece soluciones que mejoran las operativas, disminuyen el fraude y aumentan los ingresos de los eventos mediante el uso de la tecnología NFC entre otros medios y recursos tecnológicos.</p>
+                    <h1 class="">{{ lang == 'en'?'Music Festivals':'Festivales de música'}}</h1>
+                    <p class="mb-5 font-25">{{ lang == 'en'?'Gofun is an Easygoband platform that offers solutions that improve operations, reduce fraud and increase revenue from events through the use of NFC technology among other means and technological resources.':'Gofun es una plataforma de Easygoband que ofrece soluciones que mejoran las operativas, disminuyen el fraude y aumentan los ingresos de los eventos mediante el uso de la tecnología NFC entre otros medios y recursos tecnológicos.'}}</p>
                 </div>
             </div>
         </div>
@@ -34,7 +34,7 @@
                             <a class="text_blue" href="{{ lang == 'en' ? '/en/soluciones/sporting-events': '/soluciones/recintos-deportivos' }}">{{ lang == 'en'? 'Sporting Events':'Recintos Deportivos'}}</a>
                         </div>
                         <div class="col-md-3 py-3 text-center">
-                            <a class="btn_blue" href="#">{{ lang == 'en' ? 'Ask For Budget': 'Pedir presupuesto' }}</a>
+                            <a class="btn_blue" href="{{ lang == 'en'?'/en/plans':'/planes'}}">{{ lang == 'en' ? 'Ask For Budget': 'Pedir presupuesto' }}</a>
                         </div>
                     </div>
                 </div>
@@ -50,12 +50,12 @@
                     <img class="mx-auto w-100" style="max-width: 451px;" src="{{assetPath('images/festival/pagos_cashless_festivales_eventos_deportivos.svg')}}">
                 </div>
                 <div class="col-md-6 px-5 py-5 text-center text-md-left">
-                    <h1 class="text_blue">Pagos Cashless</h1>
-                    <p class="font-25">El entorno cashless permite mejorar la seguridad del recinto, reduce el coste cash handling y las posibles pérdidas o robos.</p>
+                    <h1 class="text_blue">{{ lang == 'en'?'Cashless payments':'Pagos Cashless'}}</h1>
+                    <p class="font-25">{{ lang == 'en'?'The cashless environment improves the security of the premises, reduces the cost of cash handling and possible losses or theft.':'El entorno cashless permite mejorar la seguridad del recinto, reduce el coste cash handling y las posibles pérdidas o robos.'}}</p>
                     <div class="check_lists  text-left">
-                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Mejora la experiencia de usuario</p>
-                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Aumenta el consumo entre 15-30%</p>
-                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Reduce las colas y tiempos de espera</p>
+                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}">{{ lang == 'en'?'Improves user experience':'Mejora la experiencia de usuario'}} </p>
+                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}">{{ lang == 'en'?'Increase consumption between 15-30%':'Aumenta el consumo entre 15-30%'}} </p>
+                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}">{{ lang == 'en'?'Reduce queues and waiting times':'Reduce las colas y tiempos de espera'}} </p>
                     </div>
                 </div>
                
@@ -70,12 +70,12 @@
                     <img class="mx-auto w-100" style="max-width: 451px;" src="{{assetPath('images/festival/control_accesos_afluencias_festivales_eventos_deportivos.svg')}}">
                 </div>
                 <div class="col-md-6 px-5 py-5 text-center text-md-left">
-                    <h1 class="text_blue">Control de accesos</h1>
-                    <p class="font-25">Sistema de lectura rápida e intuitiva para el control de aforo y afluencias. Aumenta la seguridad de evento.</p>
+                    <h1 class="text_blue">{{ lang == 'en'?'Access control':'Control de accesos'}}</h1>
+                    <p class="font-25">{{ lang == 'en'?'Quick and intuitive reading system to control capacity and flow. Increase event security.':'Sistema de lectura rápida e intuitiva para el control de aforo y afluencias. Aumenta la seguridad de evento.'}}</p>
                     <div class="check_lists  text-left">
-                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Control de aforo general y por zonas</p>
-                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Estadísticas de acceso en tiempo real</p>
-                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Gestion del personal en tiempo real</p>
+                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}">{{ lang == 'en'?'Control of general capacity and by zones':'Control de aforo general y por zonas'}} </p>
+                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}">{{ lang == 'en'?'Access Statistics in Real Time':'Estadísticas de acceso en tiempo real'}} </p>
+                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}">{{ lang == 'en'?'Real-time staff management':'Gestion del personal en tiempo real'}}</p>
                     </div>
                 </div>
                
@@ -90,12 +90,12 @@
                     <img class="mx-auto w-100" style="max-width: 451px;" src="{{assetPath('images/festival/validacion_entradas_festivales_eventos_deportivos.svg')}}">
                 </div>
                 <div class="col-md-6 px-5 py-5 text-center text-md-left">
-                    <h1 class="text_blue">Validación de entradas</h1>
-                    <p class="font-25">La entrada quedará validada con un simple acercamiento del lector NFC al código de la misma.</p>
+                    <h1 class="text_blue">{{ lang == 'en'?'Ticket validation':'Validación de entradas'}}</h1>
+                    <p class="font-25">{{ lang == 'en'?'The entry will be validated with a simple approach of the NFC reader to the code of the same.':'La entrada quedará validada con un simple acercamiento del lector NFC al código de la misma.'}}</p>
                     <div class="check_lists  text-left">
-                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Estadísticas e informes y pulseras nominativas</p>
-                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Posibilidad de integración con ticketeras</p>
-                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Precargas de dinero desde la ticketera</p>
+                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}">{{ lang == 'en'?'Statistics and reports and nominative bracelets':'Estadísticas e informes y pulseras nominativas'}}</p>
+                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}">{{ lang == 'en'?'Possibility of integration with ticket machines':'Posibilidad de integración con ticketeras'}} </p>
+                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}">{{ lang == 'en'?'Preloads of money from the ticketera':'Precargas de dinero desde la ticketera'}} </p>
                     </div>
                 </div>
                
@@ -110,12 +110,12 @@
                     <img class="mx-auto w-100" style="max-width: 451px;" src="{{assetPath('images/festival/business_intelligence_festivales_eventos_deportivos.svg')}}">
                 </div>
                 <div class="col-md-6 px-5 py-5 text-center text-md-left">
-                    <h1 class="text_blue">Business Intelligence</h1>
-                    <p class="font-25">La actividad de los asistentes y trabajadores queda registrada, podrás reducir costes y aumentar beneficios.</p>
+                    <h1 class="text_blue">{{ lang == 'en'?'Business intelligence':'Business Intelligence'}}</h1>
+                    <p class="font-25">{{ lang == 'en'?'The activity of the assistants and workers is registered, you can reduce costs and increase profits.':'La actividad de los asistentes y trabajadores queda registrada, podrás reducir costes y aumentar beneficios.'}}</p>
                     <div class="check_lists  text-left">
-                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Reportes y estadísticas en tiempo real</p>
-                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Control y gestión del staff</p>
-                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Venta cruzada y segmentación de ventas</p>
+                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}">{{ lang == 'en'?'Reports and statistics in real time':'Reportes y estadísticas en tiempo real'}} </p>
+                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}">{{ lang == 'en'?'Control and management of staff':'Control y gestión del staff'}} </p>
+                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}">{{ lang == 'en'?'Cross selling and sales segmentation':'Venta cruzada y segmentación de ventas'}} </p>
                     </div>
                 </div>
                
@@ -127,7 +127,7 @@
         <div class="container">
             <div class="row align-items-center justify-content-center">
                 <div class="col-md-12 text-center">
-                     <a class="btn_dark_blue" href="#">Pedir presupuesto</a>
+                     <a class="btn_dark_blue" href="{{ lang == 'en'?'/en/plans':'/planes'}}">{{ lang == 'en'?'Ask For Budget':'Pedir presupuesto'}}</a>
                 </div>   
             </div>
         </div>
@@ -138,7 +138,7 @@
             <div class="row align-items-center justify-content-center">
                 <div class="col-md-12  py-3 text-center text-white mx-650 mx-auto">
                     <small >CUSTOMER JOURNEY</small><br>
-                    <h1 class="py-3">Experiencia del cliente desde la compra de la entrada hasta el día final del evento</h1>
+                    <h1 class="py-3">{{ lang == 'en'?'Customer experience from ticket purchase to the final day of the event':'Experiencia del cliente desde la compra de la entrada hasta el día final del evento'}}</h1>
                 </div>
                 <img class="mx-auto w-100 my-5" src="{{assetPath('images/festival/customer_journey_pagos_cashless_contacless_NFC.svg')}}">
             </div>
@@ -151,17 +151,17 @@
                 <img src="{{assetPath('images/festival/left3_tab.svg')}}">
             </div>
             <div class="col-md-6 py-5 text-center text-md-left mx-650 w-100">
-                <h1 class="text_blue pb-5">Podrás contratar nuestros servicios y productos según tus necesidades</h1>
+                <h1 class="text_blue pb-5">{{ lang == 'en'?'You can contract our services and products according to your needs':'Podrás contratar nuestros servicios y productos según tus necesidades'}}</h1>
                 
                 <ul class="nav nav-tabs" id="myTab">
-                    <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#tabOne">LICENCIA</a></li>
-                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tabTwo">LLAVE EN MANO</a></li>
-                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tabThree">GOFUN BOX</a></li>
+                    <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#tabOne">{{ lang == 'en'?'LICENSE':'LICENCIA'}}</a></li>
+                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tabTwo">{{ lang == 'en'?'KEY ON HAND':'LLAVE EN MANO'}}</a></li>
+                    <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tabThree">{{ lang == 'en'?'GOFUN BOX':'GOFUN BOX'}}</a></li>
                 </ul>
                 <div class="tab-content pt-3" id="myTabContent">
-                    <div class="tab-pane fade active show" id="tabOne"><p  class="font-25">Configuramos el sistema adaptándolo a tus necesidades y formamos a tu equipo durante los primeros días para que puedas gestionarlo de forma autónoma.</p></div>
-                    <div class="tab-pane fade" id="tabTwo"><p  class="font-25">Nos encargamos de todas las necesidades para llevar a cabo el evento y ofrecemos soporte técnico durante el mismo.</p></div>
-                    <div class="tab-pane fade" id="tabThree"><p  class="font-25">Si tu evento es de pequeño formato, con la formación online y con nuestras tutoriales,  pondrás fácilmente en marcha el sistema. Solo disponible para Pagos NFC.</p></div>
+                    <div class="tab-pane fade active show" id="tabOne"><p  class="font-25">{{ lang == 'en'?'We configure the system adapting it to your needs and we train your team during the first days so that you can manage it autonomously.':'Configuramos el sistema adaptándolo a tus necesidades y formamos a tu equipo durante los primeros días para que puedas gestionarlo de forma autónoma.'}}</p></div>
+                    <div class="tab-pane fade" id="tabTwo"><p  class="font-25">{{ lang == 'en'?'We take care of all the needs to carry out the event and offer technical support during it.':'Nos encargamos de todas las necesidades para llevar a cabo el evento y ofrecemos soporte técnico durante el mismo.'}}</p></div>
+                    <div class="tab-pane fade" id="tabThree"><p  class="font-25">{{ lang == 'en'?'If your event is small, with online training and our tutorials, you will easily start the system. Only available for NFC Payments.':'Si tu evento es de pequeño formato, con la formación online y con nuestras tutoriales,  pondrás fácilmente en marcha el sistema. Solo disponible para Pagos NFC.'}}</p></div>
                 </div>    
             </div>
         </div>
@@ -173,38 +173,38 @@
     <div class="py-15 ">
         <div class="container">
             <div  class="text-center mx-650 mx-auto">
-                <h1 class="text_blue py-5">La solución para eventos y festivales</h1>
+                <h1 class="text_blue py-5">{{ lang == 'en'?'The solution for events and festivals':'La solución para eventos y festivales'}}</h1>
             </div>
             <div class="row my-5 justify-content-center text_blue">
                 <div class="col-md-4 text-center">
                     <img class="mx-auto mb-3" style="max-height: 81px;" src="{{assetPath('images/festival/icon_ingresos_extra.svg')}}">
-                    <h4>Ingresos extra</h4>
-                    <p>Los asistentes que no soliciten su saldo sobrante supondrá un ingreso extra para tu evento.</p>
+                    <h4>{{ lang == 'en'?'Extra income':'Ingresos extra'}}</h4>
+                    <p>{{ lang == 'en'?'Attendees who do not request their remaining balance will mean extra income for your event.':'Los asistentes que no soliciten su saldo sobrante supondrá un ingreso extra para tu evento.'}}</p>
                 </div>
                 <div class="col-md-4 text-center">
                     <img class="mx-auto mb-3" style="max-height: 81px;" src="{{assetPath('images/festival/icon_aumenta_ticket_medio.svg')}}">
-                    <h4>Aumenta ticket medio</h4>
-                    <p>Disminuye la percepción del gasto por lo que aumenta el ticket medio.</p>
+                    <h4>{{ lang == 'en'?'Increase average ticket':'Aumenta ticket medio'}}</h4>
+                    <p>{{ lang == 'en'?'The perception of the expense decreases, thus increasing the average ticket.':'Disminuye la percepción del gasto por lo que aumenta el ticket medio.'}}</p>
                 </div>
                 <div class="col-md-4 text-center">
                     <img class="mx-auto mb-3" style="max-height: 81px;" src="{{assetPath('images/festival/icon_mayor_consumo.svg')}}">
-                    <h4>Mayor consumo</h4>
-                    <p>Las colas se reducen de forma importante, lo que supone mayor tiempo de consumo.</p>
+                    <h4>{{ lang == 'en'?'Higher consumption':'Mayor consumo'}}</h4>
+                    <p>{{ lang == 'en'?'Queues are significantly reduced, which means longer consumption time.':'Las colas se reducen de forma importante, lo que supone mayor tiempo de consumo.'}}</p>
                 </div>
                 <div class="col-md-4 text-center">
                     <img class="mx-auto mb-3" style="max-height: 81px;" src="{{assetPath('images/festival/Icon_sponsor.svg')}}">
-                    <h4>Sponsors</h4>
-                    <p>Optimiza recursos y aporta valor añadido a tus sponsors.</p>
+                    <h4>{{ lang == 'en'?'Sponsors':'Sponsors'}}</h4>
+                    <p>{{ lang == 'en'?'Optimize resources and add value to your sponsors.':'Optimiza recursos y aporta valor añadido a tus sponsors.'}}</p>
                 </div>
                 <div class="col-md-4 text-center">
                     <img class="mx-auto mb-3" style="max-height: 81px;" src="{{assetPath('images/festival/Icon_menos_gastos.svg')}}">
-                    <h4>Menos gastos</h4>
-                    <p>Evita recurrir a servicios externos eliminando costes innecesarios.</p>
+                    <h4>{{ lang == 'en'?'Less expenses':'Menos gastos'}}</h4>
+                    <p>{{ lang == 'en'?'Avoid resorting to external services eliminating unnecessary costs.':'Evita recurrir a servicios externos eliminando costes innecesarios.'}}</p>
                 </div>
                 <div class="col-md-4 text-center">
                     <img class="mx-auto mb-3" style="max-height: 81px;" src="{{assetPath('images/festival/icon_control.svg')}}">
-                    <h4>Control total</h4>
-                    <p>Recaudación directa para el promotor con control total de las ventas.</p>
+                    <h4>{{ lang == 'en'?'Total control':'Control total'}}</h4>
+                    <p>{{ lang == 'en'?'Direct collection for the promoter with total control of sales.':'Recaudación directa para el promotor con control total de las ventas.'}}</p>
                 </div>
             </div>
         </div>
@@ -221,8 +221,8 @@
                 </div>
                 <div class="col-md-6 px-0 py-5 text-center text-md-left mx-650 mx-auto">
                     <h1 class="text_blue">Rototom</h1>
-                    <p class="mb-5 font-25">Digitalización del control de accesos y pagos con el objetivo de mejorar la experiencia de los asistentes, reducir el fraude y las pérdidas de dinero en efectivo.</p>
-                    <a class="btn_blue" href="#">{{ lang == 'en' ? 'View Case Study': 'Ver caso de éxito' }}</a>
+                    <p class="mb-5 font-25">{{ lang == 'en'?'Digitization of access control and payments with the aim of improving the experience of attendees, reducing fraud and losses of cash.':'Digitalización del control de accesos y pagos con el objetivo de mejorar la experiencia de los asistentes, reducir el fraude y las pérdidas de dinero en efectivo.'}}</p>
+                    <a class="btn_blue" href="{{ lang == 'en'?'/en/success-stories/oasis':'/casos-de-exito/oasis'}}">{{ lang == 'en' ? 'View Case Study': 'Ver caso de éxito' }}</a>
                 </div>
             </div>
         </div>
@@ -272,12 +272,12 @@
                                             <img class="mx-auto" src="{{assetPath('images/hotels/logo_pinerro.png')}}">
                                         </div>
                                         <div class="col-md-7">
-                                            <h4 style="font-size: 19px !important;"><blockquote>"En una semana se multiplicaron por 3 las reservas."</blockquote></h4>
+                                            <h4 style="font-size: 19px !important;"><blockquote>{{ lang == 'en'?'"In a week the reservations were multiplied by 3."':'"En una semana se multiplicaron por 3 las reservas."'}}</blockquote></h4>
                                         </div>
                                     </div>
                                     <div class="text-left">
                                     <p class="font-25 mb-0">TONI MUÑOZ</p>
-                                    <p>Director de Proyectos IT. Grupo Piñero.</p>
+                                    <p>{{ lang == 'en'?'IT Project Director. Piñero Group.':'Director de Proyectos IT. Grupo Piñero.'}}</p>
                                     </div>
                                 </div>
                             </div>
@@ -288,12 +288,12 @@
                                             <img class="mx-auto" src="{{assetPath('images/hotels/logo-aquarama-color.jpg')}}"> 
                                         </div>
                                         <div class="col-md-7">
-                                            <h4 style="font-size: 19px !important;"><blockquote>"Easygoband nos permite relacionarnos de una forma diferente y mejorada con nuestros clientes."</blockquote></h4>
+                                            <h4 style="font-size: 19px !important;"><blockquote>{{ lang == 'en'?'"Easygoband allows us to interact in a different and improved way with our clients."':'"Easygoband nos permite relacionarnos de una forma diferente y mejorada con nuestros clientes."'}}</blockquote></h4>
                                         </div>
                                     </div>
                                     <div class="text-left">
                                     <p class="font-25 mb-0">DOLORES SALGADO</p>
-                                    <p>Directora</p>
+                                    <p>{{ lang == 'en'?'Director':'Directora'}}</p>
                                     </div>
                                 </div>
                             </div>
@@ -304,12 +304,12 @@
                                             <img class="mx-auto" src="{{assetPath('images/hotels/logo-oasis-color.jpg')}}">
                                         </div>
                                         <div class="col-md-7"> 
-                                            <h4 style="font-size: 19px !important;"><blockquote>"Son super eficientes y honestos. Su tecnologia cashless es fantastic y el equipo te acompana durante todo el festival."</blockquote></h4>
+                                            <h4 style="font-size: 19px !important;"><blockquote>{{ lang == 'en'?'"They are super efficient and honest. Their cashless technology is fantastic and the team accompanies you throughout the festival."':'"Son super eficientes y honestos. Su tecnologia cashless es fantastic y el equipo te acompana durante todo el festival."'}}</blockquote></h4>
                                         </div>
                                     </div>
                                     <div class="text-left">
                                     <p class="font-25 mb-0">LAIA GORDI</p>
-                                    <p>Comunicacion Feslloc</p>
+                                    <p>{{ lang == 'en'?'Feslloc Communication':'Comunicacion Feslloc'}}</p>
                                     </div>
                                 </div>
                             </div>
@@ -320,12 +320,12 @@
                                             <img class="mx-auto" src="{{assetPath('images/hotels/logo-beerman-color.jpg')}}">
                                         </div>
                                         <div class="col-md-7">
-                                            <h4 style="font-size: 19px !important;"><blockquote>"La experiencia ha sido muy satisfactoria con un control al maximo y una excelente percepcion de los asistentes"</blockquote></h4>
+                                            <h4 style="font-size: 19px !important;"><blockquote>{{ lang == 'en'?'"The experience has been very satisfactory with maximum control and excellent perception from the attendees"':'"La experiencia ha sido muy satisfactoria con un control al maximo y una excelente percepcion de los asistentes"'}}</blockquote></h4>
                                         </div>
                                     </div>
                                     <div class="text-left">
                                     <p class="font-25 mb-0">JUAN ZURITA</p>
-                                    <p>Owner</p>
+                                    <p>{{ lang == 'en'?'Owner':'Owner'}}</p>
                                     </div>
                                 </div>
                             </div>
@@ -336,12 +336,12 @@
                                             <img class="mx-auto" src="{{assetPath('images/hotels/logo-aapolo-color.jpg')}}">
                                         </div>
                                         <div class="col-md-7">
-                                            <h4 style="font-size: 19px !important;"><blockquote>"Easygoband se ha vuelto indispensable para agilizar, aumentar nuestros ingresos en gran medida y tener un control exhaustivo de nuestro evento."</blockquote></h4>
+                                            <h4 style="font-size: 19px !important;"><blockquote>{{ lang == 'en'?'"Easygoband has become indispensable to streamline, greatly increase our income and have a comprehensive control of our event."':'"Easygoband se ha vuelto indispensable para agilizar, aumentar nuestros ingresos en gran medida y tener un control exhaustivo de nuestro evento."'}}</blockquote></h4>
                                         </div>
                                     </div>
                                     <div class="text-left">
                                     <p class="font-25 mb-0">NICOLAS FILIPPINI</p>
-                                    <p>Gte de planeamiento y Control de Gestion</p>
+                                    <p>{{ lang == 'en'?'Gte of planning and Management Control':'Gte de planeamiento y Control de Gestion'}}</p>
                                     </div>
                                 </div>
                             </div>
@@ -394,39 +394,11 @@
                     <img class="mx-auto img_goguest" src="{{assetPath('images/festival/go_fun_cta.svg')}}">
                 </div>
                 <div class="col-md-5 text-center">
-                    <h4 class="text_blue mb-5">Comienza a aumentar ingresos y reducir gastos</h4>
-                    <a class="btn_blue">{{ lang == 'en' ? 'Ask For Budget': 'Pedir presupuesto' }}</a>
+                    <h4 class="text_blue mb-5">{{ lang == 'en'?'Start increasing income and reducing expenses':'Comienza a aumentar ingresos y reducir gastos'}}</h4>
+                    <a class="btn_blue" href="{{ lang == 'en'?'/en/plans':'/planes'}}">{{ lang == 'en' ? 'Ask For Budget': 'Pedir presupuesto' }}</a>
                 </div>
             </div>
         </div>
     </div>
-<script>
-    jQuery(document).ready(function(){
-
-        //box switch
-        jQuery('.pointer_item').hover(function(){ jQuery(this).parent().find('.pointer_item').removeClass('active_item');
-            jQuery(this).addClass('active_item');
-            var getID = jQuery(this).data('target');
-            jQuery('.content_box').removeClass('active');
-            jQuery("#"+ getID).addClass('active');
-        });
-
-        //video button play
-        jQuery(document).on('click','.js-videoPoster',function(ev) {
-                ev.preventDefault();
-                var $poster = jQuery(this);
-                var $wrapper = $poster.closest('.js-videoWrapper');
-                videoPlay($wrapper);
-        });
-        function videoPlay($wrapper) {
-            var $iframe = $wrapper.find('.js-videoIframe');
-            var src = $iframe.data('src');
-            $wrapper.addClass('videoWrapperActive');
-            $iframe.attr('src',src);
-        }
-
-        //logo slider
-       
-    });
-</script>
+    
 {% endblock %}
