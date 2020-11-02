@@ -27,7 +27,7 @@
 					<img src="{{assetPath('images/home_img/logo_TCASS.svg')}}">
 					<img src="{{assetPath('images/home_img/logo_sihot.svg')}}">
 					<img src="{{assetPath('images/home_img/logo_Opera.svg')}}">
-					<a class="text-white" href="#">Ver todas <i class="far fa-long-arrow-alt-right"></i></a>
+					<a class="text-white" href="/plataforma-goguest">Ver todas <i class="far fa-long-arrow-alt-right"></i></a>
 				</div>
 			</div>
 			
@@ -40,15 +40,15 @@
 		<div class="row py-5 bg-white justify-content-center align-items-center" style="margin-top: -151px;">
 			<div class="col-md-4 text-center">
 				<p class="text_blue pb-0">Plataforma</p>
-				<a href="#"><i class="text_blue fal fa-long-arrow-down"></i></a>
+				<a href="/plataforma-goguest"><i class="text_blue fal fa-long-arrow-down"></i></a>
 			</div>
 			<div class="col-md-4 text-center">
 				<p class="text_blue pb-0">Soluciones</p>
-				<a href="#"><i class="text_blue fal fa-long-arrow-down"></i></a>
+				<a href="/soluciones/hoteles-y-resorts"><i class="text_blue fal fa-long-arrow-down"></i></a>
 			</div>
 			<div class="col-md-4 text-center">
 				<p class="text_blue pb-0">Casos de éxito</p>
-				<a href="#"><i class="text_blue fal fa-long-arrow-down"></i></a>
+				<a href="/casos-de-exito/oasis"><i class="text_blue fal fa-long-arrow-down"></i></a>
 			</div>
 		</div>
 		<div class="row pt-5 align-items-center justify-content-center">
@@ -60,7 +60,7 @@
 				<p class="font-25 text-white">La plataforma más versátil que se adapta a tu lógica de negocio.</p>
 				<p class="text-white">Una plataforma para el sector turismo que habilita el uso de funcionalidades con las que incrementarás ingresos, conseguirás operativas más eficientes, hoteles más rentables y clientes más satisfechos.</p>
 				<br>
-				<a class="btn_dark_blue" href="{{ lang == 'en' ? '/en/solutions/hotels-and-resorts': '/soluciones/hoteles-y-resorts' }}">Plataforma Goguest</a>
+				<a class="btn_dark_blue" href="/plataforma-goguest">Plataforma Goguest</a>
 			</div>
 			
 		</div>
@@ -454,7 +454,7 @@
                 </div>
                 <div class="col-md-5 text-center">
                     <h4 class="text_blue mb-5">Comienza a aumentar ingresos y reducir gastos</h4>
-                    <a class="btn_blue">{{ lang == 'en' ? 'Ask For Budget': 'Pedir presupuesto' }}</a>
+                    <a class="btn_blue" href="planes">Pedir presupuesto</a>
                 </div>
             </div>
         </div>
@@ -476,7 +476,7 @@
 						<p style="color:#0000ff; font-size: 16px;"><i>Rellena el formulario y te enviaremos el caso de estudio a tu correo.</i></p>
 					</div>
 					<div class="col-md-5 pr-0 showin_init">
-						{{ function('do_shortcode', '[contact-form-7 id="7321" title="modal form"]') }}
+						{{ function('do_shortcode', '[contact-form-7 id="7540" title="modal form"]') }}
 					</div>
 					<div class="col-md-12 pr-0 showin_sent mx-auto mx-650 hidden">
 						<img class="w-100 mx-auto" src="{{assetPath('images/home_img/caso_estudio_hoteles_contactless.jpg')}}" style="max-width: 451px;">
@@ -605,71 +605,6 @@
     </style>
 
 
-<script>
-    jQuery(document).ready(function($){
 
-		//modal form 
-		$('input.co_submit').click(function(){
-			var form = $(this).parent().parent();
-			setTimeout(function(){
-				if(form.hasClass('sent')){
-					form.parent().parent().parent().find('.showin_init').addClass('hidden');
-					form.parent().parent().parent().find('.showin_sent').removeClass('hidden');
-				}    
-			},3000);
-		});
-
-        //box switch
-        $('.pointer_item').hover(function(){ $(this).parent().find('.pointer_item').removeClass('active_item');
-            $(this).addClass('active_item');
-            var getID = $(this).data('target');
-            $('.content_box').removeClass('active');
-            $("#"+ getID).addClass('active');
-        });
-
-        //video button play
-        $(document).on('click','.js-videoPoster',function(ev) {
-                ev.preventDefault();
-                var $poster = $(this);
-                var $wrapper = $poster.closest('.js-videoWrapper');
-                videoPlay($wrapper);
-        });
-        function videoPlay($wrapper) {
-            var $iframe = $wrapper.find('.js-videoIframe');
-            var src = $iframe.data('src');
-            $wrapper.addClass('videoWrapperActive');
-            $iframe.attr('src',src);
-        }
-
-        //case slider
-		$("#myCarousel").on("slide.bs.carousel", function(e) {
-			var $e = $(e.relatedTarget);
-			var idx = $e.index();
-			var itemsPerSlide = 3;
-			var totalItems = $(".carousel-item").length;
-
-			if (idx >= totalItems - (itemsPerSlide - 1)) {
-			var it = itemsPerSlide - (totalItems - idx);
-			for (var i = 0; i < it; i++) {
-				// append slides to end
-				if (e.direction == "left") {
-				$(".carousel-item")
-					.eq(i)
-					.appendTo(".carousel-inner");
-				} else {
-				$(".carousel-item")
-					.eq(0)
-					.appendTo($(this).find(".carousel-inner"));
-				}
-			}
-			}
-		});
-
-
-		//
-		
-       
-    });
-</script>
 
 {% endblock %}

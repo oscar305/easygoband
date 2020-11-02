@@ -11,8 +11,8 @@
                     <img class="mx-auto w-100" src="{{assetPath('images/p_goguest/Plataforma_Goguest_ Easygoband_Hoteles.svg')}}">
                 </div>
                 <div class="col-md-6 px-5 py-5 text-center text-md-left mx-650">
-                    <h1 class="text_blue">El Hub de Goguest conecta todos los sistemas de tu hotel entre sí </h1>
-                    <p class="font-25">Goguest llega donde otros no pueden, todo tu hotel quedará centralizado desde una única plataforma y un único panel de gestión.</p>
+                    <h1 class="text_blue">{{ lang == 'en'?'The Goguest Hub connects all your hotel systems with each other':'El Hub de Goguest conecta todos los sistemas de tu hotel entre sí'}}  </h1>
+                    <p class="font-25">{{ lang == 'en'?'Goguest reaches where others cannot, your entire hotel will be centralized from a single platform and a single management panel.':'Goguest llega donde otros no pueden, todo tu hotel quedará centralizado desde una única plataforma y un único panel de gestión.'}} </p>
                 </div>
             </div>
         </div>
@@ -22,8 +22,8 @@
         <div class="container">
             <div class="row align-items-center justify-content-center">
                 <div class="col-md-6 px-5 py-5 text-center text-md-left">
-                    <h1 class="text_blue">Digitalización 360º</h1>
-                    <p class="text_blue">Habilita el uso de funcionalidades Goguest e integra software y apps de terceros, lo que permite la digitalización 360º de procesos y mejorar operativas sacando el máximo rendimiento a todo el sistema de gestión del hotel y del parque.</p>
+                    <h1 class="text_blue">{{ lang == 'en'?'360º digitization':'Digitalización 360º'}} </h1>
+                    <p class="text_blue">{{ lang == 'en'?'It enables the use of Goguest functionalities and integrates third-party software and apps, which allows 360º digitization of processes and improve operations by getting the most out of the entire hotel and park management system.':'Habilita el uso de funcionalidades Goguest e integra software y apps de terceros, lo que permite la digitalización 360º de procesos y mejorar operativas sacando el máximo rendimiento a todo el sistema de gestión del hotel y del parque.'}} </p>
                 </div>
                 <div class="col-md-6">
                     <img class="mx-auto w-100" style="max-width: 461px;" src="{{assetPath('images/p_goguest/Digitalizacion_hoteles_resorts.svg')}}">
@@ -37,8 +37,8 @@
         <div class="container">
             <div class="row align-items-center justify-content-center">
                 <div class="col-md-6 px-5 py-5 text-white text-center text-md-left">
-                    <h1>Comunicación del PMS con el Dashboard de Goguest en tiempo real</h1>
-                    <p>Los datos actualizados en el PMS, se sincronizan automáticamente en nuestro dashboard.</p>
+                    <h1>{{ lang == 'en'?'PMS communication with Goguest Dashboard in real time':'Comunicación del PMS con el Dashboard de Goguest en tiempo real'}} </h1>
+                    <p>{{ lang == 'en'?'The updated data in the PMS are automatically synchronized in our dashboard.':'Los datos actualizados en el PMS, se sincronizan automáticamente en nuestro dashboard.'}}</p>
                 </div>
                 <div class="col-md-6">
                     <img class="mx-auto w-100" style="max-width: 441px;" src="{{assetPath('images/p_goguest/PMS_integracion_hoteles_easygoband.svg')}}">
@@ -54,8 +54,8 @@
                     <img class="mx-auto w-100" style="max-width: 441px;" src="{{assetPath('images/p_goguest/logica_negocio_hoteles_plataforma_easygoband.svg')}}">
                 </div>
                 <div class="col-md-6 px-5 py-5 text-center text-md-left">
-                    <h1 class="text_blue">Totalmente escalable y adaptable a tu lógica de negocio</h1>
-                    <p class="text_blue">Es una herramienta configurable y que permite adaptarse a los requisitos del cliente, pudiendo definirlos en cuanto a consumos, productos y servicios.</p>
+                    <h1 class="text_blue">{{ lang == 'en'?'Fully scalable and adaptable to your business logic':'Totalmente escalable y adaptable a tu lógica de negocio'}} </h1>
+                    <p class="text_blue">{{ lang == 'en'?'It is a configurable tool that allows adapting to customer requirements, being able to define them in terms of consumption, products and services.':'Es una herramienta configurable y que permite adaptarse a los requisitos del cliente, pudiendo definirlos en cuanto a consumos, productos y servicios.'}} </p>
                 </div>              
             </div>
         </div>
@@ -63,22 +63,22 @@
 
     <div class="py-15 bg_grey">
         <div class="container text_blue">
-            <h1 class="text-center py-5">Plataforma, segura<br>robusta, ágil y sencilla</h1>
+            <h1 class="text-center py-5 mx-650 mx-auto">{{ lang == 'en'?'Platform, secure, robust, agile and simple':'Plataforma, segura robusta, ágil y sencilla'}}</h1>
             <div class="row my-5 justify-content-center">
                 <div class="col-md-4 text-center">
                     <img class="mx-auto mb-3" style="max-height: 61px;" src="{{assetPath('images/p_goguest/icon_plataforma_hoteles_flexible_versatil.svg')}}">
-                    <h4 class="py-3">Flexible y versátil</h4>
-                    <p>El sistema es totalmente modular y versátil. Nos adaptamos a la lógica de negocio.</p>
+                    <h4 class="py-3">{{ lang == 'en'?'Flexible and versatile':'Flexible y versátil'}}</h4>
+                    <p>{{ lang == 'en'?'The system is fully modular and versatile. We adapt to the business logic.':'El sistema es totalmente modular y versátil. Nos adaptamos a la lógica de negocio.'}}</p>
                 </div>
                 <div class="col-md-4 text-center">
                     <img class="mx-auto mb-3" style="max-height: 61px;" src="{{assetPath('images/p_goguest/icon_desarrollos_hoteles.svg')}}">
-                    <h4 class="py-3">Extensiones ilimitadas</h4>
-                    <p>Creamos pequeños desarrollos que se adaptan a la operativa del negocio en el momento en el que se necesite.</p>
+                    <h4 class="py-3">{{ lang == 'en'?'Unlimited extensions':'Extensiones ilimitadas'}}</h4>
+                    <p>{{ lang == 'en'?'We create small developments that are adapted to the operation of the business at the time it is needed.':'Creamos pequeños desarrollos que se adaptan a la operativa del negocio en el momento en el que se necesite.'}} </p>
                 </div>
                 <div class="col-md-4 text-center">
                     <img class="mx-auto mb-3" style="max-height: 61px;" src="{{assetPath('images/p_goguest/icon_integracion_rapida_easygoband.svg')}}">
-                    <h4 class="py-3">Integración rápida</h4>
-                    <p>Con nuestro método la integración es fácil y rápida, en tan solo 10 días todo estará funcionando.</p>
+                    <h4 class="py-3">{{ lang == 'en'?'Fast integration':'Integración rápida'}} </h4>
+                    <p>{{ lang == 'en'?'With our method the integration is easy and fast, in just 10 days everything will be working.':'Con nuestro método la integración es fácil y rápida, en tan solo 10 días todo estará funcionando.'}} </p>
                 </div>
             </div>
         </div>
@@ -86,7 +86,7 @@
 
     <div class="py-15">
         <div class="container text_blue">
-            <h4 class="text-center">Eficiencia inmejorable mediante la integración y colaboración con <br>los sistemas de gestión</h4>
+            <h4 class="text-center mx-650 mx-auto">{{ lang == 'en'?'Unbeatable efficiency through integration and collaboration with management systems':'Eficiencia inmejorable mediante la integración y colaboración con  los sistemas de gestión'}}</h4>
             <div class="row my-5 justify-content-center align-items-center">
                 <div class="col-md-3 text-center">
                     <img class="mx-auto my-5" style="max-height: 61px;" src="{{assetPath('images/p_goguest/logos_integraciones/Sihot-integracion_easygoband_hoteles.jpg')}}">
@@ -171,7 +171,7 @@
                     <img class="mx-auto img_goguest" src="{{assetPath('images/p_goguest/Goguest-demo-CTA.svg')}}">
                 </div>
                 <div class="col-md-5 text-center">
-                    <h4 class="text_blue mb-5">¿Te gustaría ver cómo tu negocio puede digitalizarse?</h4>
+                    <h4 class="text_blue mb-5">{{ lang == 'en'?'Would you like to see how your business can be digitized?':'¿Te gustaría ver cómo tu negocio puede digitalizarse?'}} </h4>
                     <a class="btn_blue">{{ lang == 'en' ? 'Book Demo': 'Reservar Demo' }}</a>
                 </div>
             </div>

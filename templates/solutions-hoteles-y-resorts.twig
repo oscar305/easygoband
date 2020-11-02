@@ -7,9 +7,9 @@
         <div class="container-fluid px-0">
             <div class="row mx-0 align-items-center">
                 <div class="col-md-12 px-5 py-5 text-center text-white mx-650 mx-auto">
-                    <h1 class="">Hoteles y Resorts</h1>
-                    <p class="mb-5 font-25">Goguest es una plataforma integradora para hoteles que facilita la interacción con el huésped mediante un sistema único que además permite la comunicación directa e inmediata con todo el hotel (PMS, POS, dispositivos y demás software).</p>
-                    <a class="btn_dark_blue" href="#">{{ lang == 'en' ? 'View Case Study': 'Ver caso de estudio' }}</a>
+                    <h1 class="">{{ lang == 'en'?'Hotels and Resorts':'Hoteles y Resorts'}}</h1>
+                    <p class="mb-5 font-25">{{ lang == 'en'?'Goguest is an integrating platform for hotels that facilitates interaction with the guest through a single system that also allows direct and immediate communication with the entire hotel (PMS, POS, devices and other software).':'Goguest es una plataforma integradora para hoteles que facilita la interacción con el huésped mediante un sistema único que además permite la comunicación directa e inmediata con todo el hotel (PMS, POS, dispositivos y demás software).'}}</p>
+                    <a class="btn_dark_blue" href="#casestudy"  data-toggle="modal">{{ lang == 'en' ? 'View Case Study': 'Ver caso de estudio' }}</a>
                 </div>
             </div>
         </div>
@@ -31,7 +31,7 @@
                             <a class="text_blue" href="{{ lang == 'en'? '/en/solutions/theme-and-water-parks':'/soluciones/parques-tematicos'}}">{{ lang == 'en'? 'Theme & Water Parks':'Parques Temáticos'}}</a>
                         </div>
                         <div class="col-md-4 py-3 text-center">
-                            <a class="btn_blue" href="#">{{ lang == 'en' ? 'View Plans': 'Ver planes' }}</a>
+                            <a class="btn_blue" href="{{ lang == 'en' ? '/en/plans': '/planes' }}">{{ lang == 'en' ? 'View Plans': 'Ver planes' }}</a>
                         </div>
                     </div>
                 </div>
@@ -45,8 +45,8 @@
             <div class="row align-items-center justify-content-center">
                 <div class="col-md-12  py-3">
                     <div class="text-center text-white mx-650 mx-auto">
-                        <small >CUSTOMER JOURNEY</small><br>
-                        <h1 class="py-3">Experiencia del huésped desde el check-in hasta el check-out</h1>
+                        <small >{{ lang == 'en'?'CUSTOMER JOURNEY':'CUSTOMER JOURNEY'}}</small><br>
+                        <h1 class="py-3">{{ lang == 'en'?'Guest experience from check-in to check-out':'Experiencia del huésped desde el check-in hasta el check-out'}}</h1>
                     </div>
                     <img class="mx-auto w-100 my-5 desktop" src="{{assetPath('images/hotels/experiencia_huesped_hotel_restort_cashless_contactless_check-in.svg')}}">
                     <img class="mx-auto w-100 my-5 mobile" src="{{assetPath('images/hotels/CJ_version_mobile _hoteles.svg')}}">
@@ -59,8 +59,8 @@
         <div class="container">
             <div class="row align-items-center justify-content-center">
                 <div class="col-md-12 px-5 py-5 text-center mx-650 mx-auto">
-                    <h1 class="py-3">Todas las funcionalidades y opciones que puedas imaginar</h1>
-                    <p class="font-25">Podrás realizar pagos, controlar los accesos a diferentes áreas y las aperturas de puertas además de gestionar el préstamo de materiales, cortesías y mucho más.</p>
+                    <h1 class="py-3">{{ lang == 'en'?'All the features and options you can imagine':'Todas las funcionalidades y opciones que puedas imaginar'}}</h1>
+                    <p class="font-25">{{ lang == 'en'?'You will be able to make payments, control access to different areas and door openings as well as manage the loan of materials, courtesies and much more.':'Podrás realizar pagos, controlar los accesos a diferentes áreas y las aperturas de puertas además de gestionar el préstamo de materiales, cortesías y mucho más.'}}</p>
                 </div>
             </div>
         </div>
@@ -73,12 +73,12 @@
                     <img class="mx-auto w-100" style="max-width: 451px;" src="{{assetPath('images/hotels/pagos_cashless_hotel.png')}}">
                 </div>
                 <div class="col-md-6 px-5 py-5 text-center text-md-left">
-                    <h1 class="text_blue">Pagos cashless</h1>
-                    <p class="font-25">Podrás crear diferentes grupos de precios y tus clientes podrán realizar pagos cashless, de forma rápida y segura.</p>
+                    <h1 class="text_blue">{{ lang == 'en'?'Cashless payments':'Pagos cashless'}}</h1>
+                    <p class="font-25">{{ lang == 'en'?'You can create different price groups and your customers can make cashless payments, quickly and safely.':'Podrás crear diferentes grupos de precios y tus clientes podrán realizar pagos cashless, de forma rápida y segura.'}}</p>
                     <div class="check_lists  text-left">
-                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Cargo a la habitación o tokenización</p>
-                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Pago por cortesías o puntos</p>
-                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Diferentes grupos de precios según requisitos</p>
+                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> {{ lang == 'en'?'Charge to the room or tokenization':'Cargo a la habitación o tokenización'}}</p>
+                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> {{ lang == 'en'?'Payment for courtesies or points':'Pago por cortesías o puntos'}}</p>
+                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> {{ lang == 'en'?'Different price groups according to requirements':'Diferentes grupos de precios según requisitos'}}</p>
                     </div>
                 </div>
                
@@ -93,12 +93,12 @@
                     <img class="mx-auto w-100" style="max-width: 451px;" src="{{assetPath('images/hotels/control_accesos_hotel.png')}}">
                 </div>
                 <div class="col-md-6 px-5 py-5 text-center text-md-left">
-                    <h1 class="text_blue">Control de accesos</h1>
-                    <p class="font-25">Permite el acceso a las distintas áreas incluídas en su reserva mediante wearables/móvil, o habilita el pago directo en caso de no haberlo contratado.</p>
+                    <h1 class="text_blue">{{ lang == 'en'?'Access control':'Control de accesos'}}</h1>
+                    <p class="font-25">{{ lang == 'en'?'It allows access to the different areas included in your reservation through wearables / mobile, or enables direct payment if you have not hired it.':'Permite el acceso a las distintas áreas incluídas en su reserva mediante wearables/móvil, o habilita el pago directo en caso de no haberlo contratado.'}}</p>
                     <div class="check_lists  text-left">
-                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Habilita accesos según categoría de huésped</p>
-                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Control de afluencias</p>
-                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Apertura de puertas y tornos</p>
+                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> {{ lang == 'en'?'Enable access by guest category':'Habilita accesos según categoría de huésped'}}</p>
+                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> {{ lang == 'en'?'Flow control':'Control de afluencias'}}</p>
+                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> {{ lang == 'en'?'Opening of doors and lathes':'Apertura de puertas y tornos'}}</p>
                     </div>
                 </div>
                
@@ -113,12 +113,12 @@
                     <img class="mx-auto w-100" style="max-width: 451px;" src="{{assetPath('images/hotels/control_interno_hotel.png')}}">
                 </div>
                 <div class="col-md-6 px-5 py-5 text-center text-md-left">
-                    <h1 class="text_blue">Control interno</h1>
-                    <p class="font-25">Controla las entradas y salidas de material prestado a los huéspedes, evita robos y aumenta la eficiencia.</p>
+                    <h1 class="text_blue">{{ lang == 'en'?'Internal control':'Control interno'}}</h1>
+                    <p class="font-25">{{ lang == 'en'?'Control the entry and exit of material loaned to guests, prevent theft and increase efficiency.':'Controla las entradas y salidas de material prestado a los huéspedes, evita robos y aumenta la eficiencia.'}}</p>
                     <div class="check_lists  text-left">
-                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Préstamo de objetos</p>
-                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Stock de wearables (pulseras, tarjetas, etc)</p>
-                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Gestión de toallas</p>
+                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> {{ lang == 'en'?'Loan of objects':'Préstamo de objetos'}}</p>
+                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> {{ lang == 'en'?'Stock of wearables (bracelets, cards, etc)':'Stock de wearables (pulseras, tarjetas, etc)'}}</p>
+                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> {{ lang == 'en'?'Towel management':'Gestión de toallas'}}</p>
                     </div>
                 </div>
                
@@ -133,12 +133,12 @@
                     <img class="mx-auto w-100" style="max-width: 451px;" src="{{assetPath('images/hotels/biga_data_business_intelligence.png')}}">
                 </div>
                 <div class="col-md-6 px-5 py-5 text-center text-md-left">
-                    <h1 class="text_blue">Business Intelligence</h1>
-                    <p class="font-25">La actividad de los huéspedes queda registrada, podrás reducir costes y aumentar beneficios.</p>
+                    <h1 class="text_blue">{{ lang == 'en'?'Business intelligence':'Business Intelligence'}}</h1>
+                    <p class="font-25">{{ lang == 'en'?'The activity of the guests is registered, you can reduce costs and increase profits.':'La actividad de los huéspedes queda registrada, podrás reducir costes y aumentar beneficios.'}}</p>
                     <div class="check_lists  text-left">
-                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Identificación individual de cada usuario</p>
-                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Generación de reportes y métricas</p>
-                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Hábitos de consumo y perfil de usuario</p>
+                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> {{ lang == 'en'?'Individual identification of each user':'Identificación individual de cada usuario'}}</p>
+                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> {{ lang == 'en'?'Generation of reports and metrics':'Generación de reportes y métricas'}}</p>
+                         <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> {{ lang == 'en'?'Consumption habits and user profile':'Hábitos de consumo y perfil de usuario'}}</p>
                     </div>
                 </div>
                
@@ -168,10 +168,10 @@
         </div>
         <div class="col-md-6 text-white px-5 py-5 mx-650">
             <h1>Goguest App</h1>
-            <p class="font-25 text-white">El huésped podrá gestionar su estancia en cualquier momento</p>
-            <p><img src="{{assetPath('images/home_img/tick_white.png')}}"> Enlaza Goguest APP con la App de tu hotel y sin integraciones.</p>
-            <p><img src="{{assetPath('images/home_img/tick_white.png')}}"> Personalizar el look & feel para adaptarlo a tu imagen.</p>
-            <p><img src="{{assetPath('images/home_img/tick_white.png')}}"> Elige las funcionalidades que necesites para tu hotel.</p>
+            <p class="font-25 text-white">{{ lang == 'en'?'The guest can manage their stay at any time':'El huésped podrá gestionar su estancia en cualquier momento'}}</p>
+            <p><img src="{{assetPath('images/home_img/tick_white.png')}}"> {{ lang == 'en'?'Link Goguest APP with the App of your hotel and without integrations.':'Enlaza Goguest APP con la App de tu hotel y sin integraciones.'}}</p>
+            <p><img src="{{assetPath('images/home_img/tick_white.png')}}"> {{ lang == 'en'?'Customize the look & feel to adapt it to your image.':'Personalizar el look & feel para adaptarlo a tu imagen.'}}</p>
+            <p><img src="{{assetPath('images/home_img/tick_white.png')}}"> {{ lang == 'en'?'Choose the functionalities you need for your hotel.':'Elige las funcionalidades que necesites para tu hotel.'}}</p>
         </div>
     </div>
 </div>
@@ -180,31 +180,31 @@
     <div class="container">
         <div class="row mx-0 py-5 align-items-center">
             <div class="col-md-6 px-lg-5 py-lg-5">
-                <h2 style="color: #00002c;">Minimiza el contacto y mejora la eficiencia con Goguest App</h2>
+                <h2 style="color: #00002c;">{{ lang == 'en'?'Minimize contact and improve efficiency with Goguest App':'Minimiza el contacto y mejora la eficiencia con Goguest App'}}</h2>
                 <div class="row mt-5 ">
                     <div class="col-4 pointer_item active_item" data-target="check-in">
                         <img src="{{assetPath('images/home_img/icon-checkin.svg')}}">
-                        <p>Online Check-in y Fast Check-out</p>
+                        <p>{{ lang == 'en'?'Online Check-in and Fast Check-out':'Online Check-in y Fast Check-out'}}</p>
                     </div>
                     <div class="col-4 pointer_item" data-target="reserva-servicios">
                         <img src="{{assetPath('images/home_img/icon-reserva-servicios.svg')}}">
-                        <p>Reserva de Servicios</p>
+                        <p>{{ lang == 'en'?'Reservation of Services':'Reserva de Servicios'}}</p>
                     </div>
                     <div class="col-4 pointer_item" data-target="cuenta-cliente">
                         <img src="{{assetPath('images/home_img/icon-cuenta-cliente.svg')}}">
-                        <p>Cuenta Cliente</p>
+                        <p>{{ lang == 'en'?'Customer account':'Cuenta Cliente'}}</p>
                     </div>
                     <div class="col-4 pointer_item" data-target="pedidos-room-service">
                         <img src="{{assetPath('images/home_img/icon-pedidos-room-service.svg')}}">
-                        <p>Pedidos Room Service</p>
+                        <p>{{ lang == 'en'?'Room Service Orders':'Pedidos Room Service'}}</p>
                     </div>
                     <div class="col-4 pointer_item" data-target="encuestas-digitalizadas">
                         <img src="{{assetPath('images/home_img/icon-encuestas-digitalizadas.svg')}}">
-                        <p>Encuestas y Cuestionarios Digitales</p>
+                        <p>{{ lang == 'en'?'Surveys and Digital Questionnaires':'Encuestas y Cuestionarios Digitales'}}</p>
                     </div>
                     <div class="col-4 pointer_item" data-target="pagos-tokenizacion">
                         <img src="{{assetPath('images/home_img/icon-pagos-tokenizacion.svg')}}">
-                        <p>Pagos Mediante Tokenizacion</p>
+                        <p>{{ lang == 'en'?'Payments Through Tokenization':'Pagos Mediante Tokenizacion'}}</p>
                     </div>
                 </div>
             </div>
@@ -212,56 +212,56 @@
                 <div class="content_box active" id="check-in">
                     <img src="{{assetPath('images/hotels/online_check-in_hotel_img.jpg')}}" style="max-width: 361px;">
                     <div class="overlay_content">
-                        <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Realizar el pre check-in</p>
-                        <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Rellenar el cuestionario de salud o de otro tipo</p>
-                        <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Rellenar y comprobar el estado del check-in para cada huésped</p>
-                        <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Subir documentos</p>
-                        <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Aceptar condiciones y firmar</p>
+                        <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> {{ lang == 'en'?'Carry out the pre check-in':'Realizar el pre check-in'}}</p>
+                        <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> {{ lang == 'en'?'Fill out the health or other questionnaire':'Rellenar el cuestionario de salud o de otro tipo'}}</p>
+                        <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> {{ lang == 'en'?'Fill in and check the check-in status for each guest':'Rellenar y comprobar el estado del check-in para cada huésped'}}</p>
+                        <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> {{ lang == 'en'?'Upload documents':'Subir documentos'}}</p>
+                        <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> {{ lang == 'en'?'Accept conditions and sign':'Aceptar condiciones y firmar'}}</p>
                     </div>
                 </div>
                 <div class="content_box" id="reserva-servicios">
                     <img src="{{assetPath('images/hotels/reserva_servicios_hotel.jpg')}}" style="max-width: 361px;">
                     <div class="overlay_content">
-                        <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Catalogo de Servicios</p>
-                        <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Reserva mesa/hora en restaurante</p>
-                        <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Ver reservas activas o ya disfrutadas</p>
-                        <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Cambiar detailes en las reservas</p>
-                        <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Realizar pagos</p>
+                        <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> {{ lang == 'en'?'Services Catalog':'Catalogo de Servicios'}}</p>
+                        <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> {{ lang == 'en'?'Reserve table / hour in restaurant':'Reserva mesa/hora en restaurante'}}</p>
+                        <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> {{ lang == 'en'?'View active or already enjoyed reservations':'Ver reservas activas o ya disfrutadas'}}</p>
+                        <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> {{ lang == 'en'?'Change details in reservations':'Cambiar detailes en las reservas'}}</p>
+                        <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> {{ lang == 'en'?'Make payments':'Realizar pagos'}}</p>
                     </div>
                 </div>
                 <div class="content_box" id="cuenta-cliente">
                     <img src="{{assetPath('images/hotels/cuenta_cliente_huesped_hotel_img.jpg')}}" style="max-width: 361px;">
                     <div class="overlay_content">
-                        <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Ver o editar datos personales</p>
-                        <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Editar Contraseña</p>
-                        <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Subir o descargar documentos</p>
-                        <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Seleccionar Idioma</p>
-                        <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Ver balance y transacciones</p>
+                        <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> {{ lang == 'en'?'View or edit personal data':'Ver o editar datos personales'}}</p>
+                        <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> {{ lang == 'en'?'Edit Password':'Editar Contraseña'}}</p>
+                        <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> {{ lang == 'en'?'Upload or download documents':'Subir o descargar documentos'}}</p>
+                        <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> {{ lang == 'en'?'Select language':'Seleccionar Idioma'}}</p>
+                        <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> {{ lang == 'en'?'View balance and transactions':'Ver balance y transacciones'}}</p>
                     </div>
                 </div>
                 <div class="content_box" id="pedidos-room-service">
                     <img src="{{assetPath('images/hotels/pedidos_room_service_contactless_img.jpg')}}" style="max-width: 361px;">
                     <div class="overlay_content">
-                        <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Ver carta por centros de consumo</p>
-                        <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Hacer pedido</p>
-                        <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Pago directo con tarjeta bancaria o cargo habitación</p>
-                        <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Estado pedidos</p>
-                        <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Modificar pedidos</p>
+                        <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> {{ lang == 'en'?'See menu by consumption centers':'Ver carta por centros de consumo'}}</p>
+                        <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> {{ lang == 'en'?'Make an Order':'Hacer pedido'}}</p>
+                        <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> {{ lang == 'en'?'Direct payment by bank card or room charge':'Pago directo con tarjeta bancaria o cargo habitación'}}</p>
+                        <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> {{ lang == 'en'?'Orders Status':'Estado pedidos'}}</p>
+                        <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> {{ lang == 'en'?'Modify Orders':'Modificar pedidos'}}</p>
                     </div>
                 </div>
                 <div class="content_box" id="encuestas-digitalizadas">
                     <img src="{{assetPath('images/hotels/encuestas digitalizadas_img.jpg')}}" style="max-width: 361px;">
                     <div class="overlay_content">
-                        <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Personalizar preguntas y tipos de </p>
-                        <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> respuestas</p>
-                        <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Vincular preguntas a diferentes ubicaciones</p>
+                        <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> {{ lang == 'en'?'Customize questions and types of':'Personalizar preguntas y tipos de'}}</p>
+                        <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> {{ lang == 'en'?'Answers':'respuestas'}}</p>
+                        <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> {{ lang == 'en'?'Link questions to different locations':'Vincular preguntas a diferentes ubicaciones'}}</p>
                     </div>
                 </div>
                 <div class="content_box" id="pagos-tokenizacion">
                     <img src="{{assetPath('images/hotels/pagos_cashless_hotel_contactless_cargo-habitacion_tokenizaion_precios_img.jpg')}}" style="max-width: 361px;">
                     <div class="overlay_content">
-                        <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> El huésped puede vincular su tarjeta a la reserva desde el web check-in</p>
-                        <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Se puede hacer pago con cargo directo a la tarjeta bancaria </p>
+                        <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> {{ lang == 'en'?'The guest can link her card to the reservation from the web check-in':'El huésped puede vincular su tarjeta a la reserva desde el web check-in'}}</p>
+                        <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> {{ lang == 'en'?'Payment can be made with a direct charge to the bank card':'Se puede hacer pago con cargo directo a la tarjeta bancaria'}}</p>
                     </div>
                 </div>
             </div>
@@ -272,32 +272,32 @@
     <div class="py-15 bg_blue">
         <div class="container text-white">
             <div  class="text-center mx-650 mx-auto">
-                <h1>Plataforma Goguest</h1>
-                <p class="font-25">La plataforma más versátil y escalable que se adapta a tus necesidades y a tu lógica de negocio.</p>
+                <h1>{{ lang == 'en'?'Goguest platform':'Plataforma Goguest'}}</h1>
+                <p class="font-25">{{ lang == 'en'?'The most versatile and scalable platform that adapts to your needs and your business logic.':'La plataforma más versátil y escalable que se adapta a tus necesidades y a tu lógica de negocio.'}}</p>
             </div>
             <div class="row my-5 justify-content-center">
                 <div class="col-md-4 text-center text-white">
                     <img class="mx-auto mb-3" style="max-height: 181px;" src="{{assetPath('images/hotels/icon_platforma_goguest_1.svg')}}">
-                    <p  class="font-25">Sistema centralizado de comunicación entre todos los servicios y softwares de tu negocio.</p>
+                    <p  class="font-25">{{ lang == 'en'?'Centralized communication system between all the services and software of your business.':'Sistema centralizado de comunicación entre todos los servicios y softwares de tu negocio.'}}</p>
                 </div>
                 <div class="col-md-4 text-center text-white">
                     <img class="mx-auto mb-3" style="max-height: 181px;" src="{{assetPath('images/hotels/icon_platforma_goguest_2.svg')}}">
-                    <p  class="font-25">Con nuestro panel vinculado a tu PMS podrás controlar y gestionar todo tu hotel.</p>
+                    <p  class="font-25">{{ lang == 'en'?'With our panel linked to your PMS you can control and manage your entire hotel.':'Con nuestro panel vinculado a tu PMS podrás controlar y gestionar todo tu hotel.'}}</p>
                 </div>
                 <div class="col-md-4 text-center text-white">
                     <img class="mx-auto mb-3" style="max-height: 181px;" src="{{assetPath('images/hotels/icon_platforma_goguest_3.svg')}}">
-                    <p  class="font-25">Desarrollamos e integramos dentro del sistema cualquier tipo de solución que necesites.</p>
+                    <p  class="font-25">{{ lang == 'en'?'We develop and integrate into the system any type of solution you need.':'Desarrollamos e integramos dentro del sistema cualquier tipo de solución que necesites.'}}</p>
                 </div>
             </div>
             <div class="py-5 text-center">
-                <a class="btn_blue">{{ lang == 'en' ? 'Goguest platform': 'Plataforma Goguest' }}</a>
+                <a class="btn_blue" href="{{ lang == 'en'?'/en/goguest-platform':'/plataforma-goguest'}}">{{ lang == 'en' ? 'Goguest platform': 'Plataforma Goguest' }}</a>
             </div>
         </div>
     </div>
 
     <div class="py-15 bg_grey">
         <div class="container text_blue">
-            <h4 class="text-center mx-auto" style="max-width: 801px;">Eficiencia inmejorable mediante la integración y colaboración con los sistemas de gestión</h4>
+            <h4 class="text-center mx-auto" style="max-width: 801px;">{{ lang == 'en'?'Unbeatable efficiency through integration and collaboration with management systems':'Eficiencia inmejorable mediante la integración y colaboración con los sistemas de gestión'}}</h4>
             <div class="row my-5 justify-content-center align-items-center">
                 <div class="col-md-3 bg-white text-center" style="border: 7px solid #f2f2f4;">
                     <img class="mx-auto my-5" style="max-height: 44px;" src="{{assetPath('images/p_goguest/logos_integraciones/Sihot-integracion_easygoband_hoteles.jpg')}}">
@@ -318,38 +318,38 @@
     <div class="py-15 ">
         <div class="container">
             <div  class="text-center mx-650 mx-auto">
-                <h1 class="text_blue">La solución para hoteles que supera todas las expectativas</h1>
+                <h1 class="text_blue">{{ lang == 'en'?'The hotel solution that exceeds all expectations':'La solución para hoteles que supera todas las expectativas'}}</h1>
             </div>
             <div class="row my-5 justify-content-center text_blue">
                 <div class="col-md-4 text-center">
                     <img class="mx-auto mb-3" style="max-height: 81px;" src="{{assetPath('images/hotels/la-solucion-1.svg')}}">
-                    <h4>Mejora las operativas</h4>
-                    <p>Los procesos de tu negocio serán más eficientes, mejorarás las operativas y ganarás tiempo.</p>
+                    <h4>{{ lang == 'en'?'Improve operations':'Mejora las operativas'}}</h4>
+                    <p>{{ lang == 'en'?'Your business processes will be more efficient, you will improve operations and you will save time.':'Los procesos de tu negocio serán más eficientes, mejorarás las operativas y ganarás tiempo.'}}</p>
                 </div>
                 <div class="col-md-4 text-center">
                     <img class="mx-auto mb-3" style="max-height: 81px;" src="{{assetPath('images/hotels/la-solucion-2.svg')}}">
-                    <h4>Mayor rentabilidad</h4>
-                    <p>Aumentarás ingresos, reducirás los gastos y promoverás el consumo.</p>
+                    <h4>{{ lang == 'en'?'Higher profitability':'Mayor rentabilidad'}}</h4>
+                    <p>{{ lang == 'en'?'You will increase income, reduce expenses and promote consumption.':'Aumentarás ingresos, reducirás los gastos y promoverás el consumo.'}}</p>
                 </div>
                 <div class="col-md-4 text-center">
                     <img class="mx-auto mb-3" style="max-height: 81px;" src="{{assetPath('images/hotels/la-solucion-3.svg')}}">
-                    <h4>Más seguridad</h4>
-                    <p>Tendrás un control total y mayor seguridad para tus clientes y negocio.</p>
+                    <h4>{{ lang == 'en'?'More security':'Más seguridad'}}</h4>
+                    <p>{{ lang == 'en'?'You will have total control and greater security for your clients and business.':'Tendrás un control total y mayor seguridad para tus clientes y negocio.'}}</p>
                 </div>
                 <div class="col-md-4 text-center">
                     <img class="mx-auto mb-3" style="max-height: 81px;" src="{{assetPath('images/hotels/la-solucion-4.svg')}}">
-                    <h4>Todo bajo control</h4>
-                    <p>Conocerás los movimientos de tus clientes y podrás tomar decisiones estratégicas basadas en datos reales.</p>
+                    <h4>{{ lang == 'en'?'Everything under control':'Todo bajo control'}}</h4>
+                    <p>{{ lang == 'en'?'You will know the movements of your clients and you will be able to make strategic decisions based on real data.':'Conocerás los movimientos de tus clientes y podrás tomar decisiones estratégicas basadas en datos reales.'}}</p>
                 </div>
                 <div class="col-md-4 text-center">
                     <img class="mx-auto mb-3" style="max-height: 81px;" src="{{assetPath('images/hotels/la-solucion-5.svg')}}">
-                    <h4>Sencillez y agilidad</h4>
-                    <p>Disfrutarás de un sistema sencillo de usar y no necesitarás software adicional para operar tu hotel.</p>
+                    <h4>{{ lang == 'en'?'Simplicity and agility':'Sencillez y agilidad'}}</h4>
+                    <p>{{ lang == 'en'?'You will enjoy a simple to use system and you will not need additional software to operate your hotel.':'Disfrutarás de un sistema sencillo de usar y no necesitarás software adicional para operar tu hotel.'}}</p>
                 </div>
                 <div class="col-md-4 text-center">
                     <img class="mx-auto mb-3" style="max-height: 81px;" src="{{assetPath('images/hotels/la-solucion-6.svg')}}">
-                    <h4>Flexibilidad</h4>
-                    <p>Podrás implementar nuevos softwares o crear nuevos desarrollos cuando lo necesites.</p>
+                    <h4>{{ lang == 'en'?'Flexibility':'Flexibilidad'}}</h4>
+                    <p>{{ lang == 'en'?'You can implement new software or create new developments when you need it.':'Podrás implementar nuevos softwares o crear nuevos desarrollos cuando lo necesites.'}}</p>
                 </div>
             </div>
         </div>
@@ -365,9 +365,9 @@
                     </div>
                 </div>
                 <div class="col-md-6 px-0 py-5 text-center text-md-left mx-650 mx-auto">
-                    <h1 class="text_blue">Hoteles Oasis</h1>
-                    <p class="mb-5 font-25">Transformación digital del recinto completo con el fin de mejorar las operativas y los procesos, aumentar la seguridad y mejorar la experiencia de usuario.</p>
-                    <a class="btn_blue" href="#">{{ lang == 'en' ? 'View Case Study': 'Ver caso de éxito' }}</a>
+                    <h1 class="text_blue">{{ lang == 'en'?'Oasis Hotels':'Hoteles Oasis'}}</h1>
+                    <p class="mb-5 font-25">{{ lang == 'en'?'Digital transformation of the entire site in order to improve operations and processes, increase security and improve the user experience.':'Transformación digital del recinto completo con el fin de mejorar las operativas y los procesos, aumentar la seguridad y mejorar la experiencia de usuario.'}}</p>
+                    <a class="btn_blue" href="{{ lang == 'en'?'/en/success-stories/oasis':'/casos-de-exito/oasis'}}">{{ lang == 'en' ? 'View Case Study': 'Ver caso de éxito' }}</a>
                 </div>
             </div>
         </div>
@@ -417,12 +417,12 @@
                                             <img class="mx-auto" src="{{assetPath('images/hotels/logo_pinerro.png')}}">
                                         </div>
                                         <div class="col-md-7">
-                                            <h4 style="font-size: 19px !important;"><blockquote>"En una semana se multiplicaron por 3 las reservas."</blockquote></h4>
+                                            <h4 style="font-size: 19px !important;"><blockquote>{{ lang == 'en'?'"In a week the reservations were multiplied by 3."':'"En una semana se multiplicaron por 3 las reservas."'}}</blockquote></h4>
                                         </div>
                                     </div>
                                     <div class="text-left">
                                     <p class="font-25 mb-0">TONI MUÑOZ</p>
-                                    <p>Director de Proyectos IT. Grupo Piñero.</p>
+                                    <p>{{ lang == 'en'?'IT Project Director. Piñero Group.':'Director de Proyectos IT. Grupo Piñero.'}}</p>
                                     </div>
                                 </div>
                             </div>
@@ -433,12 +433,12 @@
                                             <img class="mx-auto" src="{{assetPath('images/hotels/logo-aquarama-color.jpg')}}"> 
                                         </div>
                                         <div class="col-md-7">
-                                            <h4 style="font-size: 19px !important;"><blockquote>"Easygoband nos permite relacionarnos de una forma diferente y mejorada con nuestros clientes."</blockquote></h4>
+                                            <h4 style="font-size: 19px !important;"><blockquote>{{ lang == 'en'?'"Easygoband allows us to interact in a different and improved way with our clients."':'"Easygoband nos permite relacionarnos de una forma diferente y mejorada con nuestros clientes."'}}</blockquote></h4>
                                         </div>
                                     </div>
                                     <div class="text-left">
                                     <p class="font-25 mb-0">DOLORES SALGADO</p>
-                                    <p>Directora</p>
+                                    <p>{{ lang == 'en'?'Director':'Directora'}}</p>
                                     </div>
                                 </div>
                             </div>
@@ -449,12 +449,12 @@
                                             <img class="mx-auto" src="{{assetPath('images/hotels/logo-oasis-color.jpg')}}">
                                         </div>
                                         <div class="col-md-7"> 
-                                            <h4 style="font-size: 19px !important;"><blockquote>"Son super eficientes y honestos. Su tecnologia cashless es fantastic y el equipo te acompana durante todo el festival."</blockquote></h4>
+                                            <h4 style="font-size: 19px !important;"><blockquote>{{ lang == 'en'?'"They are super efficient and honest. Their cashless technology is fantastic and the team accompanies you throughout the festival."':'"Son super eficientes y honestos. Su tecnologia cashless es fantastic y el equipo te acompana durante todo el festival."'}}</blockquote></h4>
                                         </div>
                                     </div>
                                     <div class="text-left">
                                     <p class="font-25 mb-0">LAIA GORDI</p>
-                                    <p>Comunicacion Feslloc</p>
+                                    <p>{{ lang == 'en'?'Feslloc Communication':'Comunicacion Feslloc'}}</p>
                                     </div>
                                 </div>
                             </div>
@@ -465,12 +465,12 @@
                                             <img class="mx-auto" src="{{assetPath('images/hotels/logo-beerman-color.jpg')}}">
                                         </div>
                                         <div class="col-md-7">
-                                            <h4 style="font-size: 19px !important;"><blockquote>"La experiencia ha sido muy satisfactoria con un control al maximo y una excelente percepcion de los asistentes"</blockquote></h4>
+                                            <h4 style="font-size: 19px !important;"><blockquote>{{ lang == 'en'?'"The experience has been very satisfactory with maximum control and excellent perception from the attendees"':'"La experiencia ha sido muy satisfactoria con un control al maximo y una excelente percepcion de los asistentes"'}}</blockquote></h4>
                                         </div>
                                     </div>
                                     <div class="text-left">
                                     <p class="font-25 mb-0">JUAN ZURITA</p>
-                                    <p>Owner</p>
+                                    <p>{{ lang == 'en'?'Owner':'Owner'}}</p>
                                     </div>
                                 </div>
                             </div>
@@ -481,12 +481,12 @@
                                             <img class="mx-auto" src="{{assetPath('images/hotels/logo-aapolo-color.jpg')}}">
                                         </div>
                                         <div class="col-md-7">
-                                            <h4 style="font-size: 19px !important;"><blockquote>"Easygoband se ha vuelto indispensable para agilizar, aumentar nuestros ingresos en gran medida y tener un control exhaustivo de nuestro evento."</blockquote></h4>
+                                            <h4 style="font-size: 19px !important;"><blockquote>{{ lang == 'en'?'"Easygoband has become indispensable to streamline, greatly increase our income and have a comprehensive control of our event."':'"Easygoband se ha vuelto indispensable para agilizar, aumentar nuestros ingresos en gran medida y tener un control exhaustivo de nuestro evento."'}}</blockquote></h4>
                                         </div>
                                     </div>
                                     <div class="text-left">
                                     <p class="font-25 mb-0">NICOLAS FILIPPINI</p>
-                                    <p>Gte de planeamiento y Control de Gestion</p>
+                                    <p>{{ lang == 'en'?'Gte of planning and Management Control':'Gte de planeamiento y Control de Gestion'}}</p>
                                     </div>
                                 </div>
                             </div>
@@ -538,39 +538,41 @@
                     <img class="mx-auto img_goguest" src="{{assetPath('images/p_goguest/Goguest-demo-CTA.svg')}}">
                 </div>
                 <div class="col-md-5 text-center">
-                    <h4 class="text_blue mb-5">¿Te gustaría ver cómo tu negocio puede digitalizarse?</h4>
+                    <h4 class="text_blue mb-5">{{ lang == 'en'?'Would you like to see how your business can be digitized?':'¿Te gustaría ver cómo tu negocio puede digitalizarse?'}}</h4>
                     <a class="btn_blue">{{ lang == 'en' ? 'Book Demo': 'Reservar Demo' }}</a>
                 </div>
             </div>
         </div>
     </div>
-<script>
-    jQuery(document).ready(function(){
 
-        //box switch
-        jQuery('.pointer_item').hover(function(){ jQuery(this).parent().find('.pointer_item').removeClass('active_item');
-            jQuery(this).addClass('active_item');
-            var getID = jQuery(this).data('target');
-            jQuery('.content_box').removeClass('active');
-            jQuery("#"+ getID).addClass('active');
-        });
+<div class="modal fade" id="casestudy" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header" style="border: none;">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="fal fa-times"></i></button>
+        </div>
+        <div class="modal-body">
+			<div class="container px-0">
+				<div class="row">
+					<div class="col-md-7 pl-0 showin_init">
+						<img class="w-100" src="{{assetPath('images/home_img/caso_estudio_hoteles_contactless.jpg')}}">
+						<br>
+						<p style="font-size: 16px;">{{ lang =='en'?'A <b  class="text_blue">complete case study</b> that will help you understand how to benefit from our Goguest solution. It includes a solution to the problems raised by the hotel, <b class="text_blue">the necessary investment</b>. as well as  <b class="text_blue">the returns and economic benefits.</b>':'Un <b  class="text_blue">caso de estudio completo</b> que te ayudará a entender como beneficiarte de nuestra solución Goguest. Incluye solución a los problemas planteados por el hotel, la <b class="text_blue">inversión necesaria</b>. así como los <b class="text_blue">rendimientos y beneficios económicos.</b>'}}</p>
+						<p style="color:#0000ff; font-size: 16px;"><i>{{ lang == 'en'?'Fill in the form and we will send you the case study to your email.':'Rellena el formulario y te enviaremos el caso de estudio a tu correo.'}}</i></p>
+					</div>
+					<div class="col-md-5 pr-0 showin_init">
+						{{ function('do_shortcode', '[contact-form-7 id="7540" title="modal form"]') }}
+					</div>
+					<div class="col-md-12 pr-0 showin_sent mx-auto mx-650 hidden">
+						<img class="w-100 mx-auto" src="{{assetPath('images/home_img/caso_estudio_hoteles_contactless.jpg')}}" style="max-width: 451px;">
+						<br>
+						<h4 class="text_blue text-center">{{ lang == 'en'?'Thank you for requesting the case study. One of our commercials will contact you via email to send you the case study as soon as possible.':'Gracias por solicitar el caso de estudio. Uno de nuetsros comerciales se pondrá en contacto a través del correo para enviarte el caso de estudio lo más pronto posible.'}}</h4>
+					</div>
+				</div>
+			</div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-        //video button play
-        jQuery(document).on('click','.js-videoPoster',function(ev) {
-                ev.preventDefault();
-                var $poster = jQuery(this);
-                var $wrapper = $poster.closest('.js-videoWrapper');
-                videoPlay($wrapper);
-        });
-        function videoPlay($wrapper) {
-            var $iframe = $wrapper.find('.js-videoIframe');
-            var src = $iframe.data('src');
-            $wrapper.addClass('videoWrapperActive');
-            $iframe.attr('src',src);
-        }
-
-        //logo slider
-       
-    });
-</script>
 {% endblock %}

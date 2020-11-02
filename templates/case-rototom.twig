@@ -31,10 +31,10 @@
                     </div>
                 </div>
                 <div class="col-md-5 py-5">
-                    <h4 class="text_blue">¿QUÉ ES ROTOTOM?</h4>
-                    <p>Es el mayor festival de música Reggae en Europa, fundado en 1991 en la provincia italiana de Pordenone y que, desde 2010 se celebra en la localidad española de Benicasim.</p>
-                    <h4 class="text_blue">OBJETIVO</h4>
-                    <p>Con el objetivo de mejorar la experiencia de los asistentes, reducir el fraude y las pérdidas de dinero en efectivo, digitalizaron el control de accesos y los pagos en la edición del 2019, incrementando las ventas y eliminando el fraude.</p>
+                    <h4 class="text_blue">{{ lang == 'en'?'WHAT IS ROTOTOM?':'¿QUÉ ES ROTOTOM?'}}</h4>
+                    <p>{{ lang == 'en'?'It is the largest Reggae music festival in Europe, founded in 1991 in the Italian province of Pordenone and which, since 2010, has been held in the Spanish town of Benicasim.':'Es el mayor festival de música Reggae en Europa, fundado en 1991 en la provincia italiana de Pordenone y que, desde 2010 se celebra en la localidad española de Benicasim.'}}</p>
+                    <h4 class="text_blue">{{ lang == 'en'?'OBJECTIVE':'OBJETIVO'}}</h4>
+                    <p>{{ lang == 'en'?'With the aim of improving the attendee experience, reducing fraud and cash losses, they digitized access control and payments in the 2019 edition, increasing sales and eliminating fraud.':'Con el objetivo de mejorar la experiencia de los asistentes, reducir el fraude y las pérdidas de dinero en efectivo, digitalizaron el control de accesos y los pagos en la edición del 2019, incrementando las ventas y eliminando el fraude.'}}</p>
                 </div>
             </div>
         </div>
@@ -42,31 +42,31 @@
 
     <div class="py-15 bg_grey relative" style="padding-bottom: 15rem;">
         <div class="container">
-            <h4 class="text_blue text-center text-md-left">Servicios contratados</h4>
+            <h4 class="text_blue text-center text-md-left">{{ lang == 'en'?'Hired services':'Servicios contratados'}}</h4>
             <div class="row my-5 justify-content-center bg-white">
                 <div class="col-md-2 service_item" >
                     <img src="{{assetPath('images/home_img/icon-checkin.svg')}}">
-                    <p class="pb-0 pt-3">Pago Pulsera NFC</p>
+                    <p class="pb-0 pt-3">{{ lang == 'en'?'Cashless payments':'Pagos Cashless'}}</p>
                 </div>
                 <div class="col-md-2 service_item">
                     <img src="{{assetPath('images/home_img/icon-reserva-servicios.svg')}}">
-                    <p class="pb-0 pt-3">Pago Tarjeta Bancaria</p>
+                    <p class="pb-0 pt-3">{{ lang == 'en'?'Access Control QR':'Control de Accesos QR'}}</p>
                 </div>
                 <div class="col-md-2 service_item">
                     <img src="{{assetPath('images/home_img/icon-cuenta-cliente.svg')}}">
-                    <p class="pb-0 pt-3">Pagos y pedidos Mobil</p>
+                    <p class="pb-0 pt-3">{{ lang == 'en'?'Reservation of Services':'Reserva de Servicios'}}</p>
                 </div>
                 <div class="col-md-2 service_item">
                     <img src="{{assetPath('images/home_img/icon-pedidos-room-service.svg')}}">
-                    <p class="pb-0 pt-3">Pagos y pedidos Mobil</p>
+                    <p class="pb-0 pt-3">{{ lang == 'en'?'User Identification':'Identificación de usuario'}}</p>
                 </div>
                 <div class="col-md-2 service_item">
                     <img src="{{assetPath('images/home_img/icon-encuestas-digitalizadas.svg')}}">
-                    <p class="pb-0 pt-3">Pagos y pedidos Mobil</p>
+                    <p class="pb-0 pt-3">{{ lang == 'en'?'Payments Through Tokenization':'Pagos Mediante Tokenización'}}</p>
                 </div>
                 <div class="col-md-2 service_item">
-                    <img src="{{assetPath('images/home_img/icon-pagos-tokenizacion.svg')}}">
-                    <p class="pb-0 pt-3">Pagos y pedidos Mobil</p>
+                    <img src="{{assetPath('images/home_img/icon-reserva-servicios.svg')}}">
+                    <p class="pb-0 pt-3">{{ lang == 'en'?'Access Control QR':'Control de Accesos QR'}}</p>
                 </div>
             </div>
         </div>
@@ -92,12 +92,12 @@
                                             <img class="mx-auto" src="{{assetPath('images/hotels/logo_pinerro.png')}}">
                                         </div>
                                         <div class="col-md-7">
-                                            <h4 style="font-size: 19px !important;"><blockquote>"En una semana se multiplicaron por 3 las reservas."</blockquote></h4>
+                                            <h4 style="font-size: 19px !important;"><blockquote>{{ lang == 'en'?'"In a week the reservations were multiplied by 3."':'"En una semana se multiplicaron por 3 las reservas."'}}</blockquote></h4>
                                         </div>
                                     </div>
                                     <div class="text-left">
                                     <p class="font-25 mb-0">TONI MUÑOZ</p>
-                                    <p>Director de Proyectos IT. Grupo Piñero.</p>
+                                    <p>{{ lang == 'en'?'IT Project Director. Piñero Group.':'Director de Proyectos IT. Grupo Piñero.'}}</p>
                                     </div>
                                 </div>
                             </div>
@@ -108,12 +108,12 @@
                                             <img class="mx-auto" src="{{assetPath('images/hotels/logo-aquarama-color.jpg')}}"> 
                                         </div>
                                         <div class="col-md-7">
-                                            <h4 style="font-size: 19px !important;"><blockquote>"Easygoband nos permite relacionarnos de una forma diferente y mejorada con nuestros clientes."</blockquote></h4>
+                                            <h4 style="font-size: 19px !important;"><blockquote>{{ lang == 'en'?'"Easygoband allows us to interact in a different and improved way with our clients."':'"Easygoband nos permite relacionarnos de una forma diferente y mejorada con nuestros clientes."'}}</blockquote></h4>
                                         </div>
                                     </div>
                                     <div class="text-left">
                                     <p class="font-25 mb-0">DOLORES SALGADO</p>
-                                    <p>Directora</p>
+                                    <p>{{ lang == 'en'?'Director':'Directora'}}</p>
                                     </div>
                                 </div>
                             </div>
@@ -124,12 +124,12 @@
                                             <img class="mx-auto" src="{{assetPath('images/hotels/logo-oasis-color.jpg')}}">
                                         </div>
                                         <div class="col-md-7"> 
-                                            <h4 style="font-size: 19px !important;"><blockquote>"Son super eficientes y honestos. Su tecnologia cashless es fantastic y el equipo te acompana durante todo el festival."</blockquote></h4>
+                                            <h4 style="font-size: 19px !important;"><blockquote>{{ lang == 'en'?'"They are super efficient and honest. Their cashless technology is fantastic and the team accompanies you throughout the festival."':'"Son super eficientes y honestos. Su tecnologia cashless es fantastic y el equipo te acompana durante todo el festival."'}}</blockquote></h4>
                                         </div>
                                     </div>
                                     <div class="text-left">
                                     <p class="font-25 mb-0">LAIA GORDI</p>
-                                    <p>Comunicacion Feslloc</p>
+                                    <p>{{ lang == 'en'?'Feslloc Communication':'Comunicacion Feslloc'}}</p>
                                     </div>
                                 </div>
                             </div>
@@ -140,12 +140,12 @@
                                             <img class="mx-auto" src="{{assetPath('images/hotels/logo-beerman-color.jpg')}}">
                                         </div>
                                         <div class="col-md-7">
-                                            <h4 style="font-size: 19px !important;"><blockquote>"La experiencia ha sido muy satisfactoria con un control al maximo y una excelente percepcion de los asistentes"</blockquote></h4>
+                                            <h4 style="font-size: 19px !important;"><blockquote>{{ lang == 'en'?'"The experience has been very satisfactory with maximum control and excellent perception from the attendees"':'"La experiencia ha sido muy satisfactoria con un control al maximo y una excelente percepcion de los asistentes"'}}</blockquote></h4>
                                         </div>
                                     </div>
                                     <div class="text-left">
                                     <p class="font-25 mb-0">JUAN ZURITA</p>
-                                    <p>Owner</p>
+                                    <p>{{ lang == 'en'?'Owner':'Owner'}}</p>
                                     </div>
                                 </div>
                             </div>
@@ -156,12 +156,12 @@
                                             <img class="mx-auto" src="{{assetPath('images/hotels/logo-aapolo-color.jpg')}}">
                                         </div>
                                         <div class="col-md-7">
-                                            <h4 style="font-size: 19px !important;"><blockquote>"Easygoband se ha vuelto indispensable para agilizar, aumentar nuestros ingresos en gran medida y tener un control exhaustivo de nuestro evento."</blockquote></h4>
+                                            <h4 style="font-size: 19px !important;"><blockquote>{{ lang == 'en'?'"Easygoband has become indispensable to streamline, greatly increase our income and have a comprehensive control of our event."':'"Easygoband se ha vuelto indispensable para agilizar, aumentar nuestros ingresos en gran medida y tener un control exhaustivo de nuestro evento."'}}</blockquote></h4>
                                         </div>
                                     </div>
                                     <div class="text-left">
                                     <p class="font-25 mb-0">NICOLAS FILIPPINI</p>
-                                    <p>Gte de planeamiento y Control de Gestion</p>
+                                    <p>{{ lang == 'en'?'Gte of planning and Management Control':'Gte de planeamiento y Control de Gestion'}}</p>
                                     </div>
                                 </div>
                             </div>
@@ -202,6 +202,7 @@
             </div>
         </div>
     </div>
+
     <style>
         .slider {
             animation: slidein 30s linear infinite;
@@ -244,39 +245,11 @@
                     <img class="mx-auto img_goguest" src="{{assetPath('images/p_goguest/Goguest-demo-CTA.svg')}}">
                 </div>
                 <div class="col-md-5 text-center">
-                    <h4 class="text_blue mb-5">¿Te gustaría ver cómo tu negocio puede digitalizarse?</h4>
+                    <h4 class="text_blue mb-5">{{ lang == 'en'?'Would you like to see how your business can be digitized?':'¿Te gustaría ver cómo tu negocio puede digitalizarse?'}}</h4>
                     <a class="btn_blue">{{ lang == 'en' ? 'Book Demo': 'Reservar Demo' }}</a>
                 </div>
             </div>
         </div>
     </div>
-<script>
-    jQuery(document).ready(function(){
 
-        //box switch
-        jQuery('.pointer_item').hover(function(){ jQuery(this).parent().find('.pointer_item').removeClass('active_item');
-            jQuery(this).addClass('active_item');
-            var getID = jQuery(this).data('target');
-            jQuery('.content_box').removeClass('active');
-            jQuery("#"+ getID).addClass('active');
-        });
-
-        //video button play
-        jQuery(document).on('click','.js-videoPoster',function(ev) {
-                ev.preventDefault();
-                var $poster = jQuery(this);
-                var $wrapper = $poster.closest('.js-videoWrapper');
-                videoPlay($wrapper);
-        });
-        function videoPlay($wrapper) {
-            var $iframe = $wrapper.find('.js-videoIframe');
-            var src = $iframe.data('src');
-            $wrapper.addClass('videoWrapperActive');
-            $iframe.attr('src',src);
-        }
-
-        //logo slider
-       
-    });
-</script>
 {% endblock %}

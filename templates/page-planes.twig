@@ -5,7 +5,7 @@
 {% block content %}
     <div class="bg-light-grey">
         <div class="py-15" style="background-image: linear-gradient(-52deg, rgb(55 60 160) 0px, rgb(33 46 189) 2%, rgb(9 165 207) 100%);padding-bottom: 13rem !important;">
-            <h1 class="text-center text-white">Planes Goguest Hoteles</h1>
+            <h1 class="text-center text-white">{{ lang == 'en'?'Goguest Hotels Plans':'Planes Goguest Hoteles'}}</h1>
         </div>
         <div class="container">
             <div class="row  justify-content-center" style="margin-top: -8rem;">
@@ -13,11 +13,11 @@
                     <div class="card p-5 mb-5 text-center">
                         <img class="mx-auto" style="height: 170px;" src="{{assetPath('images/plans/I_control_accesos.svg')}}">
                         <div class="card-body py-0 pt-5">
-                            <h4 class="card-title">Control de Accesos</h4>
+                            <h4 class="card-title">{{ lang == 'en'?'Access control':'Control de Accesos'}}</h4>
                             <div class="check_lists  text-left">
-                                <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Apertura de habitaciones</p>
-                                <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Control de estancias</p>
-                                <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Control de afluencias</p>
+                                <p><img src="{{assetPath('images/home_img/tick_dark.png')}}">{{ lang == 'en'?'Room opening':'Apertura de habitaciones'}}</p>
+                                <p><img src="{{assetPath('images/home_img/tick_dark.png')}}">{{ lang == 'en'?'Control of stays':'Control de estancias'}}</p>
+                                <p><img src="{{assetPath('images/home_img/tick_dark.png')}}">{{ lang == 'en'?'Flow control':'Control de afluencias'}}</p>
                             </div>
                         </div>
                     </div>
@@ -26,12 +26,12 @@
                     <div class="card p-5 mb-5 text-center">
                         <img class="mx-auto" style="height: 170px;" src="{{assetPath('images/plans/Webapp_personalizable.svg')}}">
                         <div class="card-body py-0 pt-5">
-                            <h4 class="card-title">Webapp Personalizable</h4>
+                            <h4 class="card-title">{{ lang == 'en'?'Customizable Webapp':'Webapp Personalizable'}}</h4>
                             <div class="check_lists  text-left">
-                                <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Room Service</p>
-                                <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Encuestas</p>
-                                <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Reserva de servicios</p>
-                                <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Online Check-in</p>
+                                <p><img src="{{assetPath('images/home_img/tick_dark.png')}}">{{ lang == 'en'?'Room Service':'Room Service'}}</p>
+                                <p><img src="{{assetPath('images/home_img/tick_dark.png')}}">{{ lang == 'en'?'Polls':'Encuestas'}}</p>
+                                <p><img src="{{assetPath('images/home_img/tick_dark.png')}}">{{ lang == 'en'?'Reservation of services':'Reserva de servicios'}}</p>
+                                <p><img src="{{assetPath('images/home_img/tick_dark.png')}}">{{ lang == 'en'?'Online Check-in':'Online Check-in'}}</p>
                             </div>
                         </div>
                     </div>
@@ -40,11 +40,11 @@
                     <div class="card p-5 mb-5 text-center">
                         <img class="mx-auto" style="height: 170px;" src="{{assetPath('images/plans/I_Pagos_contactless.svg')}}">
                         <div class="card-body py-0 pt-5">
-                            <h4 class="card-title">Pagos Contactless</h4>
+                            <h4 class="card-title">{{ lang == 'en'?'Contactless payments':'Pagos Contactless'}}</h4>
                             <div class="check_lists  text-left">
-                                <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Cargo a habitacion</p>
-                                <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Limites de consumo</p>
-                                <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Pagos online integrados con Webapp y pasarela de pagos.</p>
+                                <p><img src="{{assetPath('images/home_img/tick_dark.png')}}">{{ lang == 'en'?'Room charge':'Cargo a habitacion'}}</p>
+                                <p><img src="{{assetPath('images/home_img/tick_dark.png')}}">{{ lang == 'en'?'Consumption limits':'Limites de consumo'}}</p>
+                                <p><img src="{{assetPath('images/home_img/tick_dark.png')}}">{{ lang == 'en'?'Online payments integrated with Webapp and payment gateway.':'Pagos online integrados con Webapp y pasarela de pagos.'}}</p>
                             </div>
                         </div>
                     </div>
@@ -53,13 +53,13 @@
                     <div class="card p-5 mb-5 text-center">
                         <img class="mx-auto" style="height: 170px;" src="{{assetPath('images/plans/I_management.svg')}}">
                         <div class="card-body py-0 pt-5">
-                            <h4 class="card-title">Management</h4>
+                            <h4 class="card-title">{{ lang == 'en'?'Management':'Management'}}</h4>
                             <div class="check_lists  text-left">
-                                <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Control de stock de pulseras</p>
-                                <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Control de material</p>
-                                <p class="mb-0"><img src="{{assetPath('images/home_img/tick_dark.png')}}"> prestado a huespedes</p>
-                                <small style="margin: 0 0 10px 21px;">toallas, material deportivo juegos</small>
-                                <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Tokens de reservas o servicios contratados.</p>
+                                <p><img src="{{assetPath('images/home_img/tick_dark.png')}}">{{ lang == 'en'?'Stock control of bracelets':'Control de stock de pulseras'}}</p>
+                                <p><img src="{{assetPath('images/home_img/tick_dark.png')}}">{{ lang == 'en'?'Material control':'Control de material'}}</p>
+                                <p class="mb-0"><img src="{{assetPath('images/home_img/tick_dark.png')}}">{{ lang == 'en'?'loaned to guests':'prestado a huespedes'}}</p>
+                                <small style="margin: 0 0 10px 21px;">{{ lang == 'en'?'towels, sports equipment games':'toallas, material deportivo juegos'}}</small>
+                                <p><img src="{{assetPath('images/home_img/tick_dark.png')}}">{{ lang == 'en'?'Reservation tokens or contracted services.':'Tokens de reservas o servicios contratados.'}}</p>
                             </div>
                         </div>
                     </div>
@@ -68,10 +68,10 @@
                     <div class="card p-5 mb-5 text-center">
                         <img class="mx-auto" style="height: 170px;" src="{{assetPath('images/plans/I_business_intelligence.svg')}}">
                         <div class="card-body py-0 pt-5">
-                            <h4 class="card-title">Business Inteligence</h4>
+                            <h4 class="card-title">{{ lang == 'en'?'Business Intelligence':'Business Inteligence'}}</h4>
                             <div class="check_lists  text-left">
-                                <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Modulo de recogida de datos</p>
-                                <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Modulo de trazabilidad</p>
+                                <p><img src="{{assetPath('images/home_img/tick_dark.png')}}">{{ lang == 'en'?'Data collection module':'Modulo de recogida de datos'}}</p>
+                                <p><img src="{{assetPath('images/home_img/tick_dark.png')}}">{{ lang == 'en'?'Traceability module':'Modulo de trazabilidad'}}</p>
                             </div>
                         </div>
                     </div>
@@ -80,12 +80,12 @@
                     <div class="card p-5 mb-5 text-center">
                         <img class="mx-auto" style="height: 170px;" src="{{assetPath('images/home_img/pack_gs.png')}}">
                         <div class="card-body py-0 pt-5">
-                            <h4>Pack Goguest Standard</h4>
+                            <h4>{{ lang == 'en'?'Goguest Standard Pack':'Pack Goguest Standard'}}</h4>
                             <div class="check_lists  text-left">
-                                <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Cargo habitacion</p>
-                                <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Apertura de habitaciones</p>
-                                <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Control de estancias</p>
-                                <p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Control de afluencias</p>
+                                <p><img src="{{assetPath('images/home_img/tick_dark.png')}}">{{ lang == 'en'?'Room charge':'Cargo habitacion'}}</p>
+                                <p><img src="{{assetPath('images/home_img/tick_dark.png')}}">{{ lang == 'en'?'Room opening':'Apertura de habitaciones'}}</p>
+                                <p><img src="{{assetPath('images/home_img/tick_dark.png')}}">{{ lang == 'en'?'Control of Stays':'Control de estancias'}}</p>
+                                <p><img src="{{assetPath('images/home_img/tick_dark.png')}}">{{ lang == 'en'?'Flow Control':'Control de afluencias'}}</p>
                             </div><br>
                             <a class="btn_blue" style="padding: .7rem 2rem;font-size: 27px;"><i class="far fa-shopping-cart"></i></a>
                         </div>
@@ -96,7 +96,7 @@
     </div>
 
     <section class="bg-white py-15">
-		<h2 id="form" class="text-center">Pide Presupuesto</h1>
+		<h2 id="form" class="text-center">{{ lang == 'en'?'Ask For a Budget':'Pide Presupuesto'}}</h1>
 		<div class="max-w-4xl mx-auto mt-16 px-8 md:px-0">
 				<div class="js-form-container mx-auto pt-16 pb-32">
 					{{ function('do_shortcode', '[contact-form-7 id="7459" title="Pide presupuesto"]') }}
@@ -112,7 +112,7 @@
                     <img class="mx-auto img_goguest" src="{{assetPath('images/p_goguest/Goguest-demo-CTA.svg')}}">
                 </div>
                 <div class="col-md-5 text-center">
-                    <h4 class="text_blue mb-5">¿Te gustaría ver cómo tu negocio puede digitalizarse?</h4>
+                    <h4 class="text_blue mb-5">{{ lang == 'en'?'Would you like to see how your business can be digitized?':'¿Te gustaría ver cómo tu negocio puede digitalizarse?'}}</h4>
                     <a class="btn_blue">{{ lang == 'en' ? 'Book Demo': 'Reservar Demo' }}</a>
                 </div>
             </div>
