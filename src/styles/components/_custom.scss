@@ -1,6 +1,6 @@
 @media (min-width: 1200px){
 .container, .container-lg, .container-md, .container-sm, .container-xl {
-    max-width: 1221px !important;
+    max-width: 1250px !important;
 }
 }
 body{
@@ -28,8 +28,9 @@ h4{
 .font-25{
     font-size: 25px;
     font-family: GilroyBold;
-    color:#7E7C92;
-    line-height: 31px;
+    color:#666783;
+    line-height: 34px;
+    margin-bottom: 1.7em;
 }
 li.navbar-item {
     display: flex;
@@ -57,25 +58,23 @@ a.nav-link {
     background-color: #241dba;
 }
 .py-15{
-    padding-top: 6rem;
-    padding-bottom: 9rem;
+    padding-top: 97px;
+    padding-bottom: 97px;
 }
 .pb-21{
-    padding-bottom: 11rem;
+    padding-bottom:  201px !important;
 }
 .pt-21 {
-    padding-top: 11rem !important;
+    padding-top: 201px !important;
 }
 .py-22{
-    padding-top: 11rem;
-    padding-bottom: 11rem;
+    padding-top: 161px;
+    padding-bottom: 161px;
 }
 .light_header .navbar-light .navbar-toggler {
     border-color: #fff;
 }
-.light_header .navbar-toggler-icon {
-    background-image: url("http://www.easygoband.com/wp-content/uploads/2020/10/light_menu_icon.png") !important;
-}
+
 
 
 .goguest_app{
@@ -198,20 +197,22 @@ a.nav-link {
     padding: 9px 27px;
     border-radius: 2px;
     text-decoration: none !important;
+    white-space: nowrap;
 }
 .btn_lang a {
     color: #000;
     border: 1px solid;
-    padding: 2px 7px;
-    font-size: 14px !important;
+    padding: 3px 8.5px;
+    font-size: 12px!important;
     width: 33px;
     height: 27px;
+    letter-spacing: 1px !important;
 }
 a.btn_blue {
     background-color: #241dba;
-    box-shadow: #eae9fc -0.5rem 0.5rem 0 0;
-    font-size: 18px;
-    padding: 1.3rem 3rem;
+    box-shadow: #CCCCD6 -10px 10px 0 0;
+    font-size: 18.5px;
+    padding: 1.4rem 1.8rem;
     position: relative;
     font-family: 'Gilroy-ExtraBold';
     color: #fff;
@@ -220,15 +221,15 @@ a.btn_blue {
     cursor: pointer;
 }
 a.btn_blue:hover {
-    background-color: #eae9fc;
-    box-shadow: transparent -0.5rem 0.5rem 0 0;
-    color: #241dba;
+    background-color: #CCCCD6;
+    box-shadow: transparent -10px 10px 0 0;
+    color: #000230;
 }
 .btn_dark_blue{
     background-color: #000230;
-    box-shadow: #eae9fc -0.5rem 0.5rem 0 0;
-    font-size: 18px;
-    padding: 1.3rem 3rem;
+    box-shadow: #CCCCD6 -10px 10px 0 0;
+    font-size: 18.5px;
+    padding: 1.4rem 1.8rem;
     position: relative;
     font-family: 'Gilroy-ExtraBold';
     color: #fff;
@@ -237,9 +238,9 @@ a.btn_blue:hover {
     cursor: pointer;
 }
 a.btn_dark_blue:hover {
-    background-color: #eae9fc;
+    background-color: #CCCCD6;
     box-shadow: transparent -0.5rem 0.5rem 0 0;
-    color: #241dba;
+    color: #000230;
 }
 .nav-tabs .nav-link{
     color: #a2a2a2;
@@ -269,9 +270,10 @@ a.btn_dark_blue:hover {
     margin-bottom: 11px;
     display: flex;
     align-items: baseline;
+    color: #000230;
 }
 .check_lists img {
-    margin-right: 5px !important;
+    margin-right: 15px !important;
     margin-left: 0 !important;
     margin-bottom: 6px !important;
 }
@@ -651,15 +653,24 @@ span.wpcf7-list-item{
 }
 .fal.fa-long-arrow-down {
     font-size: 25px;
-    border: 1px solid;
+    border: 2px solid;
     border-radius: 50%;
     padding: 3px 9px;
 }
-.home_faq a {
+span.collapsed {
     position: relative;
     padding-left: 57px !important;
     font-family: 'Gilroy-ExtraBold';
     font-size: 25px !important;
+    color: #000230;
+    display: flex;
+    align-items: center;
+    padding: 5px 3px;
+}
+i.fal.fa-chevron-right {
+    font-size: 16px;
+    color: #241DBA;
+    font-weight: 700;
 }
 .home_faq a img {
     position: absolute;
@@ -669,21 +680,17 @@ span.wpcf7-list-item{
 h4.panel-title {
     margin-bottom: 0 !important;
 }
-.home_faq .panel.panel-default {
-    background-color: transparent;
-    border: none;
-    border-bottom: 2px solid #d8d8d8;
+.home_faq a{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+    border-bottom: 1px solid #C5CFDE;
+    align-items: center;
 }
-.home_faq .panel-heading {
-    background-color: transparent;
-}
-.home_faq a[aria-expanded=false]:after {
-    content: "\203A" !important;
-    transform: rotate(0deg) !important;
-}
-.home_faq a[aria-expanded=true]:after {
-    content: "\203A" !important;
-    transform: rotate(90deg) !important;
+.home_faq a:hover {
+    text-decoration: none;
+    border: 1px solid #241DBA;
+    background-color: #fff;
 }
 .h_box_1 {
     top: -72px;
@@ -712,7 +719,8 @@ h4.panel-title {
     font-size: 14px;
 }
 .header_main a{
-    font-size: 18px;
+    font-size: 18.5px;
+    letter-spacing: 0.13px;
 }
 .light_header .btn_booknow a {
     background-color: #000230;
@@ -726,13 +734,14 @@ h4.panel-title {
 
 .switch_lang .translate {
     color: #777;
-    border: 1px solid;
-    padding: 2px 7.5px;
-    font-size: 14px!important;
+    border: 1.5px solid;
+    padding: 3px 8.5px;
+    font-size: 12px!important;
     cursor: pointer;
-    font-family: 'Gilroy-SemiBold';
+    font-family: 'GilroyBold';
     width: 33px;
     height: 27px;
+    letter-spacing: 1px;
 }
 .switch_lang a {
     display: none;
@@ -742,7 +751,6 @@ h4.panel-title {
 }
 .light_header .translate {
     color: #fff;
-    background: #000230;
 }
 .modal-open,
 .modal-open .modal {
@@ -760,8 +768,46 @@ h4.panel-title {
 .modal i.fa-times {
     font-size: 31px;
 }
+.home_t_video{
+    top:0;
+    right:0;
+}
+.bg_r_grey{
+    width: 100%;
+    max-width: 600px;
+    top: 0;
+    right: 0;
+    height: 552px;
+}
+.img_r_lb{
+    left: 0;
+    bottom: 0;
+}
+.bg_l_grey{
+    width: 100%;
+    max-width: 600px;
+    top: 0;
+    left: 0;
+    height: 552px;
+}
+.img_l_rb{
+    right: 0;
+    bottom: 0; 
+}
+.cta_border{
+    min-height: 301px;
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+    border-image-slice: 1;
+    border-width: 9px;
+}
 
 
+
+@media(max-width: 950px){
+    .home_top_logos{
+        overflow: hidden;
+    }
+}
 
 @media (max-width: 767px){
     h1 {
@@ -861,6 +907,9 @@ h4.panel-title {
     }
     .desktop{
         display: none;
+    }
+    .home_t_video{
+        position: relative !important;
     }
 
 }

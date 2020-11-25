@@ -4,54 +4,53 @@
 
 {% block content %}
 
-<section class="pb-21 simple bg_blue">
-	<div class="container-fluid px-0">
-		<div class="row  mx-0 justify-content-center">
-			
-			<div class="col-md-5 pt-21 pb-5 text-center text-md-left mx-500 mx-auto">
+<section class="pb-21 simple bg_blue relative">
+	<div class="col-md-6 px-0 text-center  absolute home_t_video">
+		<div class="videoWrapper videoWrapper169 js-videoWrapper home_dropshadow">
+			<iframe class="videoIframe js-videoIframe" src="" frameborder="0" allowTransparency="true" allowfullscreen data-src="https://www.youtube.com/embed/vw2AF0S28D4?autoplay=1"></iframe>
+			<button class="videoPoster js-videoPoster" style="background-image:url({{assetPath('images/home_img/home_video.png')}});background-color: #000230;background-position: bottom left;">Play video</button>
+		</div>
+		<br>
+		<p class="text-white" style="font-size: 10px; font-family:Montserrat-Regular;">INTEGRATIONS</p>
+		<div class="home_top_logos d-flex justify-content-center align-items-center">
+			<img src="{{assetPath('images/home_img/logo_salto.svg')}}">
+			<img src="{{assetPath('images/home_img/logo_mybusiness_POS.svg')}}">
+			<img src="{{assetPath('images/home_img/logo_TCASS.svg')}}">
+			<img src="{{assetPath('images/home_img/logo_sihot.svg')}}">
+			<img src="{{assetPath('images/home_img/logo_Opera.svg')}}">
+			<a class="text-white" style="font-size: 18px; font-family: GilroyBold;" href="/en/goguest-platform">View All <i class="far fa-long-arrow-alt-right"></i></a>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row  justify-content-center">
+			<div class="col-md-5 pt-21 pb-5 text-center text-md-left">
 				<h1 class="text-white">Digitize your business, reduce your costs and increase your income</h1>
 				<p class="text-white">We create a technology ecosystem through our platform that creates more profitable businesses and better experiences for customers.</p>
 				<br><br>
 				<a class="btn_blue" href="#casestudy"  data-toggle="modal">Read Case Study</a>
 			</div>
-			<div class="col-md-7 px-0 text-center">
-				<div class="videoWrapper videoWrapper169 js-videoWrapper home_dropshadow">
-					<iframe class="videoIframe js-videoIframe" src="" frameborder="0" allowTransparency="true" allowfullscreen data-src="https://www.youtube.com/embed/vw2AF0S28D4?autoplay=1"></iframe>
-					<button class="videoPoster js-videoPoster" style="background-image:url({{assetPath('images/home_img/home_video.png')}});background-color: #000230;background-position: bottom left;">Play video</button>
-				</div>
-				<br>
-				<p class="text-white" style="font-size: 15px;">INTEGRATIONS</p>
-				<div class="home_top_logos d-flex justify-content-center align-items-center">
-					<img src="{{assetPath('images/home_img/logo_salto.svg')}}">
-					<img src="{{assetPath('images/home_img/logo_mybusiness_POS.svg')}}">
-					<img src="{{assetPath('images/home_img/logo_TCASS.svg')}}">
-					<img src="{{assetPath('images/home_img/logo_sihot.svg')}}">
-					<img src="{{assetPath('images/home_img/logo_Opera.svg')}}">
-					<a class="text-white" href="/en/goguest-platform">View All <i class="far fa-long-arrow-alt-right"></i></a>
-				</div>
-			</div>
-			
+			<div class="col-md-7 px-0 text-center"></div>
 		</div>
 	</div>
 </section>
 
-<section class="py-15 simple" style="background-image: linear-gradient(-52deg, rgb(55 60 160) 0px, rgb(33 46 189) 2%, rgb(9 165 207) 100%);">
+<section class="py-15 simple relative" style="background-image: linear-gradient(45deg, #00D7D7 0%, #241DBA 100%);">
 	<div class="container">
 		<div class="row py-5 bg-white justify-content-center align-items-center" style="margin-top: -151px;">
 			<div class="col-md-4 text-center">
-				<p class="text_blue pb-0">Platform</p>
+				<p class="text_blue pb-0" style="font-family: 'Gilroy-SemiBold';">Platform</p>
 				<a href="/en/goguest-platform"><i class="text_blue fal fa-long-arrow-down"></i></a>
 			</div>
 			<div class="col-md-4 text-center">
-				<p class="text_blue pb-0">Solutions</p>
+				<p class="text_blue pb-0" style="font-family: 'Gilroy-SemiBold';">Solutions</p>
 				<a href="/en/solutions/hotels-and-resorts"><i class="text_blue fal fa-long-arrow-down"></i></a>
 			</div>
 			<div class="col-md-4 text-center">
-				<p class="text_blue pb-0">Success Stories</p>
+				<p class="text_blue pb-0" style="font-family: 'Gilroy-SemiBold';">Success Stories</p>
 				<a href="/en/success-stories/oasis"><i class="text_blue fal fa-long-arrow-down"></i></a>
 			</div>
 		</div>
-		<div class="row pt-5 align-items-center justify-content-center">
+		<div class="row pt-21 align-items-center justify-content-center">
 			<div class="col-md-6">
 				<img class="mx-auto w-100" style="max-width: 511px;" src="{{assetPath('images/home_img/Plataforma_goguest.svg')}}">
 			</div>
@@ -59,7 +58,7 @@
 				<h1 class="text-white">The platform</h1>
 				<p class="font-25 text-white">The most versatile platform that adapts to your business logic.</p>
 				<p class="text-white">A platform for the tourism sector that enables the use of functionalities with which you will increase income, achieve more efficient operations, more profitable hotels and more satisfied customers.</p>
-				<br>
+				<br><br><br>
 				<a class="btn_dark_blue" href="/en/goguest-platform">Goguest platform</a>
 			</div>
 			
@@ -67,11 +66,12 @@
 	</div>
 </section>
 
-<section class="py-15">
+<section class="py-15 pt-21">
 	<div class="container">
 		<div class="row flex-md-row-reverse align-items-center justify-content-center">
-			<div class="col-md-6 bg-light-grey p-3">
-				<img class="mx-auto w-100" style="max-width: 451px;" src="{{assetPath('images/home_img/soluciones_contactless_inicio.svg')}}">
+			<div class="col-md-6  p-3 relative" style="height: 581px;">
+				<div class="bg-light-grey absolute bg_r_grey"></div>
+				<img class="mx-auto img_r_lb" data-aos="fade-up" data-aos-anchor-placement="top-center" src="{{assetPath('images/home_img/soluciones_contactless_inicio.svg')}}">
 			</div>
 			<div class="col-md-6 px-5 py-5 text-center text-md-left">
 				<h1 class="text_blue">Contactless Solutions</h1>
@@ -87,11 +87,12 @@
 	</div>
 </section>
 
-<section class="py-5">
+<section class="py-15">
 	<div class="container">
 		<div class="row  align-items-center justify-content-center">
-			<div class="col-md-6 bg-light-grey p-3">
-				<img class="mx-auto w-100" style="max-width: 451px;" src="{{assetPath('images/home_img/Solucion_pagos_inicio.svg')}}">
+			<div class="col-md-6  p-3 relative" style="height: 581px;">
+				<div class="bg-light-grey absolute bg_l_grey"></div>
+				<img class="mx-auto absolute img_l_rb" data-aos="fade-up" data-aos-anchor-placement="top-center" src="{{assetPath('images/home_img/Solucion_pagos_inicio.svg')}}">
 			</div>
 			<div class="col-md-6 px-5 py-5 text-center text-md-left">
 				<h1 class="text_blue">Payment solution</h1>
@@ -108,11 +109,12 @@
 	</div>
 </section>
 
-<section class="py-5">
+<section class="py-15">
 	<div class="container">
 		<div class="row flex-md-row-reverse align-items-center justify-content-center">
-			<div class="col-md-6 bg-light-grey p-3">
-				<img class="mx-auto w-100" style="max-width: 451px;" src="{{assetPath('images/home_img/Business_intelligence.svg')}}">
+			<div class="col-md-6  p-3 relative" style="height: 581px;">
+				<div class="bg-light-grey absolute bg_r_grey"></div>
+				<img class="mx-auto w-100 absolute img_r_lb" style="max-width: 596px;left: -4em;" data-aos="fade-up" data-aos-anchor-placement="top-center"  src="{{assetPath('images/home_img/Business_intelligence.png')}}">
 			</div>
 			<div class="col-md-6 px-5 py-5 text-center text-md-left">
 				<h1 class="text_blue">Business intelligence</h1>
@@ -128,7 +130,7 @@
 	</div>
 </section>
 
-<section class="py-15">
+<section class="py-15 pt-0">
 	<div class="container">
 		<div class="row align-items-center justify-content-center">
 			<div class="col-md-12 text-center">
@@ -138,7 +140,7 @@
 	</div>
 </section>
 
-<section class="sector bg-light-grey">
+<section class="py-15 pt-21 bg-grey">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6">
@@ -417,7 +419,7 @@
 	</div>
 </div>
 
-<section class="container bg-white pb-16 foot_book">
+<section class="container-fluid px-0 pb-16 foot_book">
 	<div class="blog-grid">
 		<h1 class="text_blue text-center py-5">News that you cannot miss</h1>
 		<div class="blog-grid_odd-row">
@@ -448,13 +450,13 @@
 
     <div class="py-15">
         <div class="container text_blue">
-            <div class="row my-5 justify-content-center align-items-center" style="border: 9px solid grey;min-height: 301px;">
+            <div class="row my-5 justify-content-center align-items-center cta_border">
                 <div class="col-md-7 relative">
                     <img class="mx-auto img_goguest" src="{{assetPath('images/p_goguest/Goguest-demo-CTA.svg')}}">
                 </div>
                 <div class="col-md-5 text-center">
-                    <h4 class="text_blue mb-5">Start increasing income and reducing expenses</h4>
-                    <a class="btn_blue" href="en/plans">Ask For Budget</a>
+                    <h4 class="text_blue mb-5">Would you like to see how your business can be digitized?</h4>
+                    <a class="btn_blue" href="#">Book Demo</a>
                 </div>
             </div>
         </div>
@@ -476,7 +478,7 @@
 						<p style="color:#0000ff; font-size: 16px;"><i>Fill in the form and we will send you the case study to your email.</i></p>
 					</div>
 					<div class="col-md-5 pr-0 showin_init">
-						{{ function('do_shortcode', '[contact-form-7 id="7540" title="modal form"]') }}
+						{{ function('do_shortcode', '[contact-form-7 id="7321" title="modal form"]') }}
 					</div>
 					<div class="col-md-12 pr-0 showin_sent mx-auto mx-650 hidden">
 						<img class="w-100 mx-auto" src="{{assetPath('images/home_img/caso_estudio_hoteles_contactless.jpg')}}" style="max-width: 451px;">

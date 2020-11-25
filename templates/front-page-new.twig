@@ -4,54 +4,53 @@
 
 {% block content %}
 
-<section class="pb-21 simple bg_blue">
-	<div class="container-fluid px-0">
-		<div class="row  mx-0 justify-content-center">
-			
-			<div class="col-md-5 pt-21 pb-5 text-center text-md-left mx-500 mx-auto">
+<section class="pb-21 simple bg_blue relative">
+	<div class="col-md-6 px-0 text-center absolute home_t_video">
+		<div class="videoWrapper videoWrapper169 js-videoWrapper home_dropshadow">
+			<iframe class="videoIframe js-videoIframe" src="" frameborder="0" allowTransparency="true" allowfullscreen data-src="https://www.youtube.com/embed/vw2AF0S28D4?autoplay=1"></iframe>
+			<button class="videoPoster js-videoPoster" style="background-image:url({{assetPath('images/home_img/home_video.png')}});background-color: #000230;background-position: bottom left;">Play video</button>
+		</div>
+		<br>
+		<p class="text-white" style="font-size: 10px; font-family:Montserrat-Regular;">INTEGRACIONES</p>
+		<div class="home_top_logos d-flex justify-content-center align-items-center">
+			<img src="{{assetPath('images/home_img/logo_salto.svg')}}">
+			<img src="{{assetPath('images/home_img/logo_mybusiness_POS.svg')}}">
+			<img src="{{assetPath('images/home_img/logo_TCASS.svg')}}">
+			<img src="{{assetPath('images/home_img/logo_sihot.svg')}}">
+			<img src="{{assetPath('images/home_img/logo_Opera.svg')}}">
+			<a class="text-white" style="font-size: 18px; font-family: GilroyBold;" href="/plataforma-goguest">Ver todas <i class="far fa-long-arrow-alt-right"></i></a>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-md-5 pt-21 pb-5 text-center text-md-left">
 				<h1 class="text-white">Digitaliza tu negocio, reduce tus costes y aumenta tus ingresos</h1>
 				<p class="text-white">Creamos un ecosistema tecnológico a través de nuestra plataforma que crea negocios más rentables y mejores experiencias para los clientes.  </p>
 				<br><br>
 				<a class="btn_blue" href="#casestudy"  data-toggle="modal">Leer Caso de estudio</a>
 			</div>
-			<div class="col-md-7 px-0 text-center">
-				<div class="videoWrapper videoWrapper169 js-videoWrapper home_dropshadow">
-					<iframe class="videoIframe js-videoIframe" src="" frameborder="0" allowTransparency="true" allowfullscreen data-src="https://www.youtube.com/embed/vw2AF0S28D4?autoplay=1"></iframe>
-					<button class="videoPoster js-videoPoster" style="background-image:url({{assetPath('images/home_img/home_video.png')}});background-color: #000230;background-position: bottom left;">Play video</button>
-				</div>
-				<br>
-				<p class="text-white" style="font-size: 15px;">INTEGRACIONES</p>
-				<div class="home_top_logos d-flex justify-content-center align-items-center">
-					<img src="{{assetPath('images/home_img/logo_salto.svg')}}">
-					<img src="{{assetPath('images/home_img/logo_mybusiness_POS.svg')}}">
-					<img src="{{assetPath('images/home_img/logo_TCASS.svg')}}">
-					<img src="{{assetPath('images/home_img/logo_sihot.svg')}}">
-					<img src="{{assetPath('images/home_img/logo_Opera.svg')}}">
-					<a class="text-white" href="/plataforma-goguest">Ver todas <i class="far fa-long-arrow-alt-right"></i></a>
-				</div>
-			</div>
-			
+			<div class="col-md-7 px-0 text-center"></div>
 		</div>
 	</div>
 </section>
 
-<section class="py-15 simple" style="background-image: linear-gradient(-52deg, rgb(55 60 160) 0px, rgb(33 46 189) 2%, rgb(9 165 207) 100%);">
+<section class="py-15 simple relative" style="background-image: linear-gradient(45deg, #00D7D7 0%, #241DBA 100%);">
 	<div class="container">
 		<div class="row py-5 bg-white justify-content-center align-items-center" style="margin-top: -151px;">
 			<div class="col-md-4 text-center">
-				<p class="text_blue pb-0">Plataforma</p>
+				<p class="text_blue pb-0" style="font-family: 'Gilroy-SemiBold';">Plataforma</p>
 				<a href="/plataforma-goguest"><i class="text_blue fal fa-long-arrow-down"></i></a>
 			</div>
 			<div class="col-md-4 text-center">
-				<p class="text_blue pb-0">Soluciones</p>
+				<p class="text_blue pb-0" style="font-family: 'Gilroy-SemiBold';">Soluciones</p>
 				<a href="/soluciones/hoteles-y-resorts"><i class="text_blue fal fa-long-arrow-down"></i></a>
 			</div>
 			<div class="col-md-4 text-center">
-				<p class="text_blue pb-0">Casos de éxito</p>
+				<p class="text_blue pb-0" style="font-family: 'Gilroy-SemiBold';">Casos de éxito</p>
 				<a href="/casos-de-exito/oasis"><i class="text_blue fal fa-long-arrow-down"></i></a>
 			</div>
 		</div>
-		<div class="row pt-5 align-items-center justify-content-center">
+		<div class="row pt-21 align-items-center justify-content-center">
 			<div class="col-md-6">
 				<img class="mx-auto w-100" style="max-width: 511px;" src="{{assetPath('images/home_img/Plataforma_goguest.svg')}}">
 			</div>
@@ -59,7 +58,7 @@
 				<h1 class="text-white">La plataforma </h1>
 				<p class="font-25 text-white">La plataforma más versátil que se adapta a tu lógica de negocio.</p>
 				<p class="text-white">Una plataforma para el sector turismo que habilita el uso de funcionalidades con las que incrementarás ingresos, conseguirás operativas más eficientes, hoteles más rentables y clientes más satisfechos.</p>
-				<br>
+				<br><br><br>
 				<a class="btn_dark_blue" href="/plataforma-goguest">Plataforma Goguest</a>
 			</div>
 			
@@ -67,11 +66,12 @@
 	</div>
 </section>
 
-<section class="py-15">
+<section class="py-15 pt-21">
 	<div class="container">
 		<div class="row flex-md-row-reverse align-items-center justify-content-center">
-			<div class="col-md-6 bg-light-grey p-3">
-				<img class="mx-auto w-100" style="max-width: 451px;" src="{{assetPath('images/home_img/soluciones_contactless_inicio.svg')}}">
+			<div class="col-md-6  p-3 relative" style="height: 581px;">
+				<div class="bg-light-grey absolute bg_r_grey"></div>
+				<img class="mx-auto absolute img_r_lb" data-aos="fade-up" data-aos-anchor-placement="top-center"  src="{{assetPath('images/home_img/soluciones_contactless_inicio.svg')}}">
 			</div>
 			<div class="col-md-6 px-5 py-5 text-center text-md-left">
 				<h1 class="text_blue">Soluciones Contactless</h1>
@@ -82,16 +82,16 @@
 						<p><img src="{{assetPath('images/home_img/tick_dark.png')}}"> Agiliza colas y aumenta ventas/gasto</p>
 				</div>
 			</div>
-			
 		</div>
 	</div>
 </section>
 
-<section class="py-5">
+<section class="py-15">
 	<div class="container">
 		<div class="row  align-items-center justify-content-center">
-			<div class="col-md-6 bg-light-grey p-3">
-				<img class="mx-auto w-100" style="max-width: 451px;" src="{{assetPath('images/home_img/Solucion_pagos_inicio.svg')}}">
+			<div class="col-md-6  p-3 relative" style="height: 581px;">
+				<div class="bg-light-grey absolute bg_l_grey"></div>
+				<img class="mx-auto absolute img_l_rb" data-aos="fade-up"  data-aos-anchor-placement="top-center" src="{{assetPath('images/home_img/Solucion_pagos_inicio.svg')}}">
 			</div>
 			<div class="col-md-6 px-5 py-5 text-center text-md-left">
 				<h1 class="text_blue">Solución de pagos</h1>
@@ -108,11 +108,12 @@
 	</div>
 </section>
 
-<section class="py-5">
+<section class="py-15">
 	<div class="container">
 		<div class="row flex-md-row-reverse align-items-center justify-content-center">
-			<div class="col-md-6 bg-light-grey p-3">
-				<img class="mx-auto w-100" style="max-width: 451px;" src="{{assetPath('images/home_img/Business_intelligence.svg')}}">
+			<div class="col-md-6  p-3 relative" style="height: 581px;">
+				<div class="bg-light-grey absolute bg_r_grey"></div>
+				<img class="mx-auto w-100 absolute img_r_lb" style="max-width: 596px;left: -4em;" data-aos="fade-up" data-aos-anchor-placement="top-center"  src="{{assetPath('images/home_img/Business_intelligence.png')}}">
 			</div>
 			<div class="col-md-6 px-5 py-5 text-center text-md-left">
 				<h1 class="text_blue">Business Intelligence</h1>
@@ -128,7 +129,7 @@
 	</div>
 </section>
 
-<section class="py-15">
+<section class="py-15 pt-0">
 	<div class="container">
 		<div class="row align-items-center justify-content-center">
 			<div class="col-md-12 text-center">
@@ -138,7 +139,7 @@
 	</div>
 </section>
 
-<section class="sector bg-light-grey">
+<section class="py-15 pt-21 bg-grey">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6">
@@ -166,57 +167,27 @@
 			<div class="col-md-6">
 				<h2 class="text_blue">Todas las funcionalidades y opciones que puedas imaginar</h2>
 				<p class="font-25 py-3">Nuestras soluciones están diseñadas para el sector hospitality, ocio y eventos.</p>
-				<div class="panel-group home_faq" id="accordion" role="tablist" aria-multiselectable="true">
-					<div class="panel panel-default">
-						<div class="panel-heading" role="tab">
-							<h4 class="panel-title"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapseOne"><img src="{{assetPath("images/header_icon/icon_hotel.svg")}}"> Hoteles y Resorts</a></h4>
-						</div>
-						<div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1">
-							<div class="panel-body">
-							<p>Goguest es una plataforma integradora para hoteles que facilita la interacción con el huésped mediante un sistema único que además permite la comunicación directa e inmediata con todo el hotel (PMS, POS, dispositivos y demás software).</p>
-							</div>
-						</div>
-					</div>
-					<div class="panel panel-default">
-						<div class="panel-heading" role="tab">
-							<h4 class="panel-title"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapseOne"><img src="{{assetPath("images/header_icon/icon_parques.svg")}}"> Parques temáticos</a></h4>
-						</div>
-						<div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
-							<div class="panel-body">
-							<p>Goguest es una plataforma integradora que interactúa con tus sistemas de gestión actuales, TPV, tiqueteras, etc. Con el fin de potenciar su rendimiento, sacar el máximo partido al sistema, incrementar ingresos y ofrecer la mejor experiencia al visitante</p>
-							</div>
-						</div>
-					</div>
-					<div class="panel panel-default">
-						<div class="panel-heading" role="tab">
-							<h4 class="panel-title"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapseOne"><img src="{{assetPath("images/header_icon/icon_festivales.svg")}}"> Festivales de música</a></h4>
-						</div>
-						<div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
-							<div class="panel-body">
-							<p>Gofun es una plataforma de Easygoband que ofrece soluciones que mejoran las operativas, disminuyen el fraude y aumentan los ingresos de los eventos mediante el uso de la tecnología NFC entre otros medios y recursos tecnológicos.</p>
-							</div>
-						</div>
-					</div>
-					<div class="panel panel-default">
-						<div class="panel-heading" role="tab">
-							<h4 class="panel-title"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapseOne"><img src="{{assetPath("images/header_icon/Icon_eventos_gastronomicos.svg")}}"> Eventos gastronómicos</a></h4>
-						</div>
-						<div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
-							<div class="panel-body">
-							<p>Gestiona tu evento gastronómico o festival de food truck con Gofun. Una plataforma con la que podrás eliminar pagos en efectivo, reducir colas en accesos y en puntos de venta, además de controlar el aforo y aumentar la seguridad del evento y de los clientes.</p>
-							</div>
-						</div>
-					</div>
-					<div class="panel panel-default">
-						<div class="panel-heading" role="tab">
-							<h4 class="panel-title"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="false" aria-controls="collapseOne"><img src="{{assetPath("images/header_icon/Icon_recintos_deportivos.svg")}}"> Recintos deportivos</a></h4>
-						</div>
-						<div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
-							<div class="panel-body">
-							<p>Gofun es una plataforma con la que podrás gestionar de forma eficiente tus eventos deportivos y con la que podrás procesar transacciones cashless rápidas, otras soluciones contactless y conocer los hábitos de consumo de los clientes.</p>
-							</div>
-						</div>
-					</div>
+				<div class="home_faq">
+					<a href="#">
+						<span class="collapsed"><img src="{{assetPath("images/header_icon/icon_hotel.svg")}}"> Hoteles y Resorts</span>
+						<span><i class="fal fa-chevron-right"></i></span>
+					</a>
+					<a href="#">
+						<span class="collapsed"><img src="{{assetPath("images/header_icon/icon_parques.svg")}}"> Parques temáticos</span>
+						<span><i class="fal fa-chevron-right"></i></span>
+						</a>
+					<a href="#">
+						<span class="collapsed"><img src="{{assetPath("images/header_icon/icon_festivales.svg")}}"> Festivales de música</span>
+						<span><i class="fal fa-chevron-right"></i></span>
+					</a>
+					<a href="#">
+						<span class="collapsed"><img src="{{assetPath("images/header_icon/Icon_eventos_gastronomicos.svg")}}"> Eventos gastronómicos</span>
+						<span><i class="fal fa-chevron-right"></i></span>
+					</a>
+					<a href="#">
+						<span class="collapsed"><img src="{{assetPath("images/header_icon/Icon_recintos_deportivos.svg")}}"> Recintos deportivos</span>
+						<span><i class="fal fa-chevron-right"></i></span>
+					</a>
 				</div>
 			</div>
 		</div>
@@ -417,7 +388,7 @@
 	</div>
 </div>
 
-<section class="container bg-white pb-16 foot_book">
+<section class="container-fluid px-0 pb-16 foot_book">
 	<div class="blog-grid">
 		<h1 class="text_blue text-center py-5">Noticiasque no te puedes perder</h1>
 		<div class="blog-grid_odd-row">
@@ -448,13 +419,13 @@
 
     <div class="py-15">
         <div class="container text_blue">
-            <div class="row my-5 justify-content-center align-items-center" style="border: 9px solid grey;min-height: 301px;">
+            <div class="row my-5 justify-content-center align-items-center cta_border">
                 <div class="col-md-7 relative">
                     <img class="mx-auto img_goguest" src="{{assetPath('images/p_goguest/Goguest-demo-CTA.svg')}}">
                 </div>
                 <div class="col-md-5 text-center">
-                    <h4 class="text_blue mb-5">Comienza a aumentar ingresos y reducir gastos</h4>
-                    <a class="btn_blue" href="planes">Pedir presupuesto</a>
+                    <h4 class="text_blue mb-5">¿Te gustaría ver cómo tu negocio puede digitalizarse?</h4>
+                    <a class="btn_blue" href="#">Reservar Demo</a>
                 </div>
             </div>
         </div>
@@ -476,7 +447,7 @@
 						<p style="color:#0000ff; font-size: 16px;"><i>Rellena el formulario y te enviaremos el caso de estudio a tu correo.</i></p>
 					</div>
 					<div class="col-md-5 pr-0 showin_init">
-						{{ function('do_shortcode', '[contact-form-7 id="7540" title="modal form"]') }}
+						{{ function('do_shortcode', '[contact-form-7 id="7321" title="modal form"]') }}
 					</div>
 					<div class="col-md-12 pr-0 showin_sent mx-auto mx-650 hidden">
 						<img class="w-100 mx-auto" src="{{assetPath('images/home_img/caso_estudio_hoteles_contactless.jpg')}}" style="max-width: 451px;">

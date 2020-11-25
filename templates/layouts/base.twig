@@ -34,10 +34,10 @@
 			gtag('js', new Date());
 			gtag('config', 'UA-116564598-1');
 		</script>
-		
-		 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css">
-		 <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
-		 <style>
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+		<style>
 		 	@font-face {
 				font-family: 'GilroyBold';
 				src: url({{assetPath('fonts/Gilroy-Bold.ttf')}});
@@ -47,6 +47,10 @@
 				src: url({{assetPath('fonts/Montserrat-Light.ttf')}});
 			}
 			@font-face {
+				font-family: 'Montserrat-Regular';
+				src: url({{assetPath('fonts/Montserrat-Regular.ttf')}});
+			}
+			@font-face {
 				font-family: 'Gilroy-SemiBold';
 				src: url({{assetPath('fonts/Gilroy-SemiBold.ttf')}});
 			}
@@ -54,8 +58,11 @@
 				font-family: 'Lato-Regular';
 				src: url({{assetPath('fonts/Lato-Regular.woff')}});
 			}
+			.light_header .navbar-toggler-icon {
+				background-image: url({{assetPath('images/header_icon/light_menu_icon.svg')}}) !important;
+			}
 			
-		 </style>
+		</style>
 	</head>
 
 	<body class="{{body_class}}">
@@ -77,67 +84,71 @@
 
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.bundle.min.js"></script>
 
 	<script>
-    jQuery(document).ready(function($){
+		jQuery(document).ready(function($){
+			//animation
+			AOS.init();
+			
+			//modal form 
+			$('input.co_submit').click(function(){
+				var form = $(this).parent().parent();
+				setTimeout(function(){
+					if(form.hasClass('sent')){
+						form.parent().parent().parent().find('.showin_init').addClass('hidden');
+						form.parent().parent().parent().find('.showin_sent').removeClass('hidden');
+					}    
+				},3000);
+			});
 
-		//modal form 
-		$('input.co_submit').click(function(){
-			var form = $(this).parent().parent();
-			setTimeout(function(){
-				if(form.hasClass('sent')){
-					form.parent().parent().parent().find('.showin_init').addClass('hidden');
-					form.parent().parent().parent().find('.showin_sent').removeClass('hidden');
-				}    
-			},3000);
-		});
+			//box switch
+			$('.pointer_item').hover(function(){ $(this).parent().find('.pointer_item').removeClass('active_item');
+				$(this).addClass('active_item');
+				var getID = $(this).data('target');
+				$('.content_box').removeClass('active');
+				$("#"+ getID).addClass('active');
+			});
 
-        //box switch
-        $('.pointer_item').hover(function(){ $(this).parent().find('.pointer_item').removeClass('active_item');
-            $(this).addClass('active_item');
-            var getID = $(this).data('target');
-            $('.content_box').removeClass('active');
-            $("#"+ getID).addClass('active');
-        });
+			//video button play
+			$(document).on('click','.js-videoPoster',function(ev) {
+					ev.preventDefault();
+					var $poster = $(this);
+					var $wrapper = $poster.closest('.js-videoWrapper');
+					videoPlay($wrapper);
+			});
+			function videoPlay($wrapper) {
+				var $iframe = $wrapper.find('.js-videoIframe');
+				var src = $iframe.data('src');
+				$wrapper.addClass('videoWrapperActive');
+				$iframe.attr('src',src);
+			}
 
-        //video button play
-        $(document).on('click','.js-videoPoster',function(ev) {
-                ev.preventDefault();
-                var $poster = $(this);
-                var $wrapper = $poster.closest('.js-videoWrapper');
-                videoPlay($wrapper);
-        });
-        function videoPlay($wrapper) {
-            var $iframe = $wrapper.find('.js-videoIframe');
-            var src = $iframe.data('src');
-            $wrapper.addClass('videoWrapperActive');
-            $iframe.attr('src',src);
-        }
+			//case slider
+			$("#myCarousel").on("slide.bs.carousel", function(e) {
+				var $e = $(e.relatedTarget);
+				var idx = $e.index();
+				var itemsPerSlide = 3;
+				var totalItems = $(".carousel-item").length;
 
-        //case slider
-		$("#myCarousel").on("slide.bs.carousel", function(e) {
-			var $e = $(e.relatedTarget);
-			var idx = $e.index();
-			var itemsPerSlide = 3;
-			var totalItems = $(".carousel-item").length;
-
-			if (idx >= totalItems - (itemsPerSlide - 1)) {
-			var it = itemsPerSlide - (totalItems - idx);
-			for (var i = 0; i < it; i++) {
-				// append slides to end
-				if (e.direction == "left") {
-				$(".carousel-item")
-					.eq(i)
-					.appendTo(".carousel-inner");
-				} else {
-				$(".carousel-item")
-					.eq(0)
-					.appendTo($(this).find(".carousel-inner"));
+				if (idx >= totalItems - (itemsPerSlide - 1)) {
+				var it = itemsPerSlide - (totalItems - idx);
+				for (var i = 0; i < it; i++) {
+					// append slides to end
+					if (e.direction == "left") {
+					$(".carousel-item")
+						.eq(i)
+						.appendTo(".carousel-inner");
+					} else {
+					$(".carousel-item")
+						.eq(0)
+						.appendTo($(this).find(".carousel-inner"));
+					}
 				}
-			}
-			}
+				}
+			});
 		});
-    });
-</script>
+	</script>
+
 </html>
