@@ -39,18 +39,18 @@
 		<div class="row py-5 bg-white justify-content-center align-items-center" style="margin-top: -151px;">
 			<div class="col-md-4 text-center">
 				<p class="text_blue pb-0" style="font-family: 'Gilroy-SemiBold';">Platform</p>
-				<a href="/en/goguest-platform"><i class="text_blue fal fa-long-arrow-down"></i></a>
+				<a href="#platforma" data-scroll><i class="text_blue fal fa-long-arrow-down"></i></a>
 			</div>
 			<div class="col-md-4 text-center">
 				<p class="text_blue pb-0" style="font-family: 'Gilroy-SemiBold';">Solutions</p>
-				<a href="/en/solutions/hotels-and-resorts"><i class="text_blue fal fa-long-arrow-down"></i></a>
+				<a href="#solusion" data-scroll><i class="text_blue fal fa-long-arrow-down"></i></a>
 			</div>
 			<div class="col-md-4 text-center">
 				<p class="text_blue pb-0" style="font-family: 'Gilroy-SemiBold';">Success Stories</p>
-				<a href="/en/success-stories/oasis"><i class="text_blue fal fa-long-arrow-down"></i></a>
+				<a href="#successstory" data-scroll><i class="text_blue fal fa-long-arrow-down"></i></a>
 			</div>
 		</div>
-		<div class="row pt-21 align-items-center justify-content-center">
+		<div  id="platforma"  class="row pt-21 align-items-center justify-content-center">
 			<div class="col-md-6">
 				<img class="mx-auto w-100" style="max-width: 511px;" src="{{assetPath('images/home_img/Plataforma_goguest.svg')}}">
 			</div>
@@ -66,7 +66,7 @@
 	</div>
 </section>
 
-<section class="py-15 pt-21">
+<section  id="solusion" class="py-15 pt-21">
 	<div class="container">
 		<div class="row flex-md-row-reverse align-items-center justify-content-center">
 			<div class="col-md-6  p-3 relative" style="height: 581px;">
@@ -168,78 +168,48 @@
 			<div class="col-md-6">
 				<h2 class="text_blue">All the features and options you can imagine</h2>
 				<p class="font-25 py-3">Our solutions are designed for the hospitality, leisure and events sector.</p>
-				<div class="panel-group home_faq" id="accordion" role="tablist" aria-multiselectable="true">
-					<div class="panel panel-default">
-						<div class="panel-heading" role="tab">
-							<h4 class="panel-title"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapseOne"><img src="{{assetPath("images/header_icon/icon_hotel.svg")}}"> Hotels and Resorts</a></h4>
-						</div>
-						<div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1">
-							<div class="panel-body">
-							<p>Goguest is an integrating platform for hotels that facilitates interaction with the guest through a single system that also allows direct and immediate communication with the entire hotel (PMS, POS, devices and other software).</p>
-							</div>
-						</div>
-					</div>
-					<div class="panel panel-default">
-						<div class="panel-heading" role="tab">
-							<h4 class="panel-title"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapseOne"><img src="{{assetPath("images/header_icon/icon_parques.svg")}}"> Theme & Water Parks</a></h4>
-						</div>
-						<div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
-							<div class="panel-body">
-							<p>Goguest is an integrating platform that interacts with your current management systems, POS, ticket machines, etc. In order to boost its performance, get the most out of the system, increase revenue and offer the best visitor experience</p>
-							</div>
-						</div>
-					</div>
-					<div class="panel panel-default">
-						<div class="panel-heading" role="tab">
-							<h4 class="panel-title"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapseOne"><img src="{{assetPath("images/header_icon/icon_festivales.svg")}}"> Music festivals</a></h4>
-						</div>
-						<div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
-							<div class="panel-body">
-							<p>Gofun is an Easygoband platform that offers solutions that improve operations, reduce fraud and increase revenue from events through the use of NFC technology among other means and technological resources.</p>
-							</div>
-						</div>
-					</div>
-					<div class="panel panel-default">
-						<div class="panel-heading" role="tab">
-							<h4 class="panel-title"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapseOne"><img src="{{assetPath("images/header_icon/Icon_eventos_gastronomicos.svg")}}"> Food & Beverage festival</a></h4>
-						</div>
-						<div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
-							<div class="panel-body">
-							<p>Manage your gastronomic event or food truck festival with Gofun. A platform with which you can eliminate cash payments, reduce queues at entrances and points of sale, as well as control capacity and increase the security of the event and customers.</p>
-							</div>
-						</div>
-					</div>
-					<div class="panel panel-default">
-						<div class="panel-heading" role="tab">
-							<h4 class="panel-title"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="false" aria-controls="collapseOne"><img src="{{assetPath("images/header_icon/Icon_recintos_deportivos.svg")}}"> Sporting Events</a></h4>
-						</div>
-						<div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
-							<div class="panel-body">
-							<p>Gofun is a platform with which you can efficiently manage your sporting events and with which you can process fast cashless transactions, other contactless solutions and learn about customer consumption habits.</p>
-							</div>
-						</div>
-					</div>
+				<div class="home_faq">
+					<a href="/en/solutions/hotels-and-resorts">
+						<span class="collapsed"><img src="{{assetPath("images/header_icon/icon_hotel.svg")}}"> Hotels and Resorts</span>
+						<span><i class="fal fa-chevron-right"></i></span>
+					</a>
+					<a href="/en/solutions/theme-and-water-parks">
+						<span class="collapsed"><img src="{{assetPath("images/header_icon/icon_parques.svg")}}"> Theme & Water Parks</span>
+						<span><i class="fal fa-chevron-right"></i></span>
+						</a>
+					<a href="/en/solutions/music-festivals">
+						<span class="collapsed"><img src="{{assetPath("images/header_icon/icon_festivales.svg")}}"> Music festivals</span>
+						<span><i class="fal fa-chevron-right"></i></span>
+					</a>
+					<a href="/en/solutions/food-and-beverage-festivals">
+						<span class="collapsed"><img src="{{assetPath("images/header_icon/Icon_eventos_gastronomicos.svg")}}"> Food & Beverage festival</span>
+						<span><i class="fal fa-chevron-right"></i></span>
+					</a>
+					<a href="/en/solutions/sporting-events">
+						<span class="collapsed"><img src="{{assetPath("images/header_icon/Icon_recintos_deportivos.svg")}}"> Sporting Events</span>
+						<span><i class="fal fa-chevron-right"></i></span>
+					</a>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
 
-<section class="text-center bg-white py-15 mb-custom-21">
+<section class="text-center bg-white py-15 mb-custom-21" style="margin-bottom: 23rem;">
 	<h1 class="mx-650 text_blue mx-auto">We are inspired by our clients to offer the best tools</h1>
 	<br><br>
 </section>
 
 
-<div class="py-15 bg_blue">
+<div id="successstory" class="py-15 bg_blue">
 	<div class="container">
 		<div class="row  justify-content-center align-items-center relative home_logo_review">
-			<div class="col-md-12 absolute case_slider">
+			<div class="col-md-12 px-0 absolute case_slider">
 				<div id="myCarousel" class="carousel slide" data-ride="carousel">
-					<div class="carousel-inner row w-100 mx-auto">
+					<div class="carousel-inner row w-100 mx-auto justify-content-center">
 						<div class="carousel-item col-md-4 active">
 							<div class="card">
-							<img class="card-img-top img-fluid" src="{{assetPath('images/case/hoteles_cashless_contactless.jpg')}}" alt="Card image cap">
+							<div class="top_box_img" style="background-image: url({{assetPath('images/case/hoteles_cashless_contactless.jpg')}});"></div>
 							<div class="card-body relative">
 								<h4 class="text_blue">Hotels Oasis</h4>
 								<p class="card-text">360 digital transformation in order to improve operations and processes, increase security and improve the user experience.</p>
@@ -249,7 +219,7 @@
 						</div>
 						<div class="carousel-item col-md-4">
 							<div class="card">
-							<img class="card-img-top img-fluid" src="{{assetPath('images/festival/video_poster_eventos.svg')}}" alt="Card image cap">
+							<div class="top_box_img" style="background-image: url({{assetPath('images/festival/video_poster_eventos.svg')}});"></div>
 							<div class="card-body relative">
 								<h4 class="text_blue">The Beerman</h4>
 								<p class="card-text">Digital transformation of the beer festival to be able to manage access control and improve the experience of attendees with the cashless payment system.</p>
@@ -259,7 +229,7 @@
 						</div>
 						<div class="carousel-item col-md-4">
 							<div class="card">
-							<img class="card-img-top img-fluid" src="{{assetPath('images/parques/parques_video.svg')}}" alt="Card image cap">
+							<div class="top_box_img" style="background-image: url({{assetPath('images/parques/parques_video.svg')}});"></div>
 							<div class="card-body relative">
 								<h4 class="text_blue">Aquarama</h4>
 								<p class="card-text">Digital transformation of the entire water park in order to have greater control of the site, reduce fraud and promote consumption.</p>
@@ -269,7 +239,7 @@
 						</div>
 						<div class="carousel-item col-md-4">
 							<div class="card">
-							<img class="card-img-top img-fluid" src="{{assetPath('images/festival/video_poster_recintos.svg')}}" alt="Card image cap">
+							<div class="top_box_img" style="background-image: url({{assetPath('images/festival/video_poster_recintos.svg')}});"></div>
 							<div class="card-body relative">
 								<h4 class="text_blue">Aapolo</h4>
 								<p class="card-text">The championship decided to implement the cashless payment system in its sports venue to encourage consumption, increase income and improve the customer experience.</p>
@@ -279,7 +249,7 @@
 						</div>
 						<div class="carousel-item col-md-4">
 							<div class="card">
-							<img class="card-img-top img-fluid" src="{{assetPath('images/festival/video_poster.svg')}}" alt="Card image cap">
+							<div class="top_box_img" style="background-image: url({{assetPath('images/festival/video_poster.svg')}});"></div>
 							<div class="card-body relative">
 								<h4 class="text_blue">Rototom </h4>
 								<p class="card-text">The digital transformation of the music festival was carried out to implement access control and contactless payments in order to increase sales and eliminate fraud.</p>
@@ -298,7 +268,7 @@
 					</a>
 				</div>
 			</div>
-			<div class="col-md-12" style=" overflow: hidden;">
+			<div class="col-md-12 absolute" style=" overflow: hidden; top: 50%">
 				<div class="slider">
 					<div class="logos">
 						<img class="fab" src="{{assetPath('images/hotels/client_logos/logos_clientes_20_0000_Grupo-Pinero.png')}}">
@@ -448,7 +418,7 @@
 
     
 
-    <div class="py-15">
+    <div class="py-15 pt-21">
         <div class="container text_blue">
             <div class="row my-5 justify-content-center align-items-center cta_border">
                 <div class="col-md-7 relative">
@@ -497,7 +467,7 @@
 			margin-right:0%;
 		}
         .slider {
-            animation: slidein 30s linear infinite;
+            animation: slidein 50s linear infinite;
             white-space: nowrap;
         }
         .slider .logos {
@@ -590,13 +560,9 @@
 				visibility: visible;
 			}
 			.carousel-control-prev {
-				background-image: linear-gradient(to left, #03c9d500, #1c23b5);
 				width: 6%;
-				left:15px;
 			}
 			.carousel-control-next {
-				right: 15px;
-				background-image: linear-gradient(to right, #03c9d500, #1c23b5);
 				width: 6%;
 			}
 			.case_slider .card {

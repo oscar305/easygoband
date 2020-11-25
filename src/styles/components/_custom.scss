@@ -444,6 +444,14 @@ $color-button-hover: #f00;
 .case_slider .carousel-item {
     height: auto;
     background-color: transparent;
+    max-width: 389px;
+}
+.case_slider .card-body {
+    padding: 25px 15px;
+    max-height: 290px;
+}
+.case_slider .card h4 {
+    line-height: 53px;
 }
 .carousel-indicators li{
     background-color: #000 !important;
@@ -454,9 +462,6 @@ $color-button-hover: #f00;
 }
 .mb-custom-21 {
     margin-bottom: 17rem;
-}
-.case_slider img {
-    height: 265px;
 }
 p.card-text {
     min-height: 181px;
@@ -639,17 +644,26 @@ span.wpcf7-list-item{
     font-size: 15px;
 }
 .home_logo_review{
-    min-height: 481px;
+    min-height: 601px;
 }
 .case_slider{
-    bottom: 291px;
+    bottom: 407px;
     z-index: 11;
+}
+.dropdown-toggle::after{
+    content: unset !important;
+}
+i.fal.fa-chevron-down {
+    font-size: 13px;
+    font-weight: 700;
+    margin-left: 5px;
 }
 .n_espanel {
     color: #fff;
     top: -16px;
-    font-size: 13px;
-    padding: 5px 13px;
+    font-size: 10px;
+    padding: 8.5px 13px;
+    font-family: 'Montserrat-Regular';
 }
 .fal.fa-long-arrow-down {
     font-size: 25px;
@@ -800,6 +814,12 @@ h4.panel-title {
     border-image-slice: 1;
     border-width: 9px;
 }
+.top_box_img {
+    width: 100%;
+    height: 222px;
+    background-size: 100%;
+    background-position: center;
+}
 
 
 
@@ -877,15 +897,15 @@ h4.panel-title {
     .case_slider .carousel-inner {
         max-height: 457px;
     }
+    
     p.card-text {
         min-height: 181px;
         margin-bottom: 0;
+        line-height: 27px;
+        color: #000230;
     }
     p.card-text {
         font-size: 15px;
-    }
-    .case_slider img {
-        height: 225px;
     }
     .home_top_logos {
         flex-direction: column;
